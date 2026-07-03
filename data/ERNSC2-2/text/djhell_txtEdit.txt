@@ -1,0 +1,266 @@
+                              § -> Welkome To The Real World <- §
+
+                                       *-> DJ-HELL <-*
+                         
+                                      § - Report #7 - §
+
+Hi a todos los lektores de la super revista (notese la barba) El Radiaktivo News de la kual soy
+parte (no supe ni komo)  :)  
+
+Kontenido Neto:  2.4 MB de puro TXT 
+
+* Temas:
+
+} Introduccion {
+} Mirc {
+} Regedit {
+} Speak Freely {
+} Disket Destruktivo {
+} Multi Disk Sapaninng {
+} Un Minuto De Reflekcion {
+} Seleccion de particiones (fdisk) {
+
+
+---------------------------------------------- 666 ----------------------------------------------
+iNTRoDuCioN:
+Welkome To My World  (The Gates To The Hell)
+!!! KUALKIERA KE LEA ESTE REPORTE SERA JUSGADO !!!!
+
+Hola mentes ansiosas de aprender un poko mas aserka de komputacion y kosas malas ,jijijij,
+en este reporte hablare un poko de todo pero rekuerden ke este reporte es solo informativo
+luego no bengan a reklamar  :P
+
+KoMuNiKaCioN: Se debe defender la expresion libre de todo akel ke kiere dar a konoser sus
+              opiniones (igual de importantes ke todas las demas) y komunikar nuestro 
+              deskontento o apoyo a la revolucion,gobierno, o a la sociedad en general
+
+
+                              !!!!!!! ViVa MeXiCo K-BRoNeS !!!!!!!
+
+                                            | ERNT |
+
+---------------------------------------------- 666 ----------------------------------------------
+
+| Mirc |
+
+Microsoft
+Internet 
+Realy
+Chat
+
+Este es un programa muy famoso por toda la red pero para ti ke no lo konoses deja t digo ke pexi
+
+Este programa de chat se konekta a diversos servidores (chatnet,dalnet,undernet,etc...)
+kada uno de estos tiene sus "kanales" ke es en donde se reunen todos a chatear ya sea de ingles
+o español 
+
+Ay tipos diferentes de kanales (informacion,sexo,fotos,mp3,komunikacion,etc...) lo primero es
+escojer al server a kual konektarnos {konekt to IRC server} selecciona kualkiera de la lista
+pero t rekomiendo Dalnet , chatnet y undernet no importa kon ke siudad t konektes solo ke sea 
+el mismo server
+
+ahora selekciona kon ke "nick" (sobrenombre) kieres ser rekonocido en el o los kanales ke visites
+puede ser kualkier cosa de no mas de 8 o 9 letras de preferencia
+
+pon  otro "nick" abajo por si el ke t pusiste primero ya esta okupado (2 no pueden tener el mismo
+nick)
+
+ahora si kieres puedes modifikar tu Ident (en la pestaña donde dise ident) <-- deveras??
+para ke t rekonoskan el access
+
+LISTO!!
+
+ahora solo pulsa el boton donde dise =Conect to IRC server=
+
+despues de esto t aparesera una pekeña lista de kanales para konektarte pero si pones: /list 
+en la ventana de Status t apareseran todos los kanales de ese server , solo tienes ke pulsar 
+2 veses sobre al kanal ke t kieras konektar
+
+ya estando en el kanal veras ke todos los ke integran el kanal se enkuentran en lista del lado
+derecho y al lado iskierdo las konversaciones donde tu tanvien puedes escrivir , pero tanvien 
+se puede yamar a las personas a una kombresacion privada (solo esa persona y tu ) kon 2 kliks
+en el "Nick" kon kien desees platikar
+
+OP = son las personas ke tienen una (@) antes de su nick , son los enkargados de el kanal
+------------------------------------- Reglas komunes --------------------------------------------
+No se esta permitido desir groserias en los kanales 
+No escribir kon MAYUSKULAS
+No pedir op (@)
+No Flod (escribir mas de cuatro lineas en menos de 2 seg)
+No alburear
+-------------------------------------------------------------------------------------------------
+Lgunos komandos ke puedes usar sin access en el server chatnet:
+/list  <------------------ t da la lista de kanales en ese server
+/msg (nick) (mensaje) <-- le manda un mensaje al nick
+k9 help    <-------------- t ayuda a usar komandos k9
+/dns (nick)  <------------ t da el ip de ese nick
+-------------------------------------------------------------------------------------------------
+si esto t a servido es ke eres un NewBe
+Suerte t falta muchisimo por aprender de este programa (scrip't,nuck's,dcc,komandos k9,,etc..)
+asta la proxima y ke t la pases vien chateando kon k9
+
+Att.DJ-HELL  >8)-~
+
+---------------------------------------------- 666 ----------------------------------------------
+
+| Regedit |
+
+El Regedit Es un programa ke se usa para editar los registros de windows y graba todos los paths
+lokalisaciones de archivos Registros de *.ini y kosas ke se kargan al aser el BOT la makina
+
+Aora bamos a jugar (pero kon muchisimo kudado) kon el regedit
+
+Kuando instalamos un programa o un juego de un tamaño konsiderable y no es nesesario ke se kede
+en el disko duro (segun la kompañia) ase un path en el *Regedit* ke le indika ke kada bes ke se 
+kiera kargar este programa o juego lo buske en el d:
+
+Pero Gueno , Yo lo kiero grabar en mi disko duro por ke:
+1:-Tengo mucho espacio en el disko duro
+2:-El CD no es mio y me gusta mucho
+
+Ke ago????
+
+OK se puede editar en el regedit los paths de este programa para ke en lugar de buskarlo en la
+unidad de CD lo buske en tu disko duro
+
+El regedit no es algo ke micros@^%& kiera ke tu andes mobiendo (si es muy peligroso) por eso
+no enkotraras kon acceso direkto en ninguna parte , tendras ke klikear en el boton de inicio
+y despues en el de ejekutar y escribir en la linea REGEDIT
+
+Ya apareciendo esta pantaya kon interfases grafikas iguales al de el explorador de windows
+(faciles de manejar) y abre las karpetas en este orden: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft
+luego buska la karpeta ke kuntiene la informacion del programa ke keremos piratear , ya abierta
+buska los Paths ke aparecen en la bentana del lado derecho , aora kon el boton selecciona
+kada uno de los paths ke kontengan la letra de la unidad D: o la ke sea de tu unidad de CD
+y selecciona MODIFICAR y kambia todos los D: por C: y LISTO !!!!!!!!!!!!
+
+pero ten kuidado kon modifikar kosas ke no konoses puede ke okupes tu disket de emergencia.
+klaro ke tanvien puedes aser un respaldo (para jugar mas agusto kon este programin)
+
+*Nota (user.dat
+---------------------------------------------- 666 ----------------------------------------------
+
+| Speak Freely |
+
+Este es un Freewer ke puedes bajar de www.Speakfreely.org
+
+uTiLiDaD: Este programa se konekta a un IP (Internet Protocol) determinada ke tenga este mismo  
+          programa y usa tus bosinas komo aurikolares y tu mikrofono para ablar komo si fuera 
+          telefono (a tiempo real) a kualkier ip ya sea de otro pais o de aki mismo
+
+Muy kombeniente para ablar por vos kon kien estes CHateando y tenga este programa (todos deberian
+de tenerlo) solo pon en el Status del IRC ( /dns nick ) sustituye nick por el nick de la persona
+kon kien deseea ablar , esto te dara su ip
+
+Kopia su ip y abre el SpickFeely y en el menu de CONEXION selecciona NEW , te pedira un Host
+y tu pon el IP de la persona kon kien desees ablar y dile al otro ke tenga este programa 
+aktibado y se konektaran y listo!!!!!!
+
+Puedes ablar por vos komo telefono y si le das 2 kliks a la bentanita del kon kien estas ablando
+se keda aktibado para ke no le aplastes kada ke kieras ablar
+
+Rekomendado por mi!!!
+
+---------------------------------------------- 666 ----------------------------------------------
+
+| Disket Destruktivo |
+
+Aver Niño malebolo toma nota!!
+
+* Un disket ke no funcione con tapita de plastiko (sektores malos)  <--ke no se vea feo
+* Una engrapadora normal
+* Tijeras
+* Lima
+* Buen pulso
+* Malas intenciones
+
+1:- Kita la tapita del kisket sin romperla ni doblarla
+2:- Abre el disker sin romperlo
+3:- Kita la ruedita magnetika de la informacin
+4:- Kita kon las tijeras la telita blanka ke limpia el disket
+5:- Lima los bordesitos del la tapa ke presionan la telita kontra el disket (pa ke pase la grapa)
+6:- Pon de buelta la ruedita de la informacion en el disket
+7:- Sierra el disket bien!! (ke no se note ke lo abriste)
+8:- Ponle el resortito de la tapita de plastiko
+9:- Rekore la tapita y en forma vertikal ponle una grapa a la pura mitad 
+10:- Muebe lo de adentro del diske de forma ke la grapa no se vea kuando rekorran la tapita
+11:- Dile a un kompa ke le bas a pasar un prugrama bien fregon!!!!!!
+
+La grapa al pasar por el lektor magnetiko lo ba a ching@r
+
+}=P
+
+Att.DJ-HELL
+
+---------------------------------------------- 666 ----------------------------------------------
+
+| Multi Disk Spaninng |
+
+Tu Diras ke diablos es eso , pero t aseguro ke mas de una ves lo as uasdo
+
+Esta es una opcion ke maneja el Winzip para partir los archivos en mas de un solo diske ya 
+ke no kaben en uno solo disko lo parte en barios de 1.44mb (flopy de 3 1/2)
+
+Esta es una opcion  a  la ke no se le da mucha importancio ni ke todos konosen, abeses no saben
+ke aser para traspasar un instalable de 3 o 4 MB , y andan pidiendo prestados ZIP's o DITO's
+para kochinos 4 mB ke bien kaben en tres diskets
+
+Bueno komo ago esto??
+Facil: si tienes Winzip (www.winzip.com) selecciona el archibo ke deseas dibidir, luego en el
+path del principio debe de decir algo asi C:\nosemetan\ejemplo.zip , aora kanbia el el path asia
+el a: solo dejando el nombre kon la extencion .ZIP (A:\ejemplo.zip) y Listo!!!!
+
+Para deskomprimir introduce el ultimo disket y al deskomprimirlo t pedira automatikamente ke 
+introduskas el primer disket de la seriel del los varios deikets ke ayas komprimido
+
+
+---------------------------------------------- 666 ----------------------------------------------
+
+| Un Minuto De Reflekcion |
+
+Preguntas komunes en la humanida:
+
+* Para ke freg@dos vine al mundo ?
+* Kien soy en realidad ?
+* Kuando un programa de 6 diskets o mas no fayara el ultimo disket ?
+* Kuando micros@&%%^ Dejara de monopolisar el merkado ?
+* Porke mientras mas importante sea el trabajo ke grabas en disket siempre se t pierde ?
+* Porke este k-bron no se kaya!!!!! ?
+* Matrix sera la verdad de este mundo ?
+
+
+La respuesta a esta y otras preguntas komo el porke de la vida , la existencia y la verdad
+sobre los OVNI's , kien mato a JFK, y kien es el kreador supremo las enkontraras en la pagina
+www.yonosenada.org.ia.69 (The Gates To The HELL) 
+
+Att.DJ-HELL =P~
+---------------------------------------------- 666 ----------------------------------------------
+
+| Selekcion De Particiones |
+
+Kual es la utilidad de esta opcion?
+
+Kon esta opcion podemos instalar 2 sistemas operativos en un mismo disko duro
+Ejemplo: Unix y NT o Win98 
+
+El programa ke ase esto posible es el FDISK kreador y modifikador de particiones para poder
+akceder a kualkiera de nuestros sistemas operatibo
+
+Esto es muy util si estas tratando de aprender algo de UNIX y no kieres perder tu windows,
+sólo qué... tienes que formatear tu disko antes de particionar y luego formatear kada una
+de las particiones. Para esto hay programas komo PartitionMagic, el kual nos permite
+particionar un disko sin perder la información, pero komo eso no esta al alkanze de la
+mayoria de los mortales, hay ke saber el FDISK.
+
+Korre el programa FDISK prebiamente kargado kon un BotDisk , Aora selekciona Krear nueva
+particion , ahora dile ke si la aga a la mayor kapasidad del disko , sige los pasos ke ke te 
+indika luego
+
+Aora kuando ya termines resetea la makina y al komensar t preguntara ke particion deseas usar
+ya sea la bieja o la nueva ke no tiene nada ,
+
+aora seleciona la nueva e instalale el UNIX y todo el desmadre ke kieras
+ya puesto todo esto a la otra ke reinisies la makina t preguntara kon ke particion kieres
+komensar a utilisar yasea Windows o unix
+
+---------------------------------------------- 666 ----------------------------------------------

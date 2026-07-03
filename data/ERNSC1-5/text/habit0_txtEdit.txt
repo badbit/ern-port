@@ -1,0 +1,201 @@
+Las Aventuras de HaBit0
+CAPITULO II 
+
+--------------------------------------------------------------
+
+HaBit0 y su Papá iban rápidamente hacia el directorio del programa para BBS, 
+cuando el Papá vió un directorio que no había visto antes, se llamaba C:\TBAV 
+
+- He oído decir que ese es el nombre de un muy buen anti-virus, vamos 
+
+Los dos entran a ese directorio y ven el archivo TBAV.EXE. 
+
+- ¿Qué eres? - Le pregunta HaBit0 a TBAV. 
+- Soy un anti-virus, uno de los mejores, soy nuevo en este sistema. 
+- Tienes que ayudarnos, hay un virus en el sitema. 
+- Estás equivocado, acabo de escanear todo el disco duro y no he detectado 
+nada. 
+- Eso es porque no he desborrado a ABUE10B, tenemos que ir a C:\DOS - Le dice 
+HaBit0 a su Papá 
+- Vamos, ¡Rápido! que nos queda poco tiempo. 
+
+CD.. 
+CD DOS 
+
+- ¡UNDELETE! 
+- ¡Oh! has vuelto, ¿Ya conseguiste el anti-virus? 
+- Si, por favor desborra el directorio. 
+- Restaurando... 
+- ¡Muchas gracias! 
+
+CD.. 
+CD TBAV 
+
+- ¡TBAV! Tienes que escanear el sistema, ya que Banano'sBar no tarda en 
+saltar a otros archivos. 
+- ¿Que? 
+- Hazlo por favor. 
+- Está bien, pero ya les dije que no encontré ningún virus cuando yo escaneé 
+el sistema. 
+
+TBAV comienza a escanear y a los pocos segundos encuentra un virus 
+desconocido en el archivo C:\APLICC\OLDVER\ABUE10B\ABUE10B.COM 
+
+- ¿Cómo que encontraste un virus desconocido? 
+- Así es. Es muy probable de que se trate de un virus ya que tiene rutinas de 
+encripción y tiene métodos stealth y... 
+- ¡YA SABEMOS QUE SE TRATA DE UN VIRUS! Pero ¿puedes limpiarlo? 
+- Ummm... Creo que sí 
+- *Crees* que si, ¿y cómo se supone que vamos a saber? 
+- Pregúntenle a TBCLEAN.EXE 
+- ¿¡Qué!?, ¿tienes módulos de escaneo y limpieza separados? - Pregunta el 
+papá, ya que el tiene más experiencia en anti-virus que su hijo. 
+- Si 
+- ¿Porqué? 
+- Realmente no sé, así me programaron. 
+- ¡TBCLEAN! - Grita HaBit0 
+- ¿Quién m invoca? 
+- Yo 
+- ¿Que quieres? 
+- Ocupo que desinfectes un archivo 
+- Sospechaba que me pedirías eso, para eso sirvo. 
+- Es el archivo C:\APLICC\OLDVER\ABUE10B\ABUE10B.COM 
+- Eso es pan comido. 
+
+Varios milisegundo después... 
+
+- Si pude desinfectar el archivo 
+- ¡SI! - Festejó HaBit0 
+- Vamos a ver a la abuela - dijo el Papá 
+
+CD.. 
+CD APLICC 
+CD OLDVER 
+CD ABUE10B 
+ABUE10B 
+
+- ¿Quién es? 
+- Nosotros 
+- Pasen, pasen. 
+- ¿Qué pasó abuela? 
+- Uff, ¡si hubieran visto! 
+- ¿Que pasó? 
+- Banano'sBar se escapó 
+- ¿¡QUE!? 
+- Está en este momento residente en memoria y está interceptando todos los 
+mensajes que enviamos 
+- ¿Y ahora? - Preguntó HaBit0 
+- ¿Sabes si ya ha infectado algún alchivo? - Preguntó el papá de HaBit0 a 
+ABUE10B 
+- Si, todavía no ha infectado ninguno. 
+- Entoces si hacemos un Reboot el virus quedará eliminado 
+- ¿Y cómo se supone que lo haremos?, no podemos plastar CTRL + ALT + DEL - 
+Dijo HaBit0 
+- Pero con un simple código de ensamblador se puede hacer 
+- ¿Y tu sabes como es? 
+- Si, tenemos que ir con Turbo Assembler para que nos ayude 
+- ¡Adiós abuela!, te recomiendo que limpies este lugar ya que quedaron 
+pedazos de Banano'sBar. 
+
+CD\ 
+CD PROGRAMA 
+CD TASM 
+
+- ¡TASM! 
+- Aquí estoy mortales. 
+- Ocupamos urgentemente tu ayuda 
+- ¿Que quieren? 
+- Ocupo que nos ensables un código 
+- Para eso soy, ¿Cuál? 
+- Todavía no lo escribo, permíteme un momento - Dijo el papá de HaBit0 
+
+COPY CON REBOOT.ASM 
+CSEG       SEGMENT PARA PUBLIC 'CODE' 
+           ASSUME  CS:CSEG,DS:CSEG 
+  
+
+           ORG     0100H 
+
+REBOOT     PROC    FAR 
+
+           MOV     AX,0FFFFH 
+           PUSH    AX 
+           SUB     AX,AX 
+           PUSH    AX 
+           RET 
+  
+
+REBOOT     ENDP 
+CSEG       ENDS 
+           END     REBOOT 
+^Z 
+    1 file(s) copied 
+
+- Ya está, el archivo se llama REBOOT.ASM 
+- Ok... 
+Turbo Assembler  Version 1.01  Copyright (c) 1988, 1989 Borland International 
+
+Assembling file:   REBOOT.ASM 
+Error messages:    None 
+Warning messages:  None 
+Remaining memory:  464k 
+
+- Ya está - Anunció Turbo Assembler 
+
+DIR 
+
+ El volumen de la unidad C es MS-DOS 
+ El número de serie del volumen es 230D-5618 
+ Directorio de C:\PROGRAMA\TASM 
+
+.              <DIR>        10-18-90  3:22p 
+..             <DIR>        10-18-90  3:22p 
+TASM     EXE        95,910  06-16-96  8:21a 
+TLINK    EXE        21,717  06-28-96  4:58p 
+REBOOT   ASM           497  05-23-94  2:19p 
+REBOOT   OBJ           138  01-01-96  8:42p 
+         4 archivos        118,262 bytes 
+         2 directorios      45,686,784 bytes libres 
+
+- Oye, - Dijo HaBit0 - ¿Dónde está el REBOOT.COM? 
+- No es tan fácil - Respondió TASM -  Ya que yo genero archivos objeto 
+(*.OBJ), y todavía se tienen que enlazar. 
+- ¿Enlazar? 
+- HaBit0, - Dijo el papá de HaBit0 - no tenemos tiempo de explicaciones, 
+Banano'sBar puede saltar al disco en cualquier momento. 
+
+TLINK REBOOT.OBJ /T 
+
+Turbo Link  Version 2.0  Copyright (c) 1987, 1988 Borland International 
+
+DIR 
+
+ El volumen de la unidad C es MS-DOS 
+ El número de serie del volumen es 230D-5618 
+ Directorio de C:\PROGRAMA\TASM 
+
+.              <DIR>        10-18-90  3:22p 
+..             <DIR>        10-18-90  3:22p 
+TASM     EXE        95,910  06-16-96  8:21a 
+TLINK    EXE        21,717  06-28-96  4:58p 
+REBOOT   ASM           497  05-23-94  2:19p 
+REBOOT   OBJ           138  01-01-96  8:42p 
+REBOOT   MAP           103  01-01-96  8:56p 
+REBOOT   COM             8  01-01-96  8:56p 
+         6 archivos        118,373 bytes 
+         2 directorios      45,670,400 bytes libres 
+
+- ¡Ahora es el momento! - Dijo el papá de HaBit0 
+- ¡Espera! - Dijo HaBit0 - ¿No se siente feo un Reboot? 
+- Un poquito, pero es mejor que un virus 
+
+REBOOT 
+
+Derrepente parecía que todo el sistema se paralizó, luego se cambió la 
+modalidad de video y HaBit0 y su papá vieron un tunel largo con una luz en el 
+fondo, ahí vieron archivos borrados hace años, archivos movidos a NUL, Bytes 
+perdidos, Bits corrompidos. Ese era un torrente de información que no había 
+soñado ni Kevin Mitnick, ERA EL CIELO DE LOS ARCHIVOS. 
+
+Continuará... 
+------------------------------------------------

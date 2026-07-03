@@ -1,0 +1,490 @@
+ Winâäçmuâä presenta,...
+
+                               +--------------+
+                               | Curso de ASM |
+                               +--------------+
+
+     +-----------------------------------------------------------+
+     |                     Curso de ensamblador                  |
+      +----------------+--------------------------+-------------+
+                       | Pablo Barrón Ballesteros |
+                       +--------------------------+
+
+[BadBit: De nuevo un texto ajeno. Lo pongo ahora porque he estado buscando
+ textos de ensamblador en español y nunca hay. Aunque podría leerlos en
+ inglés, muchos no, por lo tanto seguiré al pie de la letra uno de los
+ principios del hacker: "Nadie debe resolver el mismo problema dos veces."
+ Así que voy a ahorrarles la fatiga y se los presento. Es un trabajo de un
+ español llamado Pablo Barrón Ballesteros. Al texto le hize los
+ procedimientos de rutina: "Traducirlo" al español de México, corregirle
+ faltas de ortografía, y esta vez no lo resumí, sino que lo voy a mostrar
+ por partes (a ver si así las estudian). En el siguiente número incluiré
+ el compilador y el linkeador TASM, para que practiquen lo estudiado. A ver
+ si puedo incluir los otros (A86 y MASM).]
+
+
+    Redactado el verano de 1996 en Madrid, España, para la bbs Edison's
+ Temple, y presentado en ese tiempo en las áreas de correo de ésta...
+ pisando mi modestia, he recibido muchos agradecimientos y dicen que está
+ muy bueno, así que si tienes el disco duro lleno de tutoriales de Asm en
+ inglás de los que no entiendes ni papa,... se les acabó la suerte amigos,
+ ¡¡a aprender!!
+
+------------------------------------------------------------------------------
+  +--------+
+  | INDICE |
+  +--------+
+
+        1.- Sistemas numéricos
+
+        2.- Operaciones con bytes
+            2.1.- AND
+            2.2.- OR
+            2.3.- XOR
+            2.4.- NOT
+
+        3.- El juego de registros
+
+        4.- ¡¡¡ Comenzamos !!!
+
+        5.- Operaciones
+            5.1.- INC y DEC
+            5.2.- ADD y SUB
+            5.3.- NEG y NOT
+            5.4.- MUL y DIV
+
+        6.- Flags
+            6.1.- Instrucciones de comparación (CMP y TEST)
+
+        7.- Las instrucciones de salto
+            7.1.- Saltos incondicionales
+            7.2.- Saltos condicionales
+            7.3.- Bucles
+
+        8.- La pila
+            8.1.- La orden CALL
+
+        9.- Interrupciones
+
+        10.- Resto de órdenes
+            10.1.- XCHG
+            10.2.- LEA
+            10.3.- LDS y LES
+            10.4.- DELAYs
+            10.5.- Instrucciones de cadena
+            10.6.- Datos
+            10.7.- Acceso a puertos I/O
+            10.8.- Anulación de interrupciones
+
+        11.- Estructura COM
+
+        12.- Estructura EXE
+
+        13.- Apéndice A: Juego de instrucciones
+
+        14.- Apéndice B: Numeración negativa
+
+        15.- Agradecimientos y dedicatorias
+
+------------------------------------------------------------------------------
+
+                         +----------------------+
+                         |  Sistemas numéricos  |
+                         +----------------------+
+
+    Comencemos por los sistemas de numeraciún que más utilizaremos al
+ programar.
+
+    El básico va a ser el sistema hexadecimal, aunque debemos de explicar
+ antes el binario, el sistema de numeración que utiliza la computadora.
+
+    Los números que conocemos están escritos en base 10. Esto significa que
+ tenemos, desde el 0 hasta el 9, diez símbolos para representar cada cifra.
+ Es decir, cada cifra irá de 0 a 9, y al superar el valor "9", cambiará a
+ 0 y sumará uno a su cifra de la izquierda:  9+1: 10.
+    El sistema binario utiliza tan sólo dos símbolos, el "0" y el "1".
+ Imaginemos que tenemos el número binario "0". Al sumarle una unidad,
+ éste número binario cambiará a "1". Sin embargo, si volvemos a añadirle
+ otra unidad, éste número en formato binario será el "10" ( aumenta la
+ cifra a la izquierda, que era 0, y la anterior toma el valor mínimo ).
+ Sumemos ahora otra unidad: el aspecto del número será "11" ( tres en
+ decimal ). Y podríamos seguir:
+
+Binario: 0 ; 1 ; 10 ; 11 ; 100 ; 101 ; 110; 111 ; 1000 ; 1001 ; 1010,...
+Decimal: 0   1    2    3    4     5     6    7      8      9     10
+
+    Esto nos permite establecer un sistema bastante sencillo de conversión
+  del binario al decimal;
+
+    He aquí los valores siendo n el valor de la cifra:
+
+    Cifra menos significativa:
+
+           n*2^0 =    1 si n=1 o 0 si n=0
+
+    Segunda cifra:
+
+           n*2^1 =    2 si n=1 o 0 si n=0
+
+    Tercera cifra:
+
+           n*2^2 =    4 si n=1 o 0 si n=0
+
+    Cuarta cifra:
+
+           n*2^3 =    8 si n=1 o 0 si n=0
+
+    Etc,...
+
+    Y así continuaríamos, aumentando el número al que se eleva 2. Traduzcamos
+ entonces el número binario '10110111'
+
+   2^7+ 0 +2^5+2^4+ 0 +2^2+2^1+2^0  = 128 + 0 + 32 + 16 + 4 + 2 + 1 = 183
+    1   0   1   1   0   1   1   1
+
+    De todos modos, ésta transformación la he puesto símplemente para que se
+ comprenda con más claridad cómo funcionan los números binarios. Es mucho
+ más aconsejable el uso de una calculadora científica que permita realizar
+ conversiones entre decimales, hexadecimales y binarios. Se hace su uso
+ ya casi imprescindible al programar.
+
+    La razón del uso de los números binarios es sencilla. Es lo que entiende
+ la computadora, ya que interpreta diferencias de voltaje como activado ( 1 )
+ o desactivado ( 0 ), aunque no detallaré ésto. Cada byte de información está
+ compuesto por ocho dígitos binarios, y a cada cifra se le llama bit. El
+ número utilizado en el ejemplo, el 10110111, sería un byte, y cada una de
+ sus ocho cifras, un bit.
+
+    Y a partir de ahora, cuando escriba un número binario, lo haré con la
+ notación usual, con una "b" al final del número ( ej: 10010101b )
+
+    Ahora me paso al hexadecimal, muy utilizado en ensamblador. Se trata de
+ un sistema de numeración en base dieciséis. Por tanto, hay dieciséis
+ símbolos para cada cifra, y en vez de inventarse para ello nuevos símbolos,
+ se decidió adoptar las primeras letras del abecedario. Por lo tanto,
+ tendremos ahora:
+
+  Hex   Dec
+
+   1 --> 1
+   2 --> 2
+   3 --> 3
+   4 --> 4
+   5 --> 5
+   6 --> 6
+   7 --> 7
+   8 --> 8
+   9 --> 9
+   A --> 10
+   B --> 11
+   C --> 12
+   D --> 13
+   E --> 14
+   F --> 15
+   10 --> 16
+   11 --> 17
+   Etc,...
+
+    Como vemos, éste sistema nos planteas bastantes problemas para la
+ conversión. Repito lo dicho, una calculadora científica nos será casi
+ imprescindible para ésto.
+
+    ¿ Por qué utilizar éste sistema ? Bien sencillo. Volvamos al byte, y
+ traduzcamos su valor más alto, "11111111". Resulta ser 256. Ahora pasemos
+ ésta cifra al sistema hexadecimal, y nos resultará "FF". Obtenemos un
+ número más comprensible que el binario ( difícil de recordar ), y ante todo
+ mucho más compacto, en el que dos cifras nos representarán cada byte.
+    Podremos además traducir fácilmente el binario a hexadecimal con ésta
+ tabla; cada cuatro cifras binarias pueden traducirse al hexadecimal:
+
+            +===================+==================+
+            |     Binario       |    Hexadecimal   |
+            +===================+==================+
+                   0000         |         0
+                   0001         |         1
+                   0010         |         2
+                   0011         |         3
+                   0100         |         4
+                   0101         |         5
+                   0110         |         6
+                   0111         |         7
+                   1000         |         8
+                   1001         |         9
+                   1010         |         A
+                   1011         |         B
+                   1100         |         C
+                   1101         |         D
+                   1110         |         E
+                   1111         |         F
+
+
+    Por ejemplo, el número binario:
+
+    1111001110101110
+
+    En hexadecimal sería:
+
+    1111 0011 1010 1110
+
+      F    3    A    E
+
+    Para referirnos a un número hexadecimal sin especificarlo, usaremos la
+ notación que se suele usar al programar, con un 0 al principio ( necesario
+ cuando hay letras ) y una h al final, por ejemplo, el número anterior sería
+ 0F3AEh
+
+
+
+
+                        +---------------------------+
+                        |   Operaciones con bytes   |
+                        +---------------------------+
+
+    Hay cuatro operaciones básicas que se pueden realizar con un número
+ binario, y coinciden con operaciones de la lógica matemática, con lo que
+ cualquiera que la haya estudiado tendrá cierta ventaja para entenderla.
+
+    Para explicarlas, llamaré al valor 0 resultado "falso", y al valor 1
+ "verdadero". Las operaciones son AND, OR, XOR y NOT
+
+
+       AND:
+       ---
+
+    Es un 'y' lógico. Se realiza entre dos cifras binarias confrontando cada
+ cifra con su correspondiente, y el resultado será "1" si las dos son
+ verdaderas ( si las dos valen "1" ), y "0" ( falso ) en el resto de los
+ casos.
+
+                                    AND
+
+                  1.numero  2.numero  Resultado
+
+                     1          1         1
+                     1          0         0
+                     0          1         0
+                     0          0         0
+
+    Vuelvo a la lógica para explicarlo más claramente: Imaginemos la frase:
+ "El hombre es un mamífero y camina erguido". El hecho de que el hombre sea
+ un mamífero es cierto ( 1 ), y el de que camine erguido, otro ( 1 ). Por
+ lo tanto, al unirlos mediante una conjunción ( 'y' o 'AND' ), resulta que
+ ya que se dan las dos, la oración es verdadera.
+    Pongamos un ejemplo más complejos, queremos realizar un AND lógico entre
+ dos bytes:
+
+                11011000 AND 01101001
+
+       Observemos lo que sucede:
+
+                    11011000                                        216
+           AND      01101001      En sistema decimal sería:  AND    105
+                    --------      (aunque en sistema decimal        ---
+                    01001000       es más lioso)                     72
+
+       Cuando coinciden dos valores de "verdad", el resultado es "verdad",
+   si uno es falso, el resultado es "falso" ( no es verdad que "El hombre
+   es un mamífero y respira debajo del agua" ), y si los dos son falsos, el
+   resultado es falso ( no es cierto que "El hombre es un ave y respira
+   debajo del agua" )
+
+
+       OR
+       --
+
+    El "o" lógico. El resultado es "verdadero" cuando al menos uno de los
+ factores es verdadero. O sea, es "1" cuando al menos uno de los dos factores
+ es "1".
+    Sería como la frase "Voy a buscar el peine o la caja de condones", donde
+ que uno sea cierto no significa que el otro no lo sea; es cierta la frase,
+ es verdadera mientras uno de los términos sean verdaderos.
+    Operemos con los números "10100110" y "01101100":
+
+                        10100110
+                   OR   01101100
+                        --------
+                        11101110
+
+    Como hemos visto, el valor 1 ( verdadero ) queda en las cifras de las
+ que, confrontadas, al menos una es verdadera. Sólo resulta 0 ( falso ) si
+ los dos números enfrentados son 0 ( falsos ).
+
+
+      XOR
+      ---
+
+    "Or" exclusivo. Se trata de una orden parecida al OR, tan sólo que
+ la verdad de una excluye la de la otra. El resultado, por tanto, es "1"
+ ( verdad ) cuando uno y sólo uno de los dos números es verdadero ( y el
+ otro falso, claro ). Sería como la oración "O vivo o estoy muerto", para
+ que sea cierta se tiene que dar una de las dos, pero nunca las dos o
+ ninguna.
+
+                        10111001
+                  XOR   01011101
+                        --------
+                        11100100
+
+    La orden XOR va a ser bastante útil en encriptación, pero eso ya es otra
+ historia,...
+
+
+     NOT
+     ---
+
+    Esto se aplica sobre un sólo número, y en términos de lógica sería la
+ negación de una oración, o sea, si el número al que se aplica es 1 el
+ resultado es 0, y viceversa. En términos de lógica matemática aplicándolo
+ a una oración, sería por ejemplo " No es verdad que tenga ganas de estudiar
+ y de no beber ", negando las otras dos que en caso contrario serían verdad:
+
+                         NOT  11100110
+                              --------
+                              00011001
+
+
+
+                      +-----------------------+
+                      |  Bytes, bits y demás  |
+                      +-----------------------+
+
+    Tan sólo, por si alguien no lo conoce, quiero detallar el modo de
+ almacenamiento de la computadora, incluyendo lo más temido por el iniciado
+ en Ensamblador, y más engorroso para el programador, Segments y Offsets.
+
+    La unidad mínima de información es el bit. Su estado, como vimos
+ anteriormente, puede ser 1 o 0.
+
+    Un conjunto de ocho bits, forman un byte. De ellos, el de la derecha
+ es el menos significativo ( su valor es menor ), y el de más a la izquierda
+ el más significativo.
+
+    Un Kbyte es un conjunto de 1024 ( que no 1000 ) bytes. Igualmente, un
+ MegaByte serán 1024 kbytes, o 1024*1024=1048576 bytes.
+
+    Otro término que utilizaremos a menudo, es palabra, o "word". Una
+ "palabra", es un conjunto de dos bytes, y se utiliza por que a menudo se
+ opera con ellas en lugar de bytes.
+
+    Y ahora, después de éstas cosillas, vamos con lo interesante,...
+ segments y offsets:
+
+    Resulta que hubo un tiempo, cuando los dinosaurios dominaban la tierra,
+ en el que a "alguien" se le ocurrió que con 640K debería de bastarnos para
+ hacerlo todo. Y bien, por aquí vienen los problemas ( y voy a intentar
+ explicarlo lo más mundanamente posible )
+
+    El ancho de bus de direcciones, para localizar un punto en memoria, es
+ de 20 bits. Por lo tanto, el número máximo de direcciones de memoria a las
+ que podremos acceder será 1 Mb. Pero como veremos, 20 bits no son ni 2 bytes
+ ni 3, sino así como 2 y medio %-). El problema es ordenarlos para que el
+ procesador conozca la dirección de memoria, y aquí llegan las cosillas,...
+
+    Necesitaremos para conocer una posición de memoria pues cuatro bytes
+ combinados de una curiosa manera.
+
+    Imaginemos los dos bytes inferiores. Su mayor valor puede ser 0FFFFh
+ ( poner un cero delante es una convención, para que lo entiendan los
+ ensambladores, al igual que la h al final indicando que es un número
+ hexadecimal ). Esto nos da acceso a 64Kb de memoria, que se considera un
+ bloque. También, a partir de ahora, llamaremos Offset a la dirección
+ indicada por éstos dos bytes.
+
+    Ahora querremos más memoria que 64 Kb, claro. Y para eso tenemos los
+ otros dos bytes. Para formar la dirección completa, se toman los 16 bits
+ del registro de segmento y se situan en los 16 bits superiores de la
+ dirección de 20 bits, dejando los otros cuatro a cero. Vamos, como si
+ añadiésemos cuatro ceros a la derecha. Sumamos entonces a éste valor de
+ 20 bits el Offset, resultando la dirección real de memoria
+
+    Voy a dar una explicación más gráfica, porque creo que no me voy a
+ enterar ni yo:
+
+    Sea el valor de Segmento ( parezco un libro de matemáticas, j*der XD )
+ 0Ah ( o sea, 10 decimal o 1010b, binario ). Y el del Offset digamos que
+ va a valer ( en binario ) 01011111 00001010.
+
+    La suma para obtener la dirección de memoria sería tal que así:
+
+  0000 0000 0000 1010 0000    ( segmento multiplicado*16, con 4 ceros más )
+  +    0101 1111 0000 1010    ( el offset )
+  ------------------------
+  0000 0101 1111 1010 1010
+
+    Y ésta sería la dirección *real* de memoria ( 05FAAh o 24490 Dec ). Como
+ podrán observar, y como curiosidad final, distintos segments y offsets
+ especifican direcciones de memoria distintas; por ejemplo, los pares
+ 0040h:0000 ( donde el primero es el Segment y el segundo el Offset, así
+ lo tomaremos a partir de ahora ), son iguales que 0000:0400h, y los dos
+ se referirían a la misma posición de memoria física, la 0400h o 1024d
+
+    Espero que haya quedado claro, aunque sea símplemente tener una ligera
+ idea. Lo próximo serán los registros, y ( y ahora me pongo como los del
+ Pcmanía cuando hablan de Windoze95 ) podremos empezar en serio con nuestro
+ lenguaje favorito X-)
+
+
+                         +-------------------------+
+                         |  El juego de registros  |
+                         +-------------------------+
+
+    Quizá alguno de ustedes se esté preguntando a éstas alturas: ¿ Y eso
+ del Segment y Offset, dónde se guarda, que indica a la computadora esos
+ sitios en memoria, qué indica a la computadora en qué punto de la memoria
+ está y qué tiene que ejecutar ? Pues bien, para ésto y mucho más sirven los
+ registros.
+
+    Se trata de una serie de "variables", que contienen información que
+ puede ser cambiada.
+
+    Comenzaré, al contrario que todos los libros, por los de segmento y
+ offset actual: CS e IP.
+
+    El registro CS es una variable de un tamaño de dos bytes. Contiene el
+ Segmento actual en que se encuentra el programa. IP, es la variable, de
+ dos bytes también, que contiene el Offset actual. esto significa, la
+ computadora va interpretando las secuencias de bytes, pero necesita "algo"
+ que le indique donde tiene que leer. La combinación CS:IP ( tal y como
+ me referí antes en lo de Segments&Offsets ) contiene la dirección en la
+ que la computadora está interpretando información *en el momento*. O sea,
+ indica la dirección de la próxima instrucción que se va a ejecutar.
+
+    El registro DS y el registro ES también sirven para guardar direcciones
+ de Segmentos, y también son variables de dos bytes, serán utilizados para
+ por ejemplo mover datos en memoria, imprimir cadenas, bueno, un etcétera
+ larguísimo. Digamos que son "punteros", que apuntan a cierta zona de
+ memoria ( siempre combinado con otro que haga de Offset, claro ).
+
+    El registro SS apunta a la pila, y el SP es el que contiene el offset
+ de la pila, pero ésto lo explicaré más adelante.
+
+    Luego tenemos una serie de registros que utilizaremos más comunmente:
+ AX, BX, CX y DX.
+
+    Todas ocupan dos bytes, y se pueden utilizar divididas en dos partes de
+ longitud un byte, cambiando de nombre. AX se divide en AH y AL, BX en
+ BH y BL, CX en CH y CL y DX en DH y DL. La 'H' se refiere a High en inglés,
+ alto ( de mayor valor ), y la 'l' a  Low ( de menor valor ). Lo ilustro un
+ poquillo:
+
+            AX
+     |-------------|
+   11010110    10111000
+      AH          AL
+
+    Las funciones de éstos cuatro registros son diferentes: AX se suele
+ utilizar como propósito general, indica función a las interrupciones, etc,
+ y es el más flexible, ya que será el único que permita multiplicaciones
+ y divisiones. Se denomina a veces acumulador.
+    BX nos servirá mucho como "handler", para abrir/cerrar archivos, etc, y
+ como registro de propósito general al igual que AX, CX y DX
+    CX se suele usar como contador.
+    DX suele ser el puntero, señalando haciendo el papel de Offset lugares
+ en memoria ( suele combinarse con DS en la forma DS:DX )
+
+    Y nos quedan ya sólo tres registros, BP, SI y DI, que son también
+ punteros. SI y DI los utilizaremos a menudo para copiar bytes de un lado
+ a otro, etc. Ni que decir que, como el resto de registros, contienen dos
+ bytes. Igual sucede con BP, de otros dos bytes de tamaño.
+
+[BadBit: En el siguiente número veremos la continuación.]

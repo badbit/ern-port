@@ -1,0 +1,7 @@
+12. Un hacker puede entrar en la computadora más sensible del mundo sin ser inteceptado, y descubrir el pasword en dos segundos.
+13. Todo mensaje de PERMISO DENEGADO tiene función de CANCELAR. (no le entendí).
+14. Los calculos complejos y la carga de enormes contidades de información se realizan en menos de tres segundos. En el cine, los módems transmiten a razón de 2 Gb. por segundo.
+15. Cuando la planta eléctrica de cualquier sitio se sobrecalienta, todos los paneles de control explotan, así como el edificio entero.
+16. Si usted abre un archivo y alguien lo elimina desde otro punto de la red, el archivo desaparecerá de su vista. No hay manera de copiar un archivo de respaldo y no existe el comando undelete.
+17. Si un disco contiene archivos encriptados, el sistema le solicita automáticamente un password cuando usted intenta accesar a ellos.
+18. No importa qué tipo de disquete use: siempre podrá leerlo en cualquier sistema donde lo introduzca. Todas las aplicaciones se ejecutan en todas las plataformas.

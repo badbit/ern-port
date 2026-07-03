@@ -1,0 +1,93 @@
+Acuerdo de licencia
+Por BadBit
+
+Supongo que algún día te ha tocado instalar algún software (principalmente de Windows), el cual trae algo llamado "License agreement" o "Acuerdo de Lincencia." Si eres como yo, aplastarás el botón "Aceptar" sin leer ese palabrerío legal. Pues resulta que hace poco instalé un programa llamado "Download Accelerator Plus" y tuve la suficiente paciencia para leer lo que decía y encontré cosas bastante interesantes. A continuación viene una traducción comentada por mí:
+
+-------------------------------
+Acuerdo de Licencia
+
+Download Accelerator Plus
+
+[Las cosas entre square brackets son mis comentarios.]
+
+Este software ("Software") está siendo licenciada para tí por SpeedBit en UNA BETA GRATUITA DE TIEMPO LIMITADO y es proveída "TAL CUAL", para tu uso privado y personal solamente. Este software apoya la publicidad y el comercio.
+
+[Hasta aquí sabemos que a la compañía SpeedBit sólamente le interesa el dinero. Una mentalidad 100% capitalista.]
+
+Aceptas no aplicarle técnicas de ingeniería inversa, decompilar, desenamblar, alterar, duplicar, hacer copias de, distribuída o proveer a otros con el software.
+
+[En otras palabras: No puedes hacer cracks para este programa aunque sabemos que se puede engañar fácilmente alterando la fecha.]
+
+Aceptando los términos de este acuerdo de licencia aceptas que SpeedBit está autorizado para limitar, negar o cancelar parte o toda la funcionalidad de esta versión en cualquier momento, sin noticia previa.
+
+[Traducción: Podemos accesar a tu computadora sin permiso para borrarte el programa y de paso ver que otras porquerías guardas en tu disco duro.]
+
+SpeedBit no garantiza la disponibilidad o funcionalidad del software a tí o cualquier otro usuario.
+
+[Lo que en verdad quisieron decir: No nos importa si este software sirve o nó, nosotros cumplimos con la obligación de hacer un software, en ningún lugar dice que tiene que ser bueno.]
+
+Usando el software Download Accelerator Plus, aceptas y conoces lo siguiente:
+
+1. No usar o confiar en Download Accelerator Plus para cualquier cosa que pueda estar relacionada con aplicaciones de "misión cítica". Aplicaciones de "misión crítica" quieren decir aplicaciones que pueden resultar en daños si fallan.
+
+[Chequen el nombrecito: "misión crítica". Ya no saben ni que sacar. Lo que quisieron decir: Hicimos un software tan malo, que el usuario no puede encargarle hacer nada de importancia porque de seguro va a fallar, y como somos unos cobardes, no aceptamos responsabilidad por algo que hicimos nosotros mismos.]
+
+2. Aceptas recibir información publicitaria durante el uso de este software.
+
+[O sea: Te vamos a llenar el correo con spam promocionando sofware inútil que no sirve para nada (como éste).]
+
+3. Aceptas que SpeedBit puede obtener estadísticas y también parámetros de registo proveídos por tí, tu software y configuración, proveída que si se publica, será usada sólamente en forma agregada sin nombres de usuarios y otra información concerniendo el uso de, y originado por el software.
+
+[El significado real: Este software tiene un backdoor que nos enviará todos tus datos personales, gustos, passwords, configuración, software, imágenes y una réplica exacta de tu disco duro sólamente con fines "educacionales" y para estadísticas (las cuales enviaremos al gobierno para que te metan a la cárcel por tener productos piratas).]
+
+4. Aceptas que SpeedBit puede usar esta información proveída por tí y el software, o que se relacione, para el propósito de publicidad dirigida, co-registro a otros servicios de SpeedBit u otras compañías, y que si los nombres son parte de la información que diste, se te da la oportunidad de pedir que tu nombre sea omitido.
+
+[En verdad: Podemos hacer con tu información lo que se nos antoje. Nota: Nunca me preguntaron si quería que mi nombre fuera omitido.]
+
+5. Cumplir con cualquier obligación legal, incluyendo pero no se limita a, obligaciones impuestas por copyright, secreto, difamación, decencia, privacía y leyes de exportación; 
+
+[En esto estoy de acuerdo.]
+
+6. SpeedBit puede usar tu nombre en cualquier lista de referencia de clientes o cualquier otra liberación hecha por SpeedBit.
+
+[Pueden hacer con mi nombre lo que les de la gana. ¡Ahhh! ¡Qué bonito es el anonimato en internet! La neta que soy más anónimo en el salón de la prepa.]
+
+7. Aceptas información acerca de productos, servicios, noticias y eventos.
+
+[Más SPAM!!! Por cierto, revisen el correo publiko@yahoo.com y tendrán un nuevo concepto de lo que quiere decir SPAM!!!!]
+
+SI NO ACEPTAS LOS TERMINOS DE ESTE ACUERDO DE LICENCIA, ABORTA LA INSTALACION Y REMUEVE ESTE Y EL SOFTWARE RELACIONADO DE TU COMPUTADORA INMEDIATAMENTE.
+
+[Claro, nos advierten esto ya que bajamos el software de un mega y medio. No perdí mi tiempo, y aunque no estuve de acuerdo lo instalé.]
+
+SpeedBit no es responsable por cualquier información, incluída sin limitación, mensajes online u offline, información de publicidad, datos personales de los usuarios, materias puesto por los usuarios en el website, páginas blancas de puestas por los usuarios a travéz de el software Download Accelerator Plus.
+
+SpeedBit NO HACE GARANTIAS, EXPLICITAS O IMPLICITAS, INCLUYENDO, SIN LIMITACION, AQUELLAS DE MERCADOTECNIA Y ACOMODO PARA UN PROPOSITO EN PARTICULAR, CON RESPECTO AL SOFTWARE DE DOWNLOAD ACCELERATOR PLUS, O CUALQUIER TIPO DE INFORMACION ENTREGADA O MANDADA POR TERCEROS A TRAVEZ DEL SOFTWARE DE  DOWNLOAD ACCELERATOR PLUS SOFTWARE.
+
+[Me salté dos párrafos de puras cosas que no garantiza (entre ellas, que este software sirva)].
+
+SpeedBit no garantiza 1) que cualquier programa o Información estará libre de la infección de virus, gusanos, caballos de Troya o lo que sea que manifieste propiedades contaminantes o destructivas;
+
+[¿Ya ven? Yo les dije que este software tiene un trojan.]
+
+2) que la Información no contendrá material orientado para adultos, o material que algunos individuables pudieran considerar objecionable;
+
+[Mensaje subliminal: Te vamos a mandar miles de correos anunciando Viagra y sitios porno para probarla.]
+
+o 3) Es únicamente resposabilidad del usuario aislar software e Información, ejecutar software anti-contaminación y de otra manera tomar medidas que aseguren que el software o Información, si resulta contaminada o infectada, no dañará la información o el sistema del usuario.
+
+[Tu tendrás que escanear el programa a ver si tiene virus y si tiene uno desconocido ya te fregaste.]
+
+SpeedBit no es responsable por cualquier daño consecuencial, incidental, especial, o indirecto. En ningún evento SpeedBit liabilidad con respecto a este acuerdo de licencia exediendo la cantidad que pagaste (si pagaste) a SpeedBit por el software.
+
+[???????????]
+
+[Me salté otros dos párrafos inútiles y aburridos.]
+
+Copyright (c)1999 SpeedBit. Todos los derechos reservados.
+http://www.downloadaccelerator.com
+-------------------------------
+
+¿Qué les parece? ¿Pueden ustedes confiar en una compañía así? ¿Es acaso esto un buen ejemplo de programación responsable? ¿Son éstos métodos éticos de trabajo y publicidad? ¿Creerán en Dios estas personas? ¿Tienen algún pacto con el demonio? ¿Están relacionados en alguna manera con el clan Trevi-Andrade? No lo sé, lo único que puedo asegurarles es que los que hayan leído este texto no instalarán Download Accelerator Plus y si lo tienen instalado lo desinstalarán. Muchas gracias y buenas noches.
+
+Moraleja: Arbol que crece torcido, amanece más temprano. No... No por mucho madrugar jamás su tronco endereza. No... El que madruga amanece más torcido. No... El que a buen arbol se acerca no sale del corredor. Si tienes un árbol torcido y madrugas... buena sombra te cobija... Si naces en una maceta y creces torcido, Dios te ayuda. Bueno, la idea es esa...

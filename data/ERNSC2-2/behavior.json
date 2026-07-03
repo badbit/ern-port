@@ -1,0 +1,901 @@
+{
+ "forms": {
+  "Forma1": {
+   "on_load": [],
+   "events": {
+    "about.Click": [
+     {
+      "op": "show_form",
+      "form": "Acerca"
+     }
+    ],
+    "banana.Click": [
+     {
+      "op": "show_form",
+      "form": "bbar"
+     }
+    ],
+    "binary.Click": [
+     {
+      "op": "show_form",
+      "form": "Form22"
+     }
+    ],
+    "block.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub block_Click()\nLoad frmMDI\nfrmMDI.Show\nEnd Sub",
+      "note": "form 'frmMDI' no existe en el manifest de este numero (bloc de notas radiaktivo no incluido)"
+     }
+    ],
+    "cdffgggr.Click": [
+     {
+      "op": "show_form",
+      "form": "anarquia"
+     }
+    ],
+    "clear.Click": [
+     {
+      "op": "show_form",
+      "form": "Aclaración"
+     }
+    ],
+    "Command1.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form3"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "msgbox",
+      "text": "Lo bueno de programar en binario es que si hay un error, sólo pueden ser dos cosas: un cero o un uno.",
+      "title": "Frase del mes"
+     }
+    ],
+    "Command4.Click": [
+     {
+      "op": "show_form",
+      "form": "novedades"
+     }
+    ],
+    "Command5.Click": [
+     {
+      "op": "show_form",
+      "form": "manifiesto"
+     }
+    ],
+    "Command6.Click": [
+     {
+      "op": "show_form",
+      "form": "derechos"
+     }
+    ],
+    "contactus.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     }
+    ],
+    "credits.Click": [
+     {
+      "op": "show_form",
+      "form": "Form16"
+     }
+    ],
+    "dummies.Click": [
+     {
+      "op": "show_form",
+      "form": "netbus"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "fedfef.Click": [
+     {
+      "op": "show_form",
+      "form": "cadena"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ],
+    "frasee.Click": [
+     {
+      "op": "msgbox",
+      "text": "Lo bueno de programar en binario es que si hay un error, sólo pueden ser dos cosas: un cero o un uno.",
+      "title": "Frase del mes"
+     }
+    ],
+    "habito.Click": [
+     {
+      "op": "show_form",
+      "form": "habit0"
+     }
+    ],
+    "hacking2.Click": [
+     {
+      "op": "show_form",
+      "form": "html"
+     }
+    ],
+    "herrors.Click": [
+     {
+      "op": "show_form",
+      "form": "herrores"
+     }
+    ],
+    "index.Click": [
+     {
+      "op": "show_form",
+      "form": "Form2"
+     }
+    ],
+    "karne9.Click": [
+     {
+      "op": "show_form",
+      "form": "karnevil9"
+     }
+    ],
+    "limbos.Click": [
+     {
+      "op": "show_form",
+      "form": "limbo"
+     }
+    ],
+    "minimizer.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub minimizer_Click()\nForma1.WindowState = 1\nEnd Sub",
+      "note": "WindowState no esta en el vocabulario de set_prop (minimizar ventana)"
+     }
+    ],
+    "password.Click": [
+     {
+      "op": "show_form",
+      "form": "passwords"
+     }
+    ],
+    "screen.Click": [
+     {
+      "op": "show_form",
+      "form": "Disctract"
+     }
+    ],
+    "six.Click": [
+     {
+      "op": "show_form",
+      "form": "djhell"
+     }
+    ],
+    "y3k.Click": [
+     {
+      "op": "show_form",
+      "form": "Y2K"
+     }
+    ]
+   }
+  },
+  "Form2": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "ethan.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a ethan.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ],
+    "ghdg.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Form3": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "msgbox",
+      "text": "Su drive C: ha sido formateado. Instale un nuevo sistema operativo",
+      "title": "100% Completado"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "Image4.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Aclaración": {
+   "on_load": [
+    {
+     "op": "gradient",
+     "from": "#040000",
+     "to": "#0400FF",
+     "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ]
+   }
+  },
+  "Form16": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Form17": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Disctract": {
+   "on_load": [],
+   "events": {
+    "Command2.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "esde.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Form22": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Acerca": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "if_text",
+      "target": "Text2",
+      "equals": "11 y 12",
+      "then": [
+       {
+        "op": "msgbox",
+        "text": "En vista de que los doctores usan unas palabras muy crudas y feas para referirse a las partes del cuerpo, he ideado un sistema a base de números, así si quieres decir una parte del cuerpo dices el número y todos entienden.",
+        "title": "11 y 12"
+       },
+       {
+        "op": "msgbox",
+        "text": "El 1 es la frente, 2 y 3 los ojos, 4 la nariz, 5 la boca. De ahí la costumbre de decir: «Cállese los cinco» [cállese el hocico]. El 6 es la garganta...",
+        "title": "11 y 12"
+       },
+       {
+        "op": "msgbox",
+        "text": "7 y 8 los hombres no tenemos [señala al pecho]. «Pero si esos son músculos pectorales, tanto hombres como mujeres los tienen» Bueno, si, pero como que los de los hombres son unos siete-ochitos.",
+        "title": "11 y 12"
+       },
+       {
+        "op": "msgbox",
+        "text": "Las mujeres están más siete-ochonas. Mi abuelita estaba siete ochoncísima... Así cuando se le quiere decir a una mujer que amamante a su hijo se dice: «Señora, ofresca sus siete y ocho al cinco del bebé.",
+        "title": "11 y 12"
+       },
+       {
+        "op": "msgbox",
+        "text": "9 es el ombligo, 10 la cintura, 11 y 12 las mujeres no tienen... ¿Ya captó? «Ah, ya»",
+        "title": "11 y 12"
+       },
+       {
+        "op": "msgbox",
+        "text": "Así cuando se quiere decir que hay que ponerle ganas a algo se dice: «Hay que ponerle 11 y 12 al asunto», o cuando algo cuesta muy caro: «Me costó un 11 y la mitad del 12», o cuando algo es obligatorio: «Esto es a 11».",
+        "title": "11 y 12"
+       },
+       {
+        "op": "msgbox",
+        "text": "Cuando alguien está muy emocionado: «Se me subieron los 11 y 12 hasta el 6», cuando alguien es muy flojo: «Este es muy once-doceón». Bueno, de ahí sigue el 13, que hombres y mujeres lo tenemos, pero son completamente distintos y se pueden acoplar.",
+        "title": "11 y 12"
+       },
+       {
+        "op": "msgbox",
+        "text": "«Ahhh, ya entendí» Ya ve, luego siguen 14 y 15 que sirven para sentarse. Ah, y enmedio está el cero. «¿El cero?, pero si sigue el 16.» Esque el cero es más ilustrativo...",
+        "title": "11 y 12"
+       },
+       {
+        "op": "close",
+        "form": "Acerca"
+       }
+      ],
+      "else": [],
+      "_note": "Easter egg: password oculto en Acerca (reconstruido)."
+     }
+    ]
+   }
+  },
+  "Logoz": {
+   "on_load": [],
+   "events": {
+    "Image1.Click": [
+     {
+      "op": "msgbox",
+      "text": "¿Qué? ¿No entiendes?",
+      "title": "Mmmta..."
+     }
+    ]
+   }
+  },
+  "passwords": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "dibujo.Click": [
+     {
+      "op": "show_form",
+      "form": "Logoz"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "quepasa.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a quepasa.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "habit0": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "exit5000.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "extraer500.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "habit04.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a habit04.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "limbo": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "salir.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "limbo04.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a limbo04.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "djhell": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "asdfasdfasd.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "dfshdfsf.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "DJ-HELL7.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a DJ-HELL7.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "Y2K": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "blah.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "ex.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "hacking01.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a hacking01.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "herrores": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "fdghdg.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "sadd.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "cable.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a cable.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "bbar": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "dlfkmcdc.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "dfrmormvoim.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "banano's03.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a banano's03.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "anarquia": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "fkvmori.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "dgtgtg.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "prowin.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a prowin.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "html": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "hack02.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a hack02.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "cadena": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "blah.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "ex.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "tygu02.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a tygu02.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "netbus": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "ununuin.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "dasdg.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "spam01.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a spam01.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "manifiesto": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "fgfg.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "derechos": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    Text1.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    Text1.Width = ScaleWidth\n    Text1.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "novedades": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "exit.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  },
+  "karnevil9": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centrado de ventana en runtime (Top/Left calculados con Screen.Height/Width, expresion no literal) fuera del vocabulario de set_prop; el motor centra la ventana por defecto"
+    }
+   ],
+   "events": {
+    "exit.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "ke9.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a ke9.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "ajuste del TextBox al area cliente en runtime (Width/Height = ScaleWidth/ScaleHeight) no es una asignacion literal; el motor ya ajusta el TextBox al area cliente por defecto"
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,112 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Conexiones a Internet.
+Por Karn Evil 9
+
+Todos los usuarios de la red, tenemos la necesidad de mas velocidad, ya sea
+que tengamos módem, cable, satélite o XDSL.
+
+Por este motivo aquí analizaremos las tecnologías y formas de conectarnos a
+la red con alta velocidad.
+
+Cable:
+
+	Se utilizan las instalaciones de la compañía de tv por cable, se utiliza
+un adaptador de red en tu PC, lo cual indica que desde que inicias tu OS, ya
+estas conectado a la red con velocidades de hasta 8 mbps de descarga y 328 de
+subida de información.
+
+	Pero tiene sus desventajas, el ancho de banda es compartido con los
+demas conectados al mismo nodo(tus vecinos en tu área), ya que cada colonia o
+calle es representada en la red por nodos, entonces estamos hablando de que
+nuestras maquinas están en red con las de nuestros vecinos lo cual no es muy
+seguro y si por error u omisión tenemos compartidos recursos de nuestras
+maquinas o permitimos el acceso a nuestro ip, estamos en graves problemas,
+pero regresando al punto, estamos compartiendo el ancho de banda con todos
+los vecinos que estén conectados al mismo tiempo en nuestro nodo, esto hace
+que las velocidades caigan a + o – 400 kbps de descarga y 200 de subida.
+Además de que alguien puede entrar a tu maquina por lo mencionado
+anteriormente; otro problema es que los proveedores del servicio no permiten
+que los usuarios utilicen el servicio para poner un servidor Web, que por un
+lado esta bien para cuidar el ancho de banda de su red.
+
+Satélite:
+
+	Solo ocupas una parabólica de directpc o lo que sea apuntando al sur, un
+módem y ya. La velocidad es de 328kbps bajando y subiendo es de 33.600kbps
+subiendo por el limite Shannon.
+
+	El problema es que cuando haces request o subes a servers, los haces a
+33kbps y además se tiene que pagar línea telefónica(servicio medido), en USA
+es fácil por que te cobran 4 centavos la llamada y te quedas el tiempo que
+quieres por que no hay servicio medido pero aquí si y cuesta un huevo y la
+mitad del otro (si no es que ya te lo quitaron cuando compraste la antena
+parabólica).
+
+XDSL:
+
+	Digital Suscriber Line
+
+	Se utilizan las mismas líneas de teléfono, pero la voz y los datos son
+separados en frecuencias diferentes y esto permite que se puedan hacer
+llamadas mientras estas conectado a la red.
+
+Existen ADSL, SDSL, HDSL.
+
+ADSL significa Asymetric Digital Suscriber Line lo que significa que baja mas
+rápido de lo que sube información, o sea que la velocidad es asimétrica.
+
+SDSL significa Symetric Digital Suscriber Line lo que significa que baja y
+sube información a la misma velocidad, o sea que la velocidad es simétrica.
+
+HDSL es high bit Digital Suscriber Line, esta es mucho mas rápida pero solo
+para empresas grandes y no simples mortales.
+
+Las velocidades de ADSL son 6 mbps de bajada y 3 de subida, pero son mas
+lentas por problemas como interferencia electrónica y la distancia a la que
+estas ubicado de la compañía telefónica.
+
+Para finalizar:
+
+	Desgraciadamente, veo muy lejos el día que tengamos costo por llamada
+telefónica sin servicio medido, y telmex o telnor no son tan generosos como
+para darse el lujo de poner DSL.
+
+	Así es, estamos condenados a Internet caro por siempre, a menos, que
+AT&T quiera tener muchos miles de clientes nuevos en México.
+
+
+*Nota, sin ofender Kibitzer, pero no me causo gracia tu comentario en lo de
+Internet por cable en el que dices que vas a tener mas Access en un Server
+IRC por que siempre vas a estar conectado. Tu actitud se me hizo muy patética
+y mediocre, aquí en esa clase de detalles se demuestra quien es o quiere ser
+hacker* (tener conocimientos). En lugar de decir: "Con la velocidad y costo de
+acceso a Internet por cable, voy a poder tener acceso a mas información y mas
+rápido, y consecuentemente voy a adquirir mas conocimientos
+(independientemente de la clase que estos sean)", no, te conformas con
+intentar ser op de un canal con poca gente.
+
+___________________________
+El Radiaktivo Newz Team, 1999
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+http://www.bigfoot.com/~ernt
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 1999 Karn Evil 9 <karn_evil_9@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+                        ##########  ##########  #####   ####  ##############
+                        ##### ####  ##### ####  ######  ####  #### #### ####
+                        #####       ##### ####  ####### ####       ####
+     Karn Evil 9        ##########  #######     ##### ######       ####
+                        #####       ##### ####  #####  #####       ####
+                        ##### ####  ##### ####  #####   ####       ####
+<karn_evil_9@yahoo.com> ##########  ##### ####  #####   ####       ####
+
+=EOF=

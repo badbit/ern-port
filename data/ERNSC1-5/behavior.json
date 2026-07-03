@@ -1,0 +1,945 @@
+{
+ "forms": {
+  "Forma1": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "App.HelpFile = \"ern.hlp\"\nForma1.HelpContextID = 1",
+     "note": "Configura archivo y contexto de ayuda (App.HelpFile / Forma1.HelpContextID); sin prop equivalente en el vocabulario (no es caption/text/visible/enabled/fore_color/back_color/left/top)."
+    }
+   ],
+   "events": {
+    "about.Click": [
+     {
+      "op": "show_form",
+      "form": "Acerca"
+     }
+    ],
+    "binary.Click": [
+     {
+      "op": "show_form",
+      "form": "Form22"
+     }
+    ],
+    "blue.Click": [
+     {
+      "op": "set_prop",
+      "target": "Forma1",
+      "prop": "back_color",
+      "value": "#000080"
+     }
+    ],
+    "cdffgggr.Click": [
+     {
+      "op": "show_form",
+      "form": "html"
+     }
+    ],
+    "clackca.Click": [
+     {
+      "op": "set_prop",
+      "target": "Forma1",
+      "prop": "back_color",
+      "value": "#000000"
+     }
+    ],
+    "clear.Click": [
+     {
+      "op": "show_form",
+      "form": "Aclaración"
+     }
+    ],
+    "combined.Click": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "msgbox",
+      "text": "Ayer no podía deletrear la palabra 'programador', ahora soy uno.",
+      "title": "Frase del mes"
+     }
+    ],
+    "contactus.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     }
+    ],
+    "contents.Click": [
+     {
+      "op": "unsupported",
+      "code": "ayuda = Shell(\"ernt.hlp\")",
+      "note": "Shell abre un archivo de ayuda local (.hlp) con la aplicación asociada; no es una URL web/mailto, sin op equivalente (open_url solo cubre web/mailto)."
+     }
+    ],
+    "credits.Click": [
+     {
+      "op": "show_form",
+      "form": "Form16"
+     }
+    ],
+    "dsdasdsdf.Click": [
+     {
+      "op": "show_form",
+      "form": "Form1"
+     }
+    ],
+    "dummies.Click": [
+     {
+      "op": "show_form",
+      "form": "netbus"
+     }
+    ],
+    "editor.Click": [
+     {
+      "op": "show_form",
+      "form": "Form3"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "fedfef.Click": [
+     {
+      "op": "show_form",
+      "form": "cadena"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ],
+    "frasee.Click": [
+     {
+      "op": "msgbox",
+      "text": "Ayer no podía deletrear la palabra 'programador', ahora soy uno.",
+      "title": "Frase del mes"
+     }
+    ],
+    "green.Click": [
+     {
+      "op": "set_prop",
+      "target": "Forma1",
+      "prop": "back_color",
+      "value": "#008000"
+     }
+    ],
+    "habito.Click": [
+     {
+      "op": "show_form",
+      "form": "habit0"
+     }
+    ],
+    "herrors.Click": [
+     {
+      "op": "show_form",
+      "form": "herrores"
+     }
+    ],
+    "hide.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Label3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Label2",
+      "prop": "visible",
+      "value": false
+     }
+    ],
+    "index.Click": [
+     {
+      "op": "show_form",
+      "form": "Form2"
+     }
+    ],
+    "limbos.Click": [
+     {
+      "op": "show_form",
+      "form": "limbo"
+     }
+    ],
+    "logo.Click": [
+     {
+      "op": "show_form",
+      "form": "Logoz"
+     }
+    ],
+    "manifiesta.Click": [
+     {
+      "op": "show_form",
+      "form": "manifiesto"
+     }
+    ],
+    "maxmi.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Label3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Label2",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "unsupported",
+      "code": "Forma1.WindowState = 2",
+      "note": "Maximiza la ventana (WindowState=2); 'windowstate' no está en la lista de props soportadas por set_prop."
+     }
+    ],
+    "minimi.Click": [
+     {
+      "op": "unsupported",
+      "code": "Forma1.WindowState = 1",
+      "note": "Minimiza la ventana (WindowState=1); sin prop equivalente en set_prop."
+     }
+    ],
+    "password.Click": [
+     {
+      "op": "show_form",
+      "form": "passwords"
+     }
+    ],
+    "red.Click": [
+     {
+      "op": "set_prop",
+      "target": "Forma1",
+      "prop": "back_color",
+      "value": "#C04000"
+     }
+    ],
+    "restore.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Label3",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Label2",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "unsupported",
+      "code": "Forma1.WindowState = 0",
+      "note": "Restaura la ventana (WindowState=0); sin prop equivalente en set_prop."
+     }
+    ],
+    "screen.Click": [
+     {
+      "op": "show_form",
+      "form": "Disctract"
+     }
+    ],
+    "six.Click": [
+     {
+      "op": "show_form",
+      "form": "djhell"
+     }
+    ],
+    "y3k.Click": [
+     {
+      "op": "show_form",
+      "form": "Y2K"
+     }
+    ],
+    "yellow.Click": [
+     {
+      "op": "set_prop",
+      "target": "Forma1",
+      "prop": "back_color",
+      "value": "#808000"
+     }
+    ]
+   }
+  },
+  "Form2": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Load Form3\nForm3.Show\nUnload Form2\nForm2.Hide",
+      "note": "El control Command1 no existe en este form (solo Command7 es real, dentro de Frame1); código huérfano. Habría hecho: Load Form3; Form3.Show; Unload Form2; Form2.Hide."
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Load Form4\nForm4.Show\nUnload Form2\nForm2.Hide",
+      "note": "Control Command2 no existe en este form; además referencia 'Form4', que no existe en el manifest de este número (formulario huérfano/eliminado)."
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Load Form6\nForm6.Show\nUnload Form2\nForm2.Hide",
+      "note": "Control Command3 no existe en este form; además referencia 'Form6', que no existe en el manifest de este número."
+     }
+    ],
+    "Command4.Click": [
+     {
+      "op": "unsupported",
+      "code": "Load Form13\nForm13.Show\nUnload Form2\nForm2.Hide",
+      "note": "Control Command4 no existe en este form; además referencia 'Form13', que no existe en el manifest de este número."
+     }
+    ],
+    "Command5.Click": [
+     {
+      "op": "unsupported",
+      "code": "Load Form14\nForm14.Show\nUnload Form2\nForm2.Hide",
+      "note": "Control Command5 no existe en este form; además referencia 'Form14', que no existe en el manifest de este número."
+     }
+    ],
+    "Command6.Click": [
+     {
+      "op": "unsupported",
+      "code": "Load Form17\nForm17.Show\nUnload Form2\nForm2.Show",
+      "note": "Control Command6 no existe en este form (código huérfano). Nótese además el bug del original: hace 'Unload Form2' y luego 'Form2.Show' (en vez de Hide), reabriendo Form2 tras mostrar Form17."
+     }
+    ],
+    "Command7.Click": [
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ],
+    "Command8.Click": [
+     {
+      "op": "unsupported",
+      "code": "Load Form15\nForm15.Show\nUnload Form2\nForm2.Hide",
+      "note": "Control Command8 no existe en este form; además referencia 'Form15', que no existe en el manifest de este número."
+     }
+    ]
+   }
+  },
+  "Form3": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form3"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Beep\nBeep\nBeep\nBeep\nBeep\nBeep\nBeep\nBeep\nMsgBox (\"Su drive C: ha sido formateado. Instale un nuevo sistema operativo\"), (1 + 46 + 256), (\"100% Completado\")",
+      "note": "Control Command2 no existe en este form (código huérfano). Broma: 8x Beep + MsgBox simulando que se formateó el disco C:."
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "End",
+      "note": "Control Command3 no existe en este form (código huérfano); haría End (quit)."
+     }
+    ]
+   }
+  },
+  "Aclaración": {
+   "on_load": [
+    {
+     "op": "gradient",
+     "from": "#040000",
+     "to": "#0400FF",
+     "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ]
+   }
+  },
+  "Form16": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form16"
+     }
+    ]
+   }
+  },
+  "Form17": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form17"
+     }
+    ]
+   }
+  },
+  "Disctract": {
+   "on_load": [],
+   "events": {
+    "Command2.Click": [
+     {
+      "op": "close",
+      "form": "Disctract"
+     }
+    ],
+    "esde.Click": [
+     {
+      "op": "unsupported",
+      "code": "Unload Distract\nDistract.Hide",
+      "note": "Referencia al formulario 'Distract' (typo del original), que no coincide con la clave real 'Disctract' del manifest; probablemente pretendía ser un auto-cierre pero el nombre no resuelve a ningún form existente."
+     }
+    ]
+   }
+  },
+  "Form22": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form22"
+     }
+    ]
+   }
+  },
+  "Acerca": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "if_text",
+      "target": "Text1",
+      "equals": "Aquamosh",
+      "then": [
+       {
+        "op": "msgbox",
+        "text": "3E FF 98 A0",
+        "title": "4 Bytes"
+       },
+       {
+        "op": "close",
+        "form": "Acerca"
+       }
+      ],
+      "else": [],
+      "_note": "Easter egg: password oculto en Acerca (reconstruido)."
+     }
+    ]
+   }
+  },
+  "Logoz": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Open \"alquimia.txt\" For Append As #2\nPrint #2, \"  -No es fácil descubrir la piedra filosofal - dijo el\"\nPrint #2, \"Inglés-. Los alqumistas pasaban muchos años en los\"\nPrint #2, \"laboratorios contemplando aquel fuego que purifica-\"\nPrint #2, \"ba los metales. Miraban tanto al fuego que poco a poco\"\nPrint #2, \"sus cabezas iban perdiendo todas las vanidades del\"\nPrint #2, \"mundo. Entonces, un buen día, descubrían que la\"\nPrint #2, \"purificación de los metales había terminado por puri-\"\nPrint #2, \"ficarlos a ellos mismos.\"\nPrint #2, \"  El muchacho se acordó del Mercader de Cristales.\"\nPrint #2, \"El le había dicho que era buena idea limpiar los jarros\"\nPrint #2, \"para liberarse ambos también de los malos pensamien-\"\nPrint #2, \"tos. Estaba cada vez más convencido de que la Alqui\"\nPrint #2, \"mia podría aprenderse en la vida diaria.\"\nPrint #2, \"  -Además- dijo el Inglés- la Piedra Filosofal tiene\"\nPrint #2, \"una propiedad fascinante: un pequeño fragmento de ella\"\nPrint #2, \"es capaz de transformar grandes cantidades de metal en oro.\"\nPrint #2, \"  A partir de esta frase, el muchacho quedó interesa-\"\nPrint #2, \"dísimo en la Alquimia. Pensaba que, con un poco de\"\nPrint #2, \"paciencia, podría transformar todo en oro. Leyó la\"\nPrint #2, \"vida de varias personas que lo habían conseguido:\"\nPrint #2, \"Helvetius, Elías, Fulcanelli, Geber. Eran historias fas-\"\nPrint #2, \"cinantes: todos estaban viviendo hasta el final su Le-\"\nPrint #2, \"yenda Personal. Viajaban, encontraban sabios, hacían\"\nPrint #2, \"milagros frente a los incrédulos, poseían la Piedra\"\nPrint #2, \"Filosofal y el Elixir de la Larga Vida.\"\nPrint #2, \"  Pero cuando quería aprender la manera de conse-\"\nPrint #2, \"guir la Gran Obra, quedaba totalmente perdido. Eran\"\nPrint #2, \"sólo dibujos, instrucciones en código, textos oscuros.\"\nPrint #2, \"------------------------------------------------------\"\nPrint #2, \"  El Alquimista cogió un libro que alguien en la\"\nPrint #2, \"caravana había traído. El volumen no tenía tapas, pero\"\nPrint #2, \"consiguió identificar a su autor: Oscar Wilde. Mientras\"\nPrint #2, \"hojeaba sus páginas, encontró una historia sobre Nar-\"\nPrint #2, \"ciso.\"\nPrint #2, \"  Al Alquimista conocía la leyenda de Narciso, un\"\nPrint #2, \"hermoso joven que todos los días iba a contemplar su\"\nPrint #2, \"propia belleza en un lago. Estaba tan fascinado consi-\"\nPrint #2, \"go mismo que un día se cayó dentro del lago y se murió\"\nPrint #2, \"ahogado. En el lugar donde cayó, nació una flor, que\"\nPrint #2, \"fue llamada narciso.\"\nPrint #2, \"  Pero no era así como Oscar Wilde acababa la histo-\"\nPrint #2, \"ria:\"\nPrint #2, \"  El decía que cuando Narciso murió, vinieron las\"\nPrint #2, \"Oréades -diosas del bosque- y vieron al lago trans-\"\nPrint #2, \"formado, de un lago de agua dulce, en un cántaro de\"\nPrint #2, \"lágrimas saladas.\"\nPrint #2, \"  -¿Por qué lloras? -le preguntaron las Oréades.\"\nPrint #2, \"  -Lloro por Narciso -respondió el lago.\"\nPrint #2, \"  -¡Ah, no nos asombra que llores por Narciso -pro-\"\nPrint #2, \"siguieron ellas-. Al fin y al cabo, a pesar de que\"\nPrint #2, \"nosotras siempre corríamos trás él por el bosqu, tú\"\nPrint #2, \"eras el único que tenía la oportunidad de contemplar\"\nPrint #2, \"de cerca su belleza.\"\nPrint #2, \"  -¿Pero Narciso era bello? -preguntó el lago.\"\nPrint #2, \"  -¿Quién podría saberlo más que tú? - respondie-\"\nPrint #2, \"ron, sorprendidas, las Oréades-. Al fin y al cabo, era\"\nPrint #2, \"en tus márgenes que él se inclinaba para contemplarse\"\nPrint #2, \"todos los días.\"\nPrint #2, \"  El lago se quedó algún tiempo callado. Finalmente,\"\nPrint #2, \"dijo:\"\nPrint #2, \"  -Yo lloro por Narciso porque cada vez que él se\"\nPrint #2, \"inclinaba sobre mis márgenes yo podía ver, en el\"\nPrint #2, \"fondo de sus ojos, mi propia belleza reflejada.\"\nPrint #2, \"  '¡Qué bella  historia', dijo el Alquimista.\"\nMsgBox (\"El viejo le contó que la semana pasada había tenido que aparecer a un 'garimperio' (buscador de oro y piedras preciosas) bajo la forma de un piedra. El garimperio había dejado todo para partir en busca de esmeraldas. Durante cinco años trabajó en un río, y había partido 999,999 piedras en busca de una esmeralda. En ese momento, el garimperio pensó en desistir, y sólo le faltaba una piedra, solamente UNA PIEDRA para descubrir su esmeralda. Como él había sido un hombre que había apostado por su Leyenda Personal, el viejo decidió intervenir. Se transformó en una piedra, que rodó sobre el pie del garimperio. Este, con la rabia y frustración de los cinco años perdidos, arrojó la piedra lejos. Pero la arrojó con tanta fuerza que se golpeó contra otra y se rompió, mostrando la esmeralda más bella del mundo.\"), , (\"Nunca desistas\")",
+      "note": "Easter egg: añade (Open ... For Append) un cuento (parábola del Alquimista) a 'alquimia.txt' y luego muestra un MsgBox con otro relato ('Nunca desistas'). No encaja en save_text: no proviene de un control editable, usa Append (no Output) y el contenido es texto fijo del código, no ctrl.Text."
+     }
+    ]
+   }
+  },
+  "passwords": {
+   "on_load": [],
+   "events": {
+    "Label10.DblClick": [
+     {
+      "op": "unsupported",
+      "code": "MsgBox (\"Easter egg no: 4563-3653\"), , (\"Lo encontraste\")\nDim filehandler As String\nfilehandler = Text1.Text\nOpen \"Ecgb@34.txt\" For Output As #1\nPrint #1, filehandler\nClose #1",
+      "note": "Los controles 'Label10' y 'Text1' referenciados no existen en este form (según el manifest); código huérfano de un easter egg que mostraba un MsgBox y grababa Text1.Text en 'Ecgb@34.txt'."
+     }
+    ]
+   }
+  },
+  "habit0": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "extraer500.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "habit02.txt"
+     }
+    ],
+    "exit5000.Click": [
+     {
+      "op": "close",
+      "form": "habit0"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ]
+   }
+  },
+  "limbo": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "letras.txt"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ]
+   }
+  },
+  "djhell": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "dfshdfsf.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "invitacion.txt"
+     }
+    ],
+    "asdfasdfasd.Click": [
+     {
+      "op": "close",
+      "form": "djhell"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ],
+    "print1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Printer.FontName = \"Courier New\"\nPrinter.FontSize = 11\nPrinter.Print txtEdit.Text\nPrinter.EndDoc",
+      "note": "Control/menú 'print1' no existe en este form (código huérfano); usaría el objeto Printer para imprimir txtEdit.Text, sin op equivalente."
+     }
+    ]
+   }
+  },
+  "Y2K": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "ex.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "Y2K.txt"
+     }
+    ],
+    "blah.Click": [
+     {
+      "op": "close",
+      "form": "Y2K"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ]
+   }
+  },
+  "herrores": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "sadd.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "herrores.txt"
+     }
+    ],
+    "fdghdg.Click": [
+     {
+      "op": "close",
+      "form": "herrores"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ],
+    "asd.Click": [
+     {
+      "op": "unsupported",
+      "code": "Printer.FontName = \"Courier New\"\nPrinter.FontSize = 11\nPrinter.Print txtEdit.Text\nPrinter.EndDoc",
+      "note": "Botón de menú real ('Imprimir') que usa el objeto Printer para imprimir txtEdit.Text; sin op de impresión en el vocabulario."
+     }
+    ]
+   }
+  },
+  "bbar": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "dfrmormvoim.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "banano's01.txt"
+     }
+    ],
+    "dlfkmcdc.Click": [
+     {
+      "op": "close",
+      "form": "bbar"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ],
+    "dformoirmc.Click": [
+     {
+      "op": "unsupported",
+      "code": "Printer.FontName = \"Courier New\"\nPrinter.FontSize = 11\nPrinter.Print txtEdit.Text\nPrinter.EndDoc",
+      "note": "Control/menú 'dformoirmc' no existe en este form (código huérfano); usaría el objeto Printer para imprimir txtEdit.Text, sin op equivalente."
+     }
+    ]
+   }
+  },
+  "anarquia": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "dgtgtg.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "Anarquía.txt"
+     }
+    ],
+    "fkvmori.Click": [
+     {
+      "op": "close",
+      "form": "anarquia"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ]
+   }
+  },
+  "html": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "dfppo.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "html01.txt"
+     }
+    ],
+    "dff.Click": [
+     {
+      "op": "close",
+      "form": "html"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ]
+   }
+  },
+  "cadena": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "ex.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "cadena.txt"
+     }
+    ],
+    "blah.Click": [
+     {
+      "op": "close",
+      "form": "cadena"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ]
+   }
+  },
+  "netbus": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "dasdg.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "NetBus.txt"
+     }
+    ],
+    "ununuin.Click": [
+     {
+      "op": "close",
+      "form": "netbus"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ]
+   }
+  },
+  "manifiesto": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2",
+     "note": "Centra la ventana en pantalla (Top/Left basados en Screen.Width/Height) y mueve txtEdit a (0,0); sin op equivalente en el vocabulario (no hay 'center')."
+    }
+   ],
+   "events": {
+    "fdijnviuotn.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "manifiesto.txt"
+     }
+    ],
+    "fgfg.Click": [
+     {
+      "op": "close",
+      "form": "manifiesto"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight",
+      "note": "Redimensiona txtEdit para llenar el área cliente al cambiar tamaño del formulario; sin op equivalente en el vocabulario."
+     }
+    ]
+   }
+  },
+  "Form1": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Load Form2\nForm2.Show",
+      "note": "Control Command1 no existe en este form (código huérfano); haría show_form a Form2."
+     }
+    ],
+    "Command11.Click": [
+     {
+      "op": "set_prop",
+      "target": "Frame3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Frame4",
+      "prop": "visible",
+      "value": true
+     }
+    ],
+    "Command14.Click": [
+     {
+      "op": "set_prop",
+      "target": "Frame2",
+      "prop": "visible",
+      "value": true
+     }
+    ],
+    "Command18.Click": [
+     {
+      "op": "set_prop",
+      "target": "Frame1",
+      "prop": "visible",
+      "value": false
+     }
+    ],
+    "Command19.Click": [
+     {
+      "op": "unsupported",
+      "code": "If Text1.Text = \"IP del desgraciado\" Then\n    MsgBox (\"Tienes que poner el IP en la caja de texto\")\nElse\n    ip = Text1.Text\n    Frame2.Visible = False\nEnd If",
+      "note": "If/Else no trivial: además de un MsgBox, la rama Else asigna la variable de módulo 'ip' (no es una prop de UI); no es un toggle simple."
+     }
+    ],
+    "Command20.Click": [
+     {
+      "op": "unsupported",
+      "code": "If Text2.Text = \"Servidor IRC a conectarse\" Or Text3.Text = \"Tiempo para conectarse (en segs)\" Or Text4.Text = \"Nick o canal a floodear\" Then\n      MsgBox (\"Tienes que introducir los datos en las cajas de texto\")\n      Exit Sub\nEnd If\nserver = Text2.Text\nconectar = Text3.Text\nnick = Text4.Text\nnumero = Text5.Text\nFrame3.Visible = False",
+      "note": "Condición Or múltiple + asignación de varias variables de módulo (server, conectar, nick, numero); no trivial, sin acción de UI representable."
+     }
+    ],
+    "Command21.Click": [
+     {
+      "op": "unsupported",
+      "code": "List1.AddItem \"Sólo Texto\"\nList1.AddItem \"Finger\"\nList1.AddItem \"Ping\"\nList1.AddItem \"SED\"\nList1.AddItem \"BotKiller\"\nList1.AddItem \"EchoFlood\"\nList1.AddItem \"BlitzFlood\"\nList1.AddItem \"VER\"\nFrame4.Visible = False\nFrame3.Visible = True",
+      "note": "Rellena un ListBox con List1.AddItem (op no soportada por el vocabulario) además de alternar Visible de dos Frames."
+     }
+    ],
+    "Command22.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "Command23.Click": [
+     {
+      "op": "unsupported",
+      "code": "If Text9.Text = \"From host\" Or Text8.Text = \"From port\" Or Text7.Text = \"Target host\" Or Text6.Text = \"Target Low\" Or Text10.Text = \"Target high\" Or Text11.Text = \"icmp type\" Then\n    MsgBox (\"Tienes que introducir datos mentecato\"), , (\"Idiota\")\n    Exit Sub\nEnd If\nFrame4.Visible = False",
+      "note": "If con múltiples condiciones Or + Exit Sub condicional antes de la acción final; no es un toggle simple."
+     }
+    ],
+    "Command24.Click": [
+     {
+      "op": "set_prop",
+      "target": "Frame1",
+      "prop": "visible",
+      "value": true
+     }
+    ],
+    "List1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Select Case List1.ListIndex\n    Case 0\n       tipoflood = 1\n    Case 1\n       tipoflood = 2\n    Case 2\n       tipoflood = 3\n    Case 3\n       tipoflood = 4\n    Case 4\n       tipoflood = 5\n    Case 5\n       tipoflood = 6\n    Case 6\n       tipoflood = 7\n    Case 7\n       tipoflood = 8\nEnd Select",
+      "note": "Select Case sobre ListIndex que solo asigna la variable de módulo 'tipoflood' (sin efecto de UI); lógica no trivial por índice."
+     }
+    ]
+   }
+  }
+ }
+}

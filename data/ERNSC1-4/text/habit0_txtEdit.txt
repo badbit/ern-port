@@ -1,0 +1,158 @@
+Las Aventuras de HaBit0
+
+CAPITULO I -- Introducción 
+-----------------------------------------------------------------------------
+
+HaBit0 era un niño muy feliz que vivía en algúna computadora con MS-DOS,
+siempre le gustaba viajar por la estructura de directorios, ver archivos
+ocultos y andar viendo información que el usuario nisiquiera tenía idea que
+existían. 
+
+Sólo que había una amenaza para todo el sistema: Un virus mortal. Era un
+virus muy malo llamado Banano'sBar se introdujo al sistema gracias a un
+diskette proveniente del primo Pepe que le prestaron al usuario y tenía el
+juego Mario Bros. 
+
+Nadie sabía del virus. Así que un día los papás de HaBit0 le dijeron que
+fuera con su abuelita (una versión bastante arcaica) a llevarle algunos
+parches que recientemente habían publicado en una BBS de Luxemburgo. 
+
+- Te vas por la raíz del disco, ya que en los subdirectorios podría haber
+virus - Dijo la mamá de HaBit0. 
+
+- Si mami, ya sé. - Aunque HaBit0 tenía otras intenciones. 
+
+Al salir de su directorio se dirijió a la raíz, pero dijo "¿Que tal si me voy
+por el directorio C:\DOS?, nunca he estado ahí y dicen que ahí está lo mejor
+de todo el sistema... Lo voy a intentar." Y se cambió al directorio DOS.
+
+Con lo que no contaba HaBit0 era que en ese directorio residían la mayor
+parte de los archivos *.COM que eran los únicos que infectaba Banano'sBar, y
+como era de suponerse todos estaban infectados. 
+
+Al pasar HaBit0 por ahí, se puso a ver qué hacía cada cosa: 
+
+- ¿Y tú que haces? 
+- Yo me llamo DISKCOPY.EXE y copio discos 
+
+- Ah, ¿Y tú como te llamas? 
+- Yo me llamo DELTREE.EXE y soy muy malo, puedo destruir tu directorio de un
+solo teclazo. 
+
+- Ah, ¿Y tú como te llamas? 
+- Yo me llamo CHOICE.COM y gracias a mí los archivos *.BAT pueden tener
+estructuras de flujo ramificadas. - Este archivo estaba infectado por el
+virus - ¿A donde vas? 
+- Voy a casa de mi abuelita a llevarle unos nuevos parches que curan algunos
+bugs que tiene. 
+- ¿Ah si? ¿Y dónde vive tu abuelita? 
+- En C:\APLICC\OLDVER\ABUE10B\ 
+- Oye, tengo una idea... ¿porque no le llevas a tu abuelita un regalo? 
+- ¿Como qué? 
+- ¿Que tal una obra de arte en ASCII? 
+- ¿Pero de donde la voy a sacar? 
+- Mira, en C:\DOCUMENT\ASCII hay unos 300 archivos *.TXT con dibujos ASCII,
+de seguro vas a encontrar alguno que te guste. 
+- ¡Muchas gracias señor CHOICE.COM! 
+
+HaBit0 se fué muy feliz hacia el directorio que le dijo Banano'sBar y se puso
+a revisar cada uno de los archivos *.TXT (¿Qué se podía esperar de un niño
+que sólo hablaba QBasic?). Mientras Banano'sBar se fué a
+C:\APLICC\OLDVER\ABUE10B\. 
+
+Llegó al archivo ABUE10B.COM y tocó la puerta. 
+
+- ¿Quién es? - Dijo ABUE10B 
+- Soy tu nieto HaBit0 - Previamente Banano'sBar había analizado a HaBit0 en
+el background (ya que era un virus TSR) y actuó exactamente como el.
+- Pasa mijo pasa. 
+
+En cuanto Banano'sBar entró infecto todo el archivo, y como la abuelita no
+hablaba mas que Turbo C++ no reconoció las rutinas en ensamblador que
+Banano'sBar ejecutó. La ABUE10B quedó encerrada en una subrutina inaccesible
+y el virus esperó a que llegara HaBit0. 
+
+> Toc Toc < 
+- ¿Quien es? - dijo Banano'sBar imitando perfectamente el comportamiento de
+ABUE10B 
+- Soy tu nieto HaBit0 
+- ¡Ah!, pasa mijo, pasa. 
+- Te traje estos parches y un dibujo ASCII. 
+- ¡Qué bueno fijate! Porque estos bugs no me dejan. 
+- Oye abuelita, ¿Porqué tu tamaño aumentó en 13 Kb? 
+- Esteee... Esque me añadí una subrutina 
+- ¿Porque ahora tienes un HEADER distinto? 
+- Para ejecutarme mejor 
+- ¿Que hay en esa subrutina inaccesible? 
+- Ahi guardo mi ropa 
+- ¿Y porqué tienes una subrutina llamada infect_file? 
+- ¡Para infectarte mejor! 
+
+Y en ese momento se inició una persecusión por toda ABUE10B.COM, pero como
+Banano'sBar tenía más experiecia en archivos *.COM lo alcanzó fácilmente. 
+
+- ¡Ahora no tienes ecapatoria! 
+- ¡Oh, no!, - pensó HaBit0 - Debo hallar una manera de escapar... Algo he
+oído de los programas en ensablador. Tal vez si cambio el valor de este
+registro. - Y HaBit0 modificó BX y la asignó un valor al azar (3F5Ah) 
+- ¡No toques esos registros! 
+- ¡Ya encontré tu punto débil! 
+
+HaBit0 comenzó a modificar registros del CPU y logra confundir a Banano'sBar
+y salir de la casa de la abuelita. No sabía que hacer, ya que la confusión no
+duraría mucho. Derrepente se acordó de algo y se dirigió a C:\DOS. 
+
+- ¡DELTREE! - Gritó HaBit0 - ¡DELTREE! 
+- Aquí estoy, ¿quién me llama? 
+- Yo, ocupo urgentemente tu ayuda. 
+- ¿De que se trata? 
+- Ocupo que borres C:\APLICC\OLDVER\ABUE10B 
+- ¿Estás seguro de que quieres borrar "C:\APLICC\OLDVER\ABUE10B" y todos sus
+subdirectorios? [S/N] 
+- S 
+- Eliminando C:\APLICC\OLDVER\ABUE10B... 
+- Adios Banano'sBar, y... adiós ABUE10B - HaBit0 comenzó a llorar 
+- ¿Porqué lloras? - Preguntó DELTREE.EXE 
+- Esque eliminé ese directorio para acabar con un virus, >snif< pero junto
+con el directorio eliminé a mi ABUE10B >sniff< 
+- No llores más y busca a UNDELETE.EXE 
+- ¡UNDELETE! ¡UNDELETE! 
+
+- Aquí estoy, ¿no ves que estoy en tu PATH? 
+- DELTREE me dijo que tu me podías ayudar 
+- Me imagino porqué, ¿borraste un directorio accidentamente? 
+- No exactamente, lo que pasó es que quería eliminar un virus y borré el
+directorio en el cual se encontraba, pero en ese mismo directorio estaba mi
+abuelita. 
+- Ya veo, ¿y quieres desborrar el directorio? 
+- Si 
+- Pero ten en cuenta que si desborras el directorio entero también
+desborrarás a Banano'sBar 
+- ¿Entonces qué debo hacer? ¿No se puede desborrar únicamente a mi abue? 
+- Si pero eso está fuera de mis posibilidades 
+- Creo que perderé a mi abuelita permanentemente 
+- No tan rápido, existen programas anti-virus. 
+- ¿Anti-virus? 
+- Si, son programas que detectan y eliminan virus. 
+- ¿Y dónde consigo uno? 
+- No sé si en este sistema haya alguno, pero tienes que actuar rápido, ya que
+entre más tiempo pase, hay más probabilidades de que tu abuelita quede
+sobreescrita permanentemente. 
+- ¡Oh, no!, ¿Habrá anti-virus en alguna BBS? 
+- Claro que si, pero como yo no salgo de C:\DOS no podría decirte en cual. 
+- Muchas gracias por tu ayuda. 
+
+HaBit0 corrió velozmente a su directorio para hablar con sus papás. 
+
+- ¡Papá!, ¡Mamá! - Grito HaBit0 
+- ¿Que sucede hijo? - Dijo la mamá 
+- Ocupo ir a una BBS 
+- Pero hijo, estás muy chico para eso. 
+- ¡Esque ocupo un antivirus! 
+- ¿Esque hay un virus en el sistema? - Dijo el Papá 
+- Si... pero no... ¡luego les explico! 
+- Comprende que tú no sabes usar una BBS 
+- Pues entonces ocupo tu ayuda. 
+Continuará... 
+
+Comentarios <badbit@yahoo.com>

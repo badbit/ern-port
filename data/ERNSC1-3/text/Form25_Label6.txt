@@ -1,0 +1,1 @@
+Liberador de espacio en disco: Este programa se puede considerar el más inútil de todos. Se supone que cuando tu disco duro esté a punto de reventar de tanta información este programa liberará espacio, ¿qué es lo que borra? El contenido del directorio Temporary Internet Files solamente. Algo que puedes hacer tú sólo.

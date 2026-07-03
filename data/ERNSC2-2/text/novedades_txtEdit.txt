@@ -1,0 +1,165 @@
+#####  ##        
+##     ##        
+####   ##
+%%     %%        
+%%%%%  %%%%%
+
+#####      ###    #####   ##    ###    ##  ##  #######  ##  ##   ##   ####
+##  ##   ##   ##  ##  ##  ##  ##   ##  ## ##   #######  ##  ##   ##  ##  ##
+#####    #######  ##  ##  ##  #######  ####      ###    ##  ##   ##  ##  ##
+%%  %%   %%   %%  %%  %%  %%  %%   %%  %% %%     %%%    %%   %% %%   %%  %%
+%%   %%  %%   %%  %%%%%   %%  %%   %%  %%  %%    %%%    %%    %%%     %%%%
+
+##   ##  #####  ##      ##  #######
+###  ##  ##     ##      ##     ###
+#### ##  ####   ##  ##  ##    ###
+%% %%%%  %%      %% %% %%    %%%
+%%  %%%  %%%%%    %%%%%%    %%%%%%%
+
+---------------------------------------------------------------------------
+
+¿Qué hay de nuevo?
+
+Uy, están viendo un Radiaktivo que batalló mucho para ver la luz. Dudé en
+sacarlo. Un correo del Karn Evil me puso a reflexionar... El correo decía
+que parecíamos lamers... lo que me dolió es que es cierto. Miren, voy a
+agarrar parejo, el día en que escribo esto, el Karn fue a la escuela y me
+volvió a repetir lo que decía el correo: Que kibitzer se fusilaba guías
+viejas, que acri escribe cosas inútiles, que lo que escribió el aCiDBoY
+acerca del origen de DEBUG todos lo sabían, etcétera. Esto me sacudió y me
+dieron ganas de llorar, todo es cierto...
+
+Creí que El Radiaktivo Newz iba a desaparecer, creí que cada quién iba a
+tener que jalar por su lado, creí que todo estaba perdido... pero pensé y
+me dí cuenta de que todo tenía solución, y me dí a la tarea de mejorar a
+ERN por completo, poner cosas interesantes sin inutilidades, así que ya lo
+saben miembros de ERNT, tienen que mejorar o van pa' fuera. Ahora los
+artículos van a pasar por un estricto control de calidad y tienen que ponerse
+a leer.
+
+Como ven, necesitamos ayuda, cualquier colaboración, feedback, opinión, etc.
+será grandemente apreciada. Ahora hasta me da verguenza enseñar la cara en
+el IRC... estoy desesperado.
+
+Conclusión: El Radiaktivo Newz Team va a mejorar, eso se los aseguro...
+
+------------
+23 de Octubre
+
+Pues ya corrimos a muchos que nunca habían hecho nada. Y por lo que llevamos
+del ERN es seguro que está mejor que los anteriores.
+
+¡Ah! Próximamente espera ver la mascota oficial de ERNT hecha por kibitzer.
+No te la pierdas.
+
+La página fue actualizada muy poco debido a problemas con el BadBit y su
+teléfono (y Telnor, faltaba más) y también debido a la tarea que ponen esos
+maestros de la escuela... cada vez los odio más.
+
+--------------
+5 de Noviembre
+--------------
+
+Me llegó otro correo de Karn Evil 9, y dado su contenido, si lo puedo
+poner:
+
+Badbit (al final del escrito hay una lista de archivos adjuntos).
+
+-Comienza-
+Considero que tenemos serios problemas en la revista desde mi punto de
+vista, debido a ciertos factores.
+
+Ciertos factores nos afectan mucho la imagen, se supone que la revista
+es de Hacking, Phreacking, Virii, Programación, bombas, terrorismo,
+drogas y cualquier cosa que le interese al underground.
+
+Espero que lo anterior haya quedado bien claro, ya que los artículos
+que se exponen en la revista, simple, sencilla y llanamente valen
+madre (excepto lo de encripción, la guía de html y Tácticas anti-Windows).
+No es posible que queramos llegar a ser una revista respetada con los
+artículos que los compañeros escriben, lo del Mirc, que si le picas en la
+nariz emite un ruido o que si escribes una palabra se convierte en un
+moustrito, otra cosa son los artículos del DJ-Hell (bueno, estos son
+aceptables hasta cierto punto por lo que hace referencia a como bajar rolas
+de irc, los problemas con los quemadores y la controversia del formato MP3).
+
+Fuera de esos artículos y los que tu escribiste, lo demás vale madre, creo que
+deberíamos tomar una postura mas seria y estricta con lo que se refiere al
+underground, no podemos seguir así, nadie nos va a pelar jamas, el día que
+raza-mexicana lea el radioactivo, se van a cagar de la risa, además: Sigo
+pensando, que si no entramos todos a UNIX(en cualquier sabor, ya sea BSD,
+Linux, Solaris o lo que sea), nunca vamos a dejar de ser mediocres y nunca
+vamos a saber lo que es hackear.
+
+Por lo que consta de mi, estoy muy decepcionado por el giro que tomo hace 2
+números la revista, ya que los artículos de los colaboradores son muy
+patéticos, de hecho creo que mi articulo de telnor del servicio de Internet no
+es muy bueno, pero creo que sirvió para exponer la mierda que nos quiere hacer
+tragar telnor.
+
+Bueno luego de toda la mierda y malas criticas creo que solo tengo unas
+cuantas propuestas por que lo primero que te digo es de que se tiene que hacer
+a huevo y rápido:
+
+1. Seleccionar un poquito mas los artículos.
+
+2. No publicar tanta basura que a nadie le importa.
+
+3. Hablar con los demás colaboradores, para que agarren la onda y entiendan
+   que es una revista underground no PCCOMPUTING o peor aun, PCMAGAZINE.
+
+4. Te propongo tutoriales de programación, que tal si comenzamos con PASCAL
+   (que es un lenguaje mas o menos estructurado y no tan complejo), después se
+   podría continuar a C/C++, después JAVA, después PERL (nótese que después de
+   C/C++, esta mucho mas pelada, ya que lo difícil es entender las
+   estructuras, variables, loops, argumentos, funciones y eso...), no propongo
+   assembler, ya que en estos tiempos los compiladores de C o Delphi, hacen un
+   trabajo muy bueno con lo que se refiere a optimizar el código y la
+   velocidad de ejecución.
+
+5. Que tal si hacemos una guía de programación de midis o secuencias (se
+   escucha mamón, pero estoy seguro que siempre te haz preguntado como los
+   programan, y yo también y muchos amigos mas también, lo considero un tema
+   de interés general en el underground, debido a que a muchos les gustaría
+   hacer sus propios midis). 
+
+6. Guías para programar y clonar celulares.
+
+7. Noticias del underground, Internet, cultura y tecnología (como lo de GECKO)
+
+8. Ya no se me ocurre nada. 
+
+Bueno, sin mas por el momento, me despido, esperando verte en #mejico algún
+día o en persona, no te preocupes, no digo que la revista sea mala, lo que me
+refiero es que esos artículos valen pa pura y nos desprestigian.
+
+Karn Evil 9
+
+Lista aquí abajo.
+
+Aquí te mando los artículos que te dije:
+
+1. Telnor 
+
+2. UNIX, Código Abierto y Cosas Peores 
+
+3. ¿Progreso? 
+
+4. ¿Quien es Karn Evil 9? 
+
+5. Próximamente MAC G4, Lenguajes, Procesadores y no se que se me ocurra de
+   UNIX.
+-Termina-
+
+Yo no pude haberlo dicho mejor. Karn Evil 9 dijo lo que yo estaba pensando.
+Y los puntos que se tienen que hacer a 11 y rápido son básicamente el plan
+que he decidido tomar de aquí en adelante en ERNT para mejorar el curso de las
+cosas.
+
+Ahora, también modifiqué la interface de ERN y la hice mejor que la del número
+pasado, ya que esa era de alguna manera temporal y no me gustó. Ahora es más
+moderna y futurista (grave error, esta inteface se verá anticuada dentro de
+poco tiempo).
+
+Ya con los artículos de Karn Evil puedo sacar la revista, ya que era lo único
+que esperaba para terminarla.

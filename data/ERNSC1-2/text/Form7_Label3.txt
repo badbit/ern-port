@@ -1,0 +1,7 @@
+Cuando llamas al BBS, está ocupada la línea y cuando contesta se cae el BBS.
+
+Mientras más útil te sea algún programa, menos será la probabilidad de que lo encuentres en el BBS.
+
+Cuando encuentras el archivo que desear bajar, no tienes suficientes créditos o tiempo para hacerlo.
+
+Cuando por fin consigues bajar un archivo del BBS, se pierde la conexión en los últimos bytes.

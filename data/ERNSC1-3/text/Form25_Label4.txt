@@ -1,0 +1,1 @@
+Convertidor de unidades a FAT32: Esto reconozco que es algo un poco útil, pero hay programas que hacen este trabajo mucho mejor (como PartitionMagic). Lo que hace este programa es convertir discos duros al formato FAT32 para disponer de más espacio en él.

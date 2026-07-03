@@ -1,0 +1,3 @@
+          El Radiaktivo Newz es una e-zine publicada por ERNT fundada en Agosto de 1998 por BadBit con el fin de comunicar conocimientos sobre informática, hacking, electrónica, programación y cualquier otro tema en relación a los anteriores.
+
+          Esta revista está programada en Visual Basic 4.0 en una Pentium MMX 233 Mhz 16 Mb de RAM (lenta pero sirve).

@@ -1,0 +1,1 @@
+       Algo de lo más importante es que les enzeñaré a como sacar el password de los servidores UNIX (el que se encuentra en /etc/psswd). NO PARA QUE LO HAGAN sino para demostrarles lo fácil que es hacerlo.

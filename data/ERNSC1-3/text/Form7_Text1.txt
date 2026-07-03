@@ -1,0 +1,38 @@
+Como hacer un alien (Acto 1)
+
+--------------------------------------------------------------------------------
+
+Un ejemplo hipotético:
+
+Supongamos que nos piden hacer un cuerpo alienígena para una escena de autopsia en alguna película. Supongamos también que nuestro cliente no quiere hacer la mejor escena del mundo - ellos sólo quieren  algo que sea aceptable. (Hasta ahora este ejemplo está siendo difícilmente hipotótico. Es más como una descripción de todas nuestras carreras.)
+
+De acuerdo al script, la escena incluirá lo siguiente: 
+
+1. Tiene que verse como un documental de los 40's 
+2. El cuerpo debe de recordar la descripción comunmente aceptada del "alien"
+3. El cuerpo será abierto y manejado por los actores
+4. Queremos mostrar organos internos no humanos 
+
+Ninguno de estos requerimientos es especialmente difícil. Tomamos el trabajo.
+
+¿Como empezamos?
+
+Una vez que nos dan el cheque, debemos hacer unas descisiones importantes. Hay dos técnicas básicas que podemos hacer para crear la forma de nuestro alien - esculpir todo el cuerpo, o hacer "body-cast". Como estamos haciendo un personaje humanoide, recomendamos un "body cast" para este trabajo. Ya que tenemos nuestro "body cast", podemos ajustarlo de varias maneras para hacerlo parecer más "alien". Incluso con nuestras modificaciones, tendremos un cuerpo que parece más humano - pero el método del body-cast es más fácil y rápido que esculpir el alien entero desde nada. 
+
+El proceso del body-cast es escencialmente lo siguiente - tomamos un ser humando real de aproximadamente el tamaño que necesitamos y lo cubrimos con alginate - un producto orgánico que se pega como pasta pero rápidamente se solidifica en un hule semi-sólido. (Puedes estar familiarizado con esto - los dentistas lo usan para hacer muestras de dientes.) Reforzamos el alginate con vendas con yeso. 
+
+Cuando removemos las vendas endurecidas y el alginate en dos grandes secciones (anverso y reverso), tenemos un "negativo" del cuerpo humano entero. Este será nuestro punto de partida para crear nuestro cuerpo-alienígena. (Muchas compañías de efectos guardan body-casts de proyectos pasados - si tuvieramos un body-cast existente que cumple nuestros requisitos nos podríamos saltar este paso. ¡Eso es económico!) 
+
+¿Ahora que?
+
+Ahora, si estamos realmente apurados, podríamos hacer nuestro alienígena final del "body cast" tal como está - pero nos podría llevar a problemas cosméticos después. La mejor técnica es calentar una carga de aceite hasta que se vuelva líquido, vaciar el aceite en nuestro molde y dejarlo enfriar. (Poner clay directamente en el molde es otra opción.) Cuando abrimos el molde, tenemos una "escultura" instantánea, la cual podremos re-esculpir hasta que el cuerpo sea exactamente como queremos.
+
+Este método requiere que hagamos otro molde de la escultura final para crear nuestro molde final - nuestro presupuesto subirá un poco, pero los resulados valdrán la pena.
+
+El cuerpo final tendrá la forma de los músculos y las curvas de un cuerpo real.
+
+Comentimos un error. (Realmente no queríamos cometer este error - pero esto es hipotético, ¿recuerdan?) Hicimos el molde de un humano parado, porque fué más fácil poner las vendas con yeso de esa manera. Olvidamos que nuestro cuerpo se vería acostado.
+
+Desafortunadamente, nuestro cuerpo final no tendrá musculos reales bajo piel real - entonces no se moverá y reaccionará a la gravedad como un cuerpo real lo haría.
+
+Y como nuestro sujeto de muestra estaba vivo, los músculos de las piernas estan visiblemente tensados en lugar de relajados como una persona muerta lo estaría.

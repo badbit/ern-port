@@ -1,0 +1,1 @@
+RegistryScan: Esta inutilidad escanea el registro de Windows en busca de valores inválidos. (Si no sabes que es el registro de Windows, ejecuta el programa Regedit.exe del directorio de Windows)

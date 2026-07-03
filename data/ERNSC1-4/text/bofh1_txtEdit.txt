@@ -1,0 +1,403 @@
++------------------------------------------+
+| The Bastard Operator from Hell (BOFH) #1 |
++------------------------------------------+
+
+Es dia de hacer copia de respaldo asi que estoy enfadado. Ser el BOFH, tiene
+sus ventajas. Le asigno "null" al dispositivo de cinta - es mucho mas 
+economico en mi tiempo ya que no me tengo que ocupar de cambiar cartuchos cada
+5 minutos. Y tambien acelera los respaldos, Asi que no puede ser tan malo,
+O si? Claro que no.
+
+Un usuario llama
+
+"Sabes porque el sistema esta lento?" pregunta
+
+"Posiblemente tiene que ver con..." Me fijo en la excusa de hoy ".. tiempo
+de reloj"
+
+"Oh" (No sabiendo de lo que les hablo, esta satisfecho) "No sabes cuando
+arreglaran eso?"
+
+"Arreglar? Hay 275 usuarios en tu maquina, y uno de ellos eres tu. No seas
+tan egoista - salte de la red y dale a alguien una oportunidad!"
+
+"Pero los resultados de mi investigacion seran revisados manyana y necesito
+una impresion con impresora Laser.."
+
+"SEGURO QUE LA NECESITAS. Bueno; You just keep telling yourself that buddy!"  I hang up.
+ 
+En verdad llegas a creer que esa gente aprendera a no llamar..
+
+El telefono suena. Sera el otra vez, Lo se. Eso me molesta. Hago una voz
+grave
+
+"HOLA, SALARIES!"
+
+"Oh, Lo siento, Numero equivocado"
+
+"SI? Bueno, cual es tu nombre amigo? Sabes que llamadas INUTILES cuestan 
+dinero? LO SABES? Tengo el poder para anyadir a tu cuenta de telefono estas
+llamadas! DE HECHO LO HARE! Para cuando termine contigo, NOS DEBES dinero!
+DIME TU NOMBRE - Y NO MIENTAS, TENEMOS IDENTIFICADOR DE LLAMADAS!!"
+
+Oigo el telefono caer y el sonido de pies corriendo - obiamente tratara de
+tener una coartada haciendome creer que esta en la oficina de Dean. Busco su
+nombre de usuario y encuentro su departamento. Le llamo a la secretaria de
+Dean.
+
+"Bueno?" contesta
+
+"Hola, SIMON, LLAMA EL B.O.F.H, ESCUCHA, CUANDO ESE TIPO ENTRE CORRIENDO EN TU
+OFICINA EN APROXIMADAMENTE 10 SEGS, PUEDES DARLE UN MENSAJE?"
+
+"Eso creo..." me dice
+
+"DILE 'PUEDE CORRER, PERO NO PUEDE ESCONDERSE'"
+
+
+"Um. Ok"
+
+"Y NO LO OLVIDES, NO QUERRIA DECIRLE A NADIE ACERCA DE ESE ARCHIVO EN TU
+CUENTA CON TUS RESPUESTAS AL EXAMEN DE PUREZA EN EL..."
+
+La oigo teclear en su terminal...
+
+"NO TE HAGAS - TENGO UNA COPIA. SE BUENA Y PASA EL MESAJE.."
+
+Cuelgo. Y lo peor es que solamente estaba adivinando acerca de lo del examen
+de pureza. Saco una copia de todos modos, puede servirme para alguna lectura
+nocturna.
+
+Mientras las copias de respaldo teminaron en tiempo record, 2.03 segundos.
+La tecnologia moderna es maravillosa, no?
+
+Otro usuario llama.
+
+"Necesito mas espacio" dice
+
+"Bueno, Porque no te mudas a Texas?" le pregunto
+
+"No, en mi cuenta, estupido."
+
+Estupido?  Oh-Oh..
+
+"Lo siento pucho" digo, en una manera tan educada igual a esa de Jimmy Stewart
+en un Weekend Family Matine Feature "No entendi eso. Que fue lo que dijo?"
+
+Huelo el miedo llegando desde la linea hacia mi, pero es demasiado tarde,
+es un maleducado y el lo sabe.
+
+"Um, dije que queria mas espacio en mi cuenta, *por favor*"
+
+"Seguro, espera un momento"
+
+Lo oigo escupir su alivio incluso aunque el tapo el auricular.
+
+"Ahi esta, ahora tienes *mucho* espacio ahora!"
+
+"Cuanto tengo?" pregunta
+
+Ahora esto *REALMENTE* *ME* *MOLESTA*! No solo queria que le diera espacio
+extra, quieren que lo cheque, y luego reclamarme si no les di lo suficiente!
+Ellos deberian contentarse con lo que les doy *y es todo*!
+
+De vuelta al modo Jimmy Stewart.
+
+"Bueno, veamos, Tienes disponible 4 Megas"
+
+"Guau! Ocho Megas en total, gracias!" dice, agradecido por esa oferta
+
+"No" lo interrumpo, sazonando esto como vino tinto fino a temperatura
+ambiente, con un steak, extra raro, para decir; "4 Megas en total.."
+
+"Eh? Ya use 4 Megas, Como puedo tener 4 Megas disponibles?"
+
+No digo nada. Le llegara al cerebro.
+
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagggggghhhhhH!!!!"
+
+Me mate; En verdad lo hice!
+
++-----------------------------------+
+| The Bastard Operator from Hell #2 |
++-----------------------------------+
+
+Estoy sentado en mi escritorio, jugando x-tank, cuando algun bastardo me llama
+por telefono. Contesto.
+
+"Bueno?" contesto.
+
+"Quien es?" dicen
+
+"Creo que soy yo" digo, habiendo aprobado un examen de habilidades telefonicas
+
+"Quien es yo?"
+
+"Esto es la broma de la vieja Ines?" digo, tratando de salvarme acabando este
+juego (x-tank).
+
+demasiado TARDE! Me mataron.
+
+Ahora si estoy enfadado!
+
+"Que puedo hacer por usted?" Pregunto cortesmente - (uno de los puntos clave
+de alerta)
+
+"Um, Quiero saber si tenemos un paquete especifico de software.."
+
+"De que paquete se trata?"
+
+"Uh, se llama B-A-S-I-C."
+
+>clickety clickety d-e-l b-a-s-i-c.e-x-e<
+
+"Um no, no lo tenemos. Lo teniamos pero ya no.."
+
+"oh. Oh bueno, Lo otro que queria saber era que si el contenido de mi cuenta
+sera copiado a cinta para tener una copia permanente de el para salvarlo en mi
+casa en caso de que pase lo peor.."
+
+"Lo peor?"
+
+"Bueno, por si se borran o algo..."
+
+"BORRAR! Oh, no te preocupes de eso, tenemos copias de respaldo!" (Soy tan
+*#%@^*) "Cual es tu nombre de usuario?"
+
+Me da su lusername.  (Que idiota)
+
+>clickety clikc<
+
+"Pero si no tienes ningun archivo en tu cuenta!" Digo, dejando escapar
+sorpresa de mis cuerdas vocales.
+
+"Si tengo, debe de estar buscando en el lugar incorrecto!"
+
+Primero me arruina mi juego x-tank, y *ahora* me llama mentiroso...
+
+>clickety click<
+
+"Oh no, Me equivoque" digo "QUIZE DECIR: Ese NOMBRE DE USUARIO no existe"
+
+"Eh? >wimper< Debe de, La estaba usando esta manyana!"
+
+"Ah bueno, ese es el problema, hubo un virus en nuestro sistema esta
+manyana, el... eh... virus DA VINCI, borra a usuarios que estan conectados
+cuando se desconectan."
+
+"No puede ser correcto, mi novia estaba conectada, y estoy en su cuenta
+ahora!"
+
+"Cual era?"
+
+Me dice el nombre de usuarios. Algunas personas NUNCA aprenden..
+
+"Oh, si, su cuenta fue un poco despues de que descubrimos el virus."... 
+>clickety clikc<  "..solamente perdio todos sus archivos"
+
+"Pero..."
+
+"Pero no te preocupes, los tenemos en cinta"
+
+"Oh, gracias a Dios!!!"
+
+"Cinta de papel. Tienes una lupa y un lapiz? NOS VEMOS EN EL CUARTO DE
+MAQUINAS!!!! BUAJAJAJAJAJAJAJA!"
+
+Soy tan perverso!
+
++-----------------------------------+
+| The Bastard Operator from Hell #3 |
++-----------------------------------+
+
+Estoy trabajando tan duro que me he dado tiempo de ir a la ciudad a ver una
+pelicula antes de deicrle a la gente que sus impresiones estaran listas. La
+fila es TAAAAAAAN larga como para tener todo impreso (y ordenado) para la
+fecha que les dije, entonces borro los trabajos pequenyos y quedaron 2 que
+podria ordenar en nada de tiempo.
+
+Despues de la pelicula, regreso a entregar las impresiones.
+
+Hay 50 personas esperando afuera y tengo dos impresiones. Eso es mucho para
+mi. De todos modos, saco las impresiones y camino leeentamete hacia adentro,
+tamborileando con mis dedos mi portapapeles que tiene escrito "CUENTAS A
+REMOVER" en letras grandes en la parte trasera. Nadie dice nada. Como es
+usual.
+
+. . .
+
+   Me siento en el Trono del Operador, miro el circuito cerrado de TV del
+cuarto, la que casualmente esta conectada a la video casetera (mandada para 
+reparacion, y devuelta por el '97) cuando el telefono suena. Debe ser el
+segundo del dia, y esta enpezando a enfadarme!
+
+"Si?" digo, deteniendo la imagen.
+
+"Parece que borre por accidente mi curriculum!" dice la voz en el otro lado
+de la linea.
+
+"En serio? Cual es su nombre de usuario?"
+
+Me lo dice. Que diablos, ESTOY aburrido.
+
+"Ah no, no lo borraste - yo lo hice."
+
+"Que?"
+
+"Yo lo borre. Estaba lleno de basura! Nunca sacaste mas de 9 en ninguna
+materia!"
+
+"Eh?"
+
+"Y esa basura de intercambio escolar a otro pais, esa era tu novia y los dos
+lo sabemos!"
+
+"Eh?!!"
+
+"Tus antecedentes academicos. Los revise, estabas mintiendo.. Aparte, olvidaste
+incluir tus antecedentes criminales.."
+
+"Como pudis.." Se detiene. "Eres tu?  EL BASTARD OPERATOR FROM HELL!"
+
+"No debiste llamar y lo sabes. Especialmente no debiste darme tu nombre de
+usuario.."  >clickety< >click< "Tampoco debiste haberle mandado ese mail al
+Administrador de Sitemas diciendole lo que piensas de el en terminos tan
+graficos..."
+
+"No mande ninguno.."  
+
+>clickety< >click<......
+
+"No, no lo hiciste verdad? Pero quien puede decir en estos dias? No hay mucho,
+de que preocuparse, todo se acabara MUY pronto.."  >clickedy clikc<  "..cambiar
+tu nombre de usuario, y..."
+
+"p-p-p.." balbucea
+
+"Ahora adios" digo amablemente, "tienes maletas que empacar y una nueva vida
+para empezar..."
+
+Cuelgo.
+
+Dos segundos despues suena el telefono rojo. Lo levanto, es el jefe.
+Me dice el nombre de usuario de le persona a la que estaba hablando, menciona
+algo acerca de un mensaje de correo sucio, y dice las palabras "Ya sabes que
+hacer...", con los puntos y todo.
+
+Despues, adentro de la computadora de la companyia de electricidad, modifico
+el recivo de pago de electricidad del pobre hombre anyadiendole algunos ceros,
+no puedo ayudar pero piensa en el juicio que los hace llamar. Luego, mas
+tarde, pongo su foto en la pagina del FBI sobre "Los mas buscados, armados y
+peligrosos, DISPARE SI LOS VE" posiblemente nunca lo sabre; pero la vida sigue
+su curso.
+
+   Unas horas despues, veo un vehiculo del equipo SWAT llegar al departamento
+del pobre hombre, pero manyana sera otro dia.
+
++-----------------------------------+
+| The Bastard Operator from Hell #4 |
++-----------------------------------+
+
+Es martes, y estoy de buen humor. Es dia de paga. Creo que tomare algunas
+llamadas. Pondre el auricular de nuevo en el telefono. Suena.
+
+"He tratado de llamarte por horas!" grita la voz al otro extremo
+
+"No, no puede ser por horas" digo, poniendo "Blade Runner" de vuelta a su caja
+y mirandola por atras, "fua por 114 minutos aprox. Fue una gran llamada con
+mi jefe, tratando de darles a los usuarios mas facilidades"
+
+Hook; Line; y Sinker...
+
+"Oh. Lo siento."
+
+"Esta bien, Soy una persona tolerante" Hago una nota mental de cambiar su
+password por algo sucio en los siguientes dias.
+
+"Um, Necesito saber como renombrar un archivo" me dice.
+
+Oh Dios... Un momento, es dia de paga no?! Y estoy de buen humor.
+
+"Seguro. Pon 'del' y el nombre de archivo"
+
+"Gracias"
+
+"No te preocuoes" (Ahora estoy *REALMENTE* de buen humor. Creo que podre
+escribir ese script para hacer el salvado impossible en tiempos al azar como
+he estado pensando)
+
+El telefono suena otra vez.
+
+"Bueno?"
+
+"Hola" digo
+
+"Son los Operadores?"
+
+"Si aqui es" digo, dulce como un pastel
+
+"Puedes sacar mis impresiones. Las necesito urgentemente, y las mande imprimir
+hace como 5 minutos"
+
+"Tu nombre de usuario?" le pregunto
+
+Me lo da, lo escribo para despues. "No te preocupes!" dije, y me dijigi a las
+impresoras.
+
+Hay una pila GRAAAAANDE de impresiones ahi, y de seguro, la suya esta hasta
+arriba de la pila.  La agarro, la arranco de las demas y le echo tinta encima,
+la embarre y la estampe contra la puerta de donde se guardan las cintas
+varias veces tambien.
+
+Hermoso.
+
+"Aqui tienes tu impresion" le digo "Lo siento por la tardanza, tuvimos algunos
+problemas con la impresora."
+
+La mira y se maldice.
+
+"Bueno, la puedo imprimir otra vez?" me pregunta preocupado
+
+"Seguro que puedes" digo "Pero nada de promesas, la impresora esta un poco
+ocupada ahora"
+
+"Bueno, la puedo imprimir en Laser - esta funcionando?"
+
+"Claro que si, pero eso te costara" digo, derramando compasion por el
+
+"No me importa el precio, ESTO ES URGENTE!"
+
+Vuelvo al cuarto de las impresoras y pongo el cartucho de toner que reservamos
+para ocasiones especiales - el que imprime lineas negras delgadas en la mitad
+de la hoja y esta todo obscuro de un lado. Me tomo tiempo para que hiciera
+eso. La impresion salio rapidamente y se las lleve inmediatamente - no quiero
+perderme esto!
+
+"Q-q-que la paso a mi impresion?" gime ese geek hacia mi. Por suerte anote su
+nombre de usuario - Estoy empezando a tomar un gusto por la tortura.
+
+"Bueno, nada. Quiero decir claro, esta un poquito mal, pero ese cartucho ha
+hecho 47 000 paginas y ha sido rellenado 17 veces. Esta muy bien comparada con
+otras que sacamos"
+
+Me paga y comienza a balbucear.
+
+"Hey no. No hay razon para llorar! Tienes un disco con tu trabajo en el?"
+
+Me da una caja de diskettes entro adentro y les doy una buena formateada.
+Salgo de nuevo.
+
+"Lo siento, acabo de recordar, nuestra maquina esta descompuesta, tienes que 
+llevar los diskettes al otro lado del campus a la maquina de alla, los
+imprimira bien, tiene un toner nuevo desde ayer."
+
+"GRANDIOSO!"
+
+"No te preocupes. Oh, y llevate los discos sobre tu cabeza mientras llegas, el
+campo magnetico de la tierra esta particularmente fuerte hoy."
+
+"Eh?"
+
+"Sin argumentos, solo hazlo."
+
+Se va, con los brazos extendidos. Rayos, A veces me odio!

@@ -1,0 +1,88 @@
+/chiste1 /say 4¿Porqué los focos están gorditos? Porque van a dar a luz.
+/chiste2 /say 4¿Cuál es el colmo de un jorobado? Tener que estudiar derecho.
+/chiste3 /say 4¿Qué fué lo último que le pasó a la pricesa Diana por la cabeza? El radiador.
+/chiste4 /say 4-¿Cuánto cuesta ese perfume para dama? 12-$3000 4-¿Tan caro? 12-Esque es del Cairo 4-Ah, y no tiene del baraito
+/chiste5 /say 4-¡Mamá!, ahora me ahorre 3 pesos, porque me vine corriendo atrás del camión. 12-¡Ay mijo! Te hubieras venido corriendo atrás del taxi y te ahorrabas $30
+/chiste6 /say 4El alcohol y el tabaco dañan las neuronas, pero no te preocupes, tu nunca las usas.
+/chiste7 /say 4Si el cerebro te pide alcohol, dale alcohol, si te pide tabaco, dale tabaco, si te pide trabajo, no se lo dés, no hay que malacostumbrarlo.
+/chiste8 /say 4¿Qué es lo primero que te secas cuando te bañas? | /say 4¡El agua!
+/chiste9 /say 4¿Cuál es el colmo de Salinas de Gortari? Que hasta sus metralletas le digan ¡rata! ¡rata! ¡rata!
+/chiste10 /say 4¿Qué es más frío que un hielo? Dos hielos.
+/chiste11 /say 4Llega un maestro al salón y pregunta: ¿Cuánto es 1/4 más 1/4 más 1/4? Y pepito contesta: ¡Pues un hotelito!
+/chiste12 /say 4-Papi, ¿Porqué mi abuelita corre por la pradera? 12-Cállate y pásame más balas.
+/chiste13 /say 4-Papi, ya no quiero ir a Europa 12-¡Cállate y sigue nadando!
+/chiste14 /say 4-Papi, ya no quiero tener alberca 12-¡Cállate y sigue escupiendo!
+/chiste15 /say 4Un borracho que iba manejando choca y le dice el policía: "Identifíquese", El borracho saca un espejo, se mira y dice: "Ah, si soy yo"
+/chiste16 /say 4¿Cuál es el colmo de un viejito? No saber manejar y sacar placas.
+/chiste17 /say 4¿Cuál es el colmo de un abogado? Perder el juicio.
+/chiste18 /say 4¿Cómo se llama un burro con un gallego encima? Burro de dos pisos.
+/chiste19 /say 4Un señor se sube al camión y pregunta: -¿Va al parque? 12-Sí 4-Ah, pues que se divierta.
+/chiste20 /say 4Un señor se sube al camión y pregunta: -¿Pasa por el teatro? 12-Nooo, paso por un ladito, si pasara por el teatro, ¡Imagínese el choque que me llevo!
+/chiste21 /say 4¿En qué se parece una torre a una pulga? En que la torre es alta y la pulga salta.
+/chiste22 /say 4¿Porqué Santa Claus no le lleva regalos a los niños de Somalia? Porque no comen bien.
+/chiste23 /say 4Un niño le dice a un sacerdote: -¡Señor, señor! 12-No hijo, dime padre. 4-¡Papá! Mi mamá se va a poner muy feliz, porque hace tiempo que te buscamos.
+/chiste24 /say 4-Vieja, hace una semana que no me hablas y sólo tengo que decirte una cosa... ¡GRACIAS!
+/chiste25 /say 4¿Porqué los buzos se tiran de espaldas al agua? Porque se tiraran de frenta caerían en la lancha.
+/chiste26 /say 4Plática en el quirófano: -¿Listo para la operación? 12-¡Listo! 4-bueno, ¿tijeras? 12-tijeras 4-¿bisturí? 12-bisturí 4-¿gasas? 12-De nada.
+/chiste27 /say 4-A ver pepito, dame un ejemplo de ignorancia e indiferencia. 12-¡No sé y me vale cacahuate!
+/chiste28 /say 4Una vaca dice: "Muuuuuu" y otra le contesta: "¡Me quitaste la palabra de la boca!"
+/chiste29 /say 4Un ratero le dice a otro: -Y, que feo, que poquito le pagan a los maestros 12-¿Porqué dices eso? 4-Porque me acabo de robar la cartera de uno.
+/chiste30 /say 4¿Cómo meterías a mil de somalia en un Beetle? Diciéndoles que hay un pan adentro.
+/chiste31 /say 4¿Y cómo los sacarías? Diciéndoles que afuera está la mayonesa.
+/chiste32 /say 4Menso fosforecente: Dícese de la persona que se le nota lo menso hasta en la oscuridad
+/chiste33 /say 4Menso telescópico: Dícese de la persona que se le nota lo menso de lejos
+/chiste34 /say 4Menso ecológico: Persona a la que se le nota que lo menso lo trae de naturaleza
+/chiste35 /say 4Dice un preso: Qué ridículo que me hayan metido a la cárcel por robar un pan, ¡ahora me traen uno todos los días!
+/chiste36 /say 4Un marinero a otro: -Es cierto que ayer murió el marinero Juan García? 12-Así es, descanse en pez... 4-Querrás decir descanse en paz 12-No, esque se lo comió un tiburón.
+/chiste37 /say 4Una muchacha aprendió a manejar y le pide a su papá las llaves: -Está bien, pero ponte trucha 12-Ok 4Va manejando y choca, un policía le pregunta 12-¿Cuál es su nombre 4-Trucha Domínguez
+/chiste38 /say 4¿Cuál es el colmo de un abogado? No poder sacar la cerveza del bote.
+/chiste39 /say 4Llega un gangoso a una tienda: (voz gangosa)-Tiene chiles 12-¿Hérdez? 4-Ni modo que azules
+/chiste40 /say 4Llega un gangoso a una tienda: -¿Me dá un yogurt? 12-¿Danone? 4-De ahí del refri.
+/chiste41 /say 4¿Cuál es el animal que es dos veces animal? El gato, porque es gato y araña.
+/chiste42 /say 4-¡Pepito!, Ayer había aquí 2 pasteles y ahora nada más hay uno, ¿Qué pasó? 12-Esque el otro no lo ví
+/chiste43 /say 4-¡Papá!, el vecino ha de portarse muy bien. 12-¿Porqué dices eso pepito? 4-Porque mi mamá dijo que si me portaba bien me podía acostar con ella.
+/chiste44 /say 4¿Cuántos chistes de gallegos hay? Uno, los demás son anécdotas
+/chiste45 /say 4Un campesino va a la ciudad y le dice un amigo: -Ten cuidado, que en la ciudad, hay gente que te va a querer vender un tren. 12-Eso no es problema, ayer compré uno y con ese me basta.
+/chiste46 /say 4El doctor le dice al paciente: -Lo siento señor, le tendrémos que amputar las dos piernas 12-¡Si usted me amputa las dos piernas, no volveré a poner un pie en este hospital!
+/chiste47 /say 4Dos mujeres: -Oye, en qué piensas 12-En nada 4-¡Ay!, tu siempre pensando en tí misma.
+/chiste48 /say 4Una señora le da limosna a un ciego y le dice: -¿Dónde está el sordomudo que se ponía a su lado? 12-No sé, se fué sin decirme nada
+/chiste49 /say 4La esposa dice: -¡Estoy cansada de que me trates como hombre! 12-Si, hombre, sí.
+/chiste50 /say 4-Oye socio, me viene persiguiendo la mafia... pero tal vez sea producto de mi imaginación 12-No, debe ser producto de los cheques sin fondo que firmé con tu nombre.
+/chiste51 /say 4-Doctor, ayer comí huevo y sentí que me patearon en el hígado 12- Pues que bueno que no comio hígado.
+/chiste52 /say 4¿Como se sabe si Bill Gates está mintiendo? Se le mueven los labios.
+/chiste53 /say 4Dos de Moterrey:- Apá, ¿Me presta su carro? 12- ¿Pá' qué? 4- Pá que mis compas me vean en un carro de $20 000 12- Tenga tres pesos, y váyase en un camión de $100 000
+/chiste54 /say 4Unos marcianos tocan en la puerta de un gangoso: 12-Venimos de marte 4-¿De marte de quién?
+/chiste55 /say 4-Oiga compadre, mi suegra hace llaves 12-¿Es cerrajera? 4-No, es luchadora.
+/chiste56 /say 4-¿Sabías que el cura se duerme con sotana? 12-¿Con sotana? 4-Si, y con mengana, fulana, etc.
+/chiste57 /say 4¿Porqué los pájaros vuelan hacia el sur? Porque si se fueran caminando se tardarían un chorro.
+/chiste58 /say 4¿Porqué las grullas se levantan una pata? Porque si levantaran las dos se caerían.
+/chiste59 /say 4¿Porqué los gallegos no pelan los plátanos? Porque ya saben lo que hay adentro.
+/chiste60 /say 4-Señor ¿usted no baila? 12-Esque no tengo pareja 4-Si quiere y bailo con usted 12-No, esque no tengo pareka la pierna izquierda.
+/chiste61 /say 4El capitán dijo "Todos a bordo" y bordo murió aplastado.
+/chiste62 /say 4Unos iban a una fiesta y el carro estaba super lleno, entonces dijeron "No cabe duda" y duda se fué a pie.
+/chiste63 /say 4La mamá le dijo: "Cómete la sopa de fideos" y fideos se quedó sin comer.
+/chiste64 /say 4Era un señor tan alto que cuando tragaba yogurt le llegaba podrido al estómago.
+/chiste65 /say 4Era un niño bien peludo que dice: -Papi, en la escuela me dicen hombre lobo 12-Vieja, ¡El perro me está hablando!.
+/chiste66 /say 4-Papá, papá ¿Mi abuelita es fuegos pirotécnicos? 12-No mijo, ¿porqué? 4-Porque está agarrada de un cable y está echando chispas y humo.
+/chiste67 /say 4-Papá ¿Mi abuelita es mecánica? 12-No, ¿porqué? 4-Porque ya lleva media hora abajo de ese camión
+/chiste68 /say 4Había uno al que le decían marindo y una vez le llamaron por teléfono: 12-Está marindo 4-No, es jamaica
+/chiste69 /say 4¿Qué le dijo un pollo a otro pollo? Vamos al mercado a ver gallinas encueradas.
+/chiste70 /say 4Diálogo telefónico: -Bueno, ¿se encuentra el señor Flores? 12-No, aquí no vive -Ah, perdón, me equivoqué de maceta.
+/chiste71 /say 4Diálogo telefónico: -Bueno, ¿ahí lavan la ropa? 12-No 4-Pues que cochinos
+/chiste72 /say 4Diálogo telefónico: -¿Tiene lámparas de pié? 12-Si 4-Pues siételas, ya han de estar cansadas.
+/chiste73 /say 4Va un señor con una pistola y entra a un elevador y se encuentra a Saddam Hussein, Fidel Castro y a Bill Gates. ¿A quién le dispara? A Bill Gates dos veces para estar seguro.
+/chiste74 /say 4¿En qué se parecen un tren y una silla? En que el tren va a Kansas City y la silla por si ti cansas.
+/chiste75 /say 4¿En qué se parecen un elefante a una cama? En que el elefante es paquidermo, y la cama es paquiduermas.
+/chiste76 /say 4Un pollo está en un puesto donde venden pollos rostizados mirando a los pollos dar vueltas, llega otro y le dice: -¿Qué estás haciendo? 12-Esperando a mi mamá que está en la rueda de la fortuna
+/chiste77 /say 4¿Que le dijo un globo a otro globo? Ai glob yu
+/chiste78 /say 4¿Qué le dijo un jaguar a otro jaguar? Jaguar yu
+/chiste79 /say 4¿En qué se parece una bomba a un foco? En que la bomba estalla y el foco está allá.
+/chiste80 /say 4¿En qué se parece un edificio a una pulga? En que el edificio es alto y la pulga salta.
+/chiste81 /say 4-Compadre, cuando yo me muera quiero que riegen mi tumba con cerveza. 12-Ah, ¿y no le importa que esa cerveza pase antes por mis riñones?
+/chiste82 /say 4Estaba un borracho viendo una alcantarilla: -¡Una ballena! -¡Una ballena! Llega otro señor y mira, luego dice 12-Cual ballena, nomás son 2 botellas 4-¡Pero una va llena!
+/chiste83 /say 4¿Porqué a Zedillo le dicen la esferita de navidad? Porque nomás está de adorno en los pinos.
+/chiste84 /say 4-Mami, el bebé se hizo kk. 12-Pues dile a la criada que lo limpie. 4-No, ¡se me calló por la ventana!
+/chiste85 /say 4-Oye, ¿porqué estás todo vendado? 12-Esque me caí de un edificio. 4-¿Y estuvo fea la caída? 12-No, la caída no, lo feo fué llegar al piso.
+/chiste86 /say 4-Mi hijo ya tiene 4 meses que camina 12-Ya debe andar lejos.
+/chiste87 /say 4¿Cómo se hacen un millón de panes en una semana? Duros.
+/chiste88 /say 4-¿Te cuento un chiste al revés? 12-Sí 4-Primero ríete

@@ -1,0 +1,39 @@
+============================================================================
+
+                      Sección de SECRETOS por acri
+
+============================================================================
+
+Hola amigos!
+
+Antes que nada me gustaria contarles, que esta es mi primera edición en 
+El Radioaktivo Newz!!! Asi que quiero cuasarles una buena impresión >:)
+
+Esta sección del Newz, va a estar dedicada a los secretos de la compu-
+tadora, y todas esas cosas que a una les encanta saber, y por supuesto
+hacerse el 'hacker' frente a sus amigos.
+Bueno ahora me dejo de charlas y les muestro algunas cositas...
+
+
+CAMBIO DE ENTORNO
+Nunca les pasó que ya estan aburridos, de ver la pantalla de bienvenida de
+Windows 3.11/95/98/nt ??
+Yo si ! A si que aqui les paso un dato para que lo cambien por lo que
+quieran...
+*Vayan al MSpaint.
+*Vayan a archivo/abrir
+*Elijan en 'Archivos de tipo', 'Todos los archivos'.
+*Busquen en c: (si no esta en c: puede estar en c:\windows) un archivo 
+llamado 'logo.sys'.
+*Abranlo
+*Veran que tienen en sus manos el dibujo de bienvenida de windows... si!!!
+ese que aparecen las nubecitas!
+*Podran cambiarle todo lo que quieran, excepto el nombre :)
+*Los cambios efectuados, los podras ver cuando inicies Windows!
+Lo que ocurre, es que muchos archivos .Sys , esconden bitmaps en ellos, y 
+se pueden abrir con el paint.
+Probalo.. te va a gustar!!!
+
+acri
+
+-Proxima edición: Secretos del mIRC, (Internet Relay Chat)

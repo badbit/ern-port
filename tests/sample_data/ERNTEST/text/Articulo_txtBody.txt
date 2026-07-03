@@ -1,0 +1,24 @@
+                       EL RADIAKTIVO NEWZ
+                   ==========================
+
+   .--.      .-.   ANARQUIA DIGITAL   .-.      .--.
+  ( o  )----( x )-------------------( x )----(  o )
+   `--'      `-'                     `-'      `--'
+
+Bienvenido al numero de prueba de El Radiaktivo Newz.
+
+Este texto vive en un archivo aparte (text_file) y se muestra
+en un control Text de solo lectura, con fuente Courier blanca
+sobre fondo negro y barras de desplazamiento verticales y
+horizontales, tal como en el original de 1999.
+
+    ####  Preserva el arte ASCII intacto  ####
+    #                                        #
+    #   1337 h4x0r  |  underground  |  MX    #
+    #                                        #
+    ##########################################
+
+Menu Archivo -> Extraer (Ctrl+E) guarda este texto a disco.
+Menu Archivo -> Salir cierra este articulo y regresa.
+
+Fin del articulo de prueba.

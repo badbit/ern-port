@@ -1,0 +1,1 @@
+                   Este es un virus infector de archivos BAT, se llama ZeP, es el segundo más chico del mundo (infectores de BAT). Lo hizo una persona anónima. Sólo se reproduce, no tiene bomba. No es peligroso. En el siguiente número incluiré el desinfector de este virus, pues ningún antivirus lo detecta. Infecta en el directorio actual y en el directorio padre.

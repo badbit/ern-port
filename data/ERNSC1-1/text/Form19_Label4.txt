@@ -1,0 +1,1 @@
+       Contendrá una introducción a la programación de virus y los mitos y verdades de ellos. En este número incluí unos virus de archivos *.BAT, NO LOS CORRAS hasta leer la explicación en el número siguiente.

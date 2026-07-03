@@ -1,0 +1,151 @@
+
+            +--------------------------------------------------------+
+            |                                                        |
+            |  ##########  ##########  #####   ####  ##############  |
+            |  ##### ####  ##### ####  ######  ####  #### #### ####  |
+            |  #####       ##### ####  ####### ####       ####       |
+------------|  ##########  #######     ##### ######       ####       |-------
+  /  /  /   |  #####       ##### ####  #####  #####       ####       |
+ /  /  /    |  ##### ####  ##### ####  #####   ####       ####       |
+/  /  /     |  ##########  ##### ####  #####   ####       ####       |\
+      ¯¯¯¯¯¯|                                                        | \____
+     _______+---------------+-------------+--------------------------+
+/   /                       |             |      Intento de ASCII por BadBit
+   /                        |_____________|
+  /                         | What's New? | Noticias irrelevantes que a nadie
+ /                           ¯¯¯¯¯¯¯¯¯¯¯¯¯  le importan.
+/
+-----------------------------------------------------------------------------
+    Bueno, ¿Qué ha pasado últimamente en ERNT? Pues se expulsó a otro miembro,
+esta vez es acri (para más información al respecto leer #Banano'sBar en este
+número). Y tal vez le toque el turno a aCiDBoY en el próximo número (si lo
+corremos será el tercer miembro expulsado cuyo nombre comienza con a).
+Quedaríamos sólamente cuatro.
+
+    Este número aumentó bastante el nivel de dificultad de ERNT, se está
+saliendo del status de 'newbie' y por fin se van a tratar temas de altura.
+Se pretenden dar cursos de Linux, programación, hacking serio, virus, música
+y muchas otras cosas.
+
+    La página es una situación crítica, se necesita un mejor diseño y mejor
+contenido, ya que ahora está para llorar y me da un chorro de flojera hacerla.
+Si alguien quiere cooperar será bienvenido. También aceptamos sugerencias o
+lo que sea, queremos respuestas...
+
+    Hace poco platiqué con alguien de nick DEPRAVADO que me dijo que en su
+prepa El Radiaktivo Newz causó un gran impacto. Especialmente el número
+cuatro del año uno. Aquí me dí cuenta de varias cosas. Ese número no habla
+de nada de hacking, sólamente habla de chistes, historias, conspiraciones,
+etc. Ese tal DEPRAVADO me dijo que iban a poner el artículo de Barney en el
+periódico escolar... Y me dí cuenta de que El Radiaktivo Newz también es para
+ellos, también para la gente que no sabe absolutamente nada de hacking, y son
+la mayoría. Lo sé muy bien porque en un intento desesperado de reclutar gente
+kibitzer y yo (BadBit) pegamos papeles por todos lados anunciando a ERNT por
+todo Mexicali. La respuesta nos sorprendió: UNA PERSONA contestó al llamado,
+y aparentemente no sabía absolutamente nada de hacking... Los hackers de
+Mexicali se pueden contar con los dedos de una mano (¿Quieren saber quienes
+son? Entren a créditos en este mismo radiaktivo).
+
+    Hablaremos de hacking elevado pero tampoco descuidaremos a los 'newbies'
+y 'wannabees' y a los no tanto.
+
+    Bueno, pasando a otro tema, hay BASTANTE que hablar del DJ-HELL. PRIMERO:
+Le he hablado MIL VECES por teléfono y siempre está en el trabajo. DJ-HELL,
+si estás leyendo esto (lo cual es muy improbable) llámame!! Bueno, otra cosa,
+al DJ-HELL ya se le están haciendo lagunas mentales: SE LE OLVIDO EL PASSWORD
+DE SU CANAL. Miren algo así:
+
+<BadBit> Hey hey
+<BadBit> Te estoy hablando
+<kibitzer> es ke train un problemon en el mexicali
+<kibitzer> jajajajajaaj
+<BadBit> Eh?
+<BadBit> Porqué?
+<kibitzer> se le olvido el passwd al dj
+<BadBit> JAJAJAJA
+<BadBit> voy a hablarle
+<BadBit> estas en el Bainet?
+<kibitzer> sip
+<kibitzer> todos tamos aki
+<BadBit> umm
+<BadBit> y yo acá
+<kibitzer> menos tu y el demon
+<BadBit> mmm
+[...]
+<BadBit> Quien le cambió el password al DJ-HELL?
+<BadBit> el Ksanova?
+<kibitzer> no
+<kibitzer> el lo cambio
+<kibitzer> pero se le olvido
+<kibitzer> el dj lo cambio
+<BadBit> Mmm
+<BadBit> que tont
+<BadBit> p
+<BadBit> No tiene logs?
+<kibitzer> los borro todos precisamente pa ke no se lo vieran el passwd
+<kibitzer> hjajajajajajaja
+<BadBit> JEJEJEJEJE!!! >:)
+
+[...]
+<BadBit> Hey
+<BadBit> que?
+<DJ-HELL> me voy a kedar sin kanal!!
+<DJ-HELL> me voy a kedar sin kanal!!
+<DJ-HELL> me voy a kedar sin kanal!!
+<BadBit> JAJAJAJAJA!
+<BadBit> ya ves?
+<BadBit> Me lo hubieras dado a mí. [el canal]
+<BadBit> Que traes>?
+<BadBit> Hey
+<BadBit> porque te vas a quedar sin canal?
+<DJ-HELL> se me olvido mi pasword
+<BadBit> COMO?
+<BadBit> Pa' que lo cambias menso
+
+    Afortunadamente recuperó el password, se me hace que entró al canal
+#dog-house o algo así según me dijo el kibitzer. Bueno, por lo pronto
+#mexicali es el canal oficial de ERNT. Espero poder sacar el definitivo
+(#ernt) pronto.
+
+    También se dice que el DJ-HELL por fin va a sacar un cibercafé (según me
+dijo kibitzer). Para todos los de Mexicali que quieran ir ahí, una mejor
+opción sin empleados idiotas. Dícese que está en la Justo Sierra cerca del
+Salvatierra, donde era La Papa, abajo del IMC. Va a costar $30 la hora (ta'
+bien, no se hagan). Según el kibitzer, el DJ-HELL dijo que si íbamos (los de
+ERNT) en la noche nos iba a dejar gratis (internet, no sean mal pensados),
+más le vale. El nombre que nos dijo, iba a ser DirectNet o algo así.
+
+    ¡Ah! Por cierto, el ERNT ya tiene su lista de correo. Si no sabes lo que
+es una lista de correo o mailing list lee el artículo en este mismo radiaktivo
+sobre qué es y como suscribirte.
+
+    Una cosa bastante importante es que ya mero vamos a hackear nuestro
+primer server, no diremos más información para evitar competencia o que
+alguien vaya con el chisme y nos cachen. Es muy probable que para el próximo
+número ya esté listo todo el asunto y les demos toda la información.
+
+    ¡Ahhh! También hay que mencionar, aunque sea rápido, el "meeting" oficial
+de ERNT en la casa del actual DEMON (antes Target y KomeX) en mexicali.
+Asistieron, entre otros, aCiDBoY, BadBit, COYOTE, DJ-HELL, KomeX, Karn Evil 9
+y OVNI. El meeting (vilmente llamado post-posada) se anunció en el canal
+#mexicali y se efectuó el 29 de Diciembre de 1999 (casi a punto del fin del
+mundo que nunca llegó). Debo advertirles que no le pregunten nada de esto
+al aCiDBoy el cual no recordará nada por que en la reunión, por algún motivo
+"desconocido", le aumentó la concentración del alcohol en la sangre y se
+puso bien "happy". En esta reunión se trataron varios temas de seguridad
+nacional (si chuy), aparte del ver al demonio en la Coca-Cola, también
+hablamos de cosas que nos habían pasado en los ratos de incomunicación.
+Desgraciadamente no pudimos ver este Radiaktivo ahí porque la computadora del
+KomeX no tenía las rutinas de Visual Basic... (y así quieres volver al grupo)
+Este tema se tratará con mucho mayor detalle en el próximo número del
+Radiaktivo.
+
+    En la reunión Karn Evil me prestó (¡por fin!) el Visual Studio 6.0. Por
+lo tanto esperen ver el próximo número del Radiaktivo en Visual Basic 6.0,
+y el que sigue de ese puede que esté en Visual C++ 6.0.
+
+    Por último hay que decir que este Radiaktivo ha sido el más apresurado en
+la historia. Con decirles que estoy añadiendo esta nota 5 minutos antes de
+ponerlo en la página. Bueno, creo que esto es todo, y sigo recordando que
+estamos muy solos, ocupamos ayuda y volvemos a buscar miembros buenos, no
+lamers!!!!

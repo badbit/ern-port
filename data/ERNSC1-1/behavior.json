@@ -1,0 +1,629 @@
+{
+ "forms": {
+  "Form1": {
+   "on_load": [
+    {
+     "op": "msgbox",
+     "text": "El Radiactivo News",
+     "title": "Advertencia"
+    }
+   ],
+   "events": {
+    "about.Click": [
+     {
+      "op": "show_form",
+      "form": "Acerca"
+     }
+    ],
+    "binary.Click": [
+     {
+      "op": "show_form",
+      "form": "Form15"
+     }
+    ],
+    "clock.Click": [
+     {
+      "op": "show_form",
+      "form": "Reloj"
+     }
+    ],
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Aclaración"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command3_Click()\nclave = InputBox(\"Introduce tu password\", \"Ja!\")\nIf clave = \"5422652\" Then\n    MsgBox (\"Le atinaste\")\nElse\n    MsgBox (\"No le atinaste\"), , \"Otra vez Ja!\"\nEnd If\nEnd Sub",
+      "note": "Pide password vía InputBox y compara con literal, con MsgBox distinto en cada rama; lógica condicional no trivial."
+     }
+    ],
+    "contactus.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     }
+    ],
+    "contents.Click": [
+     {
+      "op": "show_form",
+      "form": "Ayuda"
+     }
+    ],
+    "credits.Click": [
+     {
+      "op": "show_form",
+      "form": "Form16"
+     }
+    ],
+    "editor.Click": [
+     {
+      "op": "show_form",
+      "form": "Form3"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "files.Click": [
+     {
+      "op": "show_form",
+      "form": "Form18"
+     }
+    ],
+    "hacker.Click": [
+     {
+      "op": "show_form",
+      "form": "Form6"
+     }
+    ],
+    "history.Click": [
+     {
+      "op": "show_form",
+      "form": "Form13"
+     }
+    ],
+    "index.Click": [
+     {
+      "op": "show_form",
+      "form": "Form2"
+     }
+    ],
+    "news.Click": [
+     {
+      "op": "show_form",
+      "form": "Form14"
+     }
+    ],
+    "next.Click": [
+     {
+      "op": "show_form",
+      "form": "Form19"
+     }
+    ],
+    "screen.Click": [
+     {
+      "op": "show_form",
+      "form": "Disctract"
+     }
+    ],
+    "welcome.Click": [
+     {
+      "op": "show_form",
+      "form": "Form4"
+     }
+    ]
+   }
+  },
+  "Form2": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form3"
+     },
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form4"
+     },
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "show_form",
+      "form": "Form6"
+     },
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ],
+    "Command4.Click": [
+     {
+      "op": "show_form",
+      "form": "Form13"
+     },
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ],
+    "Command5.Click": [
+     {
+      "op": "show_form",
+      "form": "Form14"
+     },
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ],
+    "Command6.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     },
+     {
+      "op": "close",
+      "form": "Form2",
+      "_note": "Fix del port (2026): el original hacía 'Form2.Show' por typo de 'Form2.Hide' y reabría el índice; corregido a petición del autor para igualar a Command1-5/7/8."
+     }
+    ],
+    "Command7.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     },
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ],
+    "Command8.Click": [
+     {
+      "op": "show_form",
+      "form": "Form15"
+     },
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ]
+   }
+  },
+  "Form3": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form3"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command2_Click()\nUnload Form3\nForm3.Hide\nLoad Form2\nForm2.Show\nEnd Sub",
+      "note": "Command2 no existe como control en Form3 según el manifest; código huérfano que nunca se dispara (solo existe Command1)."
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command3_Click()\nEnd\nEnd Sub",
+      "note": "Command3 no existe como control en Form3 según el manifest; código huérfano que nunca se dispara."
+     }
+    ]
+   }
+  },
+  "Form4": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form5"
+     },
+     {
+      "op": "close",
+      "form": "Form4"
+     }
+    ]
+   }
+  },
+  "Form5": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form5"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form4"
+     },
+     {
+      "op": "close",
+      "form": "Form5"
+     }
+    ]
+   }
+  },
+  "Form6": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form6"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form7"
+     },
+     {
+      "op": "close",
+      "form": "Form6"
+     }
+    ]
+   }
+  },
+  "Form7": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form8"
+     },
+     {
+      "op": "close",
+      "form": "Form7"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form6"
+     },
+     {
+      "op": "close",
+      "form": "Form7"
+     }
+    ]
+   }
+  },
+  "Form8": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form7"
+     },
+     {
+      "op": "close",
+      "form": "Form8"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form9"
+     },
+     {
+      "op": "close",
+      "form": "Form8"
+     }
+    ]
+   }
+  },
+  "Form9": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form10"
+     },
+     {
+      "op": "close",
+      "form": "Form9"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form8"
+     },
+     {
+      "op": "close",
+      "form": "Form9"
+     }
+    ]
+   }
+  },
+  "Form10": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form11"
+     },
+     {
+      "op": "close",
+      "form": "Form10"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form9"
+     },
+     {
+      "op": "close",
+      "form": "Form10"
+     }
+    ]
+   }
+  },
+  "Form11": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form12"
+     },
+     {
+      "op": "close",
+      "form": "Form11"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form10"
+     },
+     {
+      "op": "close",
+      "form": "Form11"
+     }
+    ]
+   }
+  },
+  "Form12": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form12"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form11"
+     },
+     {
+      "op": "close",
+      "form": "Form12"
+     }
+    ]
+   }
+  },
+  "Form13": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form13"
+     }
+    ]
+   }
+  },
+  "Form14": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form14"
+     }
+    ],
+    "Label2.DblClick": [
+     {
+      "op": "msgbox",
+      "text": "Para entrar al juego de Excel '95: Entrar a Excel, Irse a la línea 95, presionar el número que nos indica la línea, presionar TAB, entrar a Ayuda = Help, Seleccionar 'Acerca de Microsoft Excel', mantener presionados Ctrl+Alt+Shift y presionar el botón de Soporte técnico",
+      "title": "Lo encontraste"
+     }
+    ]
+   }
+  },
+  "Acerca": {
+   "on_load": [],
+   "events": {}
+  },
+  "Aclaración": {
+   "on_load": [],
+   "events": {}
+  },
+  "Form15": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form15"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "msgbox",
+      "text": "File not found: command.com",
+      "title": "Error",
+      "icon": "error"
+     }
+    ],
+    "info.Click": [
+     {
+      "op": "msgbox",
+      "text": "Ese soy yo",
+      "title": "BadBit"
+     }
+    ]
+   }
+  },
+  "Form16": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form16"
+     }
+    ]
+   }
+  },
+  "Form17": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\nIf help = \"false\" Then\n  Command1.Caption = \"Volver a la ayuda\"\nElseIf help = \"true\" Then\nEnd If\nEnd Sub",
+     "note": "Depende de la variable global de módulo 'help' (fijada por Ayuda.Form_Load) comparada como cadena; lógica condicional no trivial basada en estado externo."
+    }
+   ],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form17"
+     }
+    ]
+   }
+  },
+  "Form18": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form18"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "msgbox",
+      "text": "En el próximo número vendrán más archivos, pero dénse cuenta de que no puedo transmitir muchos kilobytes por internet",
+      "title": "Aviso"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command3_Click()\nLoad Form20\nForm12.Show\nEnd Sub",
+      "note": "Command3 no existe como control en Form18 según el manifest (código huérfano); además referencia 'Form20', form que no existe en este número."
+     }
+    ]
+   }
+  },
+  "Reloj": {
+   "on_load": [
+    {
+     "op": "clock",
+     "target": "Label1",
+     "what": "time"
+    }
+   ],
+   "events": {
+    "Timer1.Timer": [
+     {
+      "op": "clock",
+      "target": "Label1",
+      "what": "time"
+     }
+    ]
+   }
+  },
+  "Disctract": {
+   "on_load": [],
+   "events": {
+    "esde.Click": [
+     {
+      "op": "close",
+      "form": "Disctract"
+     }
+    ]
+   }
+  },
+  "Ayuda": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\nList1.AddItem \"¿Como se usa esta revista?\"\nList1.AddItem \"Problemas conocidos\"\nList1.AddItem \"¿Cómo los puedo contactar?\"\nList1.AddItem \"Dónde conseguirla\"\nList1.AddItem \"Quiero unirme\"\nList1.AddItem \"¿Qué es la pantalla distractora?\"\nList1.AddItem \"¿Porqué el reloj está desincronizado?\"\nhelp = \"false\"\nEnd Sub",
+     "note": "Puebla List1 dinámicamente con AddItem y fija la variable global de módulo 'help'; sin op de vocabulario para poblar listas ni variables de módulo."
+    }
+   ],
+   "events": {
+    "gfgrv.Click": [
+     {
+      "op": "close",
+      "form": "Ayuda"
+     }
+    ],
+    "huhen.Click": [
+     {
+      "op": "msgbox",
+      "text": "¿¡Pidiendo ayuda en la ayuda!?, Creo que en verdad necesitas ayuda",
+      "title": "Te urge"
+     }
+    ],
+    "List1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub List1_Click()\nSelect Case List1.ListIndex\nCase 0\n    Label1.Caption = \"Hice esta interfaz pensando que hasta un idiota la va a entender, pero veo que me he equivocado. Para navegar tienes que pulsar los botones o acceder a los menús. No es recomendado cerrar las pantallas con la tacha que está en la esquina superior derecha de la ventana, porque se queda cargada en memoria, mejor utiliza los botones que dicen: Volver al menú principal.\"\nCase 1\n    Label1.Caption = \"Algunas veces cuando cierras la pantalla de una forma que no sea un botón para salir, el programa se queda cargado en la memoria, así que procura salir del programa con el botón de salir, desde el menú Archivo-Salir o presionando Ctrl+Q. Esta revista la diseñé en una computadora con resolución de 800 X 600 con fuentes grandes y color de 16 bits, en algunas computadoras con resoluciones distintas, pudiera verse de una forma extraña. Aunque he procurado utilizar fuentes que sé que cualquier computadora con Windows 95 tiene (Fixedsys, Ms Sans Serif, Arial, Times New Roman), usé fuentes que no todas las máquinas tendrán (Trebuchet Ms, OCR A Extended)\"\nCase 2\n    Load Form17\n    Form17.Show\nCase 3\n    Label1.Caption = \"Generalmente la distribuyo por IRC, si me ves (yuju.anahuac.mx port:6667 grupo: RedLatina) pídemela y te la mando. Tal vez la hospede en la página de alguien y de ahí la podrás bajar.\"\nCase 4\n    Label1.Caption = \"Lee la información de cómo contactarnos\"\nCase 5\n    Label1.Caption = \"Es una pantalla que simula a un procesador de textos, se activa con F5, sirve por si estás jugando Quake II en lugar de hacer tu tarea, en cuanto veas que alguien viene, cámbiate a esa pantalla, y parecerá que estás tan enfrascado en tu trabajo, que no tienes tiempo de respirar. Le puedes dar cualquier otra utilidad, si la encuentras, mándame un correo diciéndomela, please.\"\nCase 6\n    Label1.Caption = \"Para hacer el reloj, utilizé una técnica que hace que cada 1000 milisegundos aparezca la hora, pero esto causa una desicronización entre el Useless Reloj y el reloj de la computadora.\"\nEnd Select\nEnd Sub",
+      "note": "Select Case sobre List1.ListIndex con 7 ramas heterogéneas (algunas fijan Label1.Caption, una navega a Form17); sin op de vocabulario para dispatch por índice de lista."
+     }
+    ]
+   }
+  },
+  "Form19": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form19"
+     }
+    ]
+   }
+  }
+ }
+}

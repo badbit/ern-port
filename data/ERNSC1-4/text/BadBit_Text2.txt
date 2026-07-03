@@ -1,0 +1,10 @@
+/chiste89 /say 4-Para seguir vivendo decentemente, voy a tener que dejar 3 vicios 12-¿Cuáles compadre? 4-Desayunar, comer y cenar
+/chiste90 /say 4-¡Mama!, en la escuela me dicen mafioso 12-Mañana mismo voy a arreglar eso. 4-Bueno mami pero que parezca un accidente.
+/chiste100 /say 4-¡Mama! ¿Por qué estamos armando el arbolito de navidad en agosto? 4-Es que con tu cancer no llegas ni a noviembre.
+/chiste101 /say 4-Ayer fuí a que me sacaran sangre. 12-¿Y usted vende la sangre o la dona? 4-No, nomás la sangre
+/chiste102 /say 4Dos regiomontanos: -¡Los frenos no responden!, ¡Vamos a chocar! 12-¡Estréllate contra lo más barato que veas!
+/chiste103 /say 4-¿Supiste el caso del cráneo humano que encontraron enterrado? 12-Si, y era de un diputado 4-¿Y tú cómo sabes eso? 15-Esque no tenía cerebro
+/chiste104 /say 4-¿Cómo se dice piloto aviador en japonés? 15-Yakasi Memato
+/chiste105 /say 4A las tres de la mañana: -Doctor, ¿que tiene mi marido? 15-Sólamente le diré si traen a todos sus familiares 4-¿Para qué? 15-Para no ser al único que despertaron por este uey que está borracho
+/chiste106 /say 4-Señorita, ¿verdad que ese señor parece un chango? 15-Pero señor, ¡ese es mi padre! 4-Con razón es usted tan mona
+/chiste107 /say 4-Jefe, ¡hay un levantamiento de soldados en todo el país! 15-¿Cuál es la causa? 4-Que son las cinco de la mañana

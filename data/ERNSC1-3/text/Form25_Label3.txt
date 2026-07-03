@@ -1,0 +1,1 @@
+Comprobador de archivos de sistema: Este programa checa que todos los archivos DLL, OCX, SYS etc. estén en buen estado. Lo único que hace es ver su tamaño y CRC, es todo.

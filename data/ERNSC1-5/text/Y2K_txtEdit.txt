@@ -1,0 +1,128 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |              El verdadero Y2K              |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+                               badbit@yahoo.com
+
+"Aunque, por otro lado, el escándalo Y2K no podría ser más que una serie de
+       incidentes divertidos divulgados en las noticias de la noche"
+                                         Jonh C. Dvorak
+
+/---------------------------------------------------\
+| ¿Exactamente de que se va a hablar en este texto? |
+\---------------------------------------------------/
+
+    Mucho se ha hablado de este tema, por eso quiero terminarlo DE UNA VEZ
+POR TODAS. No quiero que quede ninguna duda. Aunque ya estemos al borde del
+año 2000, tengo que explicar esto yo mismo o no voy a sentirme bien durante
+todo un milenio, hasta que llegue el problema del año 10000.
+
+
+
+/-------\
+|  Y2K  |
+\-------/
+
+    Y2K significa:
+
+Y  = Year (Año)
+2K = 2000. Por la K que indica que es un múltiplo mil veces mayor (2 X 1000)
+
+    ¿Y el año 2000 qué? Pues da la casualidad que en los años 50's, cuando
+las computadoras eran algo grande y costoso, la memoria y el almacenamiento
+costaban mucho más que ahora, por lo que había que economizar y no usar
+tanto espacio. Y entonces el lenguaje de programación COBOL, usaba 2 dígitos
+para representar el año, o sea, se le quitaba los dos primeros dígitos a los
+años, por ejemplo:
+
+1949 = 49
+1978 = 78
+1993 = 93
+2000 = 00
+
+     ¡TA-DA! Tienen enfrente de sus ojos al problema del Y2K. Al quitar los
+primeros dos dígitos a "2000" queda "00", ¿Y eso qué?, veamos un ejemplo que
+en realidad sucedió: En Estados Unidos, las computadoras seleccionan a los
+niños que tienen que asistir al kinder porque ya alcanzaron la edad
+necesaria, o sea, buscaba a los niños que nacieron en el año 93, *PERO*,
+también seleccionó a una anciana que nació en 1893. ¿Porqué? Pues porque
+los dos últimos dígitos también son 93. Obviamente la anciana no fué al
+kinder, pero esto es una pequeña muestra de los efectos que puede tener
+este pequeño problema.
+
+     Pongamos otro ejemplo pero ficticio. Supongamos que le pago a los
+miembros del Radiaktivo Newz (no sueñen, dije "ficticio"), y les pago según
+el tiempo que lleven en el equipo. Para saber el tiempo en años se seguiría
+el siguiente algoritmo:
+
+1. Se toma el año actual.
+2. Se le resta el año de inicio del miembro.
+
+     Así, si Target inició en el 92 (¡FICTICIO!) y estamos en el 99, la
+operación es la siguiente:
+
+       99
+      -92
+       --
+        7
+
+     Entonces Target llevaría 7 años "trabajando" (ficticio también) para
+el Radiaktivo. En el año 2000 la operación que se llevaría a cabo sería la
+siguiente
+
+       00
+      -92
+       --
+      -92
+
+     Nos daría un resultado negativo por lo que Target me debería dinero
+(Mmmm....). ¿Ven? eso es todo, no se va a acabar el mundo, no va a revivir
+cantinflas ni va a comenzar el holocausto nuclear, simplemente nos daría un
+resultado negativo (no erróneo como han dicho varias personas) por lo que
+el cálculo daría resultados no esperados (*no* *esperados*).
+
+     ¿Qué? ¿Me preguntan cómo se resuelve el problema? No se preocupen, eso
+no nos va a afectar a nosotros. Sólamente a empresas pequeñas.
+
+     Entonces, ¿Por qué han dicho tantas cosas del Y2K?. Pregúntenle a Jonh
+McAfee. Si, el mismo del anti-virus ese, él vende un "kit" para "protegerte"
+de eso y te cuesta la mera feria. Norton y McAfee no pierden una oportunidad
+para hacer lana, ¿casos?, miles: virus Miguel Angel, virus Melissa, año 2000,
+la salida de Windows 98, la muerte de Supermán, etc. etc. etc. etc. etc.
+
+     Otra exageración al problema del año 2000, son las notas del periódico,
+por ejemplo, una vez leí una nota que decía que no nos preocupáramos, que un
+Zoológico X iba a estar a salvo del Y2K, que habían pensado en la posibilidad
+de que las rejas se abrieran y hubiera una fuga masiva de animales pero no
+era nada de preocuparse. ¿Desde cuándo una reja tiene que hacer cálculos a
+base del tiempo?
+
+Nota ficticia:
+
+                     Tostadoras de pan a salvo del Y2K
+
+Los expertos fabricadores de tostadoras de pan marca "Patito", aseguran que
+sus productos están a salvo de los devastadores efectos del Y2K. "Estuvimos
+especulando sobre la posibilidad de que nuestras tostadoras cobraran vida en
+el año 2000", afirma el gerente de tostadoras "Patito", "muchos de nuestros
+consumidores temieron la posibilidad de ser asesinados brutalmente por un
+tostador de pan parlante, pero afortunadamente acabamos de corregir todos los
+modelos para que esa posibilidad nunca se realize". Los medios de
+comunicación se mostraron optimistas ante tal comunicado, aunque en media
+conferencia, apareció un loco que afirmaba que adelantó la fecha a su
+tostador e inmediatamente después cobró vida e intentó ahorcarlo con el cable
+de corriente. Esperemos que sólamente sea un invento suyo.
+
+-----------------------------------------------------------------------------
+Copyright 1999, El Radiaktivo Newz Team
+ernt@bigfoot.com
+Written by BadBit <badbit@yahoo.com>
+
+                            0101001001010100100101
+                            10       0       1  01
+                            11     B@dbit       00
+                            01           1      10
+                            10 0           .... 10
+                            :101010 01011010111101

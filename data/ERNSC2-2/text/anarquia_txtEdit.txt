@@ -1,0 +1,181 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                +--------------------------------------------+
+                |           Tácticas Pro-Windows (!)         |
+                |                por BadBit                  |
+                +--------------------------------------------+
+                              badbit@yahoo.com
+
+
+ /----------\
+ |Aclaración|
+ \----------/
+
+     No tomo responsabilidad por tus acciones. El contenido de este texto es
+únicamente EDUCACIONAL. Si alguno de estos consejos daña de algúna manera tu
+computadora no me eches la culpa a mí, échatela a ti por seguir consejos de
+un desconocido.
+
+ /---------------------------------------------------\
+ | ¿Exactamente de que se va a hablar en este texto? |
+ \---------------------------------------------------/
+
+     Ustede tal vez recuerden que escribí dos textos anti-windows para echar
+a perder ese sistema operativo. Pues ahora escribo uno pro-windows, que trata
+de hacer a este sistema algo últil (claro, no mucho) haciéndole
+modificaciones y añadiduras. No son las clásicas: "Cambiar el logo de inicio"
+o "cambiar tu wallpaper" sino cosas más profundas como cambiar el shell,
+añadir lenguajes de programación, etc. En fin, tratar de disfrazar a Windows
+de decente.
+
+ /---------------------------\
+ | Lenguajes de programación |
+ \---------------------------/
+
+     Pa' empezar, se ocupa algo de funcionalidad y características de los
+sistemas operativos de los hackers. Los (buenos) lenguajes de programación
+son algo indispensable para cualquier hacker, así que hay que transportar
+estos lenguajes a Windows.
+
+  +-------+
+  | DJGPP |
+  +-------+
+
+     DJGPP es un ambiente para desarrollar software de 32 bits en modo
+protegido en C/C++ bajo MS-DOS. La página de DJGPP en el WWW es:
+
+	http://www.delorie.com/djgpp/
+
+     DJGPP puede compilar programas en C de UNIX y Linux en MS-DOS, por lo
+que incrementa las capacidades de MS-DOS y Windows. La distribución de DJGPP
+se encuentra dividida en varios paquetes:
+
+FAQ      Las preguntas frecuentemente preguntadas.
+
+v2/
+unzip386 Un programa freeware para descomprimir.
+djdev202 Kit de desarrollo y rutinas de DJGPP.
+djlsr202 Fuente de librerías base.
+djtst202 Programas para probar la librería C.
+djcrx202 Archivos de soporte para el compilador Cross-to-DOS.
+djtzn202 Archivos de las zonas de horario.
+djtzs202 Fuentes de las zonas de horario.
+faq*b    Las preguntas frecunetes en muchos formatos.
+faq*s    Las fuentes de la FAQ y todas las herramientas para generar sus
+          diferentes formatos.
+frfaq*   La FAQ en fracés.
+
+v2apps/
+(varias aplicaciones para DJGPP, como RHIDE y TeX)
+
+v2gnu/
+(transportaciones de varios programas FSF/GNU a DJGPP, como gcc y binutils)
+
+v2tk/
+(varios toolkits para usar con DJGPP, como Allegro y libsocket)
+
+v2misc/
+csdpmi* CWSDPMI, El servidor gratuito de DPMI de Charles Sandmann.
+mlp*    Enpacador de archivos ejecutables ("djp").
+pmode*  PMODE stub para djgpp V2.
+wmemu*  Emulador del 387 de WM 387 para DJGPP V2.
+(y otras cosas para usar con DJGPP.)
+
+     Instalar DJGPP no te causará el menor problema, ya que sólo es
+descomprimir los archivos zip, pero eso sí, tienes que leer hasta quedarte
+ciego para aprender como se usa.
+
+     Para tener los componentes escenciales (sin código fuente) tendrás que
+bajar unos 21 megas.
+
+ /------\
+ | Perl |
+ \------/
+
+     Perl es un scripting languaje usado para aplicaciones del World Wide
+Web. Este lenguaje para hacer scripts es muy útil para hacer programas
+rápidamente que manejen información de internet sin tener que meterte con
+cosas my complicadas sobre sockets, puertos, etc. Se originó en UNIX, pero
+su éxito hizo que lo transportaran a varios sistemas operativos (Windows
+no fue la exepción).
+
+     Una versión muy buena de Perl para Win32 es la de ActiveState, para
+bajarlo dirígete a  http://www.ActiveState.com/pw32/
+
+     La instalación no te causará mayor problema ya que es una instalación
+para idiotas. Y eso sí, trae muy buena documentación. Otra cosa es que
+es un programa de open-source, o sea que puedes bajar el código fuente y
+ensamblar el intérpetre perl tú mismo.
+
+     Cuando yo instalé ActivePerl, me pidió que también instalara unos
+drivers DCOM95. O sea que en total tendráns que bajar en total unos 6.1 Mb.
+
+ /------\
+ | Java |
+ \------/
+
+     Existen varios compiladores, pero definitivamente el mejor es el de
+Borland. Java Developers Kit. No me acuerdo de donde puedes bajarlo, pero
+es indispensable. Es todo lo que tengo que decir.
+
+ /------------------\
+ | Cambios de Shell |
+ \------------------/
+
+     Windows tiene una interfase buena... si eres masoquista. De las muchas
+interfases que hay, una de las peores es la de Windows 3.1, luego le sigue la
+de Windows 95. Pero hay una forma para mejorar la interfase.
+
+     En El Radiaktivo Newz año II no. 1 (http://ernt.piratas.org) puse una
+imagen llamada BeBox.jpg, la cual muestra la apariencia de mi escritorio de
+Windows modificado. Tiene una interfase tipo NeXTep lograda por un programa
+llamado LiteStep. Existen varios programas que cambian el shell de Windows
+por otro mejor, pero el que más me gusta es Litestep.
+
+     ¿Qué hace Litestep? Pues reemplaza a explorer.exe, Litestep es rápido,
+estable y muy personalizable. Consta de litestep.exe y varios DLL's. Hace
+que tengas una barra llena de botones llamada wharf, con todas las
+aplicaciones disponibles de un click. Cuando das un click derecho en el
+escritorio, ya no sale el inútil menú de: "Arrange icons, select all, etc."
+Ahora sale un menú personalizable que hace todo lo que tu quieras. Puede o
+nó, tener barra de tareas y puede o nó tener botón inicio.
+
+     Una de las opciones más interesantes de LiteStep es el "Virtual Window
+Manajer" el cual añade otras 3 pantallas virtuales a las cuales te puedes
+cambiar con un sólo click, esto eleva al cuadrado el espacio disponible de
+la pantalla.
+
+     Uno de los shells más raros es Dimension, el cual dice ser el primer y
+único shell en 3D. Por los snapshots que he visto, lo único que añade es una
+distancia de las ventanas. Es decir, puedes tener una ventana en el fondo de
+la pantalla, esa ventana se verá muy chica comparada con otra que la tengas
+enmedio, y esa se verá chica comparada con otra que tengas hasta arriba. Es
+decir, le añade profundidad a la pantalla.
+
+     Un aditamiento escencial para que la experiencia de cambio de shell sea
+completa es algún "skinner". Un skinner disfraza a las ventanas de windows
+poniéndoles texturas (muy al estilo de WinAmp), el mejor (según yo) es eFX.
+Búscalo y bájalo.
+
+ /------------\
+ | Conclusión |
+ \------------/
+
+     Yo decidí cambiar Windows y usarlo así hasta que encuentre algú sistema
+decente. No te recomiendo usar Windows de por vida, mejor pasa a los sistamas
+originales: UNIX y Linux.
+
+----------------------------------------
+Copyright 1999, El Radiaktivo Newz Team
+
+Página oficial del equipo: http://ernt.piratas.org
+E-mail del equipo:         ernt@bigfoot.com
+
+Escrito por BadBit <badbit@yahoo.com> [2/Octubre/99]
+
+                            0101001001010100100101
+                            10       0       1  01
+                            11     B@dBit       00
+                            01           1      10
+                            10 0           .... 10
+                            :101010 01011010111101

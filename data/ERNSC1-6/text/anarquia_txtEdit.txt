@@ -1,0 +1,363 @@
+Ahora para su deleite, por fin algo de Phreaking, esta información
+fué conseguida por KomeX y al parecer está escrita por un tal
+Jordi (puzzle). Se removieron ciertas partes por no ser aplicables a
+México.
+
++=====================================================================+
+Como ya quedo claro en la seccion de introduccion al HPCV, el
+"phreacking" es la disciplina que "estudia" como engañar a los sistemas
+electrónicos de pago, en especial, los telefónicos. Pues bien, esta
+seccion ira encaminada basicamente a conocer como funciona el principal
+enemigo de todos aquellos que tenemos y usamos un modem para
+comunicarnos: la linea telefónica. 
+
+                                Gracias al equipo de NPT por la ayuda! 
+
+-----------------------------------------------------------------------
+Tema telefonico:  
+
+
+Cuando descolgamos el telefono y marcamos un numero de telefono se
+producen una serie de procesos que son los que permiten que la llamada
+llegue a destino y suene el telefono en el destino de la llamada.
+Aunque a priori los elementos que nos encontramos son muy simples
+(terminal telefonico en origen y destino) los equipos y procesos que
+permiten esto son algo mas complejos. Estos procesos son: 
+
+Funcionamiento telefonico: 
+
+   Inicio de llamada. Es el proceso en el cual se inicia el proceso de
+marcar el numero de telefono destino con el fin de que comience la
+conexion. 
+
+   Comunicacion con la centralita. En este proceso la centralita recibe
+el numero de telefono destino desde el terminal telefonico origen, para
+poder iniciar la eleccion del camino de la llamada. 
+
+   Comunicacion entre centralitas. Las centralitas empiezan a
+comunicarse el numero de telefono destino y van abriendo un camino por
+el cual se producira la comunicacion entre los dos  terminales (origen
+y destino). 
+
+   Final de llamada. En el terminal telefonico de destino sonara un
+timbre indicando que hay una llamada en curso. Al descolgarlo se abrira
+la linea con objeto de que comuniquen directamente los terminales y al
+colgar se desconectaran todas las centralitas entre si. 
+
+Sutilezas electronicas 
+
+   Black Box: Esta caja permite descolgar el telefono sin que la
+centralita detecte este hecho y no empiece a tarificar aun cuando ha
+abierto la conexion con el otro extremo. 
+
+    Codificacion del numero de las tarjetas de credito Codificacion de
+las tarjetas de Credito, Debito y otras. 
+
+   Ericsson G-628 Como llamar gratuitamente desde este telefono movil.
+
+   Pinchar lineas telefonicas 
+
+   Intercambio de lineas telefonicas 
+
+   Pufear las cabinas telefonicas
+
+-----------------------------------------------------------------------
+
+I.- PARTE
+
+-----------------------------------------------------------------------
+Inicio de Llamada   
+-----------------------------------------------------------------------
+ 
+     La linea telefonica que va al abonado y esta conectada al terminal
+telefonico tiene una tension continua de 50v. Al descolgar el terminal,
+un interruptor conecta a la linea una impedancia de 1000 ohmios cayendo
+la tension continua a 10v de tal manera que la centralita detecta este
+estado, poniendose en disposicion de recibir instrucciones para
+realizar la llamada y emitiendo un tono de indicacion en espera. Este
+estado se mantiene hasta que se envian instrucciones de llamada o pasa
+el tiempo predeterminado por la  centralita y envia tono de comunicar
+para pasar luego a desconectar la linea. Las instrucciones de llamadas
+se pueden realizar por dos metodos.
+
+    Tonos Multifrecuencia. Los tonos multifrecuencia estan constituidos
+por un par de frecuencias asignadas a cada digito. Son los mismos que
+los DTMF (Dual Tone Multi Frecuency) que emite cualquier modem. Las
+frecuencia estandarizadas son las parejas de 697Hz, 770Hz, 852Hz, 941Hz
+y 1209Hz, 1336Hz, 1477Hz, 1633Hz que constituyen los 16 digitos.  El
+tiempo de duracion de cada digito es de 100ms y el espacio entre ellos
+es de 40ms. 
+
+     Pulsos. (O pulsacion decadica).Se producen emitiendo pulsos
+cuadrados con una impedancia muy baja y otra muy alta. Actualmente,
+este tipo solo se usan por compatibilidad con los antiguos sistemas,
+pero nos permiten a veces saltarse las protecciones para evitar
+llamadas puestas para los sistemas de tonos.
+
+-----------------------------------------------------------------------
+Comunicacion con la centralita 
+-----------------------------------------------------------------------
+ 
+     La centralita a la que tenemos conectado el terminal del usuario
+(telefono) se comunica con nosotros a traves de unos tonos que nos
+indican el estado de la linea.
+
+     Los tonos que nos envia la centralita son: 
+
+     Tono de invitacion a marcar. Es enviado cuando descolgamos en
+terminal si no estamos recibiendo una llamada. Nos indica que podemos
+marcar un numero para que se realize la llamada o introducir alguna
+funcion en las lineas multiservicio. Es un tono continuo de 400Hz.
+
+      Tono de llamada. Se produce a raiz de haber terminado de marcar
+el numero al que queremos llamar y nos indica el numero de RINGS que se
+estan produciendo en el otro extremo de la llamada. La frecuencia es de
+400Hz y una cadencia de un segundo y medio sonando y tres de silencio. 
+  
+      Tono de ocupado. Se produce cuando el telefono al que estamos
+llamando tiene la linea ocupada (descolgado). La frecuencia es de 400Hz
+con una relacion de señal/silencio de 0,2 segundos/0,2segundos.
+
+      Tono de Saturacion. Se produce cuando la llamada no llega a
+destino por algun problema tecnico. Los tonos sigan la cadencia de
+serie 400 Hz y silencio, con un intervalo de 200 ms, durante 3 veces.
+
+      Señal de llamada La Centralita usa una señal de bastante potencia
+ya que puede soportar un consumo grande para indicar la llamada de
+alguien a nuestro terminal. Es la que activa el timbre del telefono.
+Es una señal alterna de 25Hz con 75V eficaces,con una cadencia de 1
+segundo y medio activa y tres segundos inactiva.
+
+-----------------------------------------------------------------------
+Comunicacion entre centralitas 
+-----------------------------------------------------------------------
+ 
+     La centralita inicial con los datos de la llamada que se le ha
+proporcionado desde el terminal telefonico del usuario inicia la
+comunicacion conectandose con otras centralitas e informandolas del
+numero al que tiene que llegar la llamada.
+  
+    Para ello pone en modo comandos a la otra centralita enviandole FC
+(Frecuencia de Control, un tono de 1700 Hz) y cuando esta pone en
+silencio la linea, se le envia los cuatro primeros numeros del numero
+de telefono destino.  Seguidamente la otra centralita envia un tono de
+1700Hz para  confirmar que ha recibido los datos. La centralita
+inicial manda otra frecuencia FC y la de recepcion corta el tono para
+recibir el resto del numero. La centralita inicial manda los cuatro
+ultimos digitos del numero de telefono.
+
+    Esta operacion se repite, convirtiendose cada vez la centralita
+destino en la inicial del proximo tramo hasta que la llamada llega a
+destino. 
+
+   En el momento que la llamada llega a destino se habre esta linea y
+tenemos conexion directa con el otro telefono (podemos oir como suenan
+los tonos en el otro extremo) y continuara en este estado hasta que
+alguno de los terminales cuelgue. En el momento que alguna de las 
+centralitas detecta que se ha cortado introduce una frecuencia FD
+(Frecuencia de desconexion) para dejar esa linea en estado de recibir
+instrucciones o en estado de TRUNK.  [ Se le llama a estado de trunk
+Entrar cuando alguna centralita se queda en modo recepcion de datos y
+podemos desde el terminal telefonico enviar comandos como si fueramos
+otra centralita. Para entrar en Trunk hay varios metodos, los mas
+normales suelen ser llamar a un telefono que nos haga entrar
+directamente en Trunk o emitir una serie de tonos en el transcurso de
+una llamada para que alguna centralita entre en este estado.] Este
+proceso se repite entre las centralitas hasta que todas las lineas
+quedan en este estado. 
+
+
+-----------------------------------------------------------------------
+FINAL de LLAMADA 
+-----------------------------------------------------------------------
+ 
+  
+     La centralita a la que esta conectada el terminal destino envia
+una Señal de llamada al terminal telefonico de destino para indicarle
+que esta recibiendo un llamada.
+
+    Señal de llamada. La Centralita usa una señal de bastante potencia
+ya que puede soportar un consumo grande para indicar la llamada de
+alguien a nuestro terminal. Es la que activa el timbre del telefono. Es
+una señal alterna de 25Hz con 75V eficaces,con una cadencia de 1
+segundo y medio activa y tres segundos inactiva.
+
+     Esta señal se mantiene hasta que se descuelga el terminal
+telefonico de destino, hasta que se cuelga en origen o hasta que se
+supera el tiempo maximo programado en la centralita para que suene el
+terminal telefonico. 
+  
+-----------------------------------------------------------------------
+
+II.- PARTE
+
+-----------------------------------------------------------------------
+
+BLACK BOX 
+-----------------------------------------------------------------------
+ 
+       Esta Caja permite que las llamadas que se hagan al numero de
+telefono que tiene conectado el circuito no se tarifiquen. De acuerdo
+al tipo de centralitas de llamada (Origen) y de Destino (Analogicas o
+Digitales) la conexion puede durar un intervalo de unos segundos a
+varias horas. Las nuevas centrales Digitales solo permiten que el
+telefono suene un numero de veces y luego desconectan, por lo que este
+es el tiempo maximo de conexion.
+
+      Funcionamiento: El circuito evita que la tension de la linea
+caiga a 8v cuando se descuelga el telefono, manteniendola en un tension
+superior a los 35v, creyendo de esta manera la central que no se ha
+descolgado el telefono y haciendolo sonar a pesar de que se puede
+hablar con el otro interlocutor.
+
+ R1:  Resistencia de 1K8 1/2 watt o Potenciometro mulivuelta de 5k. 
+ D1 Diodo Led de 1.5v. 
+ SW1:  Interruptor 
+  
+   Conectaremos los dos cables que vienen de la linea en el extremo
+marcado como Linea y los del telefono en el extremo marcado como
+Telefono de acuerdo al siguiente grafico: 
+
+       [La imagen está en el menú Gráficos]
+
+   Es muy importante comprobar las conexiones, e incluso soldarlas
+cuando se haya comprobado el buen funcionamiento del circuito. Para
+saber que lo hemos echo bien, deberiamos ver como se enciende el led al
+descolgar el terminal telefonico y cuando nuestro terminal recibe una
+llamada. En caso negativo (No se enciende el led), una vez nos hayamos
+cagado en la puta, probamos a intercambiar los dos cables de la linea
+entre si. Si funciona pues de coña, sino probamos a variar el valor de
+la resistencia o potenciometro. Si hemos utilizado el potenciometro,
+iremos disminuyendo su resistividad hasta que se encienda el diodo led.
+Normalmente una vez se encienda el diodo se oira el tono de marcar,
+sino es asi, seguid bajando la resisitividad.
+
+     ¡Cuando se tiene conectado este circuito no se pueden realizar
+llamadas! Usar el Interruptor para pasar de modo activado a desactivado 
+
+-----------------------------------------------------------------------
+CODIFICACION DE LAS TARJETAS DE CREDITO 
+-----------------------------------------------------------------------
+
+  
+     El Numero se compone de tres partes principales: Los 4 primeros
+digitos componen el Identificativo del banco que  cede la tarjeta. Hay
+un numero diferente para cada Banco. Los 10 digitos siguientes componen
+el llamado Numero de usuario e identifican a este de manera unica.
+Digito de control es el ultimo numero y se obtiene aplicando un
+algoritmo al resto del numero.  El formato es el siguiente: 
+
+    1111 2333 3333 3334
+
+    La codificacion del numero de la tarjeta viene dada por un
+algoritmo, el cual lo voy  a desarrollar mediante un ejemplo muy
+sencillo. Si tenemos el numero de tarjeta 4539 4512 0398 7356 y
+comprobar que es un numero valido:
+
+    1. Multiplicar por dos los numeros de las posiciones impares
+(4-3-4-1- 0-9-7-5-) y dejarlos con un solo digito: 4x2=8; 3x2=6; 4x2=8;
+1x2=2; 0x2=0; 9x2=18 -> 1+8=9; 7x2=14 -> 1+4=5;  5x2=10 -> 1+0=1;
+
+    2. Sumar los digitos de las posiciones pares y los nuevos de las
+posiciones impares.  5+9+5+2+3+8+3+6+8+6+8+2+0+9+5+1=80 
+
+    3. 80 es multiplo de 10 por lo que el numero de tarjeta es valido. 
+
+    Inventaros un numero, y corregidlo para aconseguir un numero de
+tarjeta de credito gratuito! 
+
+-----------------------------------------------------------------------
+Ericsson g-628 
+-----------------------------------------------------------------------
+
+   Supongo que conocereis este famoso telefono movil, ese al que se le
+pueden cambiar las caratulas del teclado numerico. Pues bien, el
+microprocesador del telefono tiene un bug, mediante el cual, podemos
+efectuar llamadas gratuitas desde nuestro celular. Primero de todo lo
+enchufamos, una vez pongamos nuestro pin y tengamos acceso a la red,
+tecleamos el numero con el que nos queremos comunicar, y apretamos a la
+tecla "yes". Hasta aqui todo normal. El tema esta en apretar a las
+teclas "0", "3", "#", "NO", de forma consecutiva y bastante rapida,
+mientras nuestra señal hace el trayecto: terminal-satelite-compañia y
+por ultimo de nuevo a la tecla "NO" dejandolo apretada, con lo que
+aconseguiremos que el display se apague, pero si caemos en la cuenta,
+el LED verde sigue funcionando y podemos seguir con nuestra llamada
+pero de forma totalmente gratuita, ya que cuando la señal regresa al
+satelite para localizar nuestro terminal y empezar a tarificarnos, 
+sorpresa....no lo encuentran, porque lo tenemos apagado! 
+
+-----------------------------------------------------------------------
+Como pinchar lineas telefonicas 
+-----------------------------------------------------------------------
+
+  La linea se puede pinchar en dos lugares diferentes, en el cable que
+va de la casa a la caja donde se juntan las lineas o bien en dicha caja
+Si lo conectamos en el cable no habra problemas de identificacion pero
+dara mucho en cante ver un aparato pegado al hilo. Si lo conectas
+dentro de la caja no se vera (a menos claro que los de T revisen la
+caja) pero puede haber problemas para identificar el numero es asi,
+llevate un movil GSM y un telefono normal conecta este a cada linea y
+llama al movil, el Caller-ID te permitira saber cual el la correcta.
+Este es el esquema para pinchar una linea telefonica.
+
+o---||---\/\/\-------+--------\/\/\-----+------+ 
+    C1    R1         |         R2       |      | 
+                   +-+-+                |      | 
+                   |   |                /      | 
+                  __    __              \      +-----Altavoz/Linea 
+               D1 /\    \/ D2           / 
+                  --    --          R3  \      +-----Grabador 
+                   |     |              /      | 
+                    +-+-+               |      | 
+                      |                 |      | 
+o---------------------+-----------------+------+ 
+  
+  
+
+Los componentes son: C1: 47nF R1: 27K R2: 4K7 R3: 120 D1, D2: 1N4148 
+
+   El grabador tiene que ser del tipo de los que se activan por la voz.
+C1 elimina la continua y evita la elevada tension del tono de llamada
+(m s de 100 voltios); R1, D1 y D2 recortan la señal alterna a algo
+menos de 1 voltio; por ultimo, el divisor R2, R3 reduce la señal para
+evitar que el grabador se dispare cuando haya ruido en la línea. Por
+ultimo recordaros que la escucha y grabacion de conversaciones de
+terceras personas esta penada por la ley. Esta informacion se
+proporciona con fines unicamente educativos y/o cientificos. No me hago
+responsable de lo que puedas hacer con estos datos. 
+
+-----------------------------------------------------------------------
+Intercambio de lineas telefonicas
+-----------------------------------------------------------------------
+
+Ventajas: 
+
+Igual que si llamaras desde casa. 
+Inconvenientes: 
+- Solo se puede usar por la noche debido a las comprobaciones de
+  telefonica
+- Hay que tener cuidado con la linea que se escoja ya que algunas son
+  usadas para monitorizar alarmas.
+- Elegir lineas de comprobacion de telefonica (sin ninguna linea
+  conectada),por que no creo que le haga mucha gracia al vecino que le
+  llegue una factura de medio kilo.
+- No se pueden usar los Domingos por razones que explicare'.
+
+   Este sistema es bastante bestia,simplemente tienes que buscar el
+cajetin de telefonica de tu edificio, buscar tu linea de telefono
+quitar los tornillos y ponerla en otra de un vecino que te caiga mal o
+lo que es mejor usar una linea libre de comprobacion de telefonica.
+Para identificar tu linea de telefono,simplemente deja tu telefono
+escolgado con musica (si es de AC/DC mejor) o algo por el estilo
+simplemente para poder identificar tu linea, luego bajas con un
+supletorio con los cables pelados y vas probando lineas hasta que
+encuentres la tuya,cuando la encuentres arrancala y ponsela a una linea
+libre (suelen estar en la parte de arriba del cajetin, ya veras que van
+por parejas),recuerda hacerlo solo por la noche debido a razones
+bastante obvias,ten cuidado con la linea que elijas!!!!!,no se debe
+usar en Domingo por una razon que os puede sorprender: esas lineas son
+usadas para los partidos de radio,y a lo mejor vuestra conversacion
+sale al aire!!!!!!.Solo os deseo suerte y os aseguro que el sistema
+funciona.
+
+-----------------------------------------------------------------------

@@ -1,0 +1,518 @@
+==============================================================================
+Volumen 1, Número 6, Mayo de 1993
+NuKE Info-Journal #6
+
+            NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE
+            uK                                                  E-
+            KE      "Mentiras, Escándalos, y [Roomers] de la    -N
+            E-               comunidad Anti-Virus"              Nu
+            -N                                                  uK
+            Nu                       Por                        KE
+            uK       Alan Soloman, ARiSToTLe, Rock Steady       E-
+            KE                                                  -N
+            E-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-NuKE-Nu
+          
+    La siguiente es la conversación/entrevista _exacta_ entre Aristotle, Rock
+Steady, y Alan Soloman, acerca de el problema de los virus de hoy. La
+conversación fue grabada por Rock Steady, la NSA (naturalmente), y Unitel, la
+cual alertó a RCMP debido a que esta era una conferencia de 5 horas cargada a
+la PBX de NuKE, Unitel creyó que esto era sospechoso así que mataron nuestra
+PBX! (¡Hablen acerca de confianza!) Nada aquí ha sido recreado, esta
+conversación fue grabada en cinta, aunque de mala calidad, pero de todos
+modos me defenderá contra cualquier acusación de falsificación, ¡la cual no
+es!
+
+PS: No olviden leer la conclusión al final de la conversación, si deben leer
+    sólo una cosa, procuren que sea la conclusión.
+
+% Al principio... había luz, luego Rock, y por supuesto Aristotle %
+
+NOTA: RS=Rock Steady ; AR=Aristotle ; SO=Alan Soloman ; ??= La señorita ?
+
+??> Hola, ¿Puedo ayudarlo?
+AR> Con Alan Soloman por favor.
+
+??> ¿Quién habla?
+AR> John
+
+<Pausa>
+
+SO> ¿Hola?
+AR> Hola, ¿Cómo estás? Si no estás muy ocupado, ah.. tú sabes, Rock Steady
+    está aquí en el teléfono conmigo.
+
+SO> Si
+AR> Y yo quería preguntarte unas cuantas cosas si pudiera.
+
+SO> Si
+AR> Ese artículo que salió en VNI. [Virus News International; es una revista]
+
+SO> ¿Cuál?
+AR> El que salió en el número de Mayo.
+
+SO> Si
+AR> ¿Quién es el autor de eso?
+
+SO> ¿De cuál artículo me estás hablando?
+AR> Del que dice `Back in Business' [BadBit: De vuelta al negocio]
+SO> ah, No sé a cual artículo te refieres.
+AR> ah, John <Censurado>, también conocido públicamente como-
+
+SO> El problema es que eh, han pasado varias semanas desde que lo leí. ¿Tiene
+    anotado el autor?
+AR> No.
+
+SO> Entonces está escrito por el editor.
+AR> Está escrito por Paul, ok He hablado con Paul acerca de esto. Ok He visto
+    dos veces artículos donde me pones.
+
+SO> ¿Qué te pongo?
+AR> Eh, varios artículos donde mencionas mi nombre.
+
+SO> ¿Dije algo que no fuera cierto?
+AR> ah, no es a lo que quiero llegar. No te estoy hablando por eso. Te estoy
+    hablando por ese artículo en particular en el que mencionan la escuela y
+    todo.
+
+SO> Si
+AR> Hablé con Paul el otro día, y me mandó una copia por correo.
+
+SO> Si
+AR> Así que me estaba preguntando, ¿Va a haber alguna retracción a eso?
+
+SO> ¿Entonces no es verdad?
+AR> Na-
+RS> Qué derecho te da-
+SO> Pero me dijiste que estudiabas en-
+AR> No, no, no, acerca de lo de `De vuelta al negocio'. Dije tres veces
+    públicamente que estaba cerrando mi sistema.
+
+SO> Bueno, estoy confundido-
+RS> Es un comienzo
+SO> ah, Me llegó un fax, no, es un email, lo olvidé, eso fue hace varios
+    meses. Estabas ofreciendo virus a la venta. ¿No es ese el caso?
+AR> No, no es el caso.
+
+SO> Lo mencionste en algo que pusiste Fidonet.
+AR> ¡Yo no sabía que lo había puesto!
+
+SO> Es una buena falsificación, si no fuiste tú el que lo puso.
+AR> Bueno, mi punto es-
+
+SO> Pídeme que te llame yo, esto te está costando una fortuna.
+AR> Así está bien, puedo manejarlo. [Si, seguramente. Rock Steady está
+    pagando esta conferencia]
+
+AR> La razón por la que hize que Rock Steady llamara fue que estábamos
+    hablando acerca de esto también. ah-
+SO> Cuando yo hablo acerca de tu posición, la posición es que tu entraste al
+    colegio William & Mary, ¿O te graduaste?
+
+AR> ¡Me gradué!
+SO> Así que ya no estás en ese colegio.
+AR> Me gradué del colegio, ah, después de que salió este número [de la
+    revista]. Pero el punto de esto es que dice claramente aquí que estoy de
+    vuelta en el negocio! Y que he olvidado mi promesa, kay! Creo que
+    regresé al negocio cuando cambié a VR, ¡No hay nadie en mi tablero!
+
+SO> ¿Así que ya no estás ofeciendo virus?
+AR> Lo he dejado de hacer desde el día que te dije. Mira, tengo diez gentes,
+    y aunque no lo creas, todos son AV.
+    
+SO> ¿Quién está ahí?
+AR> <CENSURADO> tiene ciertos muchachos a los cuales les gusta llamarme de
+    vez en cuando.
+
+SO> ¿Qué quieres decir con `sus muchachos'
+AR> Alguna gente que trabaja para él. Ellos me llaman.
+
+SO> El problema es que no entiendo lo que quieres decir con AV.
+AR> Bueno, Investigadores AntiVirus, gente que hace beta-testing para
+    software AntiVirus.
+
+SO> El problema es que cualquiera puede llamar y decir que son AV.
+AR> Bueno, está bien, cualquiera puede llamarse a sí mismos escritores de
+    virus. Yo pr-
+SO> Pppp-or eso te pregunto-
+AR> Estoy realmente enfadado acerca de esto, ¿está bien?. La forma en que
+    mencionan mi nombre ahí, ¿ok?, ellos básicamente salieron y dijeron que
+    yo era fuego! Este tipo en el teléfono, sabe el hecho de que yo he
+    investigado acerca de esta basura desde hace un año. Y a-
+
+SO> Discúlpame, este tipo que dices... ¿Te refieres a Joe? [Joe Greco
+    conocido como Rock Steady]
+AR> Si, ok... ¿Joe?
+RS> Si
+AR> Ok, estas cosas han pasado, y no han sido nada mas que investigación. Le
+    dije a Paul Robison que llamara a la escuela y pidiera formalmente ese
+    artículo y que se lo podía quedar.
+
+SO> ¿Cuál es el número de teléfono?
+AR> ah, ok, ah código de área 804-221-4000 es el número principal.
+SO> ¿Y quién tiene el artículo?
+AR> ah, Kenny Chang
+
+SO> ¿Enconces quién está poniendo todos esos mensajes diciendo que tú estás
+    vendiendo virus?
+AR> No sé.
+
+SO> Porque parecen estar viniendo-
+AR> Bueno, te diré.
+RS> ¿Tienes esos mensajes? Nos gustaría verlos.
+
+SO> Podría mandárteslos por fax. Dáme un número de fax.
+AR> No tengo número de fax.
+RS> Bueno, yo no quiero darte mi número de fax.
+SO> Bueno, yo los recibí como fax.
+
+AR> Bueno, ese es mi punto, la escuela también está enfadada acerca de esto.
+SO> ¿Me dejas mandarlos por fax también?
+AR> Bueno no sé, si alguien está poniendo mensajes, puedo tomar y cambiar mi
+    sistema ahora mismo. Puedo freakear uno de esos archivos de passwords de
+    cualquier front-door, y cuando entre, puedo obtener el password de sesión
+    de cualquiera, y cambiar mi [fido feed (no pude traducir)] a cualquiera
+    en el mundo.
+
+RS> ¿Estás dispuesto a recibir una copia por correo Aristotle, sí o no?
+AR> Seguro, tomaré la copia por correo.
+RS> O puedo hacer que la mande al P.O. Box de NuKE.
+AR> Seguro, está bien.
+RS> Ok Alan, te llamo en una semana para darte nuestro PO Box para recibir
+    ese fax. 
+
+SO> Podría hacerlo.
+AR> Si, me gustaría tener eso. Ahora aquí está lo que es... ok... He estado
+    viendo estas cosas al revés, y [one-the-other], y hay muchas cosas de
+    las cuales no estoy feliz. Alan, estoy realmente enfadado acerca de
+    esta.
+
+SO> ¿De qué estás enfadado?
+AR> ¡De lo que estoy enfadado! Maldito Alan, tu sabes. Por un año todos
+    saben que estoy aquí enderezando esta porquería. Entre los mensajes de
+    Sara Gordon hay uno acerca de que VX-Net es una red underground de
+    intercambio, y todo este tipo de mierda y todo. Y este artículo que
+    salió aquí, diciendo que soy estudiante en esta escuela, ¿Poqué pusiste
+    eso? 
+
+SO> Bueno, por lo que dices, que estás haciendo este proyecto.
+AR> ¡Pero nadie mencionó eso!
+
+SO> ¡Tú lo dijiste!
+AR> ¡Pero en el artículo no dice nada acerca de esta maldita investigación!
+    Lo único que dice es que soy estudiante en William and Mary, ¡No menciona
+    el hecho de que estoy haciendo investigación para la escuela!
+RS> Claro, todo termina en que escojen lo que quieren y pintan una imagen
+    diferente de tí.
+AR> Siempre he sido bastante directo contigo. Tú sabes que Sara Gordon anda
+    diciendo: "Yo nunca entro a una BBS, nunca, nunca, nunca!" [Quiere decir
+    una BBS de intercambio de virus]
+SO> Han pasado varias semanas desde que leí ese artículo, y te puedo llamar
+    de vuelta mientras consigo una copia de este artículo. Espera, veré si
+    lo puedo obtener...
+ 
+<pausa corta>
+
+SO> Lo siento, no puedo encontrar una copia en la casa. Esque me llamaste a
+    la casa en lugar de a la oficina. ¿Qué decía el artículo?
+AR> Decía: "John <Censurado>, también conocido publicamente bajo el nombre de
+    Aristotle, sysop de The Black Axes BBS. Uno de los muchos nombres usados
+    por Mr. John, recientemente anunció, la desactivación voluntaria de su
+    BBS. Por un tiempo parecía que no habría más virus a la venta, o gratis,
+    ¡depende de quien fueras! ..... John es un estudiante en el colegio
+    William and Mary, aparentemente ha olvidado su promesa y está de vuelta
+    en el negocio! 
+
+AR> Ahora, hay mucha gente corriendo por ahí, diciento todo tipo de cosas.
+    Déjame preguntarte algo, alguna mujer bajo el nombre de Katy, no, Cary 
+    algo.
+SO> Cary, ¿Cary Lang?
+AR> Si, ¡ella dice que trabaja para tí! ¿ok?
+SO> No es completamente cierto.
+
+AR> Bueno, ella también dice que estuvo en mi BBS, ¡y que es de Finlandia!
+SO> Bueno, Cary Lang es de Finlandia, no trabaja para mi, trabaja para una
+    compañía llamada "Land Vision"
+AR> El mismo lugar de este tipo `Dire', Kaluco Janhontalo o algo así. Ahora
+    esta dama (Cary), estaba poniendo en los ecos, una respuesta a una carta
+    diciendo `Los tableros de John están desactivados sabes...' Ella viene y
+    dice: "NO, están funcionando, llenos de virus, Estuve ahí ahora." Ella
+    usó en su etiqueta: "Trabaja para Dr. Alan Soloman"
+
+SO> Déjame darte la información exacta sobre Cary, Cary no es una dama, Cary
+    es un hombre.
+AR> Perdón.
+SO> Segundo, trabaja para una compañía llamada Land Vision, y vende nuestro
+    kit de herramientas AntiVirus.
+
+AR> Bueno, esa dama-
+SO> No es una dama.
+AR> Bueno, esa persona-
+SO> HOMBRE
+AR> OK, ese hombre nunca estuvo en mi tablero, la única persona finlandesa
+    en mi tablero es ese tipo llamado Janhontalo, Ok.
+SO> No toca una campana.
+
+AR> Bueno, estoy algo molesto con eso, porque creo que cuando la escuela
+    regrese y lean esto, heh.... La única persona que sabe acerca de esto
+    en este momento es dean.
+SO> Bueno, pienso que si alguna de mis vistas no fueron ciertas, entonces
+    seguramente nos retractaremos.
+
+AR> El canciller del colegio será, brevemente, Margaret Thacher.
+SO> ¿De verdad?
+AR> ¡Oh si! Ella será la canciller del 1ero de Julio de 1993. 
+
+SO> ¿Entonces cuál es la situación real? Lo que dijiste fue que, ¿Detuviste
+    The Black Axes?
+AR> ¡No! Lo que dije fue el intercambio de virus, las cosas de virus, ¡Están
+    detenidas!
+
+SO> ¿Entonces The Black Axes sigue corriendo?
+AR> Si.
+SO> ¿Tienes virus ahí?
+AR> Para bajar: NO. Hay 10 gentes que tienen acceso a eso, en mi tablero.
+
+SO> ¿Entonces no hay virus para bajar?
+AR> ¡Sólo 10 gentes tienen acceso a eso en mi tablero!
+
+SO> ¿Quiénes son?
+AR> ah, seguro si quieres hacer eso, ¡seguro! ¿Quieres que nombre a los que
+    están ahí?
+SO> Si.
+AR> ¡Algunas de esas personas se van a poner MUY molestas! Son gente de
+    software AntiVirus. Joe sabe que esas gentes llaman, se que cuando él
+    escribe algo no va con esas personas y les dice...
+AR> Sabes que muchos no confían en mi juicio, sobre a quién doy esos virus,
+    es donde todo esto se viene abajo. ¿Cómo entonces tantos de mis virus
+    tienen el logo de S & S International?
+SO> Francamente, quisiera saber eso también. [S&S International es la compañía
+    de Soloman.]
+AR> Bueno, ya tengo la conexión hecha! Hemos hablado acerca de David Chess,
+    y es sospechoso de intercabiar con McAfee.
+SO> Sospechoso es la palabra incorrecta, ¡Yo creo que lo hace!
+
+AR> Está bien, también tenemos una persona con el nombre de Joseph Whales.
+    Joe Whales tiene buenos amigos con los tipos en la NCSA, ¡Obtuve toda la
+    colección de NCSA! ¡Tengo todo en lo que David Stang ha puesto sus manos!
+SO> La mayoría es basura, ¡Tú lo sabes! [La colección de virus de NCSA]
+
+AR> Bueno, ahí hay más que solo basura..
+SO> Es verdad, no estoy diciendo que todo es basura. Sigo viendo esos
+    archivos que comienzan con signo de admiración, que circulan, y circulan
+    y circulan.
+AR> Obtuve la colección entera, ¡8 megas de basura!
+SO> Eso no es nada, yo obtuve 110 megas de basura. [¡Que bueno verte
+    orgulloso de eso!]
+
+AR> Ahora entonces, este tipo en el teléfono conmigo en este momento (Joe)
+    no escribe virus para ponerlos en sistemas de personas y NuKEar al mundo
+    entero! Eso _no_ es lo que ninguno de los dos hacemos. Sólo estoy
+    interesado en donde van, y lo que me molesta es toda la gente corriendo
+    allá afuera, proclamando esta `Gran Amenaza' Incluso tú dijiste en tus
+    artículos que muchos en mi colección eran virus, pero que había mucha
+    basura. 
+SO> Si, así es.
+AR> Cierto, no hay problema con eso. ¡Pero eso es representativo de lo que
+    está pasando en el país! Mira, esto es lo que representa lo que hay ahí
+    afuera. ¡Y no es una gran amenaza!
+
+SO> No es una amenaza tan grande, ¿para qué?
+AR> ¡ARCV está siendo buscado y culpado de algunos virus que no escribieron
+    Alan!
+SO> ¿Cuáles virus?
+RS> ¡Todos!
+AR> Bueno, ellos no escribieron el McWhale, o el KoolMac...
+
+SO> ¿Porqué dices que están siendo buscados por esos virus?
+AR> Porque está listado en un artículo de alguien ahí en Scotland Yard,
+    diciento que si alguien se infecta por cualquiera de esos virus los
+    contacte!
+SO> No sé de donde sacó Scotland Yard la idea de que ellos escribieron
+    McWhale, ¡Yo les podría haber dicho eso!
+AR> Todos son virus MPC, nada más.
+
+SO> Bueno, espera un minuto, ¡Depende de quien creas que es miembro de ARCV!
+AR> ¿Creen que soy miembro de ARCV?
+SO> Bueno, Apache Warrior les ha estado diciendo que sí eres!
+AR> Hah, Soy gringo, ¡y me dices que soy miembro de ARCV!
+RS> ARCV es SOLAMENTE Inglés
+SO> ¡Bueno, eso es lo que les ha estado diciendo! Pregúntale a Apache Warrior
+AR> Bueno, no sabía esto.
+SO> ¡Si sabías!
+AR> ¿Que he sido miembro de ARCV?
+SO> ¡Tu sabías que estuvo diciendo eso!
+
+RS> ¿Desde cuándo?, ¿Quieres aclarar esto?
+SO> ¿Desde cuándo qué?
+RS> Dices que John sabe, ¿Qué te hace estar tan seguro?
+SO> Porque la última vez que hablé con John hace 2 o 3 meses..
+AR> Sé que hablamos sobre él, y sé que él [narced] a todos sus amigos! ¡Pero
+    no recuerdo que me dijiste que dijo que yo era miembro de ARCV!
+
+RS> Alan, ¿Tienes una copia del ARCV news-journal? Su primer y único boletín
+    de noticias, todos los miembros están listados ahí, y Aristotle no lo
+    está. 
+SO> ¿Tienes una copia del segundo boletín?
+RS> El segundo boletín nunca salió.
+SO> ah, John tiene una copia.
+AR> ¿Del segundo boletín?
+RS> El segundo boletín no existe.
+SO> John tiene una copia.
+AR> ¡Dime cuál es y lo buscaré! ¿Está en la colección que te mandé?
+SO> Si.
+AR> ¿Estoy listado en ese?
+SO> No.
+
+AR> Por eso sigo escuchando el feedback de gente queriendo extraditarme a
+    Inglaterra.
+SO> Posiblemente, puedo imaginarlo.
+AR> Basado en lo que dijo ese phreaker de 19 años. Y también ahora, con mi
+    nombre circulando `De vuelta al negocio'...
+SO> Bueno, no sé en que basa esa afirmación, si tiene algunos archivos o
+    algo. No sé. Lo que sé es que hace seis meses, estaba enfrentando grandes
+    problemas. 
+AR> Y porque él ha estado hablando... tú sabes...
+SO> El estaba enfrentando grandes problemas, porque lo atraparon robando
+    un chorro de tiempo telefónico de su vecino. A propósito, en una manera
+    extraordinariamente estúpida.
+AR> Ya sé, sólo fue a la puerta trasera y conectó una línea telefónica...
+SO> No hay manera de que se hubiera salvado de esa.
+
+AR> Mmm, interesante. ¿Cómo le puedo hacer para que Scotland Yard me llame?
+SO> Llámalos, te daré el número telefónico.
+AR> Naa, no beneficiaría. Entonces cuando este camino comienza, ¿Me podrían
+    traer?
+SO> No sé, puedes mandarles una carta. La persona encargada del caso en
+    en Scotland Yard es el inspector John Hoston.
+
+AR> Mmm ok.
+SO> Puedo entender porqué estás enfadado. Pero Joe, ¿Cuál es el desarrollo
+    en esto? ¿Porqué partes de la llamada telefónica?
+RS> ¿Porqué no?
+SO> No hay razón porque no.
+AR> Te diré porqué, porque le pregunté, como voy a poner un artículo en el
+    NuKE Info seis. Básicamente explica mi lado de cómo transpira todo.
+
+SO> ¿Nowhere Man realmente escribió el NuKE Encryption Device por sí mismo?
+RS> Si, ¿Porqué?
+SO> Porque lo ví.
+RS> Bueno, eso fue sólo la Beta Release v.90.
+SO> No, ¡Vi la final!
+RS> ¿Eh? ¿Qué versión tienes?
+SO> oh perdón, ¿se supone que no debemos?
+
+RS> Versión .90.
+SO> No, es la versión 1.00
+RS> ¡Esa no existe!
+SO> Tengo una cosa que le autonombre la N.E.D. v1.00, debe ser, claro.
+RS> Te diré ahora mismo, es la versión .90
+SO> ¿Hay algunos bytes que pueda leer para identificarlo?
+RS> No realmente porque la versión 1.00 cambió dramáticamente.
+
+<después de un poco de hablar, esta llamada NED v1.00 es realmente la v.90
+ que fue renombrada e insertada en un nuevo virus, generado en europa.> 
+
+   En su mayor parte, esta fue la preocupación principal de la conversación
+que queríamos mostrar. Seguramente, esto es sólo 1/5 de la conferencia total,
+de hecho esta fue la primera hora de la conferencia y, por el tono de voz,
+fue muy hostil. Pero no somos nadie para juzgar a una persona racialmente
+por sus alrrededores étnicos, o su ocupación en la vida, así que sólo sería
+justo decir que Alan Soloman fue bastante razonable.
+
+   Interesante que Alan se quitó su salvavidas, ¿Quién dijo que el paquete de
+Soloman era invencible? El resto de la conversación, se enfocó en ideas,
+ideologías, morales y algunos de los problemas inesperados debido a esta
+estructura AntiVirus.
+
+   ¿Problemas, me preguntas? ¿Quién hubiera esperado dicho problema? La
+comunidad responsable de `Limpiar' el problema de los virus ha hecho un buen
+trabajo en eso, pero ¿Quién hubiera esperado que ellos dejaran esa marca de
+destrucción a su paso? Todo comienza con el primer paquete Anti-Virus,
+determinado a detectar y limpiar cualquier virus conocido. Noten la palabra
+`CONOCIDO'. Asi que básicamente, tendrías que colectar, si se permite decirlo,
+y tal vez tener gente colectando por tí, virus para que puedas añadirlos a tu
+paquete Anti-Virus para ganar sobre tus competidores. Ahora entonces, los
+paquetes antivirus restantes se han ubicado, en un estado geográfico. McAfee
+Scan ha dominado Norteamérica, Vet7 ha dominado Australia y la región
+Asiática. Puedes concluir que Frisk ha ganado algo de soporte en Europa, así
+como el paquete de Soloman.
+
+   Ahora entonces, esto es sólo por la localización geográfica. Si alguien en
+California nota un virus, a la primera persona que llamará para darle el virus
+será, naturalmente, McAfee. Lo mismo va para Soloman y la gente llorando en
+Inglaterra (UK). Ahora, para ganar, ¿no necesitarías todos esos virus del
+mundo para que puedas ganar apoyo en el mercado internacional? Naturalmente,
+¿Entonces que haces? Puedes formar alianzas con otros programadores AntiVirus,
+pero no es suficiente, ¡Y tal vez injusto! Injusto es un sentido, que una
+alianza entre Soloman y McAfee sería ventajoso para Soloman, seguramente
+McAfee cubre una población mayor y recibe nuevos virus mucho más rápido
+comparado con su contraparte inglesa. Entonces estamos atrapados entre la
+espada y la pared, otra vez. 
+
+   Hey, <se prende un foco>, ¿Porqué no formar una asociación con miembros
+de todos los continentes, y juntar nuestra colección para hacer una colección
+aún mayor? ¡Si! ¡Gran idea! ¡Llamémosle NCSA! ¡Si! [Then another newfy pops
+up and screams, CARO!] Si, otro grupo. ¿Pero qué sucede ahora? Caballeros,
+para nuestro asombro tenemos rugiendo al tecnódromo subterráneo, misión:
+recolectar nuevos virus. Sin estatutos ellos harán lo que sea para ganar
+nuevos virus. De algún modo, nuestros "heroes" que afirman salvarnos del
+problema de los virus, están abajo, abajo de la cadena alimenticia,
+recurriendo a métodos inmorales para ganar virus. ¿Eh? ¿Que explique?
+
+   Mmm, usaré un ejemplo fácil. Yo, Rock Steady, junto con Pure Energy
+manejamos una BBS conocida como Cybernetic Violence. El cuartel general de
+NuKE, somos vistos como `malhechores', juventudes mal encaminadas, bueyes
+que ahora saben como escribir, basura, ayudantes de satán <mi favorito> Creo
+que captan la idea. Y sí, no es una idea bonita, podrías llamar a esto
+hostigamiento, de hecho _es_ hostigamiento. Ahora entonces, ¿Donde puedes
+obtener los últimos virus puestos por la mente retada intelectualmente?
+Claro, los desastrosos grupos de virus. Oh no, este tipo no me dará acceso
+a los virus a menos que le muestre que me lo `merezco'. Ok, lo tengo, déjame
+subir toda mi colección de virus NCSA... 
+
+   ¿Captan la idea? Si, todos lo escuchamos antes, soy un degenerado. La
+comunidad Anti-Virus _no_ es lo suficientemente maniaca como para asociarse
+con nosotros. Todos escuchamos a Sara Gordon gritar: `Yo nunca llamé a una
+BBS underground de intercambio', ella nunca lo admitirá. De todos modos, Sara
+Gordon tiene el teléfono de Cybernetic Violence, Black Axes, The Hell Pit,
+etc, etc. Sara no se asocia con bajezas como nosotros, como ella misma
+explica. De todos modos ella ha ASEGURADO haber llamado a The Hell Pit BBS,
+y haber subido 3 virus falsos y exclama qué facil es obtener acceso a los
+virus ahí. Ahora hay una contradicción. ¿A quién le vas a creer? ¿A Rock
+Steady, con antecedentes de hacking y sospechoso de otros ciber-crímenes, o
+a Sara Gordon sin siquiera una mancha en su registro? Espera, déjame decirte
+algo más. Sara Gordon no es completamente `blanca', como Sara no se asocia
+con `nosotros', supongo que la conversación que tuvimos acerca de que ella
+quería invitar a cenar a una persona llamada `Nowhere Man' es un fragmento
+de mi imaginación. También, la basura que me dijo acerca de contactarla con
+escritores de virus en Australia fue un fragmento de mi vívida imaginación.
+Vamos Sara, tú lo dijiste y yo lo escuché. Claro, es simplemente mi palabra
+contra la tuya. Hijo de pistola Sara, ¿No escuchaste todos los sonidos de
+`click' durante la conversación? ¡Había alguien más en la línea Sara!
+Alguien, que constantemente recivía llamadas, y por lo tanto tuvo que
+contestar la llamada con el servicio de `llamada en espera'.
+
+   ¿Ven? Supongo que esto no es, después de todo, sólo mi imaginación. Y
+como yo pagué la llamada, mi recibo telefónico apoya el hecho de que DOS
+llamadas fueron hechas al mismo tiempo desde mi número! Una fue de la
+supuesta persona en el fondo mientras la otra era tuya! (Sara)
+
+   Oh si, soy un adolescente aburrido mintiendo para divertirme. Francamente,
+nadie admitido en NuKE es un adolescente. Francamente estoy en una posición
+bancaria respetable, de todos modos sigo persiguiendo mi Maestría en
+Matemáticas, y esto tal vez me conduza a un doctorado., claro, luego se supone
+que pasaré de mi satánica pubertad a mi madurez. Aunque haya pasado mi edad
+adulta legal, aún puedes decir que es un problema de hormonas. Francamente,
+cuando nomás no se puede y te echan mentiras en público, desacreditando
+nuestra historia, con su influencia de poder. <Si, corrupción de poder> Hasta
+ese día de justicia, hasta ese día en que la verdad salga, entonces será el
+día en que estedes de desharán de mí. Miren, no es acerca de mí, es acerca de
+ustedes. <La comunidad AntiVirus> Esto no es algo que ustedes `maduraron de',
+¿Cuándo maduran de injusticia? ¿En que punto de la vida la injusticia está
+bien?
+
+ El problema de los virus ha sido resuelto, ¿Y el problema de los Anti-Virus?
+ 
+                            Rock Steady
+                  NuKE: ¡El grupo Anti-Anti-Virus!
+==============================================================================

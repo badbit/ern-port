@@ -1,0 +1,1 @@
+Phalcon/Skism: Este grupo se dedica más a enseñar a otras personas el arte de escribir virus. El miembro más destacado (para mí) es Dark Angel, su mejor obra son los Dark Angel's Phunky Virus Writting Guide, que explica claramente como fabricar tu propio virus de la nada.

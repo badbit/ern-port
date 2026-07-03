@@ -1,0 +1,430 @@
+ernt@bigfoot.com                            El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |     Conseguir el Linux adecuado para tí    |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+                               badbit@yahoo.com
+
+            "You are in a maze of twisty little passages, all alike."
+                                      -Es una buena metáfora para
+                                       describir a Linux.
+
+ /----------------------\
+ | Acerca de este texto |
+ \----------------------/
+
+   Este texto trata sobre la obtención de Linux. Lo escribo principalmente
+para ayudar a todos los hackers que quieren librarse del dominio de Bill
+Gates, y también porque a mí me costó bastante trabajo conseguir Linux, por
+lo tanto quiero ahorrarles la fatiga a los miles de nuevos usuarios que
+quieran evolucionar.
+
+
+ /----------------\
+ | Distribuciones |
+ \----------------/
+
+   Antes de proseguir con la explicación, debes de entender un concepto muy
+importante: las distribuciones. En UNIX son llamadas "sabores."
+
+   Ya que Linux es gratuito, muchas compañías se han dedicado a apoyarlo.
+Pero si es gratuito, ¿Entonces qué es lo que ganan con producirlo? Nada, su
+ganancia consiste en el software que incluyan junto con Linux. Un sistema
+operativo es completamente inútil si no hay software escrito par él (ejemplo
+típico: OS/2). Por lo tanto, una distribución incluye los programas
+suficientes para que puedas hacer algo más que jugar con él: Procesador de
+textos, hoja de cálculo, browser, cliente IRC, FTP, base de datos, lenguajes
+de programación, dos o tres juegos, etc.
+
+   Existen muchísimas compañías que producen diversas distribuciones, pero
+como en todo, hay varias que se destacan por dar un producto de calidad
+superior a sus competidores. Las mejores distribuciones y sus características
+son las siguientes:
+
+
+/--------\
+| RedHat |---> www.redhat.com
+\--------/
+
+   Ha logrado ser la más usada de todas. Su característica más importante es
+el sistema de manejo de paquetes RPM (RedHat Package Manager). RPM es un
+sistema para instalar, actualizar y manejar software. Con este sistema,
+instalar un software es incluso más sencillo y organizado que en Windows.
+Cuando quieres desinstalar algo, el RedHat package manager te avisa cuando
+haya algún conflicto. Es decir, evita que desinstales algo que es necesario
+para algún otro programa. En Windows pasa lo contrario, no te deja desinstalar
+algo que es completamente inútil: Internet Explorer.
+
+   RedHat es una distribución más ligera y estable que la de sus competidores
+por no contener toneladas de software como los demás, aunque incluye todo
+lo necesario. Está disponible para un gran número de plataformas como X86,
+Alpha y SPARC, pero se piensa trasladar a otras más desconocidas, como Mips y
+StrongArm.
+
+   No podía faltar su entorno gráfico (GUI) con X-Windows. RedHat trae
+incluido su propio manejador de ventanas, el cual se llama Fvwm95 y es
+idéntico a la interface de Windows 95. En realidad no les recomiendo que la
+usen siempre. Ya que avanzen un poco en su uso, les recomiendo que usen
+AfterStep, KDE o Gnome (los cuales también vienen incluidos).
+
+   Algo que noté un poco enfadoso fué la configuración del video, la cual
+me costó un poco de trabajo porque mi monitor y mi tarjeta de video son marca
+"patito," por lo tanto no venían listadas en las configuraciones. También
+afectó el hecho de que RedHat no cuenta con algún programa que configure
+a fondo X-Windows. Pero afortunadamente lo demás es pan comido, ya que sí
+se incluyen varios programas como linuxconf, el cual configura a los
+usuarios, sus cuotas y mucho más.
+
+   Una cosa que no me gustó mucho, fueron las utilidades del sonido, las
+cuales resultaron un poco deficientes para mi gusto. No trae software para
+tocar MP3 (sólo MP2) y los MOD no se tocan a la perfección. Lo que destacó
+bastante fue el manejo de los MIDIS, los cuales se oyen con una calidad
+superior que en Windows.
+
+   Otra cosa que creo que le falta, es una buena administración de las
+tarballs, el cual es un sistema parecido a los RPMs, pero más simple. Si
+instalas algo de un tar.gz, lo tendrás que desinstalar manualmente.
+
+   En cuestión de juegos, no se queda atrás. El que más me gustó fue uno
+llamado xBill, en el cual, tienes que matar a Bill Gates para que no le
+instale Windows a máquinas con otros sistemas operativos.
+
+   Otro aspecto descuidado, es el de las conexiones PPP. Aunque sí cuenta con
+el daemon PPP, los scripts los tienes que hacer manualmente, o puedes bajar
+un programa que los haga por tí. Yo bajé uno que se llama ezppp, y traté de
+conectarme con telnor y la famosa cuenta de office depot, pero ¡oh sorpresa!
+No se pudo, y aparte los de telnor no sabían dar ayuda porque nadie conoce
+Linux... bueno, mañana será otro día...
+
+   Pero todo lo demás está exelente. Cuenta con todo lo indispensable y más.
+Realmente me gustó bastante y te la recomiendo.
+
+
+/-----------\
+| Slackware |---> www.slackware.com
+\-----------/
+
+   Este sabor es uno de los pioneros. Fue la primera distribución de Linux
+con una amplia difusión y la primera en CD-ROM. Está basada para plataformas
+Intel, y ha sido base para otras distribuciones en otras plataformas.
+
+   Esta es una versión para gente experimentada. No te recomiendo que sea
+ésta con la que aprendas a usar Linux, comienza con algo más sencillo, como
+RedHat, y cuando te consideres experto, pásate a esta.
+
+   Esta distribución no tiene un sistema para empaquetar ni organizar los
+programas. Por lo tanto, para saber que diablos hay instalado en tu sistema
+tienes que tener muy buena memoria. Usa los tarballs (archivos con extensión
+*.tar.gz), por lo tanto es difícil llevarles la cuenta.
+
+   La instalación es realmente difícil. Aquí no podemos arrancar desde
+CD-ROM, sino desde floppies que nosotros mismos debemos hacer y seleccionar
+de acuerdo a nuestro hardware (ya empezamos mal). Ya que arranquemos con
+nuestros diskettes, tendremos que pasar por la agonía de configurar todo. Y
+además, sufrir por usar fdisk (disk druid no se incluye). Un verdadero reto.
+Pero queda la satisfacción de que cuando lo instalas, te sientes super-matón.
+
+   Aquí no hay bonitas interfases gráficas: puro texto. Así debería ser todo,
+ahora los programas no nos dejan pensar, todo nos lo dan hecho. En Slackware
+también se incluye X-Windows, pero simplemente instalarlo es un verdadero
+suplicio, y no digamos configurarlo... Aquí no hay un útil linuxconf que nos
+ahorre unos cuantos días. Se podría decir que si tienes monitor marca "patito"
+(como yo), no pienses instalar slakware...
+
+   Pero aquí e X-Windows no importa, porque esta distribución está basada en
+puro texto, no incluye casi aplicaciones gráficas. Esto explica porqué cabe
+en unos insignificantes 500 Mb. Pero esta es la versión diseñada para hackers
+serios que les gusta sufrir configurando cosas (como yo).
+
+
+/------\
+| SuSE |---> www.suse.com
+\------/
+
+   Este sabor esta teniendo mucho pegue actualmente. Tiene varias
+características que lo hacen peculiar, entre ellas: Es alemán, son cinco CD's
+y un disquette, tiene un manual de 500 páginas (en inglés, pero hay uno en
+español de 450 pags.), y cuenta con el sistema RPM.
+
+   Le copia muchas cosas a RedHat, por lo que hay mucha compatibilidad. La
+instalación es muchísimo más sencilla que la de otras distribuciones. Este
+programa de inst. autodetecta todo y trae opciones preconfiguradas de
+combinaciones de software, y si no queremos esa opción, nosotros mismos
+podemos escoger los programas a instalar.
+
+   Trae incluido un programa de configuración llamado YaST (yet another
+setup tool) el cual es la salvación de los lamers: Te configura todo solito
+sin tener que meter mano. Y en la configuración de X-Windows no se queda
+atrás: Tiene otro programita llamado SaX, el cual también autodetecta muchas
+
+
+cosas (aunque no todas).
+
+   Incluye un friego de window managers. Entre ellos: Fwmn95, Icewm, Gnome
+Blackbox, WindowMaker, AfterStep, KDE, etc. Y no podía faltar un programa que
+nos hiciera todo sin que nosotros pensáramos nada, esta vez se trata de un
+programita llamado SuSEwm, el cual nos configura los Window Managers.
+
+   SuSE quiere que siempre estés en modo gráfico, por eso te retacan un
+chorro de programas para X-Windows, como StarOffice, Applixware, 3D Blender,
+y un montón de emuladores.
+
+   YaST se encarga de la administración de los programas instalados. Soporta
+RPMs y las tarballs (puede instalarlas, pero no los registra). Y en cuanto
+a la instalación completa de SuSE es muy sencilla y veloz. Es probablemente la
+distribución más completa.
+
+
+/--------\
+| Debian |-> www.debian.org
+\--------/
+
+   Es utilizada por la NASA en sus sistemas. Es la única distribución que ha
+expresado su apoyo hacia el software gratis y de open-source. O sea, nunca se
+incluirán demos o partes comerciales, TODO FREE!
+
+   Se pensó al principio para las plataformas INTEL, pero ahora existe para
+M68L, Alpha, Sparc y hasta PowerPC (no se lo merecen) y se planea para: MIPS,
+StrongArm, Hurd, y UltraSparc.
+
+   La instalación es un poquito deficiente... Está programado para configurar
+a LILO solamente para arrancar Linux, si tienes otros sitemas, tendrás que
+configurarlos a mano (como debe de ser). Y como siempre, al instalarlo te
+pone varias opciones sobre los paquetes de programas que vendrán incluidos. Ya
+vienen algunos predefinidos, como para servidores, para usuario común, etc.
+
+   Trae los window managers indispensables, como: Fvwm2, Fvwm95, Scwm,
+WindowMaker, Olwm, Icewm o wm2. Debian es la versión más adecuada para
+internet.
+
+
+/------------\
+| Brutalware |
+\------------/
+
+   Esta es una distribución de una nueva generación de Linuxes portátiles. Es
+una muy buena idea. Me enteré de este software por casualidad. Un día de los
+que no tengo nada que hacer, entré al altavista, y al ver que no tenía nada
+que buscar, presione la categoría de Software, luego operating sistems, luego
+Linux, y LOAF, que significa Linux on a Floppy.
+
+   Con el puro título me di cuenta de que era la distribución que estuve
+busque y busque por todos lados: Un diskette de arranque con la línea de
+comandos de Linux, así como podemos hacer un disco de arranque de MS-DOS.
+
+   Cuando bajé el zip (pequeño por cierto) casi me da un infarto: ¡Es la
+distribución perfecta! Pero dejemos que el README nos lo explique, lo hará
+mejor que yo:
+
+   "¿Cansado de MS-DOS, Novell o Windows? Ahora el Brutalware GNU está aquí,
+permitiéndote convertir cualquier computadora en una poderosa estación de
+trabajo de Linux para hackers, ¡con sólo una computadora basada en DOS y 3
+floppies!"
+
+   "Brutalware es una distribución de Linux con soporte para TCP/IP en dos
+discos (actualmente sólamente está basado en bootp) y un floppy supplementario
+con toneladas de utilidades de hacking. Es una gran distribución para usarse
+en los laboratorios de la escuela y cafés internet."
+
+   Pues esto es lo que yo estuve buscando durante MESES, y lo descubrí en
+cinco minutos de ociosidad... c'est la vie. Esta distribución me ayudó
+bastante para familiarizarme con Linux, y aunque es pequeña, puede hacer
+grandes cosas. Te recomiendo que pruebes esta y luego te vayas por alguna de
+las anteriores para conocer a Linux en todo su esplendor.
+
+
+ /----------------------\
+ | Algo más sobre Linux |
+ \----------------------/
+
+   A continuación algo que saqué del libro "Linux, instalación y primeros
+pasos", traducido por los siguientes españoles: Alfonso Belloso (líder),
+Gerardo Izquierdo, Juan Jose Amor, Eduardo  Lluna, Luis Ramón Duarte,
+Guillermo Bautista, Carlos Martínez Chacartegui y otros que no se mencionan.
+
+-----Comienza-----
+   En ocasiones, los nuevos usuarios de Linux se crean falsas expectativas
+acerca de éste. Linux es un sistema operativo único, y es importante entender
+su filosofía y diseño para usarlo eficientemente. Aunque usted sea un
+experimentado "gurú" del UNIX, lo que viene a continuación le interesará con
+total seguridad.
+
+   En versiones comerciales de UNIX, el sistema es desarrollado siguiendo una
+rigurosa política de mantenimiento de la calidad, con sistemas de control de
+revisiones para las fuentes y documentación, etc. Los desarrolladores no
+pueden añadir cosas nuevas por su cuenta: cualquier cambio será en respuesta
+a un informe de bug detectado, y será cuidadosamente registrado en el sistema
+de control de versiones, de manera que podrá volverse atrás sin problemas.
+Cada desarrollador tiene asignada una o más partes del código, y solo ese
+desarrollador puede alterar esas secciones del código.
+
+   Internamente, el departamento de calidad realiza conjuntos de tests para
+cada versión del sistema operativo, e informa de los errores. Es
+responsabilidad de los desarrolladores corregir esos errores. Se utiliza un
+complicado sistema de análisis estadístico para asegurarse de que cierto
+porcentaje de los errores son corregidos antes de la próxima versión.
+
+   Como vemos, el proceso seguido por los desarrolladores de UNIX comercial
+para mantenerlo y darle soporte es muy complicado, pero razonable. La compañía
+debe tener cierta seguridad de que la próxima revisión del sistema ya está
+lista para ser comercializada, a través de las pruebas que hemos comentado.
+Esto supone un gran trabajo que involucra a cientos (si no miles) de
+programadores, betatesters, redactores de documentación y personal
+administrativo. Por supuesto, no todos los fabricantes de UNIX trabajan así,
+pero esto da una idea de la panorámica habitual.
+
+   Con Linux, hay que olvidarse del concepto de desarrollo organizado,
+sistemas de control de versiones, información de errores estructurada o
+análisis estadísticos. Linux es un sistema operativo hecho por "hackers".
+
+   (Por "hacker" queremos referirnos a programadores fervientemente dedicados,
+por hobby, a explotar sus ordenadores al máximo, con resultados útiles para
+otras personas. Este concepto es contrario al habitualmente aceptado, que
+dice que un "hacker" es un pirata informático. [BadBit: Creo que es la mejor
+definición que he escuchado])
+
+   Linux ha sido desarrollado principalmente por un grupo de programadores de
+todo el mundo unidos por Internet. A través de Internet, cualquiera tiene la
+oportunidad de unirse al grupo y ayudar al desarrollo y depuración del núcleo,
+portar nuevo software, escribir documentación o ayudar a los nuevos usuarios.
+La comunidad de Linux se comunica principalmente mediante diversas listas de
+correo y grupos de USENET. Existen algunos acuerdos en el desarrollo, como que
+cualquiera que desee que su código sea incluido en la versión "oficial" del
+núcleo deberá ponerse en contacto con Linus Torvalds, quien comprobará el
+código y lo incluirá en el núcleo. Por lo general, estará encantado en
+hacerlo, siempre que no estropee otras cosas.
+
+   El sistema se ha diseñado siguiendo una filosofía abierta y de crecimiento.
+Por regla general hay una nueva versión del núcleo cada dos meses (a veces
+cada menos tiempo) Esto depende del número de errores a corregir, la cantidad
+de información recibida de los usuarios, y lo que haya dormido Linus esta
+semana.
+
+   Por lo tanto, es difícil decir que todos los errores hayan sido corregidos
+en cierta fecha. Pero conforme el sistema va apareciendo libre de errores
+críticos o manifiestos, se considera "estable" y se lanzan nuevas revisiones.
+Hay que recordar que no se pretende realizar un sistema perfecto, sin errores.
+Simplemente, se pretende desarrollar una implementación gratuita de UNIX.
+Linux está hecho para desarrolladores, más que para otro tipo de personas.
+
+   Si alguien desarrolla una aplicación o nueva característica para el núcleo,
+se añade inicialmente en una etapa "alfa", es decir, pensada ser probada por
+usuarios atrevidos que aceptan los fallos que tenga. Dado que la comunidad de
+Linux se basa sobre todo en Internet, el software "alfa" es enviado,
+normalmente, a servidores FTP dedicados a Linux y anunciado mediante un
+mensaje puesto en un grupo USENET dedicado a Linux. Los usuarios que se
+llevan el software lo prueban e informan sobre errores o sugerencias al autor
+por correo electrónico.
+
+   Una vez que se corrigen los problemas iniciales, el código pasa a una etapa
+"beta", en la que se considera estable pero incompleto (o sea, funciona, pero
+no incluye todas las funcionalidades previstas). También se puede pasar a una
+etapa "final" en la que el software se considera terminado. Para el código del
+núcleo, una vez que se ha terminado, el desarrollador puede pedir a Linus que
+lo incluya en el núcleo estándar, o bien que lo ponga como código optativo.
+
+   Recordar que lo anterior son solo convenciones, y no leyes. Algunos
+programas pueden no necesitar fases "alpha". Es el desarrollador quien tomará
+las decisiones al respecto.
+
+   Estará sorprendido de que un grupo de programadores y aficionados
+voluntarios, relativamente desorganizados, hayan podido hacer algo. Sin
+embargo, este grupo constituye uno de los más eficientes y motivados. Todo el
+núcleo de Linux ha sido escrito de la nada, sin emplear ningún código de
+fuentes propietarias [BadBit: al contrario de Microsoft]. Todo el software,
+librerías, sistemas de ficheros y drivers han sido desarrollados o portados
+desde otros sistemas; y se han programado drivers para los dispositivos más
+populares.
+
+   Normalmente, Linux es distribuido junto con otro software en lo que se
+conoce como distribución, que es un paquete de software que permite poner a
+punto un sistema completo. Dado que es difícil para los usuarios noveles el
+crear un sistema UNIX partiendo del núcleo y programas de diversas fuentes,
+se crearon las distribuciones con el fin de facilitar esta tarea: con la
+distribución, usted solo tiene que coger el CD-ROM o los disquetes e instalar
+para tener un sistema completo con programas de aplicación incluidos. Como es
+de esperar, no hay ninguna distribución "estándar". Hay muchas, cada una con
+sus ventajas y desventajas.
+
+   A pesar de lo anterior, necesitará cierto conocimiento de UNIX para poder
+instalar y usar un sistema completo. No hay distribución que no tenga fallos,
+por lo que requerirá de su habilidad al teclado para corregir los pequeños
+problemas que se presenten. Ejecutar un sistema UNIX no es fácil, ni siquiera
+en las versiones comerciales. Hay que andarse con cuidado en cualquier UNIX,
+y Linux no es una excepción.
+-----Termina-----
+
+ /----------------------\
+ | Otras distribuciones |
+ \----------------------/
+
+   Describí las distribuciones más importantes, pero aquí doy las direcciones
+de otras que no tuve tiempo de describir, pero también sirven:
+
+Nombre                     Dirección
+-------------------------------------------------------------------------
+Caldera                    http://www.caldera.com/
+Dragonlinux                http://www.dragonlinux.nu/
+EasyLinux                  http://www.skygate.co.uk/easylinux.html
+eIT's easyLinux            http://eit.de/de/easylinux.html
+Eonova Linux               http://www.eonova.com/
+ESware                     http://www.esware.com/
+Eurielec                   http://www.etsit.upm.es/~eurielec/linux/
+Freenix                    http://www.freenix.fr/
+Linux Kheops               http://www.linux-kheops.com/
+Linux on a disk            http://www.cosmoseng.com/
+Linux OS                   http://linux.os.com.mx/
+Linux Pro Plus             http://www.linuxmall.com/allprod/lxcdr.html
+Mandrake Linux             http://www.linux-mandrake.com/
+muLinux                    http://www4.pisoft.it/~andreoli/mulinux.html
+Nomad Linux                http://www.nomadlinux.com/
+Open SCR                   http://www.openscr.org/
+Open Share Linux           http://www.openshare.net/
+Project Independence       http://independence.seul.org/distribution/
+Pygmy Linux                http://members.tripod.com/om3wuc/pygmy/
+Stampede Linux             http://www.stampede.org/
+Turbo Linux                http://www.turbolinux.com/
+Xdenu                      http://xdenu.tcm.hut.fi/
+
+
+ /-------\
+ | Final |
+ \-------/
+
+   Bueno, espero que después de este texto te puedas decirir acerca de la
+distribución de Linux que quieres en tu máquina (o en la ajena). Quiero
+seguir hablando de Linux, espero tus comentarios o preguntas para poner en
+mis nuevos textos a la dirección de siempre: badbit@yahoo.com
+
+(Por cierto ahora le di la vuelta a dos juegos: "Ninja Gaiden 1" y "Who shot
+ Johny Rock?" :)
+
+_____________________________
+El Radiaktivo Newz Team, 2000
+Aparecido en el número: 2-5
+Fecha de finalización: Sábado 15 de Julio de 2000 a las 22:47 horas.
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+http://www.bigfoot.com/~ernt
+http://www.geocities.com/kibtizr
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+Mailing list: <ernt-suscribe@egroups.com>
+
+Copyright 2000 BadBit <badbit@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+0101001001010100100101  ########   ########   ####   ####  ############
+10       0       1  01  #### ####  #### ####  #####  ####  ### #### ###
+11     B@dbit       00  ####       #### ####  ###### ####      ####
+01           1      10  #########  #######    #### ######      ####
+10 0           .... 10  ####       #### ####  ####  #####      ####
+:101010 01011010111101  #### ####  #### ####  ####   ####      ####
+  <badbit@yahoo.com>    ########   #### ####  ####   ####      ####
+
+=EOF=

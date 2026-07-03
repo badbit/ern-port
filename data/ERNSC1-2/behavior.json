@@ -1,0 +1,1111 @@
+{
+ "forms": {
+  "Form1": {
+   "on_load": [],
+   "events": {
+    "about.Click": [
+     {
+      "op": "show_form",
+      "form": "Acerca"
+     }
+    ],
+    "bananos.Click": [
+     {
+      "op": "show_form",
+      "form": "Form13"
+     }
+    ],
+    "clock.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub clock_Click()\nLoad Reloj\nReloj.Show\nEnd Sub",
+      "note": "El menú 'clock' ya no existe en Form1 de este número (existía en el número anterior); código huérfano heredado."
+     }
+    ],
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command1_Click()\nLoad Aclaración\nAclaración.Show\nEnd Sub",
+      "note": "Command1 no existe como control en Form1 de este número (solo Command3 es real); código huérfano heredado de una versión anterior con más botones."
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command2_Click()\nEnd\nEnd Sub",
+      "note": "Command2 no existe como control en Form1 de este número; código huérfano heredado."
+     }
+    ],
+    "Binary.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Binary_Click()\nmetroid$ = InputBox(\"Debido a la naturaleza de este artculo sugerimos no entrar, hay fotos de cadaveres y sangre. Introduce el password para ver este contenido:\", \"Password requerido\")\nIf metroid$ = \"36S54c\" Then\n   Response = MsgBox(\"El contenido de este artculo puede ser fuerte para algunas personas [o muy ligero para otras]. Puede salir con el boton cancel.\", 1 + 48 + 256, \"Segunda advertencia\")\n   If Response = vbOK Then\n      Load Form22\n      Form22.Show\n   ElseIf Response = vbCancel Then\n      Exit Sub\n   End If\nElse\n   MsgBox (\"El password es incorrecto\"), , (\"No es tan malo\")\nEnd If\n\nEnd Sub",
+      "note": "Pide password vía InputBox, compara y luego bifurca según MsgBox Response (OK/Cancel) para mostrar Form22; lógica condicional anidada no trivial."
+     }
+    ],
+    "clear.Click": [
+     {
+      "op": "show_form",
+      "form": "Aclaración"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "msgbox",
+      "text": "Windows no es un virus, los virus hacen algo.",
+      "title": "Buenas noticias"
+     }
+    ],
+    "Config.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Config_Click()\nLoad Config\nConfig.Show\nEnd Sub",
+      "note": "No existe un control/menú llamado 'Config' en Form1 (fue renombrado a 'configu'); código huérfano duplicado, idéntico a configu_Click."
+     }
+    ],
+    "configu.Click": [
+     {
+      "op": "show_form",
+      "form": "Config"
+     }
+    ],
+    "contactus.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     }
+    ],
+    "contents.Click": [
+     {
+      "op": "show_form",
+      "form": "Ayuda"
+     }
+    ],
+    "credits.Click": [
+     {
+      "op": "show_form",
+      "form": "Form16"
+     }
+    ],
+    "editor.Click": [
+     {
+      "op": "show_form",
+      "form": "Form3"
+     }
+    ],
+    "enterr.Click": [
+     {
+      "op": "show_form",
+      "form": "Chistes"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "files.Click": [
+     {
+      "op": "msgbox",
+      "text": "Este mes no incluí archivos embebidos para no duplicar el tamaño de la revista, me van a disculpar. De hecho, creo que ya no incluiré archivos embebidos.",
+      "title": "Error 406: Brain not found."
+     }
+    ],
+    "frasee.Click": [
+     {
+      "op": "msgbox",
+      "text": "Windows no es un virus, los virus hacen algo.",
+      "title": "Buenas noticias"
+     }
+    ],
+    "hacker.Click": [
+     {
+      "op": "show_form",
+      "form": "Form11"
+     }
+    ],
+    "history.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub history_Click()\nLoad Form13\nForm13.Show\nEnd Sub",
+      "note": "El menú 'history' ya no existe en Form1 de este número (existía en el número anterior); código huérfano heredado."
+     }
+    ],
+    "index.Click": [
+     {
+      "op": "show_form",
+      "form": "Form2"
+     }
+    ],
+    "ino.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub ino_Click()\nLoad Joke\nJoke.Show\nEnd Sub",
+      "note": "Referencia el form 'Joke', que no existe en el manifest de este número (posiblemente renombrado a 'Chistes'); referencia irresoluble."
+     }
+    ],
+    "kalk.Click": [
+     {
+      "op": "show_form",
+      "form": "Kalkuladora"
+     }
+    ],
+    "laws.Click": [
+     {
+      "op": "show_form",
+      "form": "Form4"
+     }
+    ],
+    "maxmi.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Picture1",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "mplayer1",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Label3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "unsupported",
+      "code": "Form1.WindowState = 2",
+      "note": "WindowState (maximizar) no tiene op equivalente en el vocabulario (no hay minimizar/maximizar de ventana)."
+     }
+    ],
+    "minimi.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub minimi_Click()\nForm1.WindowState = 1\nEnd Sub",
+      "note": "Solo asigna Form1.WindowState = 1 (minimizar); sin op de vocabulario equivalente."
+     }
+    ],
+    "news.Click": [
+     {
+      "op": "show_form",
+      "form": "Form19"
+     }
+    ],
+    "next.Click": [
+     {
+      "op": "show_form",
+      "form": "nextnum"
+     }
+    ],
+    "restore.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "mplayer1",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Picture1",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Label3",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "unsupported",
+      "code": "Form1.WindowState = 0",
+      "note": "WindowState (restaurar) no tiene op equivalente en el vocabulario."
+     }
+    ],
+    "screen.Click": [
+     {
+      "op": "show_form",
+      "form": "Disctract"
+     }
+    ],
+    "welcome.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub welcome_Click()\nLoad Form4\nForm4.Show\nEnd Sub",
+      "note": "El menú 'welcome' ya no existe en Form1 de este número (existía en el número anterior como 'Bienvenidos'); código huérfano heredado."
+     }
+    ],
+    "sixsixsix.Click": [
+     {
+      "op": "show_form",
+      "form": "Form12"
+     }
+    ]
+   }
+  },
+  "Form2": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command1_Click()\nLoad Form3\nForm3.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "'Command1' no existe como control/menú en Form2 según el manifest de este número; código huérfano que nunca se dispara. Solo Command7 es un control real en Form2 de este número."
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command2_Click()\nLoad Form4\nForm4.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "'Command2' no existe como control/menú en Form2 según el manifest de este número; código huérfano que nunca se dispara."
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command3_Click()\nLoad Form6\nForm6.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "'Command3' no existe como control/menú en Form2 según el manifest de este número; código huérfano que nunca se dispara."
+     }
+    ],
+    "Command4.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command4_Click()\nLoad Form13\nForm13.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "'Command4' no existe como control/menú en Form2 según el manifest de este número; código huérfano que nunca se dispara."
+     }
+    ],
+    "Command5.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command5_Click()\nLoad Form14\nForm14.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "'Command5' no existe como control/menú en Form2 según el manifest de este número; código huérfano que nunca se dispara."
+     }
+    ],
+    "Command6.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command6_Click()\nLoad Form17\nForm17.Show\nUnload Form2\nForm2.Show\nEnd Sub",
+      "note": "'Command6' no existe como control/menú en Form2 según el manifest de este número; código huérfano que nunca se dispara."
+     }
+    ],
+    "Command7.Click": [
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ],
+    "Command8.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command8_Click()\nLoad Form15\nForm15.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "'Command8' no existe como control/menú en Form2 según el manifest de este número; código huérfano que nunca se dispara."
+     }
+    ]
+   }
+  },
+  "Form3": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form3"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command2_Click()\nUnload Form3\nForm3.Hide\nLoad Form2\nForm2.Show\nEnd Sub",
+      "note": "'Command2' no existe como control/menú en Form3 según el manifest de este número; código huérfano que nunca se dispara. Solo Command1 es un control real en Form3."
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command3_Click()\nEnd\nEnd Sub",
+      "note": "'Command3' no existe como control/menú en Form3 según el manifest de este número; código huérfano que nunca se dispara."
+     }
+    ]
+   }
+  },
+  "Form4": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form4"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form5"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "show_form",
+      "form": "Form9"
+     }
+    ],
+    "Command4.Click": [
+     {
+      "op": "show_form",
+      "form": "Form23"
+     }
+    ]
+   }
+  },
+  "Form5": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form4"
+     },
+     {
+      "op": "close",
+      "form": "Form5"
+     },
+     {
+      "op": "close",
+      "form": "Form6"
+     },
+     {
+      "op": "close",
+      "form": "Form7"
+     },
+     {
+      "op": "close",
+      "form": "Form8"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form5"
+     },
+     {
+      "op": "show_form",
+      "form": "Form6"
+     }
+    ]
+   }
+  },
+  "Form6": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form5"
+     },
+     {
+      "op": "close",
+      "form": "Form6"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form7"
+     },
+     {
+      "op": "close",
+      "form": "Form6"
+     }
+    ]
+   }
+  },
+  "Form7": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form8"
+     },
+     {
+      "op": "close",
+      "form": "Form7"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form6"
+     },
+     {
+      "op": "close",
+      "form": "Form7"
+     }
+    ]
+   }
+  },
+  "Form8": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form7"
+     },
+     {
+      "op": "close",
+      "form": "Form8"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "close",
+      "form": "Form5"
+     },
+     {
+      "op": "close",
+      "form": "Form6"
+     },
+     {
+      "op": "close",
+      "form": "Form7"
+     },
+     {
+      "op": "close",
+      "form": "Form8"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "close",
+      "form": "Form4"
+     },
+     {
+      "op": "close",
+      "form": "Form5"
+     },
+     {
+      "op": "close",
+      "form": "Form6"
+     },
+     {
+      "op": "close",
+      "form": "Form7"
+     },
+     {
+      "op": "close",
+      "form": "Form8"
+     }
+    ]
+   }
+  },
+  "Form9": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form10"
+     },
+     {
+      "op": "close",
+      "form": "Form9"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command2_Click()\nLoad Form8\nForm8.Show\nUnload Form9\nForm9.Hide\nEnd Sub",
+      "note": "'Command2' no existe como control/menú en Form9 según el manifest de este número; código huérfano que nunca se dispara. Solo Command1 es un control real en Form9 de este número."
+     }
+    ]
+   }
+  },
+  "Form10": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form9"
+     },
+     {
+      "op": "close",
+      "form": "Form10"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form9"
+     },
+     {
+      "op": "close",
+      "form": "Form10"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "close",
+      "form": "Form4"
+     },
+     {
+      "op": "close",
+      "form": "Form9"
+     },
+     {
+      "op": "close",
+      "form": "Form10"
+     }
+    ]
+   }
+  },
+  "Form11": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\nDim toggle As Integer\ntoggle = 0\nList1.AddItem \"Virus Creation Laboratory\"\nList1.AddItem \"G²\"\nList1.AddItem \"Virus Creation 2000\"\nList1.AddItem \"Trojan Horse Construction Kit\"\nList1.AddItem \"PC-MPC\"\nList1.AddItem \"GenVir\"\nList1.AddItem \"Virus Construction Set\"\nList1.AddItem \"Instant Virus Production Kit\"\nList1.AddItem \"Lo que hace falta\"\nEnd Sub",
+     "note": "Puebla List1 dinámicamente con AddItem y declara/inicializa la variable de módulo 'toggle'; sin op de vocabulario para poblar listas ni variables de módulo."
+    }
+   ],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command1_Click()\nLoad Form12\nForm12.Show\nUnload Form11\nForm11.Hide\nEnd Sub",
+      "note": "'Command1' no existe como control/menú en Form11 según el manifest de este número; código huérfano que nunca se dispara. Solo Command2 y Command3 son controles reales en Form11 (dentro de SSTab1); Command1 no existe."
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "close",
+      "form": "Form11"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command3_Click()\nIf toggle = 0 Then\ntoggle = 1\nCommand3.Caption = \"Clasificación mortal\"\nLabel5.Caption = \"                          Dark Angel toma como base el tamaño del virus.\"\nLabel6.Caption = \"Tiny virus: (Menos de 500 bytes) Son hechos para ser indetectables porque su tamaño es muy pequeño, son muy simples porque la longitud de su código es muy limitada.\"\nLabel7.Caption = \"Large virus: (Más de 1500 bytes) Son hechos para ser indetectables porque cubren muy bien su rastro. (Todo ese código sirve para algo). Un buen ejemplo de estos virus es el virus Whale (Ballena)\"\nLabel8.Caption = \"Otros:  No están hechos para ser indetectables (al programador no le importa), los virus de sobreescritura son de este tipo. Los virus de este tipo son fácilmente descubiertos.\"\nElseIf toggle = 1 Then\ntoggle = 0\nCommand3.Caption = \"Clasificación según Dark Angel\"\nLabel5.Caption = \"                          Según los mortales, los virus se clasifican según su acción destructiva:\"\nLabel6.Caption = \"Gusano: Son los virus que se desplazan en la memoria RAM buscando espacios sin utilizar, cuando lo encuentran, hacen copias sucesivas de ellos mismos para ocupar el mayor espacio posible. un ejemplo es 'El gusano de Internet', escrito por Robert Morris Jr. de 23 años, apareció la noche del 2 de noviembre de 1988.\"\nLabel7.Caption = \"Cabayo de Troya: Este no es precisamente un virus, sólamente ejecutan la bómba cuando corren, haciendose pasar por un programa útil, pero en una parte del código del programa está la bomba. Hay un Cabayo de Troya que se hace pasar por un Antivirus.\"\nLabel8.Caption = \"Bomba lógica: A este grupo pertenecen casi todos los virus, es un virus que ocupa que ciertas condiciones se cumplan o no se cumplan, por ejemplo, un virus puede tener la condición de que la computadora tenga MS-DOS 6.22, de lo contrario no se ejecutará. Puede haber todo tipo de condiciones, pueden ser una o varias. Lo veremos mejor cuando analizemos el Virus Creation Laboratory.\"\nEnd If\nEnd Sub",
+      "note": "Alterna entre dos bloques de texto largos según la variable de módulo 'toggle' y cambia 4 Captions distintos por rama; lógica no trivial dependiente de estado."
+     }
+    ],
+    "List1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub List1_Click()\nSelect Case List1.ListIndex\n  Case 0\n    Label18.Caption = \"          El Virus Creation Laboratory, fué creado por NuKE, como una herramienta profesional y rápida para la creación de virus, Salió al público en 1992 y causó conmoción alrrededor del mundo. Pero tiene un grave defecto: Todos los antivirus detectan los virus creados por el VCL. Aún así sigue siendo una de las mejores herramientas para la creación de virus. Genera código en ensamblador (TASM).\"\n    Label19.Caption = \"\"\n  Case 1\n    Label18.Caption = \"          Esta herramienta (G al cuadrado), Es de la segunda generación de Toolkits, salió al público en 1993, lo escribió Dark Angel, y es una herramienta para hacer código y estudiarlo, no para ensamblarlo directamente, así tu podrás aprender más y hacer mejores virus.\"\n    Label19.Caption = \"\"\n  Case 2\n    Label18.Caption = \"          Esta (para mí) es la mejor utilidad para virus. Tiene un enfoque distinto, el programa te hace un cuestionario de cómo será el virus y al final te produce un código que puede ser compatible con MASM o TASM y también tiene la opción de hacer el anti-virus para tu virus. La recomiendo para principiantes que no sepan programar en Ensamblador\"\n    Label19.Caption = \"\"\n  Case 3\n    Label18.Caption = \"          La verdad este programa no me mucho, no lo he usado muy bien, sólo tengo una versión Beta del producto. Lo que sí sé es que hay dos módulos: File Padder y Construction. Lo que me gustó fué es que no tienes que pasar por la fase *.ASM hace archivos *.COM directamente, pasar por el *.ASM era un inconveniente para los que no tienen un compilador.\"\n    Label19.Caption = \"\"\n  Case 4\n    Label18.Caption = \"          Para empezar, el PC-MPC viene en código fuente, no en ejecutable, está programado en C, lo cual es un incomveniente para los que no tienen el compilador. En verdad, nunca lo he visto, nunca lo ha compilado.\"\n    Label19.Caption = \"\"\n  Case 5\n    Label18.Caption = \"          Es un programa francés, que está orientado a menús, salió al público en 1990, para usar una copia funcional del programa (que haga archivos *.COM) tenías que pagar 120 francos.\"\n    Label19.Caption = \"\"\n  Case 6\n    Label18.Caption = \"          Este es un programa alemán, creado por el grupo VDV (Verband Deutscher Virenliebhaber). Salió en 1990, originalmente estaba en alemán, pero hay una copia crackeada en inglés.\"\n    Label19.Caption = \"\"\n  Case 7\n    Label18.Caption = \"          El IVP es un programa de la segunda generación, fué escrito por Admiral Bailey, un mienbro del grupo YAM (Youngsters Aganist McAfee). Según su documentación, está escrito en Turbo Pascal 7.0 y contiene muchas opciones avanzadas.\"\n    Label19.Caption = \"\"\n  Case 8\n    Label18.Caption = \"          Lo que creo que hace falta, es un generador de virus para Windows. Que el programa para hacerlos sea para Windows y los virus sean para Windows. Otra opción sería el generador de MacroVirus, para Word, Excel, PowerPoint, etc. Hay una nueva posibilidad de crear virus en Windows 98, se llama Windows Scripting Host, algo así como los archivos BAT de MS-DOS.\"\n    Label19.Caption = \"          Hay otro tipo de virus, el virus del IRC, luego hablaré de ellos. Tal vez yo me dedique a hacer los programas para Windows, pero sería tarea de muchos meses. Ustedes pueden ayudar, aportando ideas a radiaktivo@yahoo.com (si mandan virus, avisen). \"\nEnd Select\nEnd Sub",
+      "note": "Select Case sobre List1.ListIndex con 9 ramas que fijan Label18/Label19.Caption con textos largos; sin op de vocabulario para dispatch por índice de lista."
+     }
+    ]
+   }
+  },
+  "Form12": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\nDim blink As Integer\nblink = 0\nEnd Sub",
+     "note": "Solo declara e inicializa la variable de módulo 'blink' (Dim blink As Integer; blink = 0); sin efecto visible y sin op equivalente. El Timer1 que la usa no existe como control en el manifest (ver Timer1.Timer)."
+    }
+   ],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command1_Click()\nUnload Form12\nForm12.Show\nEnd Sub",
+      "note": "'Command1' no existe como control/menú en Form12 según el manifest de este número; código huérfano que nunca se dispara. Form12 no tiene ningún CommandButton en el manifest; además el código hace Unload Form12 seguido de Form12.Show (patrón inconsistente/bug)."
+     }
+    ],
+    "Label18.Click": [
+     {
+      "op": "close",
+      "form": "Form12"
+     }
+    ],
+    "Timer1.Timer": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Timer1_Timer()\nIf blink = 0 Then\n    blink = 1\n    Label1.Visible = False\nElseIf blink = 1 Then\n    blink = 0\n    Label1.Visible = True\nElse\nEnd If\nEnd Sub",
+      "note": "Timer1 no existe como control en el manifest de Form12 (posible control eliminado); el parpadeo de Label1 nunca se dispara en el motor."
+     }
+    ]
+   }
+  },
+  "Form13": {
+   "on_load": [
+    {
+     "op": "gradient",
+     "from": "#040000",
+     "to": "#0400FF",
+     "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+    }
+   ],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form13"
+     },
+     {
+      "op": "close",
+      "form": "Form14"
+     },
+     {
+      "op": "close",
+      "form": "Form15"
+     },
+     {
+      "op": "close",
+      "form": "Form18"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form14"
+     },
+     {
+      "op": "close",
+      "form": "Form13"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "msgbox",
+      "text": "Servidor 1: [RedLatina: NA, Mexico, Guadalajara SERVER:irc.udg.mx:6667 GROUP:redlatina] Servidor 2: [RedLatina: NA, Mexico, Mexico D.F. SERVER:yuju.anahuac.mx:6667 GROUP:redlatina] Servidor 3: [RedLatina: NA, Mexico, Morelos SERVER:academ02.mor.itesm.mx:6667 GROUP:redlatina] Servidor 4: [NA, México, Aguascalientes SERVER:sundi.basico.uaa.mx:6667 GROUP:redlatina",
+      "title": "Información confidencial"
+     }
+    ]
+   }
+  },
+  "Form14": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form15"
+     },
+     {
+      "op": "close",
+      "form": "Form14"
+     }
+    ],
+    "Label2.Click": [
+     {
+      "op": "msgbox",
+      "text": "Para entrar al juego de Excel '95: Entrar a Excel, Irse a la línea 95, presionar el número que nos indica la línea, presionar TAB, entrar a Ayuda = Help, Seleccionar 'Acerca de Microsoft Excel', mantener presionados Ctrl+Alt+Shift y presionar el botón de Soporte técnico",
+      "title": "Lo encontraste"
+     }
+    ]
+   }
+  },
+  "Acerca": {
+   "on_load": [],
+   "events": {}
+  },
+  "Aclaración": {
+   "on_load": [
+    {
+     "op": "gradient",
+     "from": "#040000",
+     "to": "#0400FF",
+     "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ]
+   }
+  },
+  "Form15": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command1_Click()\nUnload Form15\nForm15.Hide\nEnd Sub",
+      "note": "'Command1' no existe como control/menú en Form15 según el manifest de este número; código huérfano que nunca se dispara. Solo Command2 es un control real en Form15 de este número."
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form18"
+     },
+     {
+      "op": "close",
+      "form": "Form15"
+     }
+    ],
+    "info.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub info_Click()\nMsgBox \"Ese soy yo\", , \"BadBit\"\nEnd Sub",
+      "note": "No existe menú/control 'info' en Form15 de este número (sí existía como menú 'BadBit' en el número anterior); código huérfano heredado."
+     }
+    ]
+   }
+  },
+  "Form16": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form16"
+     }
+    ]
+   }
+  },
+  "Form17": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form17"
+     }
+    ]
+   }
+  },
+  "Form18": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form13"
+     },
+     {
+      "op": "close",
+      "form": "Form14"
+     },
+     {
+      "op": "close",
+      "form": "Form15"
+     },
+     {
+      "op": "close",
+      "form": "Form18"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command2_Click()\nMsgBox (\"En el próximo número vendrán más archivos, pero dénse cuenta de que no puedo transmitir muchos kilobytes por internet\"), , \"Aviso\"\nEnd Sub",
+      "note": "'Command2' no existe como control/menú en Form18 según el manifest de este número; código huérfano que nunca se dispara. Solo Command1 es un control real en Form18 de este número (dentro de Frame1)."
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command3_Click()\nLoad Form20\nForm12.Show\nEnd Sub",
+      "note": "'Command3' no existe como control/menú en Form18 según el manifest de este número; código huérfano que nunca se dispara. Además referencia 'Form20' sin llegar a mostrarlo (muestra Form12 en su lugar); patrón inconsistente heredado del número anterior."
+     }
+    ]
+   }
+  },
+  "Disctract": {
+   "on_load": [],
+   "events": {
+    "esde.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub esde_Click()\nUnload Distract\nDistract.Hide\nEnd Sub",
+      "note": "El código referencia 'Distract' (sin la segunda 'c'), que no coincide con ningún form del manifest ('Disctract' es la clave real); probablemente un typo, pero no se resuelve por diferir en letras, no solo en mayúsculas."
+     }
+    ]
+   }
+  },
+  "Ayuda": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\nList1.AddItem \"¿Como se usa esta revista?\"       ' 0\nList1.AddItem \"Problemas conocidos\"              ' 1\nList1.AddItem \"¿Cómo los puedo contactar?\"       ' 2\nList1.AddItem \"Dónde conseguirla\"                ' 3\nList1.AddItem \"Quiero unirme\"                    ' 4\n' 5\nList1.AddItem \"Mi módem no quiere funcionar\"     ' 6\nList1.AddItem \"No se oye Paranoid Android\"\nList1.AddItem \"¿Cual es el password para el articulo?\"\nEnd Sub",
+     "note": "Puebla List1 dinámicamente con AddItem; sin op de vocabulario para poblar listas."
+    }
+   ],
+   "events": {
+    "gfgrv.Click": [
+     {
+      "op": "close",
+      "form": "Ayuda"
+     }
+    ],
+    "heeeelp.Click": [
+     {
+      "op": "msgbox",
+      "text": "¡No hay algún doctor entre el público! Sigue así y llegarás lejos.",
+      "title": "¡Dios mío!"
+     }
+    ],
+    "Label1.Click": [
+     {
+      "op": "set_prop",
+      "target": "Label1",
+      "prop": "caption",
+      "value": "¿Exactamente qué pretendes con presionar aquí?"
+     }
+    ],
+    "List1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub List1_Click()\nSelect Case List1.ListIndex\nCase 0\n    Label1.Caption = \"Hice esta interfaz pensando que hasta un idiota la va a entender, pero veo que me he equivocado. Para navegar tienes que pulsar los botones o acceder a los menús. No es recomendado cerrar las pantallas con la tacha que está en la esquina superior derecha de la ventana, porque se queda cargada en memoria, mejor utiliza los botones que dicen: Volver al menú principal.\"\nCase 1\n    Label1.Caption = \"Algunas veces cuando cierras la pantalla de una forma que no sea un botón para salir, el programa se queda cargado en la memoria, así que procura salir del programa con el botón de salir, desde el menú Archivo-Salir o presionando Ctrl+Q. Esta revista la diseñé en una computadora con resolución de 800 X 600 con fuentes grandes y color de 16 bits, en algunas computadoras con resoluciones distintas, pudiera verse de una forma extraña. Aunque he procurado utilizar fuentes que sé que cualquier computadora con Windows 95 tiene (Fixedsys, Ms Sans Serif, Arial, Times New Roman), usé fuentes que no todas las máquinas tendrán (Trebuchet Ms, OCR A Extended)\"\nCase 2\n    Load Form17\n    Form17.Show\n    Unload Ayuda\n    Ayuda.Hide\nCase 3\n    Label1.Caption = \"Generalmente la distribuyo por IRC, si me ves (yuju.anahuac.mx port:6667 grupo: RedLatina) pídemela y te la mando. Tal vez la hospede en la página de alguien y de ahí la podrás bajar.\"\nCase 4\n    Label1.Caption = \"Lee la información de cómo contactarnos\"\nCase 5\n    Label1.Caption = \"Y eso a mi que me interesa.\"\nCase 6\n    Label1.Caption = \"Para que se oiga tienes que poner el archivo Paranoid Android.mid en el directorio C:\\Windows\\Media\"\nCase 7\n    Label1.Caption = \"No voy a decir el password aqui (que sentido tendria). Pero el password esta disponible para todos, solo pidanmelo por e-mail. Le puse password al articulo porque algunos se pueden impresionar por eso (yo se que ese no es tu caso) y principalmente cuando es de noche.\"\nEnd Select\nEnd Sub",
+      "note": "Select Case sobre List1.ListIndex con 8 ramas heterogéneas (la mayoría fija Label1.Caption, una navega a Form17 y cierra Ayuda); sin op de vocabulario para dispatch por índice de lista."
+     }
+    ]
+   }
+  },
+  "Form19": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n' 1\nList1.AddItem \"ACK\"\n' 2\nList1.AddItem \"alias\"\n' 3\nList1.AddItem \"aliases\"\n' 4\nList1.AddItem \"ananas\"\n' 5\nList1.AddItem \"away\"\n' 6\nList1.AddItem \"ban\"\n' 7\nList1.AddItem \"banear\"\n' 8\nList1.AddItem \"bot\"\n' 9\nList1.AddItem \"caer\"\n' 10\nList1.AddItem \"canal\"\n' 11\nList1.AddItem \"channel\"\n' 12\nList1.AddItem \"clon\"\n' 13\nList1.AddItem \"comandos\"\n' 14\nList1.AddItem \"commands\"\n' 15\nList1.AddItem \"dcc\"\n' 16\nList1.AddItem \"dmsetup.exe\"\n' 17\nList1.AddItem \"emonoticonos\"\n' 18\nList1.AddItem \"finger\"\n' 19\nList1.AddItem \"flood\"\n' 20\nList1.AddItem \"floodear\"\n' 21\nList1.AddItem \"host\"\n' 22\nList1.AddItem \"humma\"\n' 23\nList1.AddItem \"inundar\"\n' 24\nList1.AddItem \"IP (dirección)\"\n' 25\nList1.AddItem \"IRC\"\n' 26\nList1.AddItem \"lag\"\n' 27\nList1.AddItem \"lamer\"\n' 28\nList1.AddItem \"NAK\"\n' 29\nList1.AddItem \"nick\"\n' 30\nList1.AddItem \"nuke\"\n' 31\nList1.AddItem \"op\"\n' 32\nList1.AddItem \"operador\"\n' 34\nList1.AddItem \"privado\"\n' 35\nList1.AddItem \"script\"\n' 36\n' 37\nList1.AddItem \"scrool\"\n' 38\nList1.AddItem \"send\"\n' 39\nList1.AddItem \"smileys\"\n' 40\nList1.AddItem \"topic\"\nEnd Sub",
+     "note": "Puebla List1 dinámicamente con ~35 AddItem (glosario de términos IRC); sin op de vocabulario para poblar listas."
+    }
+   ],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form19"
+     }
+    ],
+    "List1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub List1_Click()\nSelect Case List1.ListIndex\n    Case 0\n     Text1.Text = \"ACK: 1. [del mnemónico ASCII 0000110] Acknowledge (conocimiento). Usado para confirmar la presencia de alguien. Una respuesta apropiada a {ping} o {ENQ}. También usado para decirle a una persona que se entiende lo que quiere decir, por ejemplo 'Ack.  Ack.  Ack.  Lo entiendo ahora' [Ver también: NAK]\"\n    Case 1\n     Text1.Text = \"alias: [sobrenombre], En el IRC (específicamente mIRC), un comando especificado por el usuario que performe otro(s) comando(s). Es muy útil cuando se repite muchas veces la misma acción. Ejemplo: /chiste /say ¿Qué fué lo último que le pasó a la princesa Diana por la cabeza? El radiador. Este ejemplo dice ese sangrón chiste cuando tu pones /chiste.\"\n    Case 2\n     Text1.Text = \"aliases: [ver: alias]\"\n    Case 3\n     Text1.Text = \"ananas: [De una cadena encontrada en el script.ini] Ananas es un (mal llamado) virus de mIRC, que aprovecha los {scripts} para replicarse automágicamente, mandando copias del archivo script.ini a cualquier usuario y que si alguno de ellos lo acepta, mandará copias de script.ini y así sucesivamente. El código para replicarse es el siguiente (los signos ; son los saltos de línea): on 1:JOIN:*:{; if ( $nick == $me ) { halt } | .dcc send $nick $mircdir $+ script.ini; }\"\n    Case 4\n     Text1.Text = \"away: [lejos, alejado] Dícese de un usuario de IRC que no está físicamente en la computadora o está haciendo otra cosa, mientras está conectado al chat, generalmente el mismo usuario lo indica con el comando /away o con otro método; Ejemplo: * mariachi9 esta away:- Al ratito vuelvo, se graban los mensajes - desde:19:08:37 - 15/09/98 (msg/on) -.\"\n    Case 5\n     Text1.Text = \"ban: [prohibir, excluir, maldecir] Acción que sólo puede realizar un operador de canal, consiste en no permitir el acceso a un usuario al canal del que se banea. Se puede hacer por dos métodos: Por nick, no permitir la entrada a la persona reconociéndola por el {nick}; Por host: no permitir la entrada a la persona reconociéndola por el {host}\"\n    Case 6\n     Text1.Text = \"banear: [prohibir, excluir, maldecir] Acción de ban.\"\n    Case 7\n     Text1.Text = \"bot: [abreviatura: roBOT] Usuario de IRC que tiene funciones especiales, como mandar archivos, desplegar mensajes etc. Tú puedes hacer tu propio bot programando en mIRC. Casi todos los bots son ops y los más importantes tienen nombres de una letra: V, S. Ejemplo: <S> [[SpARTaN]] El que al mundo vino, y no vino a tomar vino, entonces a que #^%*~!} vino!!!\"\n    Case 8\n     Text1.Text = \"caer: [fall] Es cuando un usuario se desconecta del chat no intencionalmente. Ejemplo: '<Alice> que saliò cuando me caí?' '*** Alice is now known as Rina' '<zekke> *Cierra* Rina -Ping timeout for Rina[198.182.74.152]-'; Aquí, mi amiga Alice le preguntó a zekke qué pasó cuando se cayó, y zekke mostró la clásica línea (que verás miles de veces) cuando un usuario se cae.\"\n    Case 9\n     Text1.Text = \"canal: [channel, chat-room] Es un lugar imaginario donde los usuarios se agrupan para chatear sobre un tema específico. Para ver una lista de todos los canales es: '/list'. Tú puedes crear tu propio canal con el comando '/join #nombredelcanal', si el nombredelcanal es igual a un canal que ya existe, sólo entrarás a él.\"\n    Case 10\n     Text1.Text = \"channel: [canal] Ver {canal}.\"\n    Case 11\n     Text1.Text = \"clon: [réplica] Es hacer dos conexiones al mismo servidor con la misma máquina, por lo tanto con el mismo {host}. No te recomiendo hacer un clon, ya que 'alentan al server' según un {topic} de un canal y te sacarán del servidor.\"\n    Case 12\n     Text1.Text = \"comandos: [commands, órdenes] Son las instrucciones que se le dan a un cliente de {IRC} para realizar determinada acción. Ejemplos: '/join' '/part' '/quit' '/topic' etc.\"\n    Case 13\n     Text1.Text = \"commands: [comandos, órdenes] Ver {comandos}.\"\n    Case 14\n     Text1.Text = \"dcc: ['Direct Client Conection'?] Es una conexión directa entre dos clientes de IRC, sirve para mandar archivos entre usuarios y chatear privadamente. Gracias a este método, se empezaron a propagar los virus del IRC, en los sevidores en los que he estado, los nombres de virus más comunes son: {dmsetup.exe}, {script.ini}, los siguientes archivos es el mismo virus, pero cada vez que corre, cambia de nombre: PEETIT.exe, IRCBUD.exe, PUPY.exe, UDPIQ.exe, LOVETOE.exe y otros nombres, este virus muestra unas gráficas que te distraen mientras hacen su acción en el disco, crea dos directorios (suck_it y _dm2iyf) que están dañados y no los podrás remover, se copia a el directorio raíz y añade una línea al autoexec.bat para correrse a si mismo, pero con un parámetro especial. Me gustaría saber quién creó ese inteligente virus. [ver: dmsetup.exe, script.ini]\"\n    Case 15\n     Text1.Text = \"dmsetup.exe: [Nombre de archivo para despistar] Este es uno de los virus del IRC, yo creo que tiene ese nombre para despistar a los usuarios y que crean que es un archivo de instalación y lo recivan. Lo que hace este archivo es: copiarse al directorio raíz, poner la siguiente línea en el autoexec.bat 'dmsetup.exe' y modificar a los archivos *.ini del mIRC. A mi amigo Target le cambió toda la información de nombre, nick, alternativo, etc. por puras 'r's. No aceptes ese archivo.\"\n    Case 16\n     Text1.Text = \"emonoticonos: [del griego ikone: dibujo, 'dibujos que expresan emoción'] Son series de caracteres que volteados 90 grados dan la impresión de una cara. Ejemplos: [:-) Felicidad] :-( Tristeza; :'( Llanto; >:-( Enojo; >:-] Sarcástico; =:o) Payaso; yo otros: :-/ :-* :-@ 8-) :-p :-x #:-) :-O. Tú también puedes crear tus propios emonoticonos.\"\n    Case 17\n     Text1.Text = \"finger: [dedo, apuntar] Sirve para conocer más información sobr un usuario. (no sé ni porqué lo puse)\"\n    Case 18\n     Text1.Text = \"flood: [inundar] Acción que consiste en llenar al canal de información inútil obstaculizando la cómoda plática de usuarios que se encuentren en el mismo canal. En otras palabras, escribir cosas a lo pend%@#. Pero si floodeas machín, te desconectan del server. (no lo intentes en casa)\"\n    Case 19\n     Text1.Text = \"floodear: [palabra en spanglish: 'inundar'] Acción de inundar.\"\n    Case 20\n     Text1.Text = \"host: [huésped] Es una dirección única que se dá a un usuario, de la siguiente manera: usuario@host. Gracias a esta dirección te pueden nukear.\"\n    Case 21\n     Text1.Text = \"humma: [originado en MECC Timeshare System] Término arcaico (lo puse para hacer honor al dixionario chafamex) que designa cuando no tienes nada que decir pero sientes que es importante decir algo.\"\n    Case 22\n     Text1.Text = \"inundar: [flood] Ver {flood}\"\n    Case 23\n     Text1.Text = \"IP (dirección): [Internet Protocol] Ver {host}.\"\n    Case 24\n     Text1.Text = \"IRC: [Internet Relay Chat] ¿En serio ocupas explicación? Bueno, es un sistema que permite a los usuarios de Internet chatear, es todo.\"\n    Case 25\n     Text1.Text = \"lag: ['desconocido'] La acumulación de texto basura en un canal, por ejemplo: la información de gente que sale y entra del canal, la gente que se desconecta del IRC, promociones (principalmente del Forro script), texto de los bots, etc. Es muy molesto.\"\n    Case 26\n     Text1.Text = \"lamer: [mentiroso] Persona muy enfadosa que se pasa diciendo mentiras que no se las cree ni su abuela. Conocí a un tal Morti que creyó que yo (¡imagínense!) era un lamer, JA! Pero el tipo de mentiras que dicen son: 'Oye, ayer entré a la NASA', 'Hey, cuídate de mí, soy ultra-peligroso', cosas por el estilo, son completamente inofensivos.\"\n    Case 27\n     Text1.Text = \"NAK: [No estoy aquí] Respuesta a NAK, significa 'No, no estoy aquí. [ver NAK]\"\n    Case 28\n     Text1.Text = \"nick: [abrev. nickname] Es un sobrenombre que los usuarios se ponen para su propia seguridad, ya que no muestran su nombre real. Te sugiero que escojas un nick que refleje tu personalidad.\"\n    Case 29\n     Text1.Text = \"nuke: [bomba atómica] Es un programa diseñado para mandar una 'trabadura' a otra computadora, lo cual produce la clásica pantalla azul de windows y no queda más remedio que resetear la computadora. El nuke funciona por medio de los IP, ya que al poner el IP del que se quiere nukear se manda. Te recomiendo el nuke WinNuke 32. No he nukeado a mucha gente (me dá lástima) pero a la que nukeé más notoriamente es a dekka.\"\n    Case 30\n     Text1.Text = \"op: [OPerator] Modo de usuario que permite controlar un canal y poner todos sus modos. Es el estado más codiciado, ya que con ese puedes patear a tu gusto, según NaTuRe: <NaTuRe> ya renuncié al op y esta vez para siempre, el op te ciega\"\n    Case 31\n     Text1.Text = \"operador: [Operator] Ver {op}\"\n    Case 32\n     Text1.Text = \"privado: [private] Es un modo de plática en el que dos usuarios chatean sin que nadie más vea su conversación. En realidad no es tan privado, ya que con pocos conocimientos puedes ver un privado pero no estoy aquí para decirles eso. La forma más segura de chatear privado es con un {dcc} chat.\"\n    Case 33\n     Text1.Text = \"script: [escrito] En mIRC es un lenguaje de programación orientado a eventos que sirve para automatizar tareas y (con el script adecuado) hacer cosas que ningún mortal imagina. Hay unos scripts enfadosos, el ejemplo más claro de esto es el Forro script, sus timers son insoportables (incluso lo prohíben en algunos canales: #mexico), cada determinado tiempo pone '* nick script Forro 1.0 Puedes pedírlo a johan@mail.com Indicándome en el E-mail si quieres programa en formato ZIP o el EXE. O bajatelo en... etc. etc. Hay algunos scripts muy útiles, como el Showdown Pro y el Mastermix. Te recomiendo el BadBit Script, tiene más de 100 chistes!!!\"\n    Case 34\n     Text1.Text = \"scrool: [deformación de scroll] Otro término arcaico usado en chat-rooms en la era paleozoica que significa que el servidor guarda un buffer de como 20 líneas, para que cuando tú entres a canal te ponga las líneas que se dijeron antes de que llegaras y puedas llevar el hilo de la conversación.\"\n    Case 35\n     Text1.Text = \"send: [mandar] Técnica para mandar archivos usando {dcc}.\"\n    Case 36\n     Text1.Text = \"smileys: [emonoticonos] Ver {emonoticonos}\"\n    Case 37\n     Text1.Text = \"topic: [tópico] Tema a tratar en un canal. Por lo general no se usa para poner el tópico, sino para poner un mesaje atractivo para los usuarios o como publicidad, ya que se pone a un lado del listado de canales en mIRC.\"\nEnd Select\nEnd Sub",
+      "note": "Select Case sobre List1.ListIndex con ~38 ramas que fijan Text1.Text (glosario IRC); sin op de vocabulario para dispatch por índice de lista."
+     }
+    ]
+   }
+  },
+  "Config": {
+   "on_load": [],
+   "events": {
+    "Check1.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "enabled",
+      "value": true
+     }
+    ],
+    "Combo1.Change": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "enabled",
+      "value": true
+     }
+    ],
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Config"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "close",
+      "form": "Config"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "enabled",
+      "value": false
+     }
+    ],
+    "Option1.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "enabled",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Combo1",
+      "prop": "enabled",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Combo1",
+      "prop": "back_color",
+      "value": "#FFFFFF"
+     },
+     {
+      "op": "set_prop",
+      "target": "Check1",
+      "prop": "enabled",
+      "value": true
+     }
+    ],
+    "Option2.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "enabled",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Combo1",
+      "prop": "enabled",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Combo1",
+      "prop": "back_color",
+      "value": "#C0C0C0"
+     },
+     {
+      "op": "set_prop",
+      "target": "Check1",
+      "prop": "enabled",
+      "value": false
+     }
+    ],
+    "Slider1.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "enabled",
+      "value": true
+     }
+    ]
+   }
+  },
+  "Kalkuladora": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    DecimalFlag = False\n    NumOps = 0\n    LastInput = \"NONE\"\n    OpFlag = \" \"\n    ReadOut = Format(0, \"0.\")\n    Decimal.Caption = Format(0, \".\")\nEnd Sub",
+     "note": "Parte de la calculadora de ejemplo de Microsoft (control array Number()/Operator() con Index, estado compartido entre subs, Format/CDbl); lógica no trivial fuera del vocabulario."
+    }
+   ],
+   "events": {
+    "Cancel.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Cancel_Click()\n    ReadOut = Format(0, \"0.\")\n    Op1 = 0\n    Op2 = 0\n    Form_Load\nEnd Sub",
+      "note": "Parte de la calculadora de ejemplo de Microsoft (control array Number()/Operator() con Index, estado compartido entre subs, Format/CDbl); lógica no trivial fuera del vocabulario."
+     }
+    ],
+    "CancelEntry.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub CancelEntry_Click()\n    ReadOut = Format(0, \"0.\")\n    DecimalFlag = False\n    LastInput = \"CE\"\nEnd Sub",
+      "note": "Parte de la calculadora de ejemplo de Microsoft (control array Number()/Operator() con Index, estado compartido entre subs, Format/CDbl); lógica no trivial fuera del vocabulario."
+     }
+    ],
+    "Decimal.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Decimal_Click()\n    If LastInput = \"NEG\" Then\n        ReadOut = Format(0, \"-0.\")\n    ElseIf LastInput <> \"NUMS\" Then\n        ReadOut = Format(0, \"0.\")\n    End If\n    DecimalFlag = True\n    LastInput = \"NUMS\"\nEnd Sub",
+      "note": "Parte de la calculadora de ejemplo de Microsoft (control array Number()/Operator() con Index, estado compartido entre subs, Format/CDbl); lógica no trivial fuera del vocabulario."
+     }
+    ],
+    "Number.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Number_Click(Index As Integer)\n    If LastInput <> \"NUMS\" Then\n        ReadOut = Format(0, \".\")\n        DecimalFlag = False\n    End If\n    If DecimalFlag Then\n        ReadOut = ReadOut + Number(Index).Caption\n    Else\n        ReadOut = Left(ReadOut, InStr(ReadOut, Format(0, \".\")) - 1) + Number(Index).Caption + Format(0, \".\")\n    End If\n    If LastInput = \"NEG\" Then ReadOut = \"-\" & ReadOut\n    LastInput = \"NUMS\"\nEnd Sub",
+      "note": "Control array Number(Index As Integer); lógica de dígitos con estado compartido; fuera del vocabulario."
+     }
+    ],
+    "Operator.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Operator_Click(Index As Integer)\n    TempReadout = ReadOut\n    If LastInput = \"NUMS\" Then\n        NumOps = NumOps + 1\n    End If\n    Select Case NumOps\n        Case 0\n        If Operator(Index).Caption = \"-\" And LastInput <> \"NEG\" Then\n            ReadOut = \"-\" & ReadOut\n            LastInput = \"NEG\"\n        End If\n        Case 1\n        Op1 = ReadOut\n        If Operator(Index).Caption = \"-\" And LastInput <> \"NUMS\" And OpFlag <> \"=\" Then\n            ReadOut = \"-\"\n            LastInput = \"NEG\"\n        End If\n        Case 2\n        Op2 = TempReadout\n        Select Case OpFlag\n            Case \"+\"\n                Op1 = CDbl(Op1) + CDbl(Op2)\n            Case \"-\"\n                Op1 = CDbl(Op1) - CDbl(Op2)\n            Case \"X\"\n                Op1 = CDbl(Op1) * CDbl(Op2)\n            Case \"/\"\n                If Op2 = 0 Then\n                   MsgBox \"Can't divide by zero\", 48, \"Calculator\"\n                Else\n                   Op1 = CDbl(Op1) / CDbl(Op2)\n                End If\n            Case \"=\"\n                Op1 = CDbl(Op2)\n            Case \"%\"\n                Op1 = CDbl(Op1) * CDbl(Op2)\n            End Select\n        ReadOut = Op1\n        NumOps = 1\n    End Select\n    If LastInput <> \"NEG\" Then\n        LastInput = \"OPS\"\n        OpFlag = Operator(Index).Caption\n    End If\nEnd Sub",
+      "note": "Control array Operator(Index As Integer); máquina de estados de la calculadora (Select Case anidado); fuera del vocabulario."
+     }
+    ],
+    "Percent.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Percent_Click()\n    ReadOut = ReadOut / 100\n    LastInput = \"Ops\"\n    OpFlag = \"%\"\n    NumOps = NumOps + 1\n    DecimalFlag = True\nEnd Sub",
+      "note": "Parte de la calculadora de ejemplo de Microsoft (control array Number()/Operator() con Index, estado compartido entre subs, Format/CDbl); lógica no trivial fuera del vocabulario."
+     }
+    ]
+   }
+  },
+  "Form20": {
+   "on_load": [],
+   "events": {}
+  },
+  "Form22": {
+   "on_load": [],
+   "events": {}
+  },
+  "Form23": {
+   "on_load": [],
+   "events": {}
+  },
+  "Chistes": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Mueve txtEdit y centra el form usando Screen.Height/Screen.Width dinámicamente; sin op de vocabulario para centrar en pantalla."
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona txtEdit a ScaleWidth/ScaleHeight del form; sin op de vocabulario para binding de tamaño dinámico."
+     }
+    ]
+   }
+  },
+  "nextnum": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "nextnum"
+     }
+    ]
+   }
+  },
+  "Reloj": {
+   "on_load": [],
+   "events": {
+    "Timer1.Timer": [
+     {
+      "op": "clock",
+      "target": "Label1",
+      "what": "time"
+     }
+    ]
+   }
+  }
+ }
+}

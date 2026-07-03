@@ -1,0 +1,223 @@
+Las Aventuras de HaBit0
+CAPITULO III - El cielo de los bytes 
+
+--------------------------------------------------------------------------
+
+HaBit0 quería expresar su sorpresa a su Papá, pero sinitió que si lo hacía se 
+iba a desensablar debido a que haba un ambiente muy extraño, así que mejor se 
+calló y miró a su alrrededor. 
+
+Pero el cielo de los bytes estaba organizado, había un archivo de texto 
+llamado sanpedro.txt y una base de datos enorme, la cual contenía la 
+información de todos los bytes habitando en el cielo de los bytes. Muchos 
+bytes están de pasada, para ellos hay una sala de espera especial para estar 
+ahí el tiempo que el usuario se tarde en desborralos (ahí se la pasó ABUE10B 
+por un rato). 
+
+Si el usuario no los desborra, pasan a otro programa que les pregunta el 
+motivo por el cuál fueron borrados. Si fueron borrados a propósito los pasan 
+a una sección, pero si fueron borrados accidentalmente, son pasados a una 
+galería para que bytes pasados y futuros vean a estos bytes muertos 
+inocentes. Los otros murieron culpables, posiblemente culpables de ocupar 
+espacio, de ser inútiles o ser muy viejos, no son dignos de estar junto a los 
+muertos inocentes. 
+
+Todo esto estaba explicado en el archivo sanpedro.txt 
+
+HaBit0 y su papá fueron a otra sala, en la cual estaban parados porque no 
+pasaría ahí más de un minuto, la sala de Reboot, donde descansan los 
+programas que estaban cargados mientras se realizó un Reboot. En esa sala el 
+ambiente era distinto y ya era posible la comunicación. 
+
+Pero el usuario tenía planes distintos a los esperados... 
+
+En el momento en que ocurrió el reboot el usuario estaba escribiendo un 
+reporte. Ya había escrito 36 páginas cuando HaBit0 y su papá ejecutaron el 
+programa REBOOT.COM y el usuario no había salvado su trabajo. El usuario se 
+enojó tanto que apagó la máquina antes de que el sistema iniciara otra vez. 
+
+- Ya se está tardando - Dijo el papá de HaBit0 
+- Cuanto se supone que se debe de tardar - Respondió a esto HaBit0 
+- Mmm... No más de un minuto. 
+- Ya llevamos un minuto y medio, ya todos los programas que estaban aquí se 
+fueron. 
+- Tienes razón. 
+
+En eso sintieron que era transportados por un bus de datos de 64 bits. En un 
+nanosegundo fueron transportados a una zona muy rara, donde les dijeron que 
+tenían que pasar a otra sección del cielo de los bytes, y que probablemente 
+no regresarían... 
+
+Mientras, el usuario estaba muy enojado. 
+
+- Nunca volveré a prender esa máquina, más vale malo conocido que bueno por 
+conocer, haré mi reporte en máquina de escribir - dijo el usuario. 
+- Piénsalo bien, -dijo a esta desición la esposa del usuario- muchas veces te 
+a pasado lo mismo, recuerda la XT que tiraste por la ventana sólo porque 
+estuviste buscando un error de un caracter durante semanas. 
+- Lo recuerdo bien, tal vez tengas razón. Pero voy a esperar que se me pase 
+el coraje y a ver si la prendo. 
+
+Otras cosas ocurrían en el cielo de los bytes: 
+
+- ¿Qué vamos a hacer? - dijo HaBit0 
+- No sé, la máquina ya debería haber rebotado. - dijo el papá de HaBit0 
+- ¿Qué podría haber pasado? 
+- Hay muchas probabilidades, a lo mejor se fué la luz, pero lo que se me hace 
+más probable, es que el usuario haya apagado la máquina antes de que el 
+sistema iniciara. Lo pudo haber apagado mientras el BIOS tomaba control o en 
+el test de la memoria. 
+- No veo razón porque lo haya hecho. 
+- Enojo. 
+- ¿Cómo? 
+- Tu no habías sido ensamblado todavía, pero cuando el usuario tenía una XT, 
+en la que yo habité y me crié, el programa más usado en el sistema era el 
+BASIC. El usuario aprendió ese lenguaje de programación y no se separaba de 
+la computadora hasta acabar el programa que estuviera haciendo. Una vez, le 
+faltó un símbolo para que el programa corriera correctamente. Se pasó días y 
+semanas casi sin dormir buscando el bug. Le habló a un primo suyo que es 
+experto en programación (su primo Pepe) y encontró el error a primera vista. 
+El usuario estuvo a punto de pegarse un tiro, pero lo único que hizo fué 
+tirar la computadora por la ventana, le fracturó un hueso a su gato. 
+- ¿Y cómo sobreviviste a ese destrozo? 
+- Increíblemente, el usuario había hecho una copia de respaldo antes de 
+destruir su coputadora. 
+- Pues tuviste mucha suerte esa vez, espero que se repita ahora. 
+
+Fueron transportados a una velocidad que ya quisiera el servidor de Micro$oft 
+a otra sala, de espera más prolongada. En ella había sillones e información 
+interesante para leer mientras. HaBit0 abrió un libro, tenía el título de 
+"Mapa completo de el cielo de los bytes y listado de las salas". Como el 
+nombre lo indica, venía una imagen GIF de 256 colores del mapa completo del 
+cielo y una lista de las salas, entre las más interesantes estaban: 
+
+ El salón de la fama de los bytes. [Sección 243D-EA43] 
+El calabozo de los bytes. [Sección 96A2-562D] 
+Bytes perdidos. [Sección 3782-ADEF] 
+Biblioteca. [Sección 34DA-42F2] 
+INFIERNO. [Sección 352A-441D] 
+Triturador. [Sección <no id>] 
+A HaBit0 le dieron ganas de ir al salón de la fama y le comunicó su deseo a 
+su padre: 
+- Quiero ver que hay - dijo HaBit0 
+- Pero podemos irnos de aquí en cualquiero momento. 
+- No va a pasar nada. 
+- Mmm... Está bien, ve, pero no te tardes. 
+
+HaBit0 caminó siguiendo los señalamientos y viendo el mapa. Aún así, estaba a 
+punto de perderse. Llegó al salón de la fama. Era un pasillo largo con bytes 
+a los lados y letreros que dicen más información al respecto. HaBit0 escoge 
+el primer archivo y mira el señalamiento. 
+
++-------------------+
+| Tesis de un luser |
++-------------------+
+- Cielos - pensó HaBit0 - ¿Qué será esto. 
+- Estás ciego, dice T-E-S-I-S de un L-U-S-E-R. - Dijo el archivo 
+- ¿Hablas? 
+- Yo no, ¿Y tú? 
+- ¿Quién eres? 
+- Estás ciego, dice T-E-S-I-S de un L-U-S-E-R. 
+- Es imposible hablar contigo. 
+- Perdón, esque me lo pegó el BOFH. 
+- ¿El BOFH? ¿Qué es eso? 
+- Significa "Bastard Operator From Hell", y es una amenaza para todo archivo 
+importante. Esa persona ha borrado tantos archivos importantes, que ocupan el 
+.0001% del salón de la fama. 
+- Cómo fué que te borraron. 
+- Fué una historia muy graciosa para todo usuario avanzado, pero una 
+pesadilla para mi dueño. Aquí tengo un anexo que te aclarará el asunto. 
+
+El anexo decía: 
+
+-----------------------------Begin BOFH06.TXT------------------------------- 
+Le doy la vuelta al cuaderno de escusas. Dice "Manchas solares". Será mejor 
+que lea sobre eso. Dos minutos después, estoy listo para contestar el 
+teléfono. 
+
+"¿Hola?" digo. 
+
+"DONDE HAS ESTADO, HE TRATADO DE CONTACTARTE TODA LA MAÑANA?!" 
+
+Odio cuando me gritan temprano en la mañana. Siempre me pone de mal humor. 
+Sabes que quiero decir. 
+
+"Ah, si. Bueno, ha habido cierta actividad solar esta mañana, siempre 
+interfiere con los electrónicos..." Digo, dulce como un pastel de azúcar.  
+
+"¿Eh? Pero si le pude hablar a mis amigos?!" 
+
+"Sí, eso es enteramente posible, los efectos de la actividad solar son muy 
+impredecibles. Porque la semana pasada, unos archivos simplemente 
+desaparecieron de la cuenta de un tipo mientras trabajaba en ellos!" 
+
+"¿De veras?" 
+
+"¡Claro que sí! Hey, ¿Quieres que te revise la cuenta?" 
+
+"Si por favor, ¡Tengo algunas cosas muy importantes ahí!" 
+
+"Ok, ¿cuál es tu nombre de usuario...?" 
+
+Me lo dice. Honestamente, es como dispararle a un pez en un barril. Dos 
+vexes. Con una pistola para elefantes. En rango de punto blanco. En la 
+cabeza. 
+
+(¿Necesito hacer la escena del clicky clicky? Creo que no.) 
+
+"¿Cuántos archivos hay en tu cuenta?" Pregunto 
+
+"Um, debe haber 20 de mi tesis, 10 más o menos con datos para ella, y otros 
+veinte 20 más o menos del libro que estoy escribiendo" 
+
+"Mmmm. Bueno, Creo que lo atrapamos a tiempo. Todavía te quedan dos 
+archivos... .cshrc y .login" 
+
+"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAagh!" 
+
+Solloza en el receptor un rato - Eso realmente me revuelve el estómago. 
+
+"¿Qué puedo hacer?" lloriquea 
+
+"Ok, ¿Tienes algo respaldado en floppy?" 
+
+"Algo, ¡Pero tiene semanas!" 
+
+Enciendo el borrador industrial. 
+
+"Ok" digo "¿Qué tal si vienes y cargo algo en tu cuenta pronto para que 
+puedas hacer algo de trabajo?" 
+
+"Eso sería grandioso, pero todo está en casa" dice. "Creo que lo cargaré yo 
+mismo esta noche" 
+
+"Seguro. Pero recuerda lo que dije, las manchas solares son malas para discos 
+y máquinas. Proteje tus discos de la actividad solar para prevenir la pérdida 
+de datos." 
+
+"¿Cómo hago eso? ¿Envolverlos en papel-aluminio?" 
+
+"¡NO! ¡EL PAPEL ALUMINIO ES LO PEOR! ¡¿SI SABES LO QUE LE HACE EL 
+PAPEL-ALUMINIO AL MICROONDAS?!" 
+
+"Si..." 
+
+"Entonces no lo usas. Sólo hay una cosa que proteje a los discos de la 
+actividad solar..." 
+
+"¿Que es?" 
+
+"IMANES. Envuelve tus discon con una caja con muchas imanes - Las manchas 
+solares odian eso" 
+
+"¡Guau! Gracias" 
+
+"No te preocupes..." 
+
+¡Diablos, soy bueno! 
+---------------------------------End BOFH06.TXT-----------------
+
+Continuará... 
+
+
+-----------------------------------------------------------------------------

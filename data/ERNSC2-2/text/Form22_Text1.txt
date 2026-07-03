@@ -1,0 +1,64 @@
+Breve historia de Cydonia.            Por BadBit
+
+Era el año de 1999, yo estaba sentado entre y la multitud, era uno de muchos. No sabía realmente qué me esperaba. En ese momento sólo quería creer que mi amigo RAW tuviera razón. Enfrente del auditorio, pasó un anciano a dar un discurso. No recuerdo exactamente sus palabras pero dijo más o menos lo siguiente:
+
+"Yo soy Hazor, muchos de ustedes han oído hablar de mí pero no me conocen en realidad.
+
+"Yo crecí en un ambiente en donde las computadoras y la tecnología estuvieron siempre cerca de mí, yo las podía usar y empecé desde muy temprana edad... tal vez demasiada. Cuando todos los demás niños de mi edad estaban jugando futbol en la calle yo ya estaba programando en ensamblador. Siempre fuí un marginado, y no me gustaba (ni me gusta)  hablar con otras personas... no sé, parece que viven en un mundo color de rosa, siempre felices. No se dan cuenta de lo que les está pasando.
+
+"Aprendí todo lo que tenía que aprender de computadoras, ahí fue cuando conocí ese aparato que cambiaría mi vida para siempre. Se llamaba módem, claro, ahora son mucho más rápidos que en aquellos tiempos, pero antes eran lo más moderno y costaban una fortuna.
+
+"Había oído decir que con ese aparato uno podía comunicarse con computadoras de todo el mundo usando la red telefónica. ¡Claro! ¿Porqué no se me había ocurrido antes? Inmediatamente después de oír aquella noticia me puse a trabajar para hacer un aparato que reproduciera las mismas funciones de un módem. Trabajé por seis meses, gracias a eso reprobé ese año en la escuela. Luego adapté los protocolos para que concordaran con mi módem casero y depués pude comunicarme a todo el mundo.
+
+"El primer mes que usé el módem llegó a mi casa una cuenta de teléfono estratosférica, la cual tuve que pagar con ayuda de una tarjeta de crédito fantasma, pero los siguientes meses no llegó ni un centavo de larga distancia. Esque el sistema telefónico era tan sencillo que cualquiera podía alterar su cuenta de teléfono... aún no entiendo porqué los demás no lo hacían...
+
+"Pasaron los años y llegó internet... trabajé en varios proyectos como Linux, GNU, los retos RC5, etc. Proyectos que pasaron desapercibidos para la mayoría de la población del planeta tierra, pero para nosotros los 'hackers' era nuestras vidas.
+
+"Pero todo eso costó muy caro... mi enfermedad me ha hecho envejecer prematuramente y hoy estoy muy enfermo debido a los años que pasé frente a la computadora, afortunadamente inventé un sistema para aumentar mis ahora limitadas facultades visuales, pero sigo teniendo problemas de todo tipo. Ahora no sé que me vaya a pasar, me siento sólo y estoy comenzando a cuestionar el sentido de mi vida.
+
+"Afortunadamente, siempre he tenido metas, lo cual me ha mantenido con vida. Mantener a los Cydonianos exige mucho esfuerzo. Al principio, los Cydonianos y yo teníamos una meta común: Construir un rostro humano en marte, lo logramos en 1974. Ahora queremos tener nuestro centro de operaciones allá para el 2028 y necesitamos de su ayuda."
+El discurso terminó muy fríamente, nadie aplaudió. Sólo se escucharon comentarios como: "2028 es muy poco tiempo". Todos salimos del auditorio o lo que fuera y nos dirigimos a que nos entrevistaran.
+
+Después de hacer cinco horas de fila, entré a una puerta con unos símbolos extraños. Esa puerta conduce hacia el cuarto de entrevistas para los nuevos aspirantes a Cydonianos. Entré y para sorpresa mía, el entrevistador que a mí me tocó fue el mismísimo Hazor. De cerca se veía muy acabado para su edad, aproximadamente treinta años. Cuando me vió, estaba trabajando en su computadora, oprimiendo dos teclas simultáneamente, cerró su procesador de palabras y volteó a verme sin decir una sola palabra. Dejé mi mochila en el suelo y me senté en una silla que parecía estar hecha para el entrevistado. Después de unos tres minutos que a mí me parecieron una eternidad, Hazor rompió el silencio y me preguntó: "¿Sabes lo que implica ser un Cydoniano?"
+
+Contesté: "Si". Hazor se veía muy acabado, parecía un anciano, aunque, como ya dije, rondaba los teinta años. Nunca presentó ninguna emoción ni sentimiento durante toda la entrevista... bastante extraño. Me habían contado de él, muchos creíamos que sólo era una leyenda y que nunca existió en realidad. Dicen que él ha hecho tantas cosas por este planeta, que son inumerables.
+
+Hazor me preguntó: "¿Cuántos años tienes?". Mi amigo RAW me dijo que Hazor si existía y que él lo conocía, siempre me platicaba del grupo de Cydonia, el cual es un grupo de hackers, unos hackers de los más poderosos del mundo. Yo quería pertenecer a ese grupo, y para eso vine para entrevistarme con Hazor, el lider de los de Cydonianos. Aunque este grupo siempre ha sido muy cerrado, yo tenía esperanzas de entrar, ya que no soy un novato. La programación, los protocolos y la electrónica ya son juegos de niños para mí, aunque necesito ser muy especial si quiero entrar al grupo. Le contesté a Hazor: "17 años".
+
+La entrevista continuó con preguntas como: "¿Cuántos idiomas hablas?", "¿Puedes convertir hexadecimal a octal mentalmente?", "¿Tienes entrenamiento militar?", etc., etc. Preguntas que yo ya esperaba y había ensayado meses antes. Aunque preguntó otras cosas que yo no me esperaba: "¿Porqué las tapas de las alcantarillas son redondas?", "¿Quién le puso nombre al Océano Pacífico?", "¿Cuál es el ave más abundante del mundo?".
+
+"Tienes que pasar ciertas pruebas". Eso si me lo esperaba. Hazor me dijo que saliera y pasara al cuarto número 584. Me guié por los mapas pegados en las paredes y entré al 584, el cual estaba repleto de computadoras ultra-modernas que yo ni siquiera había soñado. Me senté en una de las cientos de máquinas y leí las reglas y las combinaciones de teclas para jugar "Quake V". Eso sí me sorprendió, la serie de juegos Quake llegaba en ese entonces hasta el tres, nunca supe cómo pudieron tener ese juego tan adelantado para la fecha (aunque me lo imagino).
+
+Observé que no era yo el único en ese cuarto gigantesco, había muchos otros, aspirantes a Cydonianos como yo. Me puse los audífonos con micrófono que estaban junto a la computadora y en el monitor apareció un mensaje: "El objetivo es simple: Sobrevivir." Después apareció el juego, el cual resultó ser de esos de perspectiva de primera persona (tipo DOOM), muy similar a las versiones anteriores de este mismo juego.
+
+Ese juego estaba diseñado para personas de nervios de acero, como Hazor. Era sorprendentemente real, yo sentía como si en verdad estuviera en esa base militar futurista matando gente de verdad. Logré permanecer vivo durante bastante tiempo, los participantes que perdieran eran eliminados y los sacaban del cuarto.
+
+Solamente quedábamos cuatro: Trilax7, DIGLETT, ast y Ganímedes (o sea yo). Fue una competencia dura, yo eliminé a ast y Trilax7 eliminó a DIGLETT. Solamente quedábamos dos... duramos jugando durante casi dos horas sin podernos eliminar el uno al otro. Para ese momento yo ya tenía mucha sed y estaba empapado en sudor, pero no podía parpadear porque sería eliminado y perdería mi oportunidad de entrar a Cydonia. Trilax7 puso una mina terrestre y yo le disparé con mi CHAINGUN, Trilax7 murió y yo pisé la mina terrestre al mismo tiempo. No alcancé a festejar porque los dos terminamos muertos. Me levanté de la silla, miré para todos lados y me quité los audífonos, ahí sentí el silencio que invadía el cuarto y la soledad, derrepente ví que otra persona salió de entre los numerosos monitores LCD, era Trilax7.
+
+Hazor llegó en su silla de ruedas y nos dijo que uno de los dos tenía que ser el primer lugar, y eso se tenía que decidir con las pruebas que seguían, aparte íbamos a competir contra los otros eliminados del juego: ast y DIGLETT.
+
+Hazor se fue y varias personas uniformadas nos sacaron de cuarto y nos llevaron hacia una especie de comedor. Se notaba que ya había sido usado minutos antes, posiblemente ahí comieron todos los eliminados antes de irse. Sólo entramos Trilax7 y yo, tal vez DIGLETT y ast ya habían comido, nos sirvieron un platillo bastante extraño, casi no tenía sabor, pero era muy húmedo y se parecía a alguna especie de pan, o algo de harina. El comedor estaba tan grande, que apenas alcancé a ver a Trilax7 comer muy lejos de mí, y estaba tan silencioso, que casi alcancé a escuchar su respiración.
+
+Después de comer, siguió un examen escrito, nada difícil. Pedían desarrollar microprocesadores y programarlos para ciertas tareas, como mover tornos, ensablar piezas para aparatos electrónicos, etc. 
+
+Pero sucedió algo sorprendente: ¡*NO* *aprobé* *el examen*!...
+
+Me sentí terrible, casi no podía respirar. ¡¿Como puede ser que YO no halla aprobado ese exámen?!, me pareció increíble. Pedí una segunda revisión y la respuesta fue no.
+
+Casi llorando me dirigí a la salida de este edificio. Afortunadamente había mapas indicando las salidas más cercanas. Afuera del edificio de Cydonia había un parque, me dirigí a él y me senté en una banca. Saqué mi PalmTop y revisé mi correo, apareció el mensaje: "Tienes doscientos ochenta y tres mil cuatrocientos veintisiete nuevos correos." ¡Demonios! Me mailbombearon, desgraciadamente en ese tiempo no habían transportado los programas que necesitaba para remover la mailbomba a la PalmTop.
+
+Perdí el sentido del tiempo y pasé toda la noche sentado y pensando. Luego, vi que salieron del edificio varias personas. Al principio salieron unos de los uniformados, luego Trilax7, luego Hazor y al último más uniformados. Se dirigían hacia una camioneta, yo creo que iban a llevar a Trilax7 a algún lugar para practicarle alguna otra prueba. De pronto uno de los de uniforme sacó algo que no alcancé a ver muy bien, pero por lo que pasó después creo que fue una jeringa. Clavaron la jeringa en el cuello de Hazor, no hizo ninguna mueca de dolor pero me pareció que no se podía mover ya que no accionó su silla de ruedas. Trilax7 permaneció inmóvil por un instante y luego los uniformados restantes lo atraparon. Se llevaron a Hazor y a Trilax en la caminoneta, voltearon para ver si nadie los había visto, afortunadamente me escondí atrás de la banca y no me vieron, y partieron rápidamente sin dejar rasto.
+
+Al principio no supe qué hacer, ¿Cómo gente de Cydonia iba a ponerse en contra de Hazor? Miré para todos lados y no vi a nadie más. Ya era de madrugada y no había un solo testigo a exepción mía.
+
+Lo que sucedió después no tiene mucha importancia... fui perseguido y tuve que usar todo mi conocimiento para seguir en este mundo. Pero todo valió la pena ya que ahora que soy el líder de los Cydonianos pude cumplir el sueño de Hazor a tiempo: la nueva base en Marte llamada ERNT en honor al equipo de hackers fundado en 1998 y que seguramente todos conocerán, el cual nos prestó una ayuda invaluable.
+
+¿Pero porqué cuento esto después de treinta años? Esque hace poco llegaron a la base de Marte ciertos documentos que relatan la historia completa de Hazor desde el principio al fin y explican porqué terminé siendo yo el jefe de los Cydonianos... Tal vez los muestre públicamente si me alcanza la vida...
+
++------------------------------------+
+| ERNT - Desierto de Cydonia - Marte |
+| Viernes 12 de Octubre del año 2029 |
+|                                    |
+|            Ganímedes.              |
+|   Tercer lider de los Cydonianos   |
++------------------------------------+

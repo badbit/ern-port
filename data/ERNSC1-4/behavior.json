@@ -1,0 +1,919 @@
+{
+ "forms": {
+  "Form1": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\nApp.HelpFile = \"ern.hlp\"\nForm1.HelpContextID = 1\nEnd Sub",
+     "note": "asigna App.HelpFile y Form1.HelpContextID; propiedades de ayuda no están en el vocabulario de set_prop soportado"
+    }
+   ],
+   "events": {
+    "about.Click": [
+     {
+      "op": "show_form",
+      "form": "Acerca"
+     }
+    ],
+    "badbitsdj.Click": [
+     {
+      "op": "show_form",
+      "form": "BadBit"
+     }
+    ],
+    "binary.Click": [
+     {
+      "op": "show_form",
+      "form": "Form22"
+     }
+    ],
+    "blue.Click": [
+     {
+      "op": "set_prop",
+      "target": "Form1",
+      "prop": "back_color",
+      "value": "#000080"
+     }
+    ],
+    "clear.Click": [
+     {
+      "op": "show_form",
+      "form": "Aclaración"
+     }
+    ],
+    "combined.Click": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "msgbox",
+      "text": "No vivimos ni en nuestro pasado ni en el futuro, sino en el presente",
+      "title": "Frase del mes"
+     }
+    ],
+    "contactus.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     }
+    ],
+    "contents.Click": [
+     {
+      "op": "msgbox",
+      "text": "El sistema de ayuda está a medio completar, pero puedes leer el archivo ern.hlp en el mismo directorio que el Radiaktivo, o también haz click en el signo de interrogación en la barra de título y haz click en la ventana principal, (no sé si funciona)",
+      "title": "Ayuda en construcción",
+      "icon": "information"
+     }
+    ],
+    "credits.Click": [
+     {
+      "op": "show_form",
+      "form": "Form16"
+     }
+    ],
+    "djrep.Click": [
+     {
+      "op": "show_form",
+      "form": "Form8"
+     }
+    ],
+    "editor.Click": [
+     {
+      "op": "show_form",
+      "form": "Form3"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "forgringos.Click": [
+     {
+      "op": "show_form",
+      "form": "spanish"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ],
+    "frasee.Click": [
+     {
+      "op": "msgbox",
+      "text": "No vivimos ni en nuestro pasado ni en el futuro, sino en el presente",
+      "title": "Frase del mes"
+     }
+    ],
+    "gem.Click": [
+     {
+      "op": "show_form",
+      "form": "bofhG"
+     }
+    ],
+    "green.Click": [
+     {
+      "op": "set_prop",
+      "target": "Form1",
+      "prop": "back_color",
+      "value": "#008000"
+     }
+    ],
+    "habito.Click": [
+     {
+      "op": "show_form",
+      "form": "habit0"
+     }
+    ],
+    "hide.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Label3",
+      "prop": "visible",
+      "value": false
+     }
+    ],
+    "index.Click": [
+     {
+      "op": "show_form",
+      "form": "Form2"
+     }
+    ],
+    "jokessss.Click": [
+     {
+      "op": "show_form",
+      "form": "caracol"
+     }
+    ],
+    "kjiussmc.Click": [
+     {
+      "op": "show_form",
+      "form": "melissa"
+     }
+    ],
+    "limbos.Click": [
+     {
+      "op": "show_form",
+      "form": "limbo"
+     }
+    ],
+    "logo.Click": [
+     {
+      "op": "show_form",
+      "form": "Logoz"
+     }
+    ],
+    "maxmi.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Label3",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "set_prop",
+      "target": "Label2",
+      "prop": "visible",
+      "value": false
+     },
+     {
+      "op": "unsupported",
+      "code": "Form1.WindowState = 2",
+      "note": "WindowState (maximizar) no está en el vocabulario de set_prop soportado"
+     }
+    ],
+    "minimi.Click": [
+     {
+      "op": "unsupported",
+      "code": "Form1.WindowState = 1",
+      "note": "WindowState (minimizar) no está en el vocabulario de set_prop soportado"
+     }
+    ],
+    "password.Click": [
+     {
+      "op": "show_form",
+      "form": "passwords"
+     }
+    ],
+    "pokedex.Click": [
+     {
+      "op": "show_form",
+      "form": "pokemon"
+     }
+    ],
+    "postal.Click": [
+     {
+      "op": "show_form",
+      "form": "esquema"
+     }
+    ],
+    "red.Click": [
+     {
+      "op": "set_prop",
+      "target": "Form1",
+      "prop": "back_color",
+      "value": "#C04000"
+     }
+    ],
+    "restore.Click": [
+     {
+      "op": "set_prop",
+      "target": "Command3",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Label3",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "set_prop",
+      "target": "Label2",
+      "prop": "visible",
+      "value": true
+     },
+     {
+      "op": "unsupported",
+      "code": "Form1.WindowState = 0",
+      "note": "WindowState (restaurar) no está en el vocabulario de set_prop soportado"
+     }
+    ],
+    "sadsd.Click": [
+     {
+      "op": "show_form",
+      "form": "bofh1"
+     }
+    ],
+    "screen.Click": [
+     {
+      "op": "show_form",
+      "form": "Disctract"
+     }
+    ],
+    "six.Click": [
+     {
+      "op": "show_form",
+      "form": "djhell"
+     }
+    ],
+    "yellow.Click": [
+     {
+      "op": "set_prop",
+      "target": "Form1",
+      "prop": "back_color",
+      "value": "#808000"
+     }
+    ]
+   }
+  },
+  "Form2": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "Form3"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command2_Click()\nLoad Form4\nForm4.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "el form 'Form4' no existe en este número (referencia muerta, heredada de otro número)"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command3_Click()\nLoad Form6\nForm6.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "el form 'Form6' no existe en este número (referencia muerta, heredada de otro número)"
+     }
+    ],
+    "Command4.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command4_Click()\nLoad Form13\nForm13.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "el form 'Form13' no existe en este número (referencia muerta, heredada de otro número)"
+     }
+    ],
+    "Command5.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command5_Click()\nLoad Form14\nForm14.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "el form 'Form14' no existe en este número (referencia muerta, heredada de otro número)"
+     }
+    ],
+    "Command6.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     },
+     {
+      "op": "close"
+     },
+     {
+      "op": "show_form",
+      "form": "Form2"
+     }
+    ],
+    "Command7.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Command8.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command8_Click()\nLoad Form15\nForm15.Show\nUnload Form2\nForm2.Hide\nEnd Sub",
+      "note": "el form 'Form15' no existe en este número (referencia muerta, heredada de otro número)"
+     }
+    ]
+   }
+  },
+  "Form3": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "msgbox",
+      "text": "Su drive C: ha sido formateado. Instale un nuevo sistema operativo",
+      "title": "100% Completado"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "quit"
+     }
+    ]
+   }
+  },
+  "Aclaración": {
+   "on_load": [
+    {
+     "op": "gradient",
+     "from": "#040000",
+     "to": "#0400FF",
+     "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ]
+   }
+  },
+  "Form16": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Form17": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Disctract": {
+   "on_load": [],
+   "events": {
+    "Command2.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "esde.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub esde_Click()\nUnload Distract\nDistract.Hide\nEnd Sub",
+      "note": "typo en el código original: referencia al form 'Distract' (sin 'c'), que no existe; probablemente quería decir 'Disctract' (el propio form)"
+     }
+    ]
+   }
+  },
+  "Form22": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Form23": {
+   "on_load": [],
+   "events": {}
+  },
+  "Acerca": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "if_text",
+      "target": "Text1",
+      "equals": "Bungaloo Punta Cometa",
+      "then": [
+       {
+        "op": "msgbox",
+        "text": "Bungaloo Punta Cometa, Capuccino, un amor una flor",
+        "title": "16 Bytes"
+       },
+       {
+        "op": "close",
+        "form": "Acerca"
+       }
+      ],
+      "else": [],
+      "_note": "Easter egg: password oculto en Acerca (reconstruido)."
+     }
+    ]
+   }
+  },
+  "esquema": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "fdh.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ],
+    "sads.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "Harmagedon.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo Harmagedon.txt",
+      "title": "Extraer a archivo"
+     }
+    ]
+   }
+  },
+  "bofhG": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "closes.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "extract.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "bofh#G.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a bofh#G.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ]
+   }
+  },
+  "Form8": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "extima.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "extractmac.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "Bar'neah.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo Bar'neah.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ]
+   }
+  },
+  "bofh1": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "extrearsdf.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "bofh#1.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a bofh#1.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ],
+    "saudhaos.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Logoz": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Command1_Click()\nOpen \"alquimia.txt\" For Append As #2\nPrint #2, \"  -No es fácil descubrir la piedra filosofal - dijo el\"\nPrint #2, \"Inglés-. Los alqumistas pasaban muchos años en los\"\nPrint #2, \"laboratorios contemplando aquel fuego que purifica-\"\nPrint #2, \"ba los metales. Miraban tanto al fuego que poco a poco\"\nPrint #2, \"sus cabezas iban perdiendo todas las vanidades del\"\nPrint #2, \"mundo. Entonces, un buen día, descubrían que la\"\nPrint #2, \"purificación de los metales había terminado por puri-\"\nPrint #2, \"ficarlos a ellos mismos.\"\nPrint #2, \"  El muchacho se acordó del Mercader de Cristales.\"\nPrint #2, \"El le había dicho que era buena idea limpiar los jarros\"\nPrint #2, \"para liberarse ambos también de los malos pensamien-\"\nPrint #2, \"tos. Estaba cada vez más convencido de que la Alqui\"\nPrint #2, \"mia podría aprenderse en la vida diaria.\"\nPrint #2, \"  -Además- dijo el Inglés- la Piedra Filosofal tiene\"\nPrint #2, \"una propiedad fascinante: un pequeño fragmento de ella\"\nPrint #2, \"es capaz de transformar grandes cantidades de metal en oro.\"\nPrint #2, \"  A partir de esta frase, el muchacho quedó interesa-\"\nPrint #2, \"dísimo en la Alquimia. Pensaba que, con un poco de\"\nPrint #2, \"paciencia, podría transformar todo en oro. Leyó la\"\nPrint #2, \"vida de varias personas que lo habían conseguido:\"\nPrint #2, \"Helvetius, Elías, Fulcanelli, Geber. Eran historias fas-\"\nPrint #2, \"cinantes: todos estaban viviendo hasta el final su Le-\"\nPrint #2, \"yenda Personal. Viajaban, encontraban sabios, hacían\"\nPrint #2, \"milagros frente a los incrédulos, poseían la Piedra\"\nPrint #2, \"Filosofal y el Elixir de la Larga Vida.\"\nPrint #2, \"  Pero cuando quería aprender la manera de conse-\"\nPrint #2, \"guir la Gran Obra, quedaba totalmente perdido. Eran\"\nPrint #2, \"sólo dibujos, instrucciones en código, textos oscuros.\"\nPrint #2, \"------------------------------------------------------\"\nPrint #2, \"  El Alquimista cogió un libro que alguien en la\"\nPrint #2, \"caravana había traído. El volumen no tenía tapas, pero\"\nPrint #2, \"consiguió identificar a su autor: Oscar Wilde. Mientras\"\nPrint #2, \"hojeaba sus páginas, encontró una historia sobre Nar-\"\nPrint #2, \"ciso.\"\nPrint #2, \"  Al Alquimista conocía la leyenda de Narciso, un\"\nPrint #2, \"hermoso joven que todos los días iba a contemplar su\"\nPrint #2, \"propia belleza en un lago. Estaba tan fascinado consi-\"\nPrint #2, \"go mismo que un día se cayó dentro del lago y se murió\"\nPrint #2, \"ahogado. En el lugar donde cayó, nació una flor, que\"\nPrint #2, \"fue llamada narciso.\"\nPrint #2, \"  Pero no era así como Oscar Wilde acababa la histo-\"\nPrint #2, \"ria:\"\nPrint #2, \"  El decía que cuando Narciso murió, vinieron las\"\nPrint #2, \"Oréades -diosas del bosque- y vieron al lago trans-\"\nPrint #2, \"formado, de un lago de agua dulce, en un cántaro de\"\nPrint #2, \"lágrimas saladas.\"\nPrint #2, \"  -¿Por qué lloras? -le preguntaron las Oréades.\"\nPrint #2, \"  -Lloro por Narciso -respondió el lago.\"\nPrint #2, \"  -¡Ah, no nos asombra que llores por Narciso -pro-\"\nPrint #2, \"siguieron ellas-. Al fin y al cabo, a pesar de que\"\nPrint #2, \"nosotras siempre corríamos trás él por el bosqu, tú\"\nPrint #2, \"eras el único que tenía la oportunidad de contemplar\"\nPrint #2, \"de cerca su belleza.\"\nPrint #2, \"  -¿Pero Narciso era bello? -preguntó el lago.\"\nPrint #2, \"  -¿Quién podría saberlo más que tú? - respondie-\"\nPrint #2, \"ron, sorprendidas, las Oréades-. Al fin y al cabo, era\"\nPrint #2, \"en tus márgenes que él se inclinaba para contemplarse\"\nPrint #2, \"todos los días.\"\nPrint #2, \"  El lago se quedó algún tiempo callado. Finalmente,\"\nPrint #2, \"dijo:\"\nPrint #2, \"  -Yo lloro por Narciso porque cada vez que él se\"\nPrint #2, \"inclinaba sobre mis márgenes yo podía ver, en el\"\nPrint #2, \"fondo de sus ojos, mi propia belleza reflejada.\"\nPrint #2, \"  '¡Qué bella  historia', dijo el Alquimista.\"\nMsgBox (\"El viejo le contó que la semana pasada había tenido que aparecer a un 'garimperio' (buscador de oro y piedras preciosas) bajo la forma de un piedra. El garimperio había dejado todo para partir en busca de esmeraldas. Durante cinco años trabajó en un río, y había partido 999,999 piedras en busca de una esmeralda. En ese momento, el garimperio pensó en desistir, y sólo le faltaba una piedra, solamente UNA PIEDRA para descubrir su esmeralda. Como él había sido un hombre que había apostado por su Leyenda Personal, el viejo decidió intervenir. Se transformó en una piedra, que rodó sobre el pie del garimperio. Este, con la rabia y frustración de los cinco años perdidos, arrojó la piedra lejos. Pero la arrojó con tanta fuerza que se golpeó contra otra y se rompió, mostrando la esmeralda más bella del mundo.\"), , (\"Nunca desistas\")\nEnd Sub",
+      "note": "Open ... For Append escribe un cuento hardcodeado (relato de 'El Alquimista'/Narciso) a alquimia.txt en cada click, más un MsgBox; no es el patrón save_text (no viene de un control) y no hay op para append de texto literal"
+     }
+    ]
+   }
+  },
+  "BadBit": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "save_text",
+      "source": "Text2",
+      "suggest_name": "badbit.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a badbit.txt",
+      "title": "Extraer a archivo"
+     }
+    ]
+   }
+  },
+  "pokemon": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "show_form",
+      "form": "pokemon2"
+     },
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "pokemon2": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "passwords": {
+   "on_load": [],
+   "events": {
+    "Label10.DblClick": [
+     {
+      "op": "msgbox",
+      "text": "Easter egg no: 4563-3653",
+      "title": "Lo encontraste"
+     },
+     {
+      "op": "save_text",
+      "source": "Text1",
+      "suggest_name": "Ecgb@34.txt"
+     }
+    ]
+   }
+  },
+  "habit0": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "extraer500.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "habit01.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo habit01.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ]
+   }
+  },
+  "caracol": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "adasd.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "caracol.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo caracol.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "dssdf.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ]
+   }
+  },
+  "spanish": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "eewfeef.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ],
+    "sadfdfgdfg.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "gringos.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo gringos.txt",
+      "title": "Extraer a archivo"
+     }
+    ]
+   }
+  },
+  "limbo": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "Bungaloo.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo Bungaloo.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ]
+   }
+  },
+  "melissa": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "dfsdgf.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ],
+    "haslkdp.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "melissa.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a melissa.txt",
+      "title": "Extraer a archivo"
+     }
+    ]
+   }
+  },
+  "djhell": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "centra el form en pantalla (Screen.Width/Height) y reposiciona txtEdit a (0,0); fórmulas dinámicas no soportadas por set_prop"
+    }
+   ],
+   "events": {
+    "asdfasdfasd.Click": [
+     {
+      "op": "close"
+     }
+    ],
+    "dfshdfsf.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "bofh#1.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a bofh#1.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "redimensiona txtEdit para llenar el área cliente (ScaleWidth/ScaleHeight) en cada resize; no soportado"
+     }
+    ],
+    "print1.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub print1_Click()\nPrinter.FontName = \"Courier New\"\nPrinter.FontSize = 11\nPrinter.Print txtEdit.Text\nPrinter.EndDoc\nEnd Sub",
+      "note": "usa el objeto Printer (Printer.FontName/FontSize/Print/EndDoc) para imprimir en la impresora física; no soportado por el motor"
+     }
+    ]
+   }
+  }
+ }
+}

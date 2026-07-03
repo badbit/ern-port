@@ -1,0 +1,353 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |       Linux para expertos en Windows       |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+                               badbit@yahoo.com
+
+      "Piense en el aire. Imagine escuchar la radio. Considere las cervezas
+          que trae un amigo. LINUX combina lo mejor de esas sensaciones."
+
+                                          -David Bonn, Seattle Software
+
+
+ /-------------------------------------\
+ | Aclaración (para salvar mi pellejo) |
+ \-------------------------------------/
+
+    Se va a hablar de un tema que no es peligroso, pero puede causar dolores
+de cabeza e infartos a los débiles mentales. A menos que te consideres experto
+NO INSTALES LINUX en tu computadora sin ayuda, una instalación mala puede
+destruir tus datos, no es por asustarte, pero ha pasado... Claro, a mí no me
+pasó nada por el estilo, pero ví que la instalación no era para cardiacos
+(especialmente a la hora de las particiones).
+
+
+ /----------------------\
+ | Acerca de este texto |
+ \----------------------/
+
+    Es una leve introducción al sistema operativo Linux, se describirán sus
+características más importantes y sus ventajas y deventajas en comparación de
+otro sistema muy conocido: Windows. Pero no se profundizará en su uso, así
+que no te asustes, si sabes usar computadora le entenderás a este texto.
+
+    La verdad estoy muy satisfecho con este texto, tuve tiempo de sobra para
+hacerlo y por lo tanto pude hacerle todas las modificaciones que fueran
+necesarias y completarlo todo.
+
+
+ /---------\
+ | Windows |
+ \---------/
+
+    Generalmente, todas las personas que últimamente entran al mundo de la
+informática comienzan usando Windows. ¿Porqué? Porque el vil Gates ha hecho
+muy buenas movidas para adueñarse de todo el mercado y tumbar a sus
+competidores (verdad Netscape), pero ¿qué se le va a hacer? Lo más que podemos
+hacer es ignorarlo.
+
+    Yo comenzé usando MS-DOS, en esa época Windows no se usaba. Aprendí mucho
+de este sistema y luego llegó Windows 3.1 (no conocí versiones anteriores de
+windows (por fortuna)). Aprendí Windows 3.1 y luego llegó Windows 95... Sentí
+que volvía a nacer, había tanto que aprender... En ese entonces yo idolatraba
+a Windows, creía que era el mejor sistema operativo del Planeta, no había
+superiores.
+
+    Estando en la etapa de Windows 95 comenzé a volverme hacker, al principio
+comenzé juntando muchos programas para "hackear" y no me daba cuenta de la
+verdadera escencia del hacker. Después leí y leí. Me dí cuenta que había otros
+sistemas operativos usados por hackers, como UNIX, muchos de estos textos
+decían que sin UNIX no eras un hacker completo. Yo no creía esto, yo pensaba:
+"Pero si yo uso Windows y soy un 'buen' hacker, no necesito esos sistemas
+raros." Pero estaba equivocado, luego veremos porqué.
+
+    Llegó el momento en que Windows me aburrió, no había nada nuevo que hacer
+ni nada que descubrir, todo era conocido... necesitaba algo nuevo, necesitaba
+dar el próximo paso.
+
+    Después de tanto leer, quería UNIX, NECESITABA UNIX. También leí que había
+una varsión llamada Linux, la cual podía correr en una PC. Me dediqué a buscar
+Linux en Internet para bajarlo (ya que es gratis), pero no lo encontraba. Para
+este tiempo yo ya estaba harto de Windows, principalmente de Windows 98, el
+cual se traba siete veces al día MINIMO. Mi urgencia por Linux iba en aumento.
+
+    También para estas fechas, ya Karn Evil 9 había pasado a Linux RedHat (una
+de las muchas versiones de este sistema operativo) y yo... Seguía en Windows.
+Claro, le había hecho tantos cambios que era irreconocible, pero se seguía
+trabando y cada vez estaba más lento. Linux era imperativo.
+
+    Descubrí a Linux por casualidad. Un día entré a AltaVista sin nada que
+hacer e hice click en el vínculo temático "Software", de ahí pasé a "Operating
+Systems", luego a "Linux", "Distributions", "Tiny Linux" y ahí estaba. Linux
+con un tamaño accesible para que yo pudiera bajarlo, me apresuré y bajé un
+chorro de distribuciones distintas que cabían en muy poco espacio. De las que
+bajé, la que pude hacer funcionar fue la de BrutalWare, una distribución que
+cabe en tres diskettes. Con uno arrancas, con otro se crea el sistema de
+archivos en varios RAMdisks y otro contiene utilerías para hackear y navegar
+por internet.
+
+    Tener esa versión era un gran avance, aunque no tenía ambiente gráfico y
+no se podía hacer prácticamente nada, pero me ayudó a comprenderlo y a usar
+los comandos. Luego encontré un libro que tenía un CD con Linux RedHat 5.1 en
+español. Como tenía algo de dinero me lo compré. El libro es de 825 páginas
+y efectivamente contenía Linux.
+
+    No lo podía creer, ya tenía el sistema operativo de mis sueños entre mis
+manos... había que instalarlo lo antes posible. Primero copié toda la
+información de mi disco duro D: (SLAVE, 348 Mb) a C: (MASTER, 2 Gb). Luego
+hice los discos de arranque para iniciar la instalación. No tuve mayor
+complicación hasta que llegé a la etapa de particionar... pero antes hay que
+hablar más acerca de este sistema y aclarar las dudas.
+
+
+ /----------------\
+ | ¿Qué es Linux? |
+ \----------------/
+
+    UNIX es un sistema que surgió a finales de los años sesenta como un
+proyecto de Ken Thompson, de Bell Labs, el cual inconformes por las
+plataformas existentes. Creó junto con otras personas un sistema de la gente
+para la gente. Tenía el código fuente abierto, es decir, cualquiera podía
+hacerle cambios para mejorarlo, corregirle errores, etc. A eso se debió gran
+parte de su éxito, ya que todo el mundo podía cooperar para hacer de él un
+sistema operativo perfecto.
+
+    Le empezaron a añadir utilidades a UNIX y una de ellas fue el uucp, UNIX
+to UNIX copy program. Esta utilidad fue pensada para instalar UNIX en máquinas
+remotas, pero los usuarios lo usaron para otra cosa: Comunicarse entre ellos.
+Si, las computadoras estaban hablando entre sí, casi como una red sin centro.
+Tu te podías comunicar a cualquier UNIX sin necesidad de un servidor central.
+
+    Gracias a que UNIX tenía código fuente abierto, muchas compañías hicieron
+sus propias versiones con distintas utilerías pero el mismo núcleo, a estas
+versiones se les llama "sabores" de UNIX.
+
+    Uno de los sabores más conocidos y competitivos actualmente es Linux. El
+cual a su vez tiene otros "sub-sabores" o distribuciones. Linux vió por
+primera vez la luz en 1991, creado por un equipo dirijido por Linus Torvalds
+(de ahí el nombre del sistema) de la Universidad de Helsinki. Linux tiene un
+sistema bastante bueno de distribución y copia (llamado GNU): Cualquiera puede
+distribuir Linux siempre y cuando incluya el código fuente, cualquiera puede
+modificar y vender Linux siempre y cuando no reclame Copyright por nada creado
+a base de Linux, cualquiera que venda un Linux modificado debe dar permiso
+de modificarlo nuevamente sin cobrar nada.
+
+    Linus Torvalds y todos los que contribuyeron no lo hicieron con fines de
+lucro, solamente por el puro gusto de programar y de ayudar a miles de
+personas alrrededor del mundo. Así debería ser todo, gratis y con el afán de
+ayudar, no de hacerse multimillonario (¿Verdad vil Gates?).
+
+    Después de dar un poco de historia de este maravilloso sistema operativo,
+vamos a ver un poco su estructura y funcionamiento. No lo voy a describir con
+mucho detalle, sólo quiero convencerte de que dejes Windows y pases a Linux,
+algo más de la categoría hacker.
+
+
+ /-------------------------------\
+ | ¿Qué tiene de especial Linux? |
+ \-------------------------------/
+
+    Hasta esta parte del texto, he hablado en tono de crítica a Windows,
+esto se debe a que lo usé durante tanto tiempo, que cuando usé Linux me dió
+coraje haberme aguantado tanto tiempo usando un sistema operativo chafa, que
+no sirve para nada. Y quiero advertirles a los demás de que todavía están a
+tiempo para liberarse del maligno dominio de Microsoft. ¿Porqué desechar este
+sistema? Aparte de no servir ni para el arranque, Windows copia otras
+características que otros sistemas operativos han tenido por años y las hace
+propias, y pa' acabarla de amolar dice que son "nuevas", pero eso no es lo
+peor, Microsoft cobra por eso, pero eso tampoco es lo peor, lo peor es que la
+gente lo compra.
+
+    Bueno, ¿Qué tiene de ventaja Linux sobre Windows? La primerísima es que
+Linux es gratis, las demás no se las voy a decir, sólamente les voy a dar las
+características principales para que ustedes hagan sus propias conclusiones
+(como todo hacker). MS-DOS fué hecho a base de UNIX, por lo tanto trataré de
+comparar a Linux con MS-DOS para que tengan una idea más clara de lo que hablo
+(si no sabes nada de MS-DOS te recomiendo que dejes de leer y te pongas a
+aprenderlo, y aparte no deberías estar leyendo textos tan avanzados para tí).
+
+    Cuando instalé y usé Linux me dije a mi mismo: "Yo nací para esto," y me
+avergonzé de haber usado Windows y ahora me cuesta admitirlo. El haber usado
+Windows es una obscura mancha en mi pasado, la cual nunca podré borrar. A ver
+si puedo pasar El Radiaktivo Newz a otra plataforma... que vergüenza.
+
+    Linux consta de tres características que hay que definir primero:
+
+multitarea: Linux puede ejecutar muchas tareas o programas al mismo tiempo.
+            En realidad, lo que hace es pasarse de una tarea a otra tan
+            rápidamente que no lo notamos. También se pueden suspender tareas
+            y reanudarlas posteriormente. Pero tú podrías decir: "Hey, MS-DOS
+            también hace eso, puedo poner programas residentes en memoria, por
+            ejemplo un antivirus, que trabajen en el fondo." Pero eso en
+            realidad no es multitarea, a lo que se refiere es a que tú puedes
+            ver una lista de procesos que se están ejecutando al mismo tiempo
+            y darles prioridad o matarlos, aquí cuando terminas un proceso
+            lo terminas y ya, nada de que se traba o queda inestable.
+
+multiusuario: Se puede tener a varios usuarios trabajando en el mismo sistema
+              al mismo tiempo. Cada usuario tiene su propia "cuenta", o sea
+              sus propios directorios y archivos. Aquí es donde comienza la
+              inseguridad, puede ser que un usuario se conecte remotamente a
+              tu máquina con fines maliciosos (y sin necesidad de trojan).
+
+GUI: Significa "Graphic User Interface" o Interfase Gráfica de Usuario. Es
+     un ambiente gráfico con una interfase exelente y muchas apariencias
+     distintas para que tu selecciones la que más te gusta. Yo prefiero After
+     Step. Un ejemplo de GUI sería Windows (por cierto, es uno de los peores
+     GUIs que existen). También cuenta con una línea de comandos tan poderosa
+     que puede hacer exactamente lo mismo que el GUI.
+
+
+    Linux consta de varias partes: El kernel, shell y aplicaciones. El kernel
+es el que se encarga de comunicar el hardware con el software, en otras
+palabras es el sistema operativo en sí. El shell es la cara que le da el OS
+(operating system) al usuario. O sea, lo que ve el usuario es el shell, la
+línea de comandos. El shell se encarga de comunicar al usuario con el kernel,
+es decir, le traduce las ordenes del usuario al kernel. Uno de los shells más
+comunes es el BASH (Bourne Again Shell).
+
+    Las aplicaciones que contiene Linux son muy variadas, pueden incluirse las
+siguientes:
+
+O Compiladores de diversos lenguajes de programación, como: C, C++, LISP,
+  BASIC, Pascal, Ada, Fortran, Smalltalk, Perlo (que en realidad es un
+  lenguaje de scripts), Modula-2, etc.
+
+O X-windows, que es el GUI de Linux (lo equivalente a Windows 3.1 para
+  MS-DOS)
+
+O Programas para navegar internet, como Lynx, para leer correo, para usar
+  telnet, FTP, etc.
+
+
+    Bueno, hasta ahora no he dicho nada que Windows no tenga, pero esas cosas
+las reservé al final (son la mayoría):
+
+O Linux NO SE TRABA. Cuando digo que no se traba es en serio. Miles de
+  usuarios en todo el mundo están para respaldar lo que digo. Esto me recordó
+  una anécdota que me contó un amigo de la escuela. El ya usaba Linux desde
+  antes que yo, tiene un mouse de tres botones con un switch que dice: "Two
+  Buttons" y "Three Buttons" por si lo quieres usar de dos o tres botones,
+  Linux nada más ocupa dos, por eso mi amigo mantiene el switch en "Two
+  Buttons." Un día se le quedó en "Three Buttons" y cuando arrancó Linux
+  se quedó paralizado, mi amigo le dijo a su hermano (mayor que él): "Mmmm,
+  ¿No que Windows nunca se trababa?" En ese momento llegó el hermano, cambió
+  el switch y Linux siguió arrancando como si nada hubiera pasado. ¿Crees tú
+  que eso hubiera podido suceder en Windows? No creo, lo que hubieras tenido
+  que hacer es reiniciar Windows aplastanto reset ya que Ctrl + Alt + Del no
+  hubiera funcionado, y luego hubieras tenido que esperar a que todo el
+  sistema volviera a arrancar.
+
+O Linux no ocupa hardware utra-nuevo ni moderno. Puede correr en una 286 con
+  4 MB de RAM y un drive floppy. Pero claro, hay que tener un sistema decente
+  si lo quieres usar "bien." Karn Evil 9 me dijo que usó Internet con Linux en
+  una 486 (y rápido, no como Windows).
+
+O Tiene algo llamado seguridad, cosa prácticamente inexistente en Windows
+  (incluso en Windows NT), tiene capacidad para restringir archivos a usuarios
+  indeseables, la encripción de passwords no ha podido ser desencriptada
+  nunca, puedes surfear por Internet anónimamente, etc.
+
+O No tienes que reiniciar por cualquier cosa, por la única cosa por la que
+  tendrás que apagar y entrar de nuevo a este sistema es por actualizar el
+  kernel.
+
+O Linux puede correr programas de MS-DOS y Windows emulándolos y hasta puede
+  leer particiones FAT32 y otra infinidad de ellas.
+
+O Sin Linux no eres un hacker completo, no importa lo que digas, si te quieres
+  volver un hacker serio necesitas Linux (o UNIX) a 11. Lo sé por experiencia.
+
+    Ahora, una cosa que hay que aclarar es que Linux no es a prueba de
+idiotas, si una instalación de Windows se te hace problemática olvida Linux.
+Necesitas saber bastantito acerca de tu sistema y de como funciona. ¿Por qué
+crees que se dice que Linux es el sistema operativo de los hackers?
+
+    Otra cosa que me sorprende es que habiendo tantos sistemas MEJORCISIMOS
+que Windows la gente lo sigue usando. Habiendo tantos sistemas GRATUITOS la
+gente sigue usando Windows... Piensalo y pregúntate: ¿Porqué no me paso a
+Linux y dejo de ser el montón?
+
+    Usando Linux comprenderás UNIX WARS, The Unix Recovery Legend, The Bastard
+Operator from Hell, etc. y lo mejor de todo, puedes presumir...
+
+ /--------------\
+ | Bibliografía |
+ \--------------/
+
+    Para la elaboración de este (bonito) texto, consulté los siguientes
+documentos:
+
+    ___________________
+ __/Ficha Bibliográfica\__________________________________
+|                                                         |
+| Título: LINUX, Recursos para el usuario. 1a. Ed.        |
+| Autor: Mohr, James.                                     |
+|                                                         |
+| PRENTICE HALL HISPANOAMERICANA, S.A.                    |
+| México, 1999                                            |
+|                                                         |
+|       ISBN: 970-17-0192-5                               |
+|       ÁREA: COMPUTACIÓN                                 |
+|                                                         |
+| Formato: 18.5 x 23.5 cm               Páginas: 825      |
+|_________________________________________________________|
+
+    ___________________
+ __/Ficha Bibliográfica\__________________________________
+|                                                         |
+| Título: Guide to (mostly) harmless hacking Vol 2. No. 2 |
+| Autor: Carolyn P. Meinel.                               |
+|                                                         |
+| Happy Hacker Digests.                                   |
+| U.S.A., 1997                                            |
+|                                                         |
+|       ISBN: N/A                                         |
+|       ÁREA: Hacking                                     |
+|                                                         |
+| Formato: Plain Text                        Páginas: N/A |
+|_________________________________________________________|
+
+    ___________________
+ __/Ficha Bibliográfica\__________________________________
+|                                                         |
+| Título: PC-MEDIA Año II No. 2                           |
+| Artículo: Sistemas operativos: El corazón de la         |
+|           computadora.                                  |
+| Autor: M. Angel Alcalde.                                |
+|                                                         |
+| Editorial NESS, S.A. de C.V.                            |
+| México, 1995                                            |
+|                                                         |
+|       ISBN: N/A                                         |
+|       ÁREA: Informática                                 |
+|                                                         |
+| Formato: 20 x 27.5 cm                      Páginas: 7   |
+|_________________________________________________________|
+
+
+___________________________
+El Radiaktivo Newz Team, 1999
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 1999 BadBit <badbit@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+0101001001010100100101  ##########  ##########  #####   ####  ##############
+10       0       1  01  ##### ####  ##### ####  ######  ####  #### #### ####
+11     B@dbit       00  #####       ##### ####  ####### ####       ####
+01           1      10  ##########  #######     ##### ######       ####
+10 0           .... 10  #####       ##### ####  #####  #####       ####
+:101010 01011010111101  ##### ####  ##### ####  #####   ####       ####
+  <badbit@yahoo.com>    ##########  ##### ####  #####   ####       ####
+
+=EOF=

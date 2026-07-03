@@ -1,0 +1,135 @@
+             
+      			    
+                               |¤¤NeTbuS 1.7  fOr dUmMiEs¤¤| 
+                           
+                                     /X: kibitzer\ 
+                             
+
+intro: 
+
+El Back Oriffice (de los de "Cult of the Dead Cow") no es el uniko back door
+ke existe, los back doors son como su nombre lo indica, una puerta trasera a
+tu pc. Si tienes un backdoor instalado en cualquier momento se te puede meter
+algun intruso a tu El Netbus (segun yo) es el mejor Backdoor. pues ahi te
+vienen los botones y es muy facil de manejar, no como el BackOriffice, que
+tienes ke picarle no se ke y bla bla bla. OK ok, estoy hablando del netbus:
+El netbus lo puedes bajar de la siguiente direxion: www.beeotch.com/netbus
+bajas la version 1.7 ke es exactamente de lo ke voy a hablar.
+OK!!!! Como se usa!!!!!!
+
+Calmado nene... cuando bajas el Netbus te viene con tres archivitos en uno
+zippeado:
+
+Netbus.exe----------------------»» Es el programa (obvio)  ;)
+
+
+------Puedes pasar el patch.exe de la forma mas  facil--------------------
+
+Te llevas un disket al objetivo (ejemplo: la biblioteca)
+Entonces llegas como si nada y metes el disket lo instalas y listo!
+puedes meterte a la pc desde tu casa.
+
+Otra forma facil es:
+
+Llegas a la biblioteca, abres la pagina de yahoo!, buscas algo sano 
+como revisar tu mail, o algo que no cree sospechas.
+Buscas el Netbus lo bajas y lo instalas. Solo hay un inkonveniente:
+ke la makina sea lenta y te kachen en el momento, o que no tenga winzip
+
+---------------------------------La ke esta mas perrona-----------------
+
+Abre el mIRC y te pones a chatear en kualquier kanal que no sea
+#raza-mexicana, #hackers o alguno de esos porque ya saben de esto
+
+Te recomiendo el #hackers_nOvatos, ahi te va lo que puedes hacer:
+ponte a chatear con alguien que este bien tonto, pero primero hazle 
+preguntas (para saber cuanta estupidez almacena) Entonces le mandas un 
+privado diciendole que te pasaron un archivo que se llamaba 
+"wingenocide.exe" (es una forma de disfrazar el patch.exe), le dices 
+que no sabes del irc, etc. que si se lo pasas y le echas un rollo. kuando
+se lo estes pasando es la hora de averiguar su IP, para saberlo solo pon 
+/dns "victima" (sin comillas), ponte en la pantalla de Status y.....
+TADA!!!!!! su nick aparecera, aveces surgiran complicaciones pero suerte!
+Ahora si, ya que el "hacker" haya ejecutado el patch.exe es hora e abrir
+tu netbus. pones el IP del vato que se lo pasaste y luego connect, en la 
+barra de estado saldra si se conecto o no. Asegurate de ke el vato siga
+chateando puedes mandarle unas direxiones chilas para ke siga en la red
+Si no se conecto intentalo de nuevo y si no se conecta pues hazlo con otra
+persona.
+
+Otra forma de pasarlo a alguien y sin ke te lo niegue es que:
+
+Te metes al canal de #fotosXXX y le mandas a alguien el patch.exe, y le dices
+ke es un programa porno nimodo que no te lo acepte, averiguass su nick y
+listo.
+
+server admin ^^^^^^^^^> Pa ponerle passwords y otras cosas.
+
+open cd-rom ^^^^^^^^^^>  ni modo ke no sepas!
+
+Show image  ^^^^^^^^^^>   Para poner una imagen inkitable en la pantalla 
+                         la victima (La cual debes subir antes)
+
+Swap mouse ^^^^^^^^^^>   es pa ke la victima no pueda mover el mouse
+                         
+
+start program ^^^^^^^^^^>es para empezar un programa (el default es calc.exe)
+
+msg manager ^^^^^^^^^^>  Par ke mandes mensages a la victima y ke los pueda 
+                         responder, ideal para chatear, ke es lo ke hago yo!;P
+                        
+screen dump ^^^^^^^^^^>   muestra una imagen de lo ke hace la victima y se
+                          graba automaticamente
+
+Get InFo ^^^^^^^^^^>     no lo he visto bien pero kreo ke te dice el IP y
+                         otras cosas
+
+play sound ^^^^^^^^^^>   pARA reproducir un sonido, ke debes subir primero 
+                         
+exit windows ^^^^^^^^^^> para ke le cierres el windows.
+
+send text ^^^^^^^^^^>    pos pa mandar textos
+                         
+active wndws^^^^^^^^^^>  le pones refresh y salen las ventanas, y luego le
+                         picas "kill" y las puedes cerrar.
+
+listen  ^ ^^^^^^^^^>     PAra leer y grabar lo ke el vato escribe(ideal pa
+                         los correos)
+
+sound system ^^^^^^^^^^> kreo ke es para oir lo ke el microfono capta
+
+control mouse ^^^^^^^^^^>pa mover el puntero del mouse
+
+go to URL ^^^^^^^^^^>    abre El browser de su pc y muestra la direxion ke le
+                         pusiste en el recuadro (default:www.casino.com) te
+                         rekomiendo ke pongas una page con muchos graficos
+                         como: www.hackers.com
+
+key manager ^^^^^^^^^^>  creo ke es para desabilitar el teclado
+
+file manager ^^^^^^^^^^> aki esta lo mejor: puedes subir, bajar, y borrar
+                         archivos
+
+Se imaginan ke un servidor con todo tuviera el netbus!! seria hackeado mil
+veces al dia!!!!                         
+
+Dice el BadBit ke el netbus 2.0 pro esta bien chilo, lo malo es ke es
+shareware:( Asi ke el ke tenga registrado el netbus o sepa un serial pos ke
+lo pase pa ke todos los del Team lo tengamos registrado.
+
+Aki les mando unos IP's para ke se diviertan un rato:
+
+209.232.83.73 power7----B@inet
+209.232.83.78 power10---B@inet
+147.15.201.60 centro----Telnor
+147.15.201.60 izqda.----Telnor
+
+SI TIENES IP'S DE OTRAS  MAKINAS POS PASATELOS PARA NOSOTROS TAMBIEN
+DIVERTIRNOS!
+
+Si dije algo ke es mentira solo escribeme: :)
+Si tienes ke decirme insultos escribeme y te mailbombeo :(
+				
+
+                                   <kibitzerbug@yahoo.com>
+                                       ----Kibitzer----

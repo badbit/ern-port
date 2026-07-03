@@ -1,0 +1,3 @@
+Año: II
+ Número: 4
+Fecha: Marzo 2000

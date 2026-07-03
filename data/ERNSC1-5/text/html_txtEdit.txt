@@ -1,0 +1,552 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |               Curso de HTML                |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+
+                               badbit@yahoo.com
+
+                "No hay nada más necesario que lo innecesario"
+
+                          +----------------------+
+                             |    Parte  I    |
+                          +----------------------+
+
+/---------------------------------------------------\
+| ¿Exactamente de que se va a hablar en este texto? |
+\---------------------------------------------------/
+
+      Este curso enseña cómo hacer buenas páginas HTML, una necesidad en
+estos días. Sigue leyendo para saber más.
+
+/---------------\
+| ¿Qué es HTML? |
+\---------------/
+
+      HTML significa "Hyper-Text Markup Languaje" y es en formato de archivo
+más usado en Internet. Cuando tu entras a una página de internet, lo que en
+realidad estás viendo es un archivo HTML. Como puedes ver, este formato es
+muy usado en todas las plataformas, por lo que se puede asegurar que si haces
+un archivo HTML, podrá ser leído en múltiples sistemas operativos *casi* sin
+problemas de compatibilidad.
+
++-----------+
+| Lección I |
++-----------+
+
+     Un archivo HTML es en realidad un archivo de texto. Si tienes por ahí
+un archivo con extensión *.html o *.htm ábrelo en Notepad, y te darás cuenta
+de que aparte del texto que sale en la página, hay otros elementos.
+
+     Una página HTML está formada por elementos llamados "tags", éstos están
+encerrados entre los signos < y >. Todos los archivos HTML deben comenzar con
+el siguiente Tag:
+
+<HTML>
+
+     El texto entre los <>'s puede estar en mayúsculas o minúsculas o
+revuelto ya que son insensibles a la capitalización. Ejemplos válidos de este
+tag son:
+
+<HTML>
+<html>
+<HtMl>
+<hTmL>
+<HTml>
+etc...
+
+     Toda página HTML debe terminar con el siguiente tag:
+
+</HTML>
+
+     Es el mismo, sólo que se le agrega una /, este tag indica que el
+contenido del archivo ha terminado. Muchos tags funcionan de esta manera,
+un tag para abrir y otro para cerrar.
+
+     Entre los tags <html> y </html> deben estar contenidos todos los demás
+tags.
+
++------------+
+| Lección II |
++------------+
+
+     Después del tag <html>, generalmente se coloca el tag <head> el cual
+indica el inicio del encabezado de la página, igualmente se debe indicar el
+final con el tag </html>. Con este leve conocimiento, vamos a contruir tu
+primera página.
+
+1. Inicia Notepad (u otro editor de archivos *.txt)
+2. Escribe los primeros tags que indican el inicio de una página HTML, o sea,
+   que quede así:
+
+<html>
+</html>
+
+3. Graba ese archivo con la extensión *.html (O si usas windows 3.1 ponle
+   la extensióm *.htm)
+
+4. Ponle el tag que inicia el encabezado y el que lo acaba, o sea, que quede
+   así:
+
+<html>
+<head>
+</head>
+</html>
+
+   En una página HTML no se toman en cuenta los ENTERs, por lo que la página
+puede quedar así:
+
+<html>
+<head></head>
+</html>
+
+o así:
+
+<html><head></head></html>
+
+5. Es importante que los tags de HEAD queden adentro de los tags HTML, ya que
+   el encabezado está adentro de la página.
+
+6. Ahora sí, abre el archivo guardado en algún navegador de internet, el
+   cual puede ser Netscape, Internet Explorer, Opera, Lynx, etc.
+
+7. En el web browser debió salir una página en blanco, ya que no
+   especificamos ningún dato.
+
+Ok
+
++-------------+
+| Lección III |
++-------------+
+
+    Enmedio de los tags de <head>, pueden ir otros más, aunque son pocos, los
+más importantes son:
+
+<title>Loquesea</title> El texto que está entre estos tags aparecerá en la
+                        barra de título de explorador, tomemos el ejemplo
+                        que ya habíamos hecho:
+
+                        <html>
+                        <head>
+                        </head>
+                        </html>
+                        
+                        Ahora entre los tags de title, pongamos esto:
+
+                        <html>
+                        <head>
+                        Mi primera pagina HTML
+                        </head>
+                        </html>
+
+                        Si lo abrimos en Internet explorer veremos el
+                        siguiente título:
+                        Mi primera pagina HTML - Microsoft Internet Explorer
+
+<meta>                  Este tag sirve para opciones mucho más avanzadas que
+                        voy a explicar más adelande.
+
+<script>                Este tag sirve para poner pedazos de código en algún
+                        leguaje como javascript, gracias a este tag salen
+                        esas molestas ventanas cada vez que entramos a
+                        GeoCities.
+
+    Después de los tags <head>, vienen otros, los <body>, los cuales
+funcionan igual:
+
+<body></body>
+
+    Ahora apliquemos estos tags a la página que ya teníamos:
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body></body>
+</html>
+
+    Para lo que nos sirven estos tags, es para decirle al browser que ahí va
+a comenzar el contenido (cuerpo) de la página. Y adentro de <body> y </body>
+es donde van la mayoría de los tags.
+
++------------+
+| Lección IV |
++------------+
+
+    Los tags H:
+
+    Estos tags nos sirven para poner títulos a las páginas, los tags son los
+siguientes:
+
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+     <H1> es el título más grande, y <H6> el más pequeño. Ahora apliquemos
+esto a nuestra primera página:
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body>
+<h1>Mi primera pagina</h1>
+</body>
+</html>
+
+IMPORTANTE: Siempre debemos cerrar el tag <h1> con el tag </h1>, ya que si
+            no lo hacemos, toda la página se va a desplegar con letra enorme,
+            este es un error muy común, y no solo en el tag <h1>, sino en
+            todos los que funcionan de esa manera.
+
+     Cuando abrimos esto en el Web Browser, nos sale un título que dice
+"Mi primera pagina". Para comparar los demás titulos hagamos lo siguiente:
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body>
+<h1>Mi primera pagina</h1>
+<h2>Este es un titulo 2</h2>
+<h3>Este es un titulo 3</h3>
+<h6>Este es un titulo 6</h6>
+</body>
+</html>
+
+     ¿Y que pasa cuando lo queremos centrado? Pues para eso están los tags
+<center>, los cuales nos sirven para centrar lo que sea. Por ejemplo, para
+centrar el primer título sería:
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body>
+<center><h1>Mi primera pagina</h1></center>
+<h2>Este es un titulo 2</h2>
+<h3>Este es un titulo 3</h3>
+<h6>Este es un titulo 6</h6>
+</body>
+</html>
+
+     En el Web Browser se depliegará algo así:
+
+                               Mi primera pagina
+
+Este es un titulo 2
+
+Este es un titulo 3
+
+Este es un titulo 6
+
+     Bien.
+
++-----------+
+| Lección V |
++-----------+
+
+    ¿Y qué pasa si lo que queremos escribir no es un título?, para eso se
+usa el tag <p>, que indica inicio y final de párrafo. Este tag no es
+necesario cerrarlo con el tag </p>, pero es recomendable ya que varios
+browsers se pueden confundir y desplegar la página incorrectamente.
+
+    Ahora veamos como se usa el tag <p>:
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body>
+<center><h1>Mi primera pagina</h1></center>
+<h2>Este es un titulo 2</h2>
+<h3>Este es un titulo 3</h3>
+<h6>Este es un titulo 6</h6>
+<p>Nomas estoy escribiendo esta pagina para ver si puedo aprender el HTML,
+tengo muchas ganas de poner esta pagina en internet.
+<p>Este es otro parrafo, como se ve, los parrafos son divididos
+automaticamente con una linea en blanco.
+</body>
+</html>
+
+    Al usar el tag <p>, el browser no toma en cuenta todos los ENTERs que
+dés, así que la página anterior se vería igual incluso así:
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body>
+<center><h1>Mi primera pagina</h1></center>
+<h2>Este es un titulo 2</h2>
+<h3>Este es un titulo 3</h3>
+<h6>Este es un titulo 6</h6>
+<p>Nomas estoy escribiendo
+esta pagina
+para ver si puedo
+aprender el HTML,
+tengo muchas ganas de
+poner esta pagina en internet.
+<p>Este es otro
+parrafo, como se ve, los parrafos son
+divididos
+automaticamente con una linea en blanco.
+</body>
+</html>
+
+    Todos los tags que hemos visto desde el de body, son tags de formato,
+exiten muchos otros:
+
+<b></b>               Estos tags hacen que el texto entre ellos sea en bold,
+                      o sea en negrita.
+
+<i></i>               Estos hacen el texto itálico.
+
+<u></u>               Estos lo subrayan.
+
+<tt></tt>             Fuente monoespaciada. (Mas sobre esto adelante).
+
+<big></big>           Hacen el texto un poco más grande.
+
+<small></small>       ¿Tengo que explicarlos?
+
+<sup></sup>           Superídice, como en la exponentación.
+
+<sub></sub>           Subíndice, como en las fórmulas de química.
+
+<em></em>             Enfasis. Generalmente se representa con Itálica.
+
+<strong></strong>     Enfasis fuerte. Generalmente se representa con Negrita.
+
+<code></code>         Representa pedazos de código.
+
+<cite></cite>         Cita de texto, generalmente en cursiva.
+
+<pre></pre>           Con este tag se toman en cuenta todos los ENTERs y
+                      espacios.
+
+<blink></blink>       Este tag no es muy recomendable, pero sirve para que
+                      el texto entre ellos parpadeé intermitentemente. Sólo
+                      funciona en Netscape.
+
+<marquee></marquee>   Este tag tampoco te lo recomiendo, sirve para que el
+                      texto entre ellos se desplaze. Sólo funciona en
+                      Internet Explorer.
+
+<blockquote></blockquote>  Estos tags sirve para que el texto se recorra un
+                      poco a la derecha, a modo de sangría.
+
+    Arriba mencioné las fuentes monoespaciadas. Lo que quiero decir es que
+generalmente los browsers despliegan un tipo de letra por default que es de
+espaciado variable, es decir, un caracter W ocupa más espacio que uno i, pero
+en fuente monoespaciada, todos los caracteres ocupan el mismo espacio. Un
+ejemplo para probar esto sería la siguiente página de internet:
+
+<html>
+<head><title>Prueba de espaciado variable y monoespaciado</title></head>
+<body>
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/
+ .      -.   . . . .: .:::.:.\.           .:/
+.   .   .  :      : ....::_:..:\   ___.  :/
+   .   .  .   .:. .. .  .: :.:.:\       :/
+     +   .   .   : . ::. :.:. .:.|\  .:/|
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+</body>
+</html>
+
+    En el Navegador web nos saldrá completamente mal hecho, pero si le
+agregamos los tags <pre>, nos lo mostraría correctamente, así:
+
+<html>
+<head><title>Prueba de espaciado variable y monoespaciado</title></head>
+<body>
+<pre>
+
+.     .       .  .   . .   .   . .    +  .
+  .     .  :     .    .. :. .___---------___.
+       .  .   .    .  :.:. _".^ .^ ^.  '.. :"-_. .
+    .  :       .  .  .:../:            . .^  :.:\.
+        .   . :: +. :.:/: .   .    .        . . .:\
+ .  :    .     . _ :::/:               .  ^ .  . .:\
+  .. . .   . - : :.:./.                        .  .:\
+  .      .     . :..|:                    .  .  ^. .:|
+    .       . : : ..||        .                . . !:|
+  .     . . . ::. ::\(                           . :)/
+ .   .     : . : .:.|. ######              .#######::|
+  :.. .  :-  : .:  ::|.#######           ..########:|
+ .  .  .  ..  .  .. :\ ########          :######## :/
+  .        .+ :: : -.:\ ########       . ########.:/
+    .  .+   . . . . :.:\. #######       #######..:/
+      :: . . . . ::.:..:.\           .   .   ..:/
+   .   .   .  .. :  -::::.\.       | |     . .:/
+      .  :  .  .  .-:.":.::.\             ..:/
+ .      -.   . . . .: .:::.:.\.           .:/
+.   .   .  :      : ....::_:..:\   ___.  :/
+   .   .  .   .:. .. .  .: :.:.:\       :/
+     +   .   .   : . ::. :.:. .:.|\  .:/|
+     .         +   .  .  ...:: ..|  --.:|
+.      . . .   .  .  . ... :..:.."(  ..)"
+ .   .       .      :  .   .: ::/  .  .::\
+
+<pre>
+</body>
+</html>
+
+    Ahora veamos otro tipo de tags:
+
+<hr>                  Este tag nos despliega una línea horizontal que nos
+                      puede servir de división.
+
+<br>                  Este tag nos hace un salto de línea (igual que un
+                      enter)
+
+    Ahora a incluir los tags nuevos en nuestra página:
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body>
+<center><h1>Mi primera pagina</h1></center>
+<hr>
+<h2>Este es un titulo 2</h2>
+<h3>Este es un titulo 3</h3>
+<h6>Este es un titulo 6</h6>
+<p>Nomas estoy escribiendo esta pagina para ver si<br>
+puedo aprender el <i>HTML</i>, tengo muchas ganas de poner esta pagina en
+<u>internet</u>.
+
+<p>Este es otro <b>parrafo</b>, como se ve, los parrafos son divididos
+automaticamente con una linea en blanco.
+
+<p><tt>Este párrafo sirve para demostrar la fuente monoespaciada.</tt>
+
+</body>
+</html>
+
+
+
++------------+
+| Lección VI |
++------------+
+
+    Ahora pasemos a un nivel más avanzado: LOS ATRIBUTOS.
+
+    Los atributos son información adicional que ocupa el tag, para entender
+mejor esto, vamos a agregarle atributos al tag <body>
+
+<body bgcolor="#000000" text="#FFFFFF">
+
+    bgcolor y text son atributos del tag <body>, bgcolor define el color de
+fondo de la página, y text el color del texto, estos colores tienen que estar
+en hexadecimal así:
+
+O Los primeros 2 números representan la cantidad de rojo en el color.
+O Los siguientes 2 representan la cantidad de verde.
+O Los últimos 2 representan la cantidad azul.
+
+    El color #000000 es el negro, ya que tiene 0 de cada color y la ausencia
+de color es el negro. El color #FFFFFF es el color blanco, ya que todos los
+colores juntos forman al blanco (te lo enseñaron en la primaria).
+
+     Los atributos del tag body (aparte de los 2 anteriores) son:
+
+O background: Especifica una imagen de fondo. Ejemplo:
+              <body background="imagen.gif">
+              La imagen puede ser GIF o JPEG.
+
+O link:       Especifica el color de los hipervículos (los cuales veremos
+              después).
+
+O vlink:      Especifica el color de los hipervínculos visitados.
+
+O alink:      Especifica el color de los hipervínculos activos.
+
+    El tag <body> puede tener todos los atributos o ninguno y pueden estar
+en cualquier orden.
+
+    Todos los atributos que indiquen color tienen que estar en el formato ya
+descrito:
+
+O Los primeros 2 números representan la cantidad de rojo en el color.
+O Los siguientes 2 representan la cantidad de verde.
+O Los últimos 2 representan la cantidad azul.
+
+    Si no sabes mezclar los colores, te recomiendo el Paint Shop Pro 4, con
+la mezcla de colores puesta en hexadecimal.
+
+    Los tags <p> y <h1>,<h2>...<h6> comparten un atributo en común:
+
+O align:      Especifica la alineación del texto.
+
+    Apliquemos todos estos atributos a la página que hemos desarrolado hasta
+ahora:
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body bgcolor="#000000" text="#FFFFFF" link="#00FF00" vlink="#FF0000">
+<center><h1>Mi primera pagina</h1></center>
+<hr>
+<h2>Este es un titulo 2</h2>
+<h3 align="left">Este es un titulo 3</h3>
+<h6>Este es un titulo 6</h6>
+<p>Nomas estoy escribiendo esta pagina para ver si<br>
+puedo aprender el <i>HTML</i>, tengo muchas ganas de poner esta pagina en
+<u>internet</u>.
+
+<p>Este es otro <b>parrafo</b>, como se ve, los parrafos son divididos
+automaticamente con una linea en blanco.
+
+<p align="center"><tt>Este párrafo sirve para demostrar la fuente
+monoespaciada.</tt>
+
+</body>
+</html>
+
+
+    Yo creo que con esto finalizo esta primera parte del curso, pero no te
+preocupes, vendrá mucho más en el siguiente por ejemplo:
+
+O Más atributos
+O Listas
+O Formas
+O Frames
+
+---------------------------------------
+Copyright 1999, El Radiaktivo Newz Team
+Escrito por BadBit
+badbit@yahoo.com
+
+                             0101001001010100100101
+                             10       0       1  01
+                             11     B@dbit       00
+                             01           1      10
+                             10 0           .... 10
+                             :101010 01011010111101

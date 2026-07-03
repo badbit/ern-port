@@ -1,0 +1,164 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |               Programación                 |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+                               badbit@yahoo.com
+
+
+                 "Hombres necios que acusáis
+                  a la mujer sin razón,
+                  sin ver que sois la ocasión
+                  de lo mismo que culpáis.
+
+                  Si con ansia sin igual
+                  solicitáis su perdón,
+                  porqué queréis que obren bien
+                  si hacen mala digestión."
+
+                                    - Chespirito
+
+                       +-------------------------+
+                            |   Parte II     |
+                       +--------------------------
+
+/------\
+| Nota |
+\------/
+
+   La verdad no tuve tiempo de escribir mucho para este número del curso,
+pero algo es algo. Aparte, hay mucho que practicar mientras sale más
+información al respecto.
+
+
+/--------------------------------\
+| Tipos de datos de Turbo Pascal |
+\--------------------------------/
+
+    En el número pasado de este curso hablé acerca de las variables. Como sé
+que no lo repasaste y ya se te olvidó, te recomiendo que lo vuelvas a leer.
+
+
+    Te dije que lo leyeras y estoy hablando en serio.
+
+
+    ¿No me crees o qué? Ponte a repasar o no sigo con esta explicación.
+
+
+    Bueno, en vista de que no te voy a convencer, procederé a la explicación
+de este tema (pero después de que acabe, lees el tema de las variables del
+número pasado).
+
+    En "Usuarios: Plaga Mortal" expliqué que mucha gente cree que las
+computadoras pueden adivinar lo que nosotros pensamos. Muchos creen que con
+poner "internet" en el DOS prompt basta para que la computadora muestre la
+página que ellos están pensando (y la máquina ni módem tiene). Pues esto
+también sucede mucho en la programación: Si no le decimos algo a la máquina,
+no lo va a hacer. La computadora no tiene poderes psíquicos como los POKéMON.
+E insisto: NO PUEDE ADIVINAR LO QUE ESTAMOS PENSANDO. Por lo tanto, tenemos
+que especificar todo paso a paso, como a un niño de kinder que está traumado
+con Barney. Hasta aquí ¿Vamos bien? ¿O ven diariamente "Las pistas de Blue"?
+(Muy buen programa, se los recomiendo).
+
+    Bueno. Lo mismo pasa en Turbo Pascal. Si nosotros no especificamos que
+queremos capturar texto, no hay forma natural de que la computadora lo sepa.
+Y Turbo Pascal no conoce más tipos de datos de los que se les enseña al
+nacer. Los programadores "padres" de TP (Turbo Pascal) creyeron que con los
+tipos que ellos crearon iba a bastar. Esperemos que estén en lo correcto.
+Ahora veamos las cosas que entiende TP (Me costó mucho trabajo la gráfica,
+así que LA LEEN!!!):
+
+                               /----------------\
+                               | Tipos de Datos |
+                               \-------+--------/
+                                       |
+                   +-------------------+------------------+
+                   |                                      |
+             +-----+-----+                          +-----+-----+
+             | Estáticos |                          | Dinámicos |
+             +-----+-----+                          +-----+-----+
+                   |                                      |
+     +-------------+---------------+                      |
+     |             |               |                 +----+-----+
+     |             |               |                 | Punteros |
++----+----+ +------+--------+ +----+------+          +----------+
+| Simples | | Estructurados | | Procedure |
++----+----+ +--------+------+ +-----------+
+     |               |
+     |   +-----------+---------+-----------+-------+
+     |   |           |         |           |       |
+     | +-+------+ +--+----+ +--+-----+ +---+--+ +--+--+
+     | | String | | Array | | Record | | File | | Set |
+     | +--------+ +-------+ +--------+ +------+ +-----+
+     |
+     |                           +------+  +--------+ +----------+
+     \------+-------------+      | Real |  | Single | | Extended |
+            |             |      +---+--+  +--+-----+ +---+------+
+       +----+----+    +---+----+     |        |           |
+       | Escalar |    | Reales |-----+--------+----+------+----+
+       +----+----+    +--------+                   |           |
+            |                                   +--+-----+  +--+---+
+       +----+-------+----------+-------------+  | Double |  | Comp |
+       |            |          |             |  +--------+  +------+
+       |            |          |             |
+   +---+-----+   +--+---+   +--+------+  +---+--------+
+   | Enteros |   | Char |   | Boolean |  | De usuario |
+   +---+-----+   +------+   +---------+  +----------+-+
+       |                                            |         +----------+
+   +---+---------+-------------+--------+--------+  +-----+---| Subrango |
+   |             |             |        |        |        |   +----------+
++--+-------+ +---+-----+ +-----+---+ +--+---+ +--+---+    |
+| Shortint | | Integer | | Longint | | Byte | | Word |  +-+---------+
++----------+ +---------+ +---------+ +------+ +------+  | Enumerado |
+                                                        +-----------+
+
+    Usa la anterior gráfica para consultar, no es necesario que te la
+aprendas de memoria (¿Deveraaaas?).
+
+
+  /------------------------------------------\
+  | Ahora con ustedes, la instrucción "Read" |
+  \------------------------------------------/
+
+   Hasta ahora los programas que hemos venido haciendo en TP (Turbo Pascal)
+no requieren de la intervención del usuario. O sea, corren y ya, el usuario
+nunca participa en nada, ni su acción es requerida. En la vida real esto casi
+nunca sucede, la gran mayoría de los programas requieren la acción del usuario
+para seguir trabajando. En el próximo número veremos la instrucción READ, que
+sirve para "leer" lo que el usuario escriba en el teclado.
+
+   Por ahora es todo, es poquísimo, pero preferí poner muy poco a no poner
+nada.
+
+_____________________________
+El Radiaktivo Newz Team, 2000
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+
+http://ernt.piratas.org            <------+
+                                          |
+http://www.bigfoot.com/~ernt       <------+--- Página oficial
+                                          |
+http://www.geocities.com/badbit    <------+
+
+http://www.geocities.com/kibtizr   <------+ Página de kibitzer
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+Mailing List: mensaje en blanco a <ernt-suscribe@egroups.com>
+
+Copyright 2000 BadBit <badbit@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+0101001001010100100101  ########   ########   ####   ####  ############
+10       0       1  01  #### ####  #### ####  #####  ####  ### #### ###
+11     B@dbit       00  ####       #### ####  ###### ####      ####
+01           1      10  #########  #######    #### ######      ####
+10 0           .... 10  ####       #### ####  ####  #####      ####
+:101010 01011010111101  #### ####  #### ####  ####   ####      ####
+  <badbit@yahoo.com>    ########   #### ####  ####   ####      ####
+
+=EOF=

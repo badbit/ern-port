@@ -1,0 +1,498 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |             Términos de hacking            |
+                 |                 por BadBit                 |
+                 +--------------------------------------------+
+                                badbit@yahoo.com
+
+  "La meta de Microsoft es tener una computadora en cada escritorio, en 
+                 cada hogar, corriendo software de Microsoft"
+                                                  Promocional de Microsoft
+
+                              +-----------------+
+                                |  Parte II   |
+                              +-----------------+
+
+  /-----------------------\
+  | Binario y hexadecimal |
+  \-----------------------/
+
+    Desde la antiguedad, el hombre se ha preocupado por tener un sistema de
+numeración para poder transmitir estos datos escritos o hablados. A travéz
+del tiempo se han ideado varios sistemas a base de dibujos, figuras, cuñas,
+etc. Pero se podría decir que los sistemas de numeración avanzados son los
+que tienen una "base".
+
+    Nosotros tenemos un sistema decimal, es decir, tenemos 10 símbolos con
+los cuales representar números, esos son:
+
+0 1 2 3 4 5 6 7 8 9
+
+    Con estos 10 símbolos (o dígitos) se pueden representar todos los números
+del mundo. La notación que se usa es la siguiente.
+
+Por ejemplo, el número 481274 es:
+
+481273
+
+3 unidades  .............. (3 X 1)       =      3
+7 decenas   .............. (7 X 10)      =     70
+2 centenas  .............. (2 X 100)     =    200
+1 millar    .............. (1 X 1000)    =   1000
+8 decenas de millares..... (8 X 10000)   =  80000
+4 centenas de millares.... (4 X 100000)  = 400000
+                                           ------
+                                           481273
+
+    O sea, cada lugar que se recorra se va multiplicando por 10 (el cual es
+la base de este sistema).
+
+    Y este ha sido el sistema de numeración que todos conocemos a la
+perfección, sin embargo, no es el más usado. Existen tambien otros sistemas
+con base diferente. El más usado es el sistema binario, con base 2, utiliza
+los siguientes símbolos:
+
+0 1
+
+    Si, sólamente utilizan 2, y aunque parezca increíble, con esos dos
+dígitos se pueden representar todos los números del universo. ¿Cómo? Se
+siguen las mismas reglas que con el sistema decimal pero es con base dos. Por
+ejemplo:
+
+100010101110
+
+0 unidades  .......................... (0 X 1)      =      0
+1 dos       .......................... (1 X 2)      =      2
+1 cuatro    .......................... (1 X 4)      =      4
+1 ocho      .......................... (1 X 8)      =      0
+0 dieciseis .......................... (0 X 16)     =      0
+1 treinta y dos ...................... (1 X 32)     =     32
+0 sesenta y cuatro ................... (0 X 64)     =      0
+1 ciento veintiocho .................. (1 X 128)    =    128
+0 doscientos cincuenta y seis ........ (0 X 256)    =      0
+0 quinientos doce .................... (0 X 512)    =      0
+0 mil veinticuatro ................... (0 X 1024)   =      0
+1 dos mil cuarenta y ocho ............ (1 X 2048)   =   2048
+                                                       -----
+                                                        2214
+
+    Si te fijas, el orden de lugares va aumentado de acuerdo a las potencias
+de dos:
+
+2^0 = 1
+2^1 = 2
+2^2 = 4
+2^3 = 8
+2^4 = 16
+2^5 = 32
+etc...
+
+    A los dígitos del sistema binario se les llama bits. Si te has fijado,
+mi nick se compone de dos palabras: Bad (malo) y bit. Ahora, lo que estás a
+punto de oír es la primera explicación del origen de mi nick, a nadie se lo
+había explicado. Bueno, cuando estaba pensando mi nick, se me ocurrió BadBit
+por varias razones, ah, y bad no lo tomo como "malo", sino como "erróneo",
+"defectuoso", etc. Cuando creé mi nick, quize dar la impresión de que un
+sólo bit cuenta, un bit erróneo hace erróneo todo, la más leve falla puede
+causar catástrofes gigantes, y esto es indudablemente cierto.
+
+    Ahora, veamos lo que dice el vil Gates sobre el sistema binario en su
+libro _The Road Ahead_ (ISBN 0-670-77289-5):
+
+    "A fines de 1930, cuando Claude Shannon aún era un estudiante, [Alan
+Turing] demostró que una máquina ejecutando instrucciones lógicas podría
+manipular información. Su visión, el tema de su tesis maestra, era de cómo
+los circuitos de computadora -cerrados para verdadero y abiertos para falso-
+podrían hacer operaciones lógicas, usando el número 1 para representar
+"verdadero" y el 0 para representar "falso."
+
+    Este es un sistema binario. Es un código. Binario es el alfabeto de las
+computadoras electrónicas, las bases de el lenguaje al cual toda la
+información es traducida, almacenada, y usada dentro de la computadora. Es
+simple, pero tan vital para el entendimiento del funcionamiento de las
+computadoras que vale la pena hacer una pausa y explicarlo más ampliamente.
+
+    Imagina que tienes un cuarto que quieres tener iluminado con 250 watts de
+luz eléctrica y quieres que la intensidad de la luz sea ajustable, de 0 watts
+de iluminación (obscuridad total) a el wattage total. Una manera de cumplir
+con esto es con un switch giratorio conectado a un foco de 250 watts. Para
+obtener la obscuridad total, das la vuelta al la perilla en la dirección
+contraria a las manecillas del reloj hasta llegar a Off con 0 watts de luz.
+Para brillantez máxima, giras la perilla completamente en el sentido de las
+manecillas del reloj para los 250 watts. Para una iluminación intermedia,
+giras la perilla a una posición intermedia.
+
+    El sistema es fácil pero tiene limitaciones. Si la perilla está en una
+posición intermedia -si la luz es disminuída para una cena íntima, por
+ejemplo- lo único que puedes hacer es adivinar el nivel de intensidad de la
+luz. No sabes exactamente cuantos watts se usan realmente, o cómo describir
+el ajuste precisamente. Tu información es aproximada, lo que la hace difícil
+de almacenar o reproducir.
+
+    ¿Y qué tal si quieres reproducir exactamente el mismo nivel de
+iluminación la semana entrante? Podrías hacer una marca en la placa para
+saber que tanto girarla, pero esto es muy inexacto, ¿Y qué pasa cuando
+quieres reproducir un ajuste distinto? ¿Qué tal si amigo quiere reproducir el
+mismo nivel de iluminación? Puedes decir, "Gira la perilla hasta la quinta
+parte en el sentido de las manecillas del reloj," o "Gira la perilla hasta
+que la flecha quede cerca de las dos en punto," pero la reproducción de tu
+amigo sólo se aproximará a tu ajuste. ¿Qué si tu amigo le pasa la información
+a otro amigo, el cual la pasa otra vez? Cada vez que la información sea
+pasada, las posibilidades de que sea exacta disminuyen.
+
+    Este es un ejemplo de información almacenada en forma "análoga." La
+perilla controladora provee una analogía al nivel de iluminación del foco.
+Si está girada hasta la mitad, presumiblemente tenemos cerca de la mitad del
+wattage total. Cuando describes que tanto está girada la perilla, estás
+almacenando la información acerca de la analogía (la perilla) en lugar que
+de el nivel de iluminación. La información análoga puede ser obtenida,
+almacenada, y reproducida, pero tiende a ser imprecisa -y corre el riesgo de
+volverse más imprecisa cada vez que se transmite.
+
+    Ahora demos un vistazo a un modo completamente distinto de almacenar la
+manera de iluminar el cuarto, un método digital en vez de uno análogo de
+almacenar y transmitir información. Cualquier tipo de información puede ser
+convertida en números usando solamente 0s y 1s. Esos son llamados números
+binarios -números compuestos enteramente de 0s y 1s. Cada 0 o 1 es llamado
+bit. Una vez que la información ha sido convertida, puede ser alimentada y
+almacenada en computadoras como largas cadenas de bits. Esos números es todo
+lo que se conoce como "información digital."
+
+    En lugar de un sólo foco de 250 watts, digamos que tenemos ocho focos,
+cada uno con un wattage doble que el que le precede, de 1 a 128. Cada uno de
+esos focos está conectado a un switch, con el foco con menor wattage a la
+derecha. Tal arreglo puede ser diagramado de la siguiente manera:
+
+         O   O   O   O   O   O   O   O      <- Focos
+         |   |   |   |   |   |   |   |
+        128  64  32  16  8   4   2   1      <- Wattage de cada foco
+         |   |   |   |   |   |   |   |
+                  †                  <- Switches
+
+    Cambiando estos switches a on y off, puedes ajustar el nivel de
+iluminación en incrementos de 1 watt desde 0 watts (todos los switches en
+off) a 255 watts (todos los switches en on). Esto te da 256 posibilidades.
+Si quieres 1 watt de luz, prendes solamente el último switch de la derecha.
+Si quieres 2 watts de luz, solamente prendes el foco de 2 watts. Si quieres
+3 watts de luz, prendes el foco de 1 watt y el foco de 2 watts, porque 1 mas
+2 nos da los deseados 3 watts. Si quieres 4 watts de luz, prendes el foco de
+4 watts. Si quieres 5 watts, prendes el de 4 watts y el de 1 watt. Si quieres
+250 watts de luz, prendes todos menos el de 4 y 1 watts de luz.
+
+    Si has decidido que el nivel ideal de iluminación para cenar es 137 watts
+de luz, prendes los focos de 128, 8 y 1 watts, así:
+
+O = foco prendido
+X = foco apagado
+
+         O   X   X   X   O   X   X   O      <- Focos
+         |   |   |   |   |   |   |   |
+        128  64  32  16  8   4   2   1      <- Wattage de cada foco
+         |   |   |   |   |   |   |   |
+                  †                  <- Switches
+
+
+    Este sistema hace fácil grabar un nivel exacto de iluminación para uso
+posterior o para comunicarlo con otros que tienen el mismo arreglo de focos.
+Y porque la forma en que grabamos la información binaria es universal
+-números bajos a la derecha, números altos a la izquierda, siempre
+duplicándose- no tienes que escribir los valores de los focos. Simplemente
+registras el patrón de los switches: on, off, off, off, on, off, off, on. Con
+esa información un amigo puede reproducir los 137 watts de iluminación
+fielmente en su cuarto. De hecho, mientras todos chequen dos veces la
+precisión de lo que hace, el mensaje puede ser pasado a travéz de un millón
+de manos y al final cada persona tendrá la misma información y será capaz de
+lograr exactamente 137 watts de luz.
+
+    Para acortar más la notación, podemos registrar cada "off" como 0 y cada
+"on" como 1. Esto significa que en vez de escribir "on, off, off, off, on,
+off, off, on," escribamos la misma información como 1, 0, 0, 0, 1, 0, 0, 1, o
+10001001, un número binario. En este caso es 137. Le llamas a tu amigo y
+dices: "¡Tengo el nivel de iluminación exacto! Es 10001001. Pruébalo." Tu
+amigo lo obtiene exactamente correcto, prendiendo cada switch por cada 1 y off por cada 0.
+
+    Esto puede parecer una manera complicada de describir la brillantez de
+una fuente de luz, pero es un ejemplo de la teoría tras las expresiones
+binarias, las bases para todas las computadoras modernas.
+---------
+
+    Pues el vil Gates dió una bonita explicación para el asunto. Pero creo
+que ya quedó más que claro, pasemos a otra cosa:
+
+  /--------------------------------\
+  | Redes y sitemas de información |
+  \--------------------------------/
+
+    Para hackear hay que comprender conceptos esenciales. Por ejemplo, es
+casi imposible hackear si no hay una red, ¿Razón? No habría nada que hackear.
+
+    Bueno, ¿Qué es una red?
+
+    En términos de hacking, una red es un sistema de terminales conectadas.
+¿Y eso qué? Pues que las redes generalmente son algo complejo, por lo tanto
+es difícil que sean perfectas, y por lo tanto hay imperfecciones que pueden
+ser aprovechadas. ¿Aprovechadas en qué sentido? Para ganar acceso a esa red y
+obtener conocimientos.
+
+    Para ayudar al la compresión de este tema contaremos con la ayuda de dos
+compañeros virtuales: HaBit0 y la tesis de un luser. (Lean las aventuras de
+HaBit0 para mayor información)
+
+<HaBit0> Lo que no entiendo es ¿Qué es ganar acceso al sistema?
+<Tesis> Ganar acceso es poder leer los archivos de la red, poder crearlos...
+<HaBit0> ¿Archivos de la red?
+<Tesis> Si, una red es precisamente para eso, para compartir archivos, para
+  eso se crearon las redes.
+<HaBit0> ¿Y qué pueden contener esos archivos?
+<Tesis> Pues información importante para las personas que los crearon.
+<HaBit0> ¿Quieres decir que el hacking es una forma de espionaje?
+<Tesis> Más o menos.
+<HaBit0> ¿Y cómo es que en la red hay archivos?
+<Tesis> Pues mira, en una red hay lo que se llama un servidor, el cual es la
+  computadora principal de toda la red. Sin el servidor las terminales no
+  son terminales...
+<HaBit0> ¿Terminales? ¿Qué es eso?
+<Tesis> Las terminales son computadoras que están conectadas a un servidor,
+  hay terminales de dos tipos: Independientes y tontas.
+<HaBit0> ¿Cúal es la diferencia?
+<Tesis> Que una terminal independiente es una que si la desconectan del
+  servidor puede seguir sirviendo como una computadora normal, generalmente
+  cuentan con microprocesador y disco duro propios. Pero las terminales
+  tontas no tienen nada de eso, el servidor procesa por ellas, y si son
+  desconectadas de él son inútiles.
+<HaBit0> Supongo que las terminales tontas son más baratas.
+<Tesis> Supones bien, ya comenzaste a deducir, una cualidad que todo hacker
+  debe tener.
+<HaBit0> Ahora quiero saber ¿cómo es que las terminales están conectadas al
+  servidor? ¿Por cables o qué?
+<Tesis> Mmm, a veces con cables, a veces inalámbricamente.
+<HaBit0> Orale, ¿Y de qué sirve que las terminales estén unidas al servidor?
+<Tesis> Pues de que pueden compartir los archivos y volvemos a lo mismo.
+<HaBit0> ¿Y cómo es que los comparten?
+<Tesis> Pues el servidor debe tener uno o varios discos duros que todas las
+  terminales puedan leer, y así todos los usuarios puedan leer y modificar
+  los archivos desde terminales distintas.
+<HaBit0> Pero ahí están suponiendo que todos son buena gente.
+<Tesis> ¿Porqué?
+<HaBit0> Porque puede darse el caso de que alguien borre todos los archivos.
+<Tesis> Vas por buen camino HaBit0, pues sí, lamentablemente nunca faltan los
+  usuarios destructivos, para eso están los niveles de seguridad en las redes.
+<HaBit0> ¿Y eso cómo es?
+<Tesis> Pues has de cuenta que la red es tu casa, ¿Qué haces para que nadie
+  se meta a tu casa?
+<HaBit0> Cierro con llave.
+<Tesis> Pues eso mismo hacen los administradores para que nadie entre a la
+  red.
+<HaBit0> ¿Cierran sus casas con llave?
+<Tesis> Noooo, ¡las redes!
+<HaBit0> ¿Cierran las redes con llave?
+<Tesis> Más o menos. Los administradores ponen passwords.
+<HaBit0> ¿Y qué es eso?
+<Tesis> Un password es como una palabra secreta que tienes para accesar a la
+  red, cada usuario tiene un password y depende de él es el tipo de acceso de
+  cada usuario.
+<HaBit0> ¿Tipo de acceso?
+<Tesis> Si, por ejemplo, el administrador de la red debe de tener el acceso
+  más alto, debe poder hacer lo que sea con todos los archivos, por algo es
+  el administrador. Un usuario ocasional debe tener permiso para leer los
+  archivos, otro usuario de confianza debe de poder grabar y otro más avanzado
+  podrá borrar los archivos.
+<HaBit0> ¿Y si los borra todos?
+<Tesis> Por eso el administrador debe fijarse muy bien a quién le da el
+  acceso.
+<HaBit0> ¡Ah, ya entendí! Los hackers luchan por obtener el acceso total.
+<Tesis> Exacto. Claro, un hacker sabe usar ese acceso con responsabilidad,
+  todo lo contrario de un cracker.
+<HaBit0> No sé lo que es un cracker, pero por lo que acabas de decir me da a
+  entender que son los malos de la película.
+<Tesis> Si, es como en Star-Wars. El lado claro de la fuerza son los hackers.
+<HaBit0> Y el lado obscuro los crackers. ¡Ahhhh!
+<Tesis> El poder corrompe a las personas, incluso hackers buenos han sido
+  seducidos por el lado obscuro y han usado el poder total para mal.
+<HaBit0> ¡Guau! Nunca pensé que ser hacker era tanta responsabilidad.
+<Tesis> Pues sí, no cualquiera es hacker.
+<HaBit0> Bueno, y ahora ¿Cómo se gana el acceso?
+<Tesis> Momento, momento, todavía no has entendido todo. Te falta aprender
+  mucho para hackear. Al igual que en Star-Wars, si eres entrenado mal, te
+  pasarás al lado obscuro. Lo mismo le pasó a Annakin Skywalker y a Bill
+  Gates.
+
+    Como ya lo han dicho nuestros compañeros, no basta saber eso para hackear,
+se requieren otros conocimientos profundos sobre comunicaciones, protocolos,
+etc. Y luego, viene aplicar estos conocimientos.
+
++-----------------------------+
+| Breve historia de las redes |
++-----------------------------+
+
+    Para tratar este tema, me dispongo a transcribir unos cuantos párrafos de
+un muy buen libro de Netware. Les diría los datos del libro de no ser que no
+vienen anotados.
+
+
+    Con el auge ocasionado por el uso de las computadoras personales se
+crearon nuevas necesidades dentro de las empresas; una de las cuales era
+compartir la información y algunos dispositivos. Estos problemas dieron
+origen al desarrollo de los sitemas en red cuya finalidad es compartir
+información y dispositivos de entrada/salida con una alta seguridad de la
+información.
+
+    A principios de los 80's, surgen los primeros sistemas operativos
+especialmente diseñados para manejar sistemas en red, pero debido a la
+carencia de estándares no fue posible obtener una plataforma de desarrollo
+tanto para el hardware y software. En 1984 IBM y Microsoft anunciaron el DOS
+3.1 y el NETBIOS (Netware Basic Input/Output System). Este sistema operativo
+y código del NETBIOS permitieron el desarrollo de los sistemas en red que hoy
+en día conocemos.
+
+    Bueno, esa es la breve historia de las redes.
+
++--------------------------------------------+
+| Clasificación de las redes según su tamaño |
++--------------------------------------------+
+
+    Obviamente hay redes de distintos tamaños, y generalmente se clasifican
+por ese criterio, las más conocidas son:
+
+    LAN (Local Area Network): Es una red de área local que se caracteriza por
+que sus nodos (terminales) son microcomputadoras, ocupan no más de 7 Km.
+
+    MAN (Metropolitan Area Network): Ocupa desde los 7 Km a los 50 Km.
+
+    WAN (Widely Area Network): Es una red mundial, pueden extenderse por todo
+el mundo.
+
+<HaBit0> ¿Entonces Internet es una red WAN?
+<Tesis> No.
+<HaBit0> ¿Pero porqué no? Las redes WAN se extienden por todo el mundo.
+<Tesis> Pero Internet carece de ciertas características que hacen a las redes.
+<HaBit0> ¿Como cuál?
+
+    Internet es algo muy difícil de definir (como todo). Pero Internet es un
+conjunto de protocolos para transmitir información confiable.
+
++-----------------------------------+
+| ¿Qué es y cómo funciona internet? |
++-----------------------------------+
+
+    Internet es un sistema que fué creado para ser una red descentralizada y
+transmitir información en medios poco confiables. ¿Como cuáles? Líneas de
+teléfono, cables eléctricos, ondas electromagnéticas.
+
+<HaBit0> ¿Poco confiables? ¿Qué significa eso?
+<Tesis> Por ejemplo, ¿Tú sabes qué transmiten las líneas de teléfono?
+<HaBit0> Si, sonido.
+<Tesis> Correcto, ¿Y sabes qué usan las computadoras para comunicarse?
+<HaBit0> Pues... pueden ser muchas cosas, ¿A qué te refieres?
+<Tesis> Al código binaro. Y ahora dime, ¿Cómo le harías tú para transmitir
+  código binario por líneas de sonido?
+<HaBit0> Pues... Que el bit 1 fuera representado por un tono y el número 0 por
+  ninguno.
+<Tesis> ¡Muy bien HaBit0!, si sigues así vas a llegar muy lejos.
+<HaBit0> ¡Gracias! Pero... ¿Así se transmiten los datos por las líneas de
+  teléfono?
+<Tesis> Más o menos. Mira, en realidad, cuando se quieren transmitir datos por
+  las líneas de teléfono se sigue un procedimiento más complicado para
+  asegurarse de que la información llegue completa al otro lado.
+
+    Si. ¿Se han fijado que a veces hay ruidos en las líneas de teléfono? Pues
+eso es porque las líneas de teléfono son de mala calidad (en comparación a
+otros medios). Si uno quiere transmitir la siguiente cadena:
+
+     0101011110101001101010
+
+    Gracias a la interferencia de la línea, tal vez llegue así (las X
+representan bits que no llegaron):
+
+     01X1001X11101001X010X1
+
+    ¿Cómo debe de interpretar eso la computadora? Pues no va a saber como y
+los datos estarán erróneos, por eso se usan métodos para comprobar que los
+datos hallan llegado correctos. Un método sería poner un bit que indique
+la cantidad de bits encendidos que hay en la cadena. Por ejemplo:
+
+    La cadena que se quiere enviar es: 0101011110101001101010
+    Contiene 12 bits encendidos (1).
+    Pues se pone un bit al final indicando que la cantidad de 1's es par.
+    El bit adicional indicaría: 0 para par, 1 para impar.
+    La cadena completa a eviar sería: 0101011110101001101010 0
+    Pero si llegara corrompida se vería así: 1111010110101001101010 0
+    En la cadena modificada hay una cantidad de bits encendidos impar.
+    El bit adicional indica que deberían se par.
+    Por lo tanto la cadena es errónea y debe de volverse a enviar.
+
+    Por eso entre más interferencia haya en la línea, más datos tendrán que
+repetirse y por lo tanto se notaría un desempeño más lento. El algoritmo que
+se sigue no es como el que acabo de explicar, es mucho más complicado y más
+seguro.
+
+<Tesis> ¿Conoces la ley del aeroplano?
+<HaBit0> No, ¿Qué dice?
+<Tesis> Mírala con tus propios ojos:
+
+regla del aeroplano: "La complejidad incrementa la posibilidad de
+   falla; un aeroplano de dos motores tiene el doble de posibilidades
+   de fallar que uno de uno." Por analogía, en software y electrónica,
+   la regla de que la secillez incrementa estabilidad. (mirar también
+   {Principio de KISS}) Es argumentado que la manera correcta de
+   hacer un sistema confiable es poner todos tus huevos en una
+   canasta, después de asegurarte de que construiste una *muy* *buena*
+   canasta.
+
+<HaBit0> ¡Ohhh!, ¡Me deslumbras con tu sabiduría!
+<Tesis> De hecho no es mi sabiduría, sino la sabiduría popular transcrita por
+   Eric S. Raymond
+<HaBit0> ¿Y ese quién es?
+<Tesis> Hablaremos de él después.
+<HaBit0> Bueno, ¿Qué tiene que ver la regla del aeroplano.
+<Tesis> Pues esque te quiero hablar de los paquetes.
+<HaBit0> ¿Los de macarrón con queso? ¡Te juro que yo no los pedí! ¡Fué mi
+  hermano el que....!
+<Tesis> ¿De qué estás hablando?
+<HaBit0> Eh... de nada, puedes proseguir.
+<Tesis> De los paquetes que quiero hablarte son de los que hace el protocolo
+  TCP/IP
+<HaBit0> ¿Y eso con qué se come? ¿Con los macarrones con queso?
+<Tesis> ¡No! Mira, deja de hablar de comida y ponme atención. Te voy a poner
+  un ejemplo, ¿Has escrito en máquina de escribir?
+<HaBit0> No, he escrito en máquina de coser, ¡Por supuesto que de escribir!
+<Tesis> ¿Y te has equivocado al escribir?
+<HaBit0> No, desde la primera vez que toqué una máquina de escribir me dí
+  cuenta de que era perfecto, ¡Claro que me he equivocado al escribir!
+<Tesis> Y cuando te equivocaste, ¿Tuviste que repetir la hoja?
+<HaBit0> No, dejé todos mis errores, ¡Claro que la repetí!
+<Tesis> Bueno pues, dejar de decir tontadas y ponme atención.
+<HaBit0> Está bien.
+<Tesis> Pues cuando tú escribes a máquina y te equivocas tienes que repetir
+  tan sólo la hoja en la que cometiste el error.
+<HaBit0> Si.
+<Tesis> Y mientras más larga la hoja más tienes que repetir.
+<HaBit0> Si.
+<Tesis> Pues has de cuenta que las hojas son los paquetes del protocolo
+  TCP/IP.
+<HaBit0> ¿Y esos paquetes qué?, ¿Y ese protocolo de dónde salió?
+<Tesis> El protocolo se diseñó para transmitir información confiable en
+  medios inconfiables. Luego te explicaré de esto.
+<HaBit0> Más te vale. Ahora síguele con lo de los paquetes.
+<Tesis> Pues entre más grande el paquete, más posibilidades hay de que se
+  corrompa y se tiene que repetir todo, pero si se usan paquetes pequeños, si
+  se corrompe uno, será más fácil volverlo a enviar.
+
+    Bueno, creo que continuaré esta explicación en otra ocasión, por ahora
+fue mucha información, aprendanla, son apenas las bases.
+
+-----------------------------------------------------------------------------
+Copyright 1999, El Radiaktivo Newz Team
+e-mail: ernt@bigfoot.com
+URL: http://ernt.piratas.org
+
+Escrito por BadBit <badbit@yahoo.com>
+
+
+                            0101001001010100100101
+                            10       0       1  01
+                            11     B@dbit       00
+                            01           1      10
+                            10 0           .... 10
+                            :101010 01011010111101

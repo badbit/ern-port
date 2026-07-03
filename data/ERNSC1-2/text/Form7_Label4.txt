@@ -1,0 +1,11 @@
+Todo programa que empieza bien, acaba mal.
+
+Todo programa que empieza mal, acaba peor,
+
+Siempre trabajo en equipo al hacer algún programa, esto da oportunidad de echarle la culpa a otro.
+
+Si el debuggear es el proceso de remover bugs, entonces el programar debe ser el proceso de ponerlos.
+
+Por cada bug que elimines de un programa, aparecerán 3 más.
+
+Programar es como el sexo, un erro y hay que soportarlo para el resto de la vida.

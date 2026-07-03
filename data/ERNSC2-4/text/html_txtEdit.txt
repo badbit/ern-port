@@ -1,0 +1,99 @@
+ernt@bigfoot.com                            El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++--------------------------------------------+
+| México lindo y querido,                    |
+| si muero lejos del P.R.I...                +======+-----------------------+
+| Por Karn Evil 9                            |      | <karnevil9@email.com> |
++--------------------------------------------+      +-----------------------+
+
+
+   Ayer fui con mi padre a atender a un cliente de él, que tenia problemas
+con su correo electrónico, su problema era que mandaba mensajes a un servidor
+que no era de telnor o telmex...
+
+   Y tu seguramente te preguntarás, ¿qué chingados importa eso?
+
+   Sencillo, los pendejos traga mierda, estúpidos, idiotas, putos, sin
+cerebro, vale madristas de Telnor, están bloqueando la salida de mensajes de
+sus usuarios con cuentas POP3 a servidores gratuitos privados, ejemplos:
+Yahoo! Mail, Hotmail, email.com, aol.com, mail.com y otros.
+
+   ¿No entiendes?, funciona de la siguiente manera:
+
+   Si tu eres usuario de telnor y abres tu Outlook express, Netscape
+messenger o eudora mail, escribes una carta y la mandas a una dirección,
+digamos la mía: karnevil9@email.com, lo que sucederá es que no me llegará el
+correo por que los pendejos de telnor bloquearon la salida al servidor de
+Email.com ¡Hazme el chingado favor!.
+
+   Los señores se dieron cuenta de que mucha gente está sacando cuenta en
+esos servicios y están dejando de usar los servicios de telnor (pésimos por
+cierto), y para contrarestar esto, Telnor no quiere permitir a sus usuarios
+sacar mensajes a esos servicios.
+
+Preguntas:
+1.- ¿Quién les autorizó bloquear servidores?
+2.- ¿Cuándo me pidieron permiso o me preguntaron de eso?
+3.- ¿Creen que con eso van a solucionar esto?
+4.- ¿Puede haber algo mas estúpido en este mundo?
+5.- ¿Qué sigue, nos van a prohibir ver páginas de ciertos servidores?
+6.- ¿Por que los usuarios no nos quejamos con ScyT?
+7.- ¿Existe la Secretaria de Comunicaciones y Transportes en México y para
+    que sirve?
+
+Respuestas:
+1.- Nadie, absolutamente nadie, eso fue decisión interna de Telnor.
+2.- Nunca, jamas recibí ningún documento, mensaje, llamada telefónica o
+    email de parte de telnor preguntándome o avisándome de eso.
+3.- Lo dudo que ellos crean esto, ya que absoluta y rotundamente no lo es.
+4.- Al parecer es posible que si pero lo dudo mucho.
+5.- Es probable que si, parece que estamos en China, el único país que
+    bloquea los servidores extranjeros y que salgan correos electrónicos y
+    entren correos de otros países por medio de firewalls.
+6.- Por pendejos, deberíamos quejarnos, esto es a todas luces un abuso, no
+    es posible que nos quieran controlar la información, ni siquiera USA
+    pudo regular la libertad de expresión en Internet hace unos pero estos
+    idiotas de telnor se sienten muy vergas y creen que si pueden, pues ya
+    lo veremos, pinches traga mierda.
+7.- Parece que no, desgraciadamente en México, como en otros países, vivimos
+    a merced de los grandes corporaciones (monopolios en este caso) y a las
+    autoridades les dan unas grandes mochadas, para que les permitan usar
+    sus prácticas asquerosas y fraudulentas.
+
+
+   Debemos como usuarios protestar por estos abusos así como por los precios
+en el servicio medido y todas sus pinches transas. Pero mientras no lo
+hagamos, nunca venceremos al gigante corporativo que nos esta mamando cada
+mes una gran cantidad de dinero.
+
+   Les propongo por ejemplo dejar descolgado el teléfono, cambiar de
+proveedor de Internet, bombardear de correos a telnor, mandar una email a
+Secretaria de Comunicaciones y Transportes quejándose, hacer publico estos
+abusos y mas cosas que se pueden hacer, solo se tiene que usar la
+imaginación.
+
+_____________________________
+El Radiaktivo Newz Team, 2000
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+http://www.bigfoot.com/~ernt
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 2000 Karn Evil 9 <karnevil9@email.com>
+Cualquier duda, comentario o sugerencia: karnevil9@email.com
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+                        ########   ########   ####   ####  ############
+                        #### ####  #### ####  #####  ####  ### #### ###
+                        ####       #### ####  ###### ####      ####
+     Karn Evil 9        #########  #######    #### ######      ####
+                        ####       #### ####  ####  #####      ####
+                        #### ####  #### ####  ####   ####      ####
+ <karnevil9@email.com>  ########   #### ####  ####   ####      ####
+
+=EOF=

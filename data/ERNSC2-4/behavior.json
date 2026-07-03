@@ -1,0 +1,1252 @@
+{
+ "forms": {
+  "Forma1": {
+   "on_load": [
+    {
+     "op": "show_form",
+     "form": "Splash"
+    }
+   ],
+   "events": {
+    "about.Click": [
+     {
+      "op": "show_form",
+      "form": "frmAbout"
+     }
+    ],
+    "acuerdo.Click": [
+     {
+      "op": "show_form",
+      "form": "Disctract"
+     }
+    ],
+    "anar.Click": [
+     {
+      "op": "show_form",
+      "form": "Logoz"
+     }
+    ],
+    "banana.Click": [
+     {
+      "op": "show_form",
+      "form": "bbar"
+     }
+    ],
+    "binario.Click": [
+     {
+      "op": "show_form",
+      "form": "binario"
+     }
+    ],
+    "binario2.Click": [
+     {
+      "op": "show_form",
+      "form": "binario"
+     }
+    ],
+    "Binary.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Binary_Click()\nLoad Form22\nForm22.Show\nEnd Sub",
+      "note": "Referencia a 'Form22', form inexistente en el manifest (codigo huerfano de una version anterior)"
+     }
+    ],
+    "block.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub block_Click()\nLoad frmMDI\nfrmMDI.Show\nEnd Sub",
+      "note": "Referencia a 'frmMDI', form inexistente en el manifest (codigo huerfano de una version anterior)"
+     }
+    ],
+    "blah.Click": [
+     {
+      "op": "show_form",
+      "form": "limbo"
+     }
+    ],
+    "cdffgggr.Click": [
+     {
+      "op": "show_form",
+      "form": "anarquia"
+     }
+    ],
+    "chapa.Click": [
+     {
+      "op": "show_form",
+      "form": "djhell"
+     }
+    ],
+    "clear.Click": [
+     {
+      "op": "show_form",
+      "form": "Aclaración"
+     }
+    ],
+    "Command1.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "show_form",
+      "form": "Form3"
+     }
+    ],
+    "Command4.Click": [
+     {
+      "op": "show_form",
+      "form": "novedades"
+     }
+    ],
+    "Command5.Click": [
+     {
+      "op": "show_form",
+      "form": "manifiesto"
+     }
+    ],
+    "Command6.Click": [
+     {
+      "op": "show_form",
+      "form": "derechos"
+     }
+    ],
+    "contactus.Click": [
+     {
+      "op": "show_form",
+      "form": "Form17"
+     }
+    ],
+    "credits.Click": [
+     {
+      "op": "show_form",
+      "form": "Form16"
+     }
+    ],
+    "dummies.Click": [
+     {
+      "op": "show_form",
+      "form": "netbus"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "fedfef.Click": [
+     {
+      "op": "show_form",
+      "form": "cadena"
+     }
+    ],
+    "frasee.Click": [
+     {
+      "op": "msgbox",
+      "text": "¡Non mämere madafaka sanababitches!.",
+      "title": "Frase del mes"
+     }
+    ],
+    "habito.Click": [
+     {
+      "op": "show_form",
+      "form": "habit0"
+     }
+    ],
+    "hacking2.Click": [
+     {
+      "op": "show_form",
+      "form": "html"
+     }
+    ],
+    "herrors.Click": [
+     {
+      "op": "show_form",
+      "form": "herrores"
+     }
+    ],
+    "index.Click": [
+     {
+      "op": "show_form",
+      "form": "Form2"
+     }
+    ],
+    "insomnio.Click": [
+     {
+      "op": "show_form",
+      "form": "infierno"
+     }
+    ],
+    "karne9.Click": [
+     {
+      "op": "show_form",
+      "form": "karnevil9"
+     }
+    ],
+    "Label4.Click": [
+     {
+      "op": "msgbox",
+      "text": "¡Non mämere madafaka sanababitches!.",
+      "title": "Frase del mes"
+     }
+    ],
+    "mail.Click": [
+     {
+      "op": "show_form",
+      "form": "mailinglist"
+     }
+    ],
+    "password.Click": [
+     {
+      "op": "show_form",
+      "form": "passwords"
+     }
+    ],
+    "Screen.Click": [
+     {
+      "op": "show_form",
+      "form": "Disctract"
+     }
+    ],
+    "rasenya.Click": [
+     {
+      "op": "show_form",
+      "form": "bajaprog"
+     }
+    ],
+    "six.Click": [
+     {
+      "op": "show_form",
+      "form": "acid"
+     }
+    ],
+    "solicitud.Click": [
+     {
+      "op": "msgbox",
+      "text": "Desafortunadamente no terminé de hacer el programa Solicitud v1.0, pero ya me falta poco. Espéralo en la página",
+      "title": "Solicitud"
+     }
+    ],
+    "Timer1.Timer": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Timer1_Timer()\nIf Forma1.Visible = True And Splash.Visible = False Then\nExit Sub\nTimer1.Enabled = False\nElse\nSplash.Hide\nForma1.Show\nTimer1.Enabled = False\nEnd If\nEnd Sub",
+      "note": "If no trivial con Exit Sub intermedio (codigo muerto tras el Exit Sub) que gestiona la transicion Splash->Forma1 y desactiva el temporizador; logica de guarda de re-entrada no mapeable a una op simple"
+     }
+    ],
+    "y3k.Click": [
+     {
+      "op": "show_form",
+      "form": "Y2K"
+     }
+    ]
+   }
+  },
+  "Form2": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "usuarios.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a usuarios.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "ghdg.Click": [
+     {
+      "op": "close",
+      "form": "Form2"
+     }
+    ]
+   }
+  },
+  "Form3": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form3"
+     }
+    ],
+    "Command2.Click": [
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "beep"
+     },
+     {
+      "op": "msgbox",
+      "text": "Su drive C: ha sido formateado. Instale un nuevo sistema operativo",
+      "title": "100% Completado"
+     }
+    ],
+    "Command3.Click": [
+     {
+      "op": "quit"
+     }
+    ],
+    "Image4.Click": [
+     {
+      "op": "close",
+      "form": "Form3"
+     }
+    ]
+   }
+  },
+  "Aclaración": {
+   "on_load": [
+    {
+     "op": "gradient",
+     "from": "#040000",
+     "to": "#0400FF",
+     "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "gradient",
+      "from": "#040000",
+      "to": "#0400FF",
+      "_note": "Degradado negro→azul reconstruido del bucle Line/RGB original."
+     }
+    ]
+   }
+  },
+  "Form16": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form16"
+     }
+    ]
+   }
+  },
+  "Form17": {
+   "on_load": [],
+   "events": {
+    "Command1.Click": [
+     {
+      "op": "close",
+      "form": "Form17"
+     }
+    ]
+   }
+  },
+  "Disctract": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "sadf.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "licencia.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a licencia.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "esde.Click": [
+     {
+      "op": "close",
+      "form": "Disctract"
+     }
+    ]
+   }
+  },
+  "Logoz": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "hegfdfs.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "freekevin.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a freekevin.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "sads.Click": [
+     {
+      "op": "close",
+      "form": "Logoz"
+     }
+    ]
+   }
+  },
+  "passwords": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "passwords.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a passwords.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "close",
+      "form": "passwords"
+     }
+    ],
+    "dibujo.Click": [
+     {
+      "op": "show_form",
+      "form": "Logoz"
+     }
+    ]
+   }
+  },
+  "habit0": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "extraer500.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "habit06.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo habit06.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "exit5000.Click": [
+     {
+      "op": "close",
+      "form": "habit0"
+     }
+    ]
+   }
+  },
+  "limbo": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "calendae.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo calendae.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "salir.Click": [
+     {
+      "op": "close",
+      "form": "limbo"
+     }
+    ]
+   }
+  },
+  "djhell": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "dfshdfsf.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "ch01.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a ch01.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "asdfasdfasd.Click": [
+     {
+      "op": "close",
+      "form": "djhell"
+     }
+    ]
+   }
+  },
+  "Y2K": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "ex.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "programming02.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a programming02.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "blah.Click": [
+     {
+      "op": "close",
+      "form": "Y2K"
+     }
+    ]
+   }
+  },
+  "herrores": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "sadd.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "hackunix.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a hackunix.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "fdghdg.Click": [
+     {
+      "op": "close",
+      "form": "herrores"
+     }
+    ]
+   }
+  },
+  "bbar": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "dfrmormvoim.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "banano's05.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a banano's05.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "dlfkmcdc.Click": [
+     {
+      "op": "close",
+      "form": "bbar"
+     }
+    ]
+   }
+  },
+  "anarquia": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "dgtgtg.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "chistes.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a chistes.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "fkvmori.Click": [
+     {
+      "op": "close",
+      "form": "anarquia"
+     }
+    ]
+   }
+  },
+  "html": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "email-telnor.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a email-telnor.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "salir.Click": [
+     {
+      "op": "close",
+      "form": "html"
+     }
+    ]
+   }
+  },
+  "cadena": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "ex.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "pla.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a pla.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "blah.Click": [
+     {
+      "op": "close",
+      "form": "cadena"
+     }
+    ]
+   }
+  },
+  "netbus": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "dasdg.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "dvd.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a dvd.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "ununuin.Click": [
+     {
+      "op": "close",
+      "form": "netbus"
+     }
+    ]
+   }
+  },
+  "karnevil9": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "extraer.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "progreso2.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a progreso2.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "close",
+      "form": "karnevil9"
+     }
+    ]
+   }
+  },
+  "infierno": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "ext.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "insomnio.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a insomnio.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "xit.Click": [
+     {
+      "op": "close",
+      "form": "infierno"
+     }
+    ]
+   }
+  },
+  "acid": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "extraer500.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "acidreport.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo acidreport.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "exit5000.Click": [
+     {
+      "op": "close",
+      "form": "acid"
+     }
+    ]
+   }
+  },
+  "binario": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "extraer500.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "binario.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo binario.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "exit5000.Click": [
+     {
+      "op": "close",
+      "form": "binario"
+     }
+    ]
+   }
+  },
+  "bajaprog": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "dasdg.Click": [
+     {
+      "op": "save_text",
+      "source": "txtEdit",
+      "suggest_name": "bajaprog.txt"
+     },
+     {
+      "op": "msgbox",
+      "text": "Se ha grabado este archivo a bajaprog.txt",
+      "title": "Extraer a archivo"
+     }
+    ],
+    "ununuin.Click": [
+     {
+      "op": "close",
+      "form": "bajaprog"
+     }
+    ]
+   }
+  },
+  "manifiesto": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "fgfg.Click": [
+     {
+      "op": "close",
+      "form": "manifiesto"
+     }
+    ]
+   }
+  },
+  "mailinglist": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ]
+   }
+  },
+  "derechos": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    Text1.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    Text1.Width = ScaleWidth\n    Text1.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ]
+   }
+  },
+  "novedades": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    txtEdit.Move 0, 0\n    Top = Screen.Height / 2 - Height / 2\n    Left = Screen.Width / 2 - Width / 2\nEnd Sub",
+     "note": "Centra la ventana calculando Top/Left a partir de Screen.Height/Width en tiempo de ejecucion; no hay op de centrado/posicionamiento dinamico en el vocabulario"
+    }
+   ],
+   "events": {
+    "Form.Resize": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub Form_Resize()\n    txtEdit.Width = ScaleWidth\n    txtEdit.Height = ScaleHeight\nEnd Sub",
+      "note": "Redimensiona el TextBox a ScaleWidth/ScaleHeight del formulario; no hay op de layout dinamico en el vocabulario"
+     }
+    ],
+    "exit.Click": [
+     {
+      "op": "close",
+      "form": "novedades"
+     }
+    ]
+   }
+  },
+  "Telnor": {
+   "on_load": [],
+   "events": {}
+  },
+  "frmAbout": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    Me.Caption = \"About \" & App.Title\n    lblVersion.Caption = \"Version \" & App.Major & \".\" & App.Minor & \".\" & App.Revision\n    lblTitle.Caption = App.Title\nEnd Sub",
+     "note": "Asigna Caption/lblVersion/lblTitle a partir de App.Title/App.Major/App.Minor/App.Revision (valores dinamicos de metadatos de la app), no son literales asignables via set_prop"
+    }
+   ],
+   "events": {
+    "cmdSysInfo.Click": [
+     {
+      "op": "unsupported",
+      "code": "Private Sub cmdSysInfo_Click()\n  Call StartSysInfo\nEnd Sub",
+      "note": "Llama a StartSysInfo, que usa Declare Function a advapi32.dll (RegOpenKeyEx/RegQueryValueEx) y Shell para lanzar MSINFO32.EXE: llamadas a API de Windows y registro"
+     }
+    ],
+    "cmdOK.Click": [
+     {
+      "op": "close"
+     }
+    ]
+   }
+  },
+  "Splash": {
+   "on_load": [
+    {
+     "op": "unsupported",
+     "code": "Private Sub Form_Load()\n    lblProductName.Caption = App.Title\nEnd Sub",
+     "note": "lblProductName.Caption = App.Title es un valor dinamico de metadatos de la app, no un literal asignable via set_prop"
+    }
+   ],
+   "events": {
+    "Form.KeyPress": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "Frame1.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "Image1.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "imgLogo.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "lblCompanyProduct.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "lblCopyright.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "lblLicenseTo.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "lblPlatform.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "lblProductName.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "lblVersion.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ],
+    "lblWarning.Click": [
+     {
+      "op": "show_form",
+      "form": "Forma1"
+     },
+     {
+      "op": "close"
+     }
+    ]
+   }
+  }
+ }
+}

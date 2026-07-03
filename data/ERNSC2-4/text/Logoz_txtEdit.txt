@@ -1,0 +1,446 @@
+[Ahora, con motivo de la "liberación" de Kevin Mitnick, El Radiaktivo Newz
+ Team presenta una recopilación de artículos diversos sobre este polémico
+ caso. Para más información, lean también los artículos escritos por BadBit
+ y Karn Evil 9 al respecto.]
+
+------------------------------------------------------------------------------
+La Historia del Chacal de la Red 
+Escrito por: Gilberto Pagua [Recogido de RareGazz nº3]
+
+   Como Hacker la carrera de Kevin Mitnick comenzo a los 16 años, cuando
+-obsesionado por las redes de computadoras- rompio la seguridad del sistema
+administrativo de su colegio.
+
+
+Mr. Mitnick. 
+
+   Todo aquel que sea conceptualizado como un Internauta se caracteriza por
+utilizar un teléfono, un módem y una computadora para muchos fines diferentes:
+Divertirnos, informarnos, estudiar, cocinar, planificar viajes y otras
+actividades que amplían nuestro quehacer diario. Para Kevin Mitnick el
+quehacer diario en sus últimos diez años fue el explorar y "explotar"
+computadoras ajenas y sistemas telefónicos. ¿Su profesión? "Hacker" de
+nacimiento.
+
+   Este "terrorista electrónico", como lo cataloga el Departamento de Justicia
+de los Estados Unidos, conocido en los medios como el "Condor", fue capaz de
+crear números telefónicos imposibles de facturar (para la compañia telefonica
+él era James Bond, con un numero que terminaba en 007), pudo apropiarse de
+20.000 numeros de tarjetas de crédito de habitantes de California y burlarse
+del FBI por mas de dos años con solo un telefono celular alterado y un
+computador portátil.
+
+   Es la peor pesadilla de las empresas de telefonía. Es sospechoso de robar
+el software de mas de media docena de fabricantes de teléfonos celulares y
+tenía el control de tres oficinas centrales de teléfonos en Manhattan y de
+todos los centros de conmutación de California, dándole la habilidad de
+escuchar cualquier conversacion telefónica o, si no eras una persona de su
+agrado, modificar el telefono de tu casa de tal manera que, cada vez que
+levantaras el auricular, una grabadora pedía que depositaras 25 centavos.
+
+
+¿Como se forma un Hacker? 
+
+   Como Hacker, la carrera de Mitnick tiene sus inicios en 1980 cuando apenas
+contaba 16 años y, obsesionado por las redes de computadoras, rompió la
+seguridad del sistema administrativo de su colegio, pero no para alterar sus
+notas, lo hizo "sólo para mirar". Su bautizo como infractor de la ley fue en
+1981. Junto a dos amigos entro físicamente a las oficinas de COSMOS de Pacific
+Bell. COSMOS (Computer System for Mainframe Operations) era una base de datos
+utilizada por la mayor parte de las compañias telefónicas norteamericanas para
+controlar el registro de llamadas. Una vez dentro de las oficinas obtuvieron
+la lista de claves de seguridad, la combinación de las puertas de acceso de
+varias sucursales y manuales del sistema COSMOS. La información robada tenía
+un valor equivalente a los 200 mil dólares. Fueron delatados por la novia de
+uno de los amigos y debido a su minoría de edad una Corte Juvenil lo sentenció
+a tres meses de cárcel y a un año bajo libertad condicional. Despues de
+cumplir los tres meses, el oficial custodio encargado de su caso encontró que
+su teléfono fue desconectado y que en la compañía telefonica no habia ningún
+registro de él.
+
+   Sus objetivos iban creciendo a cada paso y en 1982 entró ilegalmente, vía
+módem, a la computadora del North American Air Defense Command en Colorado.
+Antes de entrar alteró el programa encargado de rastrear la procedencia de las
+llamadas y desvió el rastro de su llamada a otro lugar. El FBI, creyendo que
+había hallado a Mitnick, allanó la casa de unos inmigrantes que estaban viendo
+televisión. 
+
+   Un año más tarde fue arrestado de nuevo cuando era estudiante de la
+Universidad del Sur de California. En esta ocasión entró ilegalmente a ARPAnet
+(la predecesora de Internet) y trató de accesar a la computadora del
+Pentágono. Lo sentenciaron a seis meses de cércel en una prisión juvenil en
+California. 
+
+   En 1987, luego de tratar de poner su vida en orden, cayó ante la tentación
+y fué acusado, en Santa Cruz California, de invadir el sistema de la compañía
+Microcorp Systems. Lo sentenciaron a tres años de libertad condicional y luego
+de la sentencia su expediente desapareció de la computadora de la policía
+local.
+
+   Luego buscó trabajo en lo que mejor sabía hacer y solicitó empleo en el
+Security Pacific Bank como encargado de la seguridad de la red del banco. El
+banco lo rechazo por sus antecedentes penales y Mitnick falsificó un balance
+general del banco donde se mostraban pérdidas por 400 millones de dólares y
+trató de enviarlo por la red. Afortunadamente el administrador de la red
+detuvo el balance antes de que viera la luz.
+
+   Ese mismo año inició el escandalo que lo lanzó a la fama. Durante meses
+observó secretamente el correo electrónico de los miembros del departamento de
+seguridad de MCI Communications y Digital Equipment Corporation para conocer
+cómo estaban protegidas las computadoras y el sistema telefónico de ambas
+compañías.
+
+   Luego de recoger suficiente información se apoderó de 16 códigos de
+seguridad de MCI y junto a un amigo, Lenny DiCicco, entraron a la red del
+laboratorio de investigaciones de Digital Corporation, conocida como Easynet.
+Ambos Hackers querían obtener una copia del prototipo del nuevo sistema
+operativo de seguridad de Digital llamado VMS. El personal de seguridad de
+Digital se dió cuenta inmediatamente del ataque y dieron aviso al FBI, y
+comenzaron a rastrear a los hackers.
+
+   Mitnick fue un mal cómplice y, a pesar de que habian trabajado juntos,
+trató de echarle toda la culpa a DiCicco haciendo llamadas anónimas al jefe de
+éste que trabajaba en una compañía de software como técnico de soporte. Lleno
+de rabia y frustración DiCicco le confesó todo a su jefe que los denunció a
+Digital y al FBI.
+
+   Mitnick fue arrestado en 1988 por invadir el sistema de Digital Equipment.
+La empresa acusó a Mitnick y a DiCicco ante un juez federal de causarles daños
+por 4 millones de dólares en el robo de su sistema operativo. Fue declarado
+culpable de un cargo de fraude en computadoras y de uno por posesión ilegal de
+códigos de acceso de larga distancia.
+
+   Adicional a la sentencia el fiscal obtuvo una orden de la corte que
+prohibía a Mitnick el uso del teléfono en la prisión alegando que el
+prisionero podría obtener acceso a las computadoras a traves de cualquier
+teléfono. A petición de Mitnick el juez lo autorizo a llamar únicamente a su
+abogado, a su esposa, a su madre y a su abuela y solo bajo supervisión de un
+oficial de la prisión.
+
+   Este caso produjo revuelo en los Estados Unidos, no solo por el hecho
+delictivo sino por la táctica que utilizo la defensa. Su abogado convenció al
+juez que Mitnick sufría de una adicción por las computadoras equivalente a la
+de un drogadicto, un alcohólico o un apostador. Gracias a esta maniobra de la
+defensa, Mitnick fue sentenciado a solo un año de prisión y al salir de allí
+debía seguir un programa de seis meses para tratar su "adicción a las
+computadoras". Durante su tratamiento le fue prohibido tocar una computadora
+o un módem y llego a perder mas de 45 kilos.
+
+   Para 1991 ya era el Hacker que habia ocupado la primera plana del New York
+Times y uno de sus reporteros, John Markoff, decidió escribir un libro de
+estilo Cyberpunk narrando las aventuras de Mitnick. Al parecer a Mitnick no
+le gustó el libro ya que luego de salir a la venta, la cuenta en Internet de
+Markoff fue invadida, cambiando su nivel de acceso, de manera de que cualquier
+persona en el mundo conectada a Internet podia ver su correo electrónico.
+
+   En 1992, y luego de concluir su programa, Mitnick comenzo a trabajar en una
+agencia de detectives. Pronto se descubrió un manejo ilegal en el uso de la
+base de datos y fue objeto de una investigación por parte del FBI quien
+determinó que habia violado los términos de su libertad condicional. Allanaron
+su casa pero habia desaparecido sin dejar rastro alguno. Ahora Mitnick se
+había convertido en un Hacker prófugo.
+
+   El fiscal no estaba tan equivocado cuando pidió la restricción del uso del
+teléfono. También en 1992, el Departamento de Vehículos de California ofreció
+una recompensa de 1 millón de dólares a quien arrestara a Mitnick por haber
+tratado de obtener una licencia de conducir de manera fraudulenta, utilizando
+un código de acceso y enviando sus datos vía fax.
+
+
+El Fin 
+
+   Luego de convertirse en prófugo de la justicia cambió de táctica y concluyó
+que la mejor manera de no ser rastreado era utilizando teléfonos celulares. De
+esta manera podría cometer sus fechorías y no estar atado a ningun lugar fijo.
+Para ello necesitaba obtener programas que le permitieran moverse con la misma
+facilidad con que lo hacia en la red telefónica. 
+
+   Luego de varios intentos infructuosos, en cuanto a calidad de información,
+se encontró con la computadora de Tsutomu Shimomura la cual invadió en la
+Navidad de 1994. Shimomura, físico computista y experto en sistemas de
+seguridad del San Diego Supercomputer Center, era además un muy buen Hacker,
+pero era de los "chicos buenos", ya que cuando hallaba una falla de seguridad
+en algún sistema lo reportaba a las autoridades, no a otros Hackers.
+
+   Shimomura notó que alguien habia invadido su computadora en su ausencia,
+utilizando un método de intrusión muy sofisticado y que él nunca antes había
+visto. El intruso le había robado su correo electrónico, software para el
+control de teléfonos celulares y varias herramientas de seguridad en Internet.
+Allí comenzo la cuenta regresiva para Mitnick. Shimomura se propuso como
+orgullo personal atrapar al Hacker que había invadido su privacidad. 
+
+   Hacia finales de enero de 1995, el software de Shimomura fue hallado en una
+cuenta en The Well, un proveedor de Internet en California. Mitnick habia
+creado una cuenta fantasma en ese proveedor y desde allí utilizaba las
+herramientas de Shimomura para lanzar ataques hacia una docena de
+corporaciones de computadoras, entre ellas Motorola, Apple y Qualcomm.
+
+   Shimomura se reunió con el gerente de The Well y con un técnico de Sprint
+(proveedor de servicios telefónicos celulares) y descubrieron que Mitnick
+había creado un numero celular fantasma para accesar el sistema. Luego de dos
+semanas de rastreos determinaron que las llamadas provenían de Raleigh,
+California.
+
+   Al llegar Shimomura a Raleigh recibió una llamada del experto en seguridad
+de InterNex, otro proveedor de Internet en California. Mitnick había invadido
+otra vez el sistema de InterNex, habia creado una cuenta de nombre Nancy,
+borrado una con el nombre Bob y habia cambiado varias claves de seguridad
+incluyendo la del experto y la del gerente del sistema que posee los
+privilegios más altos. De igual manera Shimomura tenía información sobre la
+invasión de Mitnick a Netcom, una red de base de datos de noticias.
+
+   Shimomura se comunico con el FBI y estos enviaron a un grupo de rastreo por
+radio. El equipo de rastreo poseía un simulador de celda, un equipo
+normalmente utilizado para probar telefonos celulares pero modificado para
+rastrear el teléfono de Mitnick mientras éste está encendido y aunque no esté
+en uso. Con este aparato el celular se convertiría en un transmisor sin que el
+usuario lo supiera.
+
+   A medianoche terminaron de colocar los equipos en una Van y comenzo la
+búsqueda de la señal, porque eso era lo que querían localizar; no buscaban a
+un hombre porque todas las fotos que tenían eran viejas y no estaban seguros
+de su aspecto actual, el objetivo de esa noche era determinar el lugar de
+procedencia de la señal. Ya para la madrugada localizaron la señal en un grupo
+de apartamentos pero no pudieron determinar en cuál debido a interferencias en
+la señal.
+
+   Mientras esto ocurría, la gente de InterNex, The Well y Netcom estaban
+preocupados por los movimientos que casi simultáneamente Mitnick hacía en cada
+uno de estos sistemas. Cambiaba claves de acceso que él mismo había creado y
+que tenían menos de 12 horas de creadas, utilizando códigos extraños e
+irónicos como no, panix, fukhood y fuckjkt. Estaba creando nuevas cuentas con
+mayores niveles de seguridad como si sospechara que lo estaban vigilando.
+
+   El FBI, Shimomura y el equipo de Sprint se habian reunido para planificar
+la captura. Shimomura envio un mensaje codificado al buscapersonas del
+encargado en Netcom para advertirle que el arresto se iba a realizar al día
+siguiente, 16 de Febrero. Shimomura envió el mensaje varias veces por
+equivocación y el encargado interpretó que Mitnick ya habia sido arrestado
+adelantandose a realizar una copia de respaldo de todo el material que Mitnick
+había almacenado en Netcom como evidencia y borrando las versiones almacenadas
+por Mitnick. Habia que realizar el arresto de inmediato, antes de que Mitnick
+se diera cuenta de que su información habia sido borrada.
+
+   Cuando faltaban minutos para dar la orden, el simulador de celdas detectó
+una nueva señal de transmisión de datos vía celular y simultánea a la de
+Mitnick, muy cerca de esa zona. Algo extraño estaba haciendo Mitnick con las
+líneas celulares, Shimomura trató de advertirle al agente del FBI pero ya todo
+estaba en manos de ellos, Shimomura de ahora en adelante no era mas que un
+espectador privilegiado. El FBI no pensaban hacer una entrada violenta porque
+no creían que Mitnick estuviera armado, pero tenían que actuar muy rápido
+porque sabían el daño que este hombre podía causar en un sólo minuto con una
+computadora. Se acercaron lentamente hasta la entrada del apartamento de
+Mitnick y anunciaron su presencia, si no les abrian la puerta en cinco
+segundos la echarían abajo. Mitnick abrió la puerta con toda calma y el FBI
+procedió a arrestarlo y a decomisar todo el material pertinente: discos,
+computador, teléfonos celulares, manuales, etc.
+
+   De regreso a su hotel Shimomura decide chequear la contestadora telefónica
+de su residencia en San Diego. Se quedó en una pieza cuando escuchó la voz de
+Mitnick quien le había dejado varios mensajes con acento oriental en tono de
+burla. El último de estos mensajes lo habia recibido ocho horas despues de que
+Mitnick habia sido arrestado y antes de que la prensa se hubiera enterado de
+todo el asunto. Cómo se realizó esa llamada aún es un misterio al igual que el
+origen y objetivo de la segunda señal de Mitnick.
+
+   Este persistente hacker actualmente esta siendo juzgado y enfrenta dos
+cargos federales, uso ilegal de equipos de acceso telefónico y fraude por
+computadoras. Puede ser condenado por hasta 35 años y a pagar una multa de
+hasta medio millón de dólares. Mitnick tambión es sospechoso de robar el
+software que las compañias telefónicas piensan usar para todo tipo de
+procesos, desde la facturación hasta el seguimiento del origen de una llamada
+pasando por la decodificación de las señales de los teléfonos celulares para
+preservar su privacidad.
+
+
+El vuelo final 
+
+   Todos los cargos bajo los cuales ha sido acusado Kevin Mitnick podrían
+suponerle més de doscientos años de prisión si es declarado culpable. "No
+culpable" alcanzo a declararse Kevin Mitnick ante el Gran Jurado de
+California, que el pasado 30 de septiembre lo acusó de 25 cargos por los
+cuales podría ser condenado a mas de doscientos años de presidio. "Esta
+acusación revela el amplio daño que Mitnick causó mientras era un fugitivo de
+la justicia. Los delitos por computadora permiten a sofisticados criminales
+causar estragos alrededor del mundo usando sólo una computadora y un módem
+como sus armas. Queremos con esta acusación dar un paso adelante en los
+esfuerzos federales por perseguir y capturar a los hackers" dijo la fiscal
+encargada del caso, Nora Manella. Los cargos por los que fue acusado Mitnick y
+su ayudante Lewis Depayne, de 36 años, incluyen el robo de software, fraude
+electrónico, daño a las computadoras de la Universidad del Sur de California,
+robo de archivos electrónicos e intercepción de mensajes de correo
+electrónico. Entre las compañias afectadas por las actividades del llamado
+"Condor" se cuentan Motorola, Nokia, Fujitsu y Nec.
+
+   Se supone que los daños causados por Mitnick en los dos años y medio
+durante los cuales fue un fugitivo suman millones de dólares, especialmente
+por el software robado y las inversiones que debieron realizar las empresas
+para proteger sus sistemas. El asistente del fiscal David Schindler dijo que
+Mitnick -quien actualmente tiene 33 años- sería probablemente sentenciado a
+"muchos años" si es encontrado culpable, negándose, sin embargo, a ser mas
+específico, bajo el argumento de que se trata de un area legal muy nueva.
+Todos los cargos bajo los cuales ha sido acusado Mitnick podrían suponerle más
+de doscientos años de prisión si es declarado culpable de todos ellos.
+
+   Ya en abril de este año el famoso hacker habia sido declarado culpable por
+un jurado de Carolina del Norte por el uso del quince números de teléfonos
+celulares robados para llamar a bases de datos electrónicas. Igualmente se le
+condenó por haber violado el régimen de libertad condicional al que estaba
+sometido luego de ser encontrado culpable de penetrar ilegalmente en sistemas
+de información de corporaciones de informática.
+
+------------------------------------------------------------------------------
+FREE KEVIN
+
+    Imagine being imprisoned for more than four years without a trial, without
+a bail hearing, and without being allowed to have any visitors outside of
+immediate family and legal staff. Imagine what kind of a crime you would have
+to commit to be eligible for this treatment. Murder? Bank robbery? Terrorism?
+The crime of the century, it seems, is computer hacking.
+
+   Kevin Mitnick has been in federal custody since February 15, 1995 and has
+never been accused of violence, causing any sort of physical damage, or
+stealing. Yet he has been treated far worse than any violent criminal. Even
+the Oklahoma City bombers had a bail hearing!
+
+HOW COULD THIS HAPPEN?
+
+   We live in an age where the brightest among us are often looked upon with
+fear and suspicion. The Kevin Mitnick case has been filled with inaccuracies
+and distortions from the very beginning. These are the facts, verifiable
+through court records. Kevin has not been charged with stealing, engaging in
+credit card fraud, causing damage to a computer system, or even breaking into
+a computer system. What he has been charged with is misrepresenting himself
+on the phone (saying he was somebody he wasn't) and coming into possession of
+software belonging to major cellular phone corporations. At no point has Kevin
+been accused of trying to sell or subvert this software - all indications are
+that he was simply curious how it worked and whether there were intentional
+privacy holes that could affect all cellular phone users. The cellular
+companies responded to this by claiming millions of dollars in undocumented
+damages when all Kevin did - even according to the prosecution - was look at
+the software.
+
+THIS AFFECTS EVERYONE
+
+   On June 14, Kevin will be sentenced in a federal court in Los Angeles. The
+judge will have the choice of recommending more prison time or IMMEDIATE
+RELEASE to a halfway house. In addition, once Kevin's imprisonment has ended,
+the authorities want to impose draconian restrictions on him for an additional
+three years. These include not being allowed to work in any environment with
+computers (there are virtually no such environments left – he wouldn't even be
+able to work in a fast food restaurant), not being allowed to even look at a
+web site or receive e-mail, not being able to tell his side of the story, and
+not even being allowed to talk about computers with anyone! We think his
+suffering has gone on for too long. Help us convince the authorities to give
+Kevin his life back.
+
+   On Friday, June 4, simultaneous demonstrations will be held at federal
+courthouses across the country. For literature and links to up-to-date
+information on demonstrations being planned in your area, visit
+www.freekevin.com.
+
+                             DEMONSTRATION INFO
+
+   To learn more about the Kevin Mitnick case and the Free Kevin movement,
+visit www.freekevin.com, read 2600 Magazine, and listen to "Off The Hook"
+every Tuesday evening at 8:00 pm ET on WBAI 99.5 FM or on the Internet at
+www.2600.com/offthehook
+
+------------------------------------------------------------------------------
+Dan sentencia al hacker más famoso del mundo
+
+   Cinco años de cárcel y tres más sin tocar una computadora para el que fue
+el "hacker" más buscado del mundo. Kevin Mitnick detenido en 1995, y desde
+entonces en prisión, llega a un acuerdo con la justicia norteamericana por el
+que sólo tendrá que estar un año más encarcelado.
+
+   Dio pie a la taquillera película WarGames (1983). Sus hazañas han sucitado
+la admiración de la mayoría de sus colegas. Hasta 1995, fecha en la que fue
+detenido y encarcelado por delitos relacionados con el fraude informático, fue
+apodado por el FBI como el hacker más peligroso/buscado del mundo. Ahora,
+cuatro años después, es sentenciado y ha conseguido un acuerdo con la justicia
+norteamericana por el que sólo tendrá que pasar un año más entre rejas. Eso
+sí, no podrá tocar una computadora hasta tres años después de su salida de la
+cárcel.
+
+   No obstante, los términos del acuerdo siguen siendo confidenciales. El
+abogado defensor del famoso pirata, Donald Randolph, no ha querido hacer
+declaraciones "por si pudieran influir en la decisión de la Corte", aunque se
+ha mostrado "optimista" tras el pacto. Por su parte, Thom Morzek, portavoz de
+la fiscalía, ha declinado hacer comentarios al respecto.
+
+   Lo único que está claro es que Mitnick cumplirá en total una condena de
+cinco años. El que fuera el intruso informático más buscado hasta 1995 lleva
+en prisión desde entonces sin que la justicia norteamericana haya juzgado su
+caso y dictado sentencia. Ahora, a punto de comenzar las vistas -el próximo 20
+de abril, en Los Angeles- los jueces le ofrecen un acuerdo, por el que el
+tiempo que Mitnick ha pasado en prisión formará parte de una sentencia que
+todavía no se ha dictado.
+
+Un currículum muy buscado
+
+[...]
+
+   Tras su detención, Mitnick sentó cátedra. Sin quererlo se convirtió en el
+líder de gran parte de los hackers de todo el mundo y éstos, en el empeño de
+liberar a su mentor, iniciaron una campaña de ataques sistemáticos.
+
+   Comenzaron a finales de 1997. El grupo colocó en el servidor de la Unesco,
+un mensaje en el que advertían de la invasión irremediable de un virus que
+iba a causar estragos en el planeta de los cibernautas. Consiguieron acceder
+al servidor, pero no causaron el menor daño. Simplemente dejaron un mensaje,
+en el que aseguraban que sólo entregarían la fórmula secreta si era liberado
+Kevin Mitnick.
+
+   Siguieron a principios de 1998. Según informaba entonces el New York Times,
+un grupo de piratas había conseguido adentrarse en el sistema informático de
+Naciones Unidas y verter por unas horas su particular mensaje: si Mitnick no
+era liberado, tendría lugar un "holocausto" informático.
+
+   Sin embargo, la fama mundial la obtuvieron con el ataque del web del New
+York Times. Era domingo, 13 de septiembre. Los internautas que entonces
+entraron al sitio del famoso rotativo se encontraron con una página en blanco
+en la que podían leerse las siglas HFG (Hacking for Girlies), acompañadas de
+fotografías de mujeres desnudas y un pequeño texto en el que explicaban el
+motivo del ataque. Además, incluían la lista de sus "conquistas" (entre las
+que están las páginas de Motorola, Penthouse o la N.A.S.A.).
+
+------------------------------------------------------------------------------
+Liberan a Mitnick
+Por Federico Cirett <fdcirett@imparcial.com.mx>
+
+   Kevin Mitnick, uno de los 'hackers' - más bien 'cracker' - más conocido de
+los últimos tiempos ha sido liberado, después de permanecer en prisión desde
+1994 sin ser juzgado.
+
+   Su caso ganó notoriedad por la gran publicidad que le dio a su captura el
+New York Times, donde el autor del texto, John Markoff, lo tacha de "Hacker
+más buscado de FBI", y exagera su capacidad de infiltrarse en sistemas de
+varias instituciones gubernamentales.
+
+   Desde entonces varios hackers se han convertido en defensores de Mitnick,
+pues lo creen un mártir cibernético. Algunas páginas de Internet de sitios
+famosos han sido "remodeladas" por los hackers a travéz de los años para hacer
+llegar su mensaje: "Liberen a Mitnick".
+
+   Sin embargo, el término hacker que se le asigna a Kevin Mitnick está mal
+usado, pues él no ha escrito ni un solo programa de ataque o intrusión de
+sistemas. Se le puede considerar más bien un "Script-kiddie", una persona que
+utiliza herramientas escritas por otros -hackers- para hacer de las suyas. La
+gran mayoría de los 'crackers' en el mundo son precisamente eso, Script-
+kiddies, muchachitos con mucho tiempo libre y acceso a programas con carga
+letal.
+
+   Ahora que ya es hombre libre, Kevin Mitnick no podrá utilizar una
+computadora o cualquier aparato de alta tecnología en 3 años, sino, corre el
+riesgo de volver a prisión. Es decir que no podrá hacer uso de su experiencia
+en computación para ganarse la vida. Lo más que puede llegar a utilizar es
+una línea telefónica normal, nada de celulares, bipers o PalmPilots.
+
+   Tal vez parezca poco tiempo 3 años de castigo, pero ese tiempo en línea es
+el equivalente de una década de vida normal. Si a eso le sumamos que desde que
+está en prisión no ha tocado un acceso a una red de cómputo, estarían
+limitándolo casi 8 años. Sólo por entrar ilegalmente a sistemas privados y
+públicos para satisfacer la curiosidad de saber cómo funcionan las cosas.
+
+------------------------------------------------------------------------------

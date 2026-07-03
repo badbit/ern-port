@@ -1,0 +1,367 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++--------------------------------------------+
+| Programación: Lenguajes y diferencias.     |
+| Por Karn Evil 9                            +======+-----------------------+
++--------------------------------------------+      | <karnevil9@email.com> |
+                                                    +-----------------------+
+
+    Programación es el arte de crear un programa, desde planearlo, plantear
+un problema, encontrar posibles soluciones, encontrar la solución que cubre
+nuestras necesidades, pensar que lenguaje usar, que técnicas usar,
+codificarlo, compilarlo, probarlo, debug, probarlo, debug, probar debug y
+finalmente, distribuirlo.
+
+    Para poder crear un programa, se necesita plantear un problema o función
+que va a realizar esta, ya sea un programa como una calculadora(relativamente
+sencillo) o verdaderas obras maestras como ciertos programas de encripción
+que se basan en cientos de rutinas.
+
+    Entonces, te planteas la pregunta ¿Qué va a hacer?
+
+    Ejemplo rápido: Un programa que me pregunte mi nombre, y me diga un
+mensaje de acuerdo a la hora que es.
+
+    Entonces sigue, buscar soluciones, aquí en el ejemplo, no se ocupa pensar
+que lenguaje usar: Vamos a decir que el tamaño y la velocidad no cuentan, ya
+que el programa es muy pequeño e insignificante; yo preferiría el lenguaje
+PASCAL, por que no creo que este programa se llegue a necesitar actualizar y
+PASCAL es muy sencillo.
+
+    Ya escribimos el código.
+
+    Compilamos
+
+    Probamos
+
+    Debug
+
+    Volvemos a probar
+
+    Distribuimos
+
+
+---------
+Lenguajes
+---------
+
+<Lenguaje de programación> en informática, cualquier lenguaje artificial que
+  puede utilizarse para definir una secuencia de instrucciones para su
+  procesamiento por un ordenador o computadora.
+
+-> Lenguajes de bajo nivel <-
+
+    Vistos a muy bajo nivel, los microprocesadores procesan exclusivamente
+señales electrónicas binarias. Dar una instrucción a un microprocesador supone
+en realidad enviar series de unos y ceros espaciadas en el tiempo de una forma
+determinada. Esta secuencia de señales se denomina código máquina. El código
+representa normalmente datos y números e instrucciones para manipularlos. Un
+modo más fácil de comprender el código máquina es dando a cada instrucción un
+mnemónico, como por ejemplo STORE, ADD o JUMP. Esta abstracción da como
+resultado el ensamblador, un lenguaje de muy bajo nivel que es específico de
+cada microprocesador.
+
+    Los lenguajes de bajo nivel permiten crear programas muy rápidos, pero que
+son a menudo difíciles de aprender. Más importante es el hecho de que los
+programas escritos en un bajo nivel sean altamente específicos de cada
+procesador. Si se lleva el programa a otra máquina se debe reescribir el
+programa desde el principio (no es portable).
+
+
+-> Lenguajes de alto nivel <-
+
+    Por lo general se piensa que los ordenadores son máquinas que realizan
+tareas de cálculos o procesamiento de textos. La descripción anterior es sólo
+una forma muy esquemática de ver una computadora. Hay un alto nivel de
+abstracción entre lo que se pide a la computadora y lo que realmente
+comprende. Existe también una relación compleja entre los lenguajes de alto
+nivel y el código máquina.
+
+    Los lenguajes de alto nivel son normalmente fáciles de aprender porque
+están formados por elementos de lenguajes naturales, como el inglés. En BASIC,
+el lenguaje de alto nivel más conocido, los comandos como "IF CONTADOR = 10
+THEN STOP" pueden utilizarse para pedir a la computadora que pare si CONTADOR
+es igual a 10. Por desgracia para muchas personas esta forma de trabajar es un
+poco frustrante, dado que a pesar de que las computadoras parecen comprender
+un lenguaje natural, lo hacen en realidad de una forma rígida y sistemática.
+
+
+--------------------------
+Intérpretes y compiladores
+-------------------------- 
+
+    La traducción de una serie de instrucciones en lenguaje ensamblador (el
+código fuente) a un código máquina (o código objeto) no es un proceso muy
+complicado y se realiza normalmente por un programa especial llamado
+compilador. La traducción de un código fuente de alto nivel a un código
+máquina también se realiza con un compilador, en este caso más complejo, o
+mediante un intérprete. Un compilador crea una lista de instrucciones de
+código máquina, el código objeto, basándose en un código fuente. El código
+objeto resultante es un programa rápido y listo para funcionar, pero que
+puede hacer que falle el ordenador si no está bien diseñado. Los intérpretes,
+por otro lado, son más lentos que los compiladores ya que no producen un
+código objeto, sino que recorren el código fuente una línea cada vez. Cada
+línea se traduce a código máquina y se ejecuta. Cuando la línea se lee por
+segunda vez, como en el caso de los programas en que se reutilizan partes del
+código, debe compilarse de nuevo. Aunque este proceso es más lento, es menos
+susceptible de provocar fallos en la computadora.
+
+
+---------
+Lenguajes 
+---------
+
+    Las instrucciones deben darse en un lenguaje de programación, es decir,
+en una determinada configuración de información digital binaria. En las
+primeras computadoras, la programación era una tarea difícil y laboriosa ya
+que los conmutadores ON-OFF de las válvulas de vacío debían configurarse a
+mano. Programar tareas tan sencillas como ordenar una lista de nombres
+requería varios días de trabajo de equipos de programadores. Desde entonces
+se han inventado varios lenguajes informáticos, algunos orientados hacia
+funciones específicas y otros centrados en la facilidad de uso.
+
+-> Lenguaje máquina <-
+
+    El lenguaje propio del ordenador, basado en el sistema binario, o código
+máquina, resulta difícil de utilizar para las personas. El programador debe
+introducir todos y cada uno de los comandos y datos en forma binaria, y una
+operación sencilla como comparar el contenido de un registro con los datos
+situados en una ubicación del chip de memoria puede tener el siguiente
+formato: 11001010 00010111 11110101 00101011. La programación en lenguaje
+máquina es una tarea tan tediosa y consume tanto tiempo que muy raras veces
+lo que se ahorra en la ejecución del programa justifica los días o semanas
+que se han necesitado para escribir el mismo.
+
+-> Lenguajes de alto nivel <-
+
+    Los lenguajes de alto nivel suelen utilizar términos ingleses del tipo
+LIST, PRINT u OPEN como comandos que representan una secuencia de decenas o
+de centenas de instrucciones en lenguaje máquina. Los comandos se introducen
+desde el teclado, desde un programa residente en la memoria o desde un
+dispositivo de almacenamiento, y son interceptados por un programa que los
+traduce a instrucciones en lenguaje máquina.
+
+    Los programas traductores son de dos tipos: intérpretes y compiladores.
+Con un intérprete, los programas que repiten un ciclo para volver a ejecutar
+parte de sus instrucciones, reinterpretan la misma instrucción cada vez que
+aparece. Por consiguiente, los programas interpretados se ejecutan con mucha
+mayor lentitud que los programas en lenguaje máquina. Por el contrario, los
+compiladores traducen un programa íntegro a lenguaje máquina antes de su
+ejecución, por lo cual se ejecutan con tanta rapidez como si hubiesen sido
+escritos directamente en lenguaje máquina.
+
+    Se considera que fue la estadounidense Grace Hopper quien implementó el
+primer lenguaje de ordenador orientado al uso comercial. Después de programar
+un ordenador experimental en la Universidad de Harvard, trabajó en los modelos
+UNIVAC I y UNIVAC II, desarrollando un lenguaje de alto nivel para uso
+comercial llamado FLOW-MATIC. Para facilitar el uso del ordenador en las
+aplicaciones científicas, IBM desarrolló un lenguaje que simplificaría el
+trabajo que implicaba el tratamiento de fórmulas matemáticas complejas.
+Iniciado en 1954 y terminado en 1957, el FORTRAN (acrónimo de Formula
+Translator) fue el primer lenguaje exhaustivo de alto nivel de uso
+generalizado.
+
+    En 1957 una asociación estadounidense, la Association for Computing
+Machinery comenzó a desarrollar un lenguaje universal que corrigiera algunos
+de los defectos del FORTRAN. Un año más tarde fue lanzado el ALGOL (acrónimo
+de Algorithmic Language), otro lenguaje de orientación científica. De gran
+difusión en Europa durante las décadas de 1960 y 1970, desde entonces ha sido
+sustituido por nuevos lenguajes, mientras que el FORTRAN continúa siendo
+utilizado debido a las gigantescas inversiones que se hicieron en los
+programas existentes. El COBOL (acrónimo de Common Business Oriented Language)
+es un lenguaje de programación para uso comercial y empresarial especializado
+en la organización de datos y manipulación de archivos, y hoy día está muy
+difundido en el mundo empresarial.
+
+    El lenguaje BASIC (acrónimo de Código de Instrucciones Simbólicas de Uso
+General para Principiantes) fue desarrollado en el Dartmouth College a
+principios de la década de 1960 y está dirigido a los usuarios de ordenador
+no profesionales. Este lenguaje se universalizó gracias a la popularización
+de los microordenadores en las décadas de 1970 y 1980. Calificado de lento,
+ineficaz y poco estético por sus detractores, BASIC es sencillo de aprender y
+fácil de utilizar. Como muchos de los primeros microordenadores se vendieron
+con BASIC incorporado en el hardware (en la memoria ROM), se generalizó el
+uso de este lenguaje.
+
+    Aunque existen centenares de lenguajes informáticos y de variantes, hay
+algunos dignos de mención, como el PASCAL, diseñado en un principio como
+herramienta de enseñanza, hoy es uno de los lenguajes de microordenador más
+populares; Aunque si quieres programar de verdad solo existe C/C++ y
+Assembler.
+
+    Los lenguajes varían por su sintaxis, comandos, palabras reservadas, uso
+de memoria, velocidad, manejo de errores y mas.
+
+Los lenguajes que voy a describir son:
+
+Assambler, C/C++, PASCAL, DELPHI, BASIC, FOXPRO, JAVA, PERL, Fortran, DBASE
+y haber cual mas se me ocurre.
+
+
+-------------------------------
+Assambler. Lenguaje ensamblador
+-------------------------------
+
+    Uno de los métodos inventados por los programadores para reducir y
+simplificar el proceso es la denominada programación con lenguaje ensamblador.
+Al asignar un código mnemotécnico (por lo general de tres letras) a cada
+comando en lenguaje máquina, es posible escribir y depurar o eliminar los
+errores lógicos y de datos en los programas escritos en lenguaje ensamblador,
+empleando para ello sólo una fracción del tiempo necesario para programar en
+lenguaje máquina. En el lenguaje ensamblador, cada comando mnemotécnico y sus
+operadores simbólicos equivalen a una instrucción de máquina. Un programa
+ensamblador traduce el código fuente, una lista de códigos de operación
+mnemotécnicos y de operadores simbólicos, a código objeto (es decir, a
+lenguaje máquina) y, a continuación, ejecuta el programa.
+
+    Sin embargo, el lenguaje ensamblador puede utilizarse con un solo tipo de
+chip de CPU o microprocesador. Los programadores, que dedicaron tanto tiempo
+y esfuerzo al aprendizaje de la programación de un ordenador, se veían
+obligados a aprender un nuevo estilo de programación cada vez que trabajaban
+con otra máquina. Lo que se necesitaba era un método abreviado en el que un
+enunciado simbólico pudiera representar una secuencia de numerosas
+instrucciones en lenguaje máquina, y un método que permitiera que el mismo
+programa pudiera ejecutarse en varios tipos de máquinas. Estas necesidades
+llevaron al desarrollo de lenguajes de alto nivel.
+
+    El compilador mas usado de Ensamblador es Turbo Assambler de Borland y
+otros que se llaman A86 y D86. [BadBit: Hay otro de Microsoft llamado MASM,
+pero definitivamente IT SUCKS!!!]
+
+------------------------
+Lenguajes de Alto Nivel.
+------------------------
+
+    C/C++: Es el lenguaje creado por Dennis Ritchie en los laboratorios de
+Bell para programar UNIX, es uno de los lenguajes mas usados, debido a que es
+portable, rápido y genera programas de pequeño tamaño. La versión orientada a
+objetos llamada C++ fue creada en los 80s por Bjarne Stroustrup.
+
+    C es considerado por muchos programadores como un lenguaje ensamblador
+mas independiente de la maquina.
+
+    Algunos de los programas conocidos hechos en C son: TODO EL LINUX y BSD,
+Microsoft Office, Netscape Navigator, Windows y otros.
+
+    Los compiladores mas conocidos de C son:
+
+O Turbo C de Borland
+O GCC de GNU
+O C++ Builder de Borland
+O Visual C++ de Microsoft
+
+    Definitivamente, todos estos compiladores son muy buenos.
+
+    PASCAL: Es un lenguaje derivado de ALGOL, fue creado para enseñanza,
+aunque se utiliza mucho comercialmente. Es estructurado, y se utiliza mas que
+nada como introducción a la programación, para después pasar a verdaderos
+lenguajes como C.
+Compiladores: Turbo Pascal de Borland
+
+DELPHI: Es la versión para Windows de PASCAL.
+Compilador: DELPHI de Borland.
+
+BASIC: Supuesto lenguaje, no es estructurado, no sirve, es lento, grande,
+ apesta, no se puede descompilar es una verdadera vergüenza en programación.
+
+VISUAL BASIC: LO MISMO pero para windows.
+
+Compiladores: BASIC en DOS solo se compila con COMPILED BASIC y en Windows
+ con Visual Basic de Microsoft. [BadBit: Hay una versión de BASIC de Borland
+ llamada Turbo BASIC, y definitivamente es de lo más decente que se puede
+ encontrar de BASIC, esta vez el leguaje es compilado, no interpretado.]
+
+JAVA: Lenguaje orientado a objetos de 32 bits, se utiliza para aplicaciones
+ cliente servidor (obviamente basados en red) y se utiliza para applets para
+ animar paginas de Internet.
+Compiladores: JAVA Developer Kit de SUN Microsystems (Los creadores de JAVA)
+ Visual Café de Symantec, Visual J++ de Microsoft.
+
+Perl: Lenguajes para escritos cgi, en donde no te tienes que manchar con
+ programación a nivel de sockets.
+
+------------------------------
+Manejadores de Bases de datos:
+------------------------------
+
+FOXPRO: Manejador de bases de datos de Microsoft, es bueno para pequeños
+ sistemas de contabilidad y cosas así, si quieres algo para red, usa informix
+ o oracle. [BadBit: La verdad, FoxPro es una vesión avanzada de MS-Access.]
+Compilador: FOXPRO y Visual Foxpro(para windows) ambos de Microsoft.
+
+DBASE: Manejador legendario de bases de datos, creado por ASHTON-TATE,
+ absorbido por Borland. Bueno para sistemas de conta pero no para RED.
+Compilador: DBASE de Borland
+
+PARADOX: Es el manejador que viene con el WordPerfect, igual que los
+ anteriores, utiliza VBA.
+
+*No me acuerdo como se llama el manejador de bases de datos que viene con la
+ suite de lotus, pero no hace falta, vale pa pura madre.
+
+INFORMIX y Oracle: Son 2 diferentes manejadores de bases de datos, de UNIX,
+ son robustisisisísimas, se puede implementar Perl, Java y c/c++ para mejorar
+ su funcionalidad, estas si son para un negocio en la red.
+
+    Aquí vienen unos pequeños tips para escoger el lenguaje que puedes usar:
+
+    Si tu programa se va a distribuir mundialmente, y quieres hacer
+actualizaciones: Sin lugar a dudas: C/C++, por que es portable, eficiente de
+a madre, limpio y puedes depurarlo fácilmente.
+
+    Si es un programa muy sencillo usa: PASCAL o BASIC (aunque no recomiendo
+BASIC).
+
+    Si es un juego, usa definitivamente C++.
+
+    Si es un script para web (CGI) usa PERL con una base de datos como
+informix o oracle.
+
+    Si es script para modificar contenido estático de una pagina Web utiliza:
+JavaScript (lo mas sencillo que jamas puedas imaginarte, como C), JAVA para
+applets o VBScript(no lo recomiendo).
+
+**NOTA Y ACLARACION:
+
+    No es conveniente en ningún caso, programar con Basic, Visual Basic,
+VBScript, ActiveX o Active Script, por que son lentos, tontos y los programas
+quedan gigantes, lentos y no los puedes desensamblar debido a que estos
+programas son solo llamadas a las rutinas runtime.dll de Visual Basic,
+lotería, apuesto a que has alguna vez algún archivo vbrun400 o msvbrun500 o
+algo así, pues si tu programa hecho en visual Basic, lo distribuyes sin ese
+archivo, no va a correr pura chingada sin tenerlo en el sistema. [BadBit:
+Gracias por las piedras.]
+
+
+    Aquí termina esta micro-introduccion a la programación, no se escribió
+código fuente para no entrar en detalles  asustar al lector, el código fuente
+se escribirá en las guias que publicaremos en el radioaktibo BadBit y
+posiblemente yo. [BadBit: Lee mi texto de programación en este mismo número
+del Radiaktivo.]
+
+Cualquier duda, comentario o sugerencia: karnevil9@email.com
+Karn Evil 9
+___________________________
+El Radiaktivo Newz Team, 1999
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 1999 Karn Evil 9 <karnevil9@email.com>
+Cualquier duda, comentario o sugerencia: karnevil9@email.com
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+                        ##########  ##########  #####   ####  ##############
+                        ##### ####  ##### ####  ######  ####  #### #### ####
+                        #####       ##### ####  ####### ####       ####
+     Karn Evil 9        ##########  #######     ##### ######       ####
+                        #####       ##### ####  #####  #####       ####
+                        ##### ####  ##### ####  #####   ####       ####
+ <karnevil9@email.com>  ##########  ##### ####  #####   ####       ####
+
+=EOF=

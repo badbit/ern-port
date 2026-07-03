@@ -1,0 +1,1 @@
+Este archivo es una utilidad indispensaable para todos ustedes, saca el password de los salvapantallas de Windows, está hecho en Visual Basic.

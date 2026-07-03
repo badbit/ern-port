@@ -1,0 +1,1 @@
+                 Cada vez que un pokemon lucha contra otro pokemon, el pokemon ganador obtiene puntos de experiencia, los cuales, al ser acumulados, vuleven al pokemon más fuerte, ágil, etc.

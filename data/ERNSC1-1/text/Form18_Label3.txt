@@ -1,0 +1,1 @@
+Este es un creador de diccionarios, muy útil para los atques en bruto, pero cuiden su espacio en el disco, ya que se lo acaba como agua.

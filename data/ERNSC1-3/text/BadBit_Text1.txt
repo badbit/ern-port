@@ -1,0 +1,17 @@
+Este es un Script para mIRC desarrollado por mí,
+Son 88 chistes cortos, son Aliases,
+para instalarlo haz lo siguiente:
+
+1. Haz click en extraer archivo
+2. Abre el archivo extraído (badbit.txt)
+2. Entra al mIRC
+3. Haz click en el botón "Alias definitions" o
+   presiona Alt + A
+4. Copia todo el contenido del archivo badbit.txt
+   a la ventana de "Alias definitions"
+
+
+Modo de usarse:
+
+ Al estar en un canal, puedes escribir el comando
+/chiste?? donde ?? es un número entero de 1 a 88

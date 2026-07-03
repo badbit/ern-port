@@ -1,0 +1,169 @@
+ernt@bigfoot.com                            El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Nota: Este es otro artículo que escribí para la crónica, ya ni esperanzas
+ tuve de que se publicara... y no se publicó, así que mejor lo pongo aquí
+ para que no se llene de telarañas.]
+
+Retrato hablado de un hacker
+Por BadBit <badbit@yahoo.com>
+
+   Decidí escribir este texto después de leer el Hacker's Dictionary. En él,
+hay una sección que se llama "Portrait of a random hacker" o algo así, y en
+ella se describen las características generales de la mayoría de los hackers.
+Casi me ví retratado con esas descripciones, por lo tanto decidí comunicarlas
+a todos para que sepan los "síntomas" de que te estás convirtiendo en hacker.
+
+   Los hackers tenemos diferentes características comunes. Se pueden dividir
+en las siguiente:
+
+
+1. Personalidad.
+
+   La personalidad del hacker se caracteriza por su alta inteligencia, una
+gran curiosidad y una facilidad para las abstracciones mentales. Es decir,
+puede entender con facilidad conceptos abstractos como ecuaciones, comandos,
+e instrucciones. Esto me recordó lo que escribió Bill Gates en su libro "The
+Road Ahead." Dijo que cuando escribió BASIC, tuvo que olvidar todo el mundo
+exterior para concentrarse en lo que hacía. Mientras programaba no escuchaba
+ni sentía, simplemente pensaba en las líneas de código.
+
+   Muchos hackers también son anti-conformistas e individualistas, es decir,
+a veces trabajan mejor individualmente que en equipo (me sucede con
+frecuencia, sin ofender a ERNT). Las habilidades mentales del hacker pueden
+ser tantas que pueden llegar a programar mentalmente, pero eso es en casos
+exepcionales. Pueden absorber libros de 500 páginas sobre programación y hacer
+programas en ese lenguaje sin siquiera tener el compilador (de hecho Bill
+Gates y Paul Allen lo hicieron).
+
+   Muchos creerían que los hackers sólamente son hábiles en el hacking, pero
+no es así. Pueden dominar otras ciencias (de preferencia exactas) como
+matemáticas, química, física, literatura, música, etc.
+
+   Son odenadísimos en sus ideas pero caóticos en todo lo demás. Les interesa
+poco la aprovación social y el dinero. Buscan el conocimiento y la verdad.
+
+   También predomina el sentido del humor intelectual y del absurdo. Del tipo
+de que se maneja en: Monty Phyton, Looney Toons, Chespirito, Ren & Stimpy,
+Rocky & Bullwinkle, User friendly, etc. Puede manifestarse también con
+expresiones y palabras como: "automágicamente", "pollo láser", "Gill Bates",
+"Güindous." Frecuentemente se escucha hablar a los hackers en términos
+obscuros e incomprensibles a los mortales como los siguientes:
+
+- Hey, ayer respaldé el $HOME de un usuario.
+- ¿Y qué tiene?
+- Que eran como cien megas y sólo tardé .04 segundos.
+- ¿¡Qué!? ¿Qué dispositivo de respaldo usaste?
+- /dev/null
+
+   Tras lo cual ambos hackers estallarán en carcajadas. Otra cosa humorística
+es cuando no hiciste algún trabajo y sacas la excusa de que: "Si lo hice, pero
+el momento fue tan preciso que de acuerdo a la regla de Heisenberg, el trabajo
+puede estar en cualquier parte del universo."
+
+   Los hackers pueden tener problemas para comunicarse personalmente, pero se
+comunican a la perfección por el chat o por textos (como éste).
+
+   Otra característica primordial: Letra horrible. Los hackers pueden escribir
+hasta 80 palabras por minuto en un teclado pero no pueden leer su propia
+escritura a mano (sé lo que se siente).
+
+
+2. Apariencia física:
+
+   También hay rasgos típicos del hacker que se pueden distinguir a simple
+vista. Como se mencionó antes, los hackers no se interesan por la aprovación
+social, por lo tanto no tratan de vestir conforme a la moda o tendencias sino
+por la comodidad (punto sumamente descuidado en la pésima película "hackers"
+y en muchas partes donde se quiere dar la imagen de un ciberpunk).
+
+   Es común en los hackers los pants, shorts, camisas de manga corta con
+botones, lentes, cabello largo, barba, bigotes, y tatuajes en raras ocasiones.
+Esta descripción no siempre es cierta y difiere mucho con el estereotipo de
+computer geek: flaco, no se baña, lentes de tres centímetros de grosor, le
+sobra un metro de cinturón, etc.
+
+
+3. Vicios:
+
+   La mayoría de los hackers no fuma ni toma, tiene vicios de otra categoría.
+Pueden ser adicción a la cafeína y a el azúcar, ya que es necesario tomar
+mucho café (o soda) para programar toda la noche. También existe el vicio a
+Internet, el cual es obligatorio. La cerveza es más común, aunque se prefiere
+que sea exótica y de algún país que esté a más de un millón de kilómetros de
+distancia. También se da el vicio a los videojuegos, aunque es mucho más
+reducido. Los preferidos son: DOOM, Quake, Descent, RPGs, de estrategia,
+Tetris, etc.
+
+
+4. Alimentación:
+
+   Muchos creen que los hackers se alimentan de pizzas y alimentos
+instantáneos o de microondas, esto no es siempre cierto. Los hackers
+preferimos comida más condimentada, oriental. Es común la comida china (no
+cantonesa), japonesa, etc. En la región donde nos encontramos los del ERNT
+(Suroeste de E.U., noroeste de México) se prefiere la comida mexicana y china.
+
+   Por último, algunos síntomas de preocupación:
+
+
+5. Te podrías estar convirtiendo en hacker si...
+
+O Tus últimas cinco mascotas se murieron de hambre porque se te olvidó
+  alimentarlas.
+O Tu computadora cuesta más que tu carro.
+O Tus profesores de informática te temen y respetan.
+O Revisas tu correo diez veces al día y siempre hay nuevos mensajes.
+O Nunca has respaldado tu disco duro, a pesar de tener años de trabajo en él.
+O Te has levantado a las 3 A.M. con una gran urgencia de ir a baño, ves tu
+  computadora y dices: "Bueno, voy a darle una checadita a mi e-mail."
+O No sabes donde está la cubierta de tu computadora... y no necesitas saber.
+O Sueñas que estás programando en ensamblador.
+O Cuando despiertas, escribes el programa que soñaste y funciona.
+O Cuando alguien dice SATAN, no piensas en el demonio.
+O Sabes usar todas las funciones de una calculadora científica.
+O Tu computadora tiene llantas para arrastrala hasta el baño.
+O Pagas más de teléfono que de electricidad.
+O Cuando un niño te pregunta porqué el cielo es azul le tratas de explicar la
+  teoría de absorción atmosférica.
+O Tienes manuales obsoletos de programación y los sigues leyendo para no
+  perder la práctica.
+O Te sabes todo el código ASCII.
+O Tienes 20 sistemas operativos en tu computadora y los sabes usar todos.
+O Estás convencido de que Internet es más educativo que cualquier escuela del
+  mundo.
+O Puedes debatir por horas la existencia de vida inteligente fuera del sistema
+  solar.
+O Entendiste este texto y te dió risa.
+
+   Pues aquí acaba esta breve descripción general de los hackers. Si tienes
+algún comentario, no dudes en enviarlo a badbit@yahoo.com para ver si ya
+sufres algunos de los síntomas.
+
+_____________________________
+El Radiaktivo Newz Team, 2000
+Fecha de finalización: Mayo.
+Primera revisión: Domingo 25 de Junio de 2000 a las 12:11 horas.
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+http://www.bigfoot.com/~ernt
+http://www.geocities.com/kibtizr
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+Mailing list: <ernt-suscribe@egroups.com>
+
+Copyright 2000 BadBit <badbit@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+0101001001010100100101  ########   ########   ####   ####  ############
+10       0       1  01  #### ####  #### ####  #####  ####  ### #### ###
+11     B@dbit       00  ####       #### ####  ###### ####      ####
+01           1      10  #########  #######    #### ######      ####
+10 0           .... 10  ####       #### ####  ####  #####      ####
+:101010 01011010111101  #### ####  #### ####  ####   ####      ####
+  <badbit@yahoo.com>    ########   #### ####  ####   ####      ####
+
+=EOF=

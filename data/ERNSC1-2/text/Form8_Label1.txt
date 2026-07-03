@@ -1,0 +1,21 @@
+Las dos frases más repetidas y más falsas de la programación: "Esta ocasión si correrá bien" y "Acabo de encontrar el último bug".
+
+Todos los programadores en esencia son optimistas, hasta que terminan su programa.
+
+Cada programa interesante tiene cuando menos una variable, un procedimiento, un loop..... y a fuerzas un bug.
+
+Las computadoras siempre tienen una excusa, los programadores no.
+
+No importando cuanto tiempo hayas probado la versión final de un programa, los bugs aparecerán en la presentación al público. (Ley de Microsoft).
+
+Todo programa tiene cuando menos dos propósitos: Uno para lo cual fué escrito y otro para el que no lo fué.
+
+La utilidad de un software es inversamente proporcional a la cantidad de usuarios.
+
+Es imposible hacer un programa 100% contra tontos, ya que estos son muy ingeniosos.
+
+La peor parte de la programación es la documentación.
+
+Usualmente se requiere más de un programador para cambiar un foco.
+
+Los programadores no mueren, tan sólo se pierden en el proceso.

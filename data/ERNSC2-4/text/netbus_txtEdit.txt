@@ -1,0 +1,104 @@
+ernt@bigfoot.com                            El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++--------------------------------------------+
+| DVD Crack.                                 |
+| Por Karn Evil 9                            +======+-----------------------+
++--------------------------------------------+      | <karnevil9@email.com> |
+                                                    +-----------------------+
+
+    Un grupo de programadores (hackers), querían hacer software para
+visualizar películas DVD en Linux, y decidieron usar el método de decompilar
+o desensamblar software para visualizar películas DVD en windows, y basarse
+en él para hacerlo en Linux.
+
+    Cuando lo hacían, se dieron cuenta de que los productos de diversas
+marcas, utilizaban una clave de 5 dígitos que estaba encriptada, que primero
+debe ser desencriptada por el aparato y luego utiliza la clave ya
+desencriptada, para desencriptar el disco. Pero al estar examinando los
+productos por medio del método mencionado al principio, descubrieron que uno
+de los programas de un lector, no tenia encriptada su clave de 5 dígitos, el
+producto en mención era de la empresa XING.
+
+    Y a partir de esa clave, se lograron sacar 170 más, y pudieron encontrar
+el algoritmo de encripción basados en la información que encontraron gracias
+al pequeño error de la empresa XING (subsidiaria de RealNetworks).
+
+    Y se creó un programa abierto al público, con todo y código fuente
+abierto, explicado, al público en general, el cual, se encarga de interceptar
+los datos del lector del DVD y desencriptarlos, pudiendo visualizar los
+archivos en el DVD y copiarlo en donde quieras.
+
+    Pero vinieron problemas con esto, los programadores y unas personas que
+pusieron en su sitio el programa mencionado, fueron demandados por haber
+hecho el programa y distribuido.
+
+    Y la respuesta lógica y que yo apoyo plenamente es la siguiente:
+
+O No es delito desarrollar código fuente de un programa, menos compilarlo, y
+menos linkearlo.
+
+O Tampoco es un delito ponerlo en un sitio en internet, para ser bajado, con
+todo y su código fuente si quieres, pero bajo la advertencia de que es un
+virus y de que es hecho con fines educativos únicamente.
+
+    El delito sería, que una persona lo bajara sin que supiera que es un
+virus, o que alguien lo bajara de la red, y lo pasara a otra persona, con la
+intención de causarle daño a su computadora (o sea dárselo con dolo o mala fe
+y las tres agraviantes: premeditación, alevosia y ventaja).
+
+    Entonces, no es un delito romper un esquema de encripción, menos poner la
+información de cómo se hizo eso, y tampoco es un delito, crear un programa
+que desencripta algo, y poner el programa en internet para ser bajado por
+quien lo quiera bajar.
+
+    En este caso, el delito, seria, cuando esten copiando el DVD hacia otro
+DVD, CDROM, Disco Duro o algun dispositivo de semejante capacidad.
+
+    Un caso parecido sería el de una pistola, la compras, viene con
+advertencias de que puedes causar daño, e incluso matar a alguien, pero
+[comprarla] no es delito, el delito sería hasta que lesiones o mates a algún
+individuo con la pistola.
+
+    Ademas los abogados de las empresas de los DVDs, pidieron que se quitaran
+de los sitios web donde estaba el deCSS (el programa en cuestión), violando
+así la primera enmienda de la constitución norteamericana y que existe en
+[casi] todas las constituciones del mundo, la libertad de expresión.
+
+    En mi opinión es una grata noticia saber que ya se pueden copiar los DVD,
+y veo con mucha triztesa y risa, que las empresas se la van a pelar contra
+estos programadores y demás gente, por que si recuerdan, lo mismo pasó con
+los siguientes programas: BackOriffice y NetBus, pero lo máximo que logró
+hacer el gobierno fue hacer que las versiones con encripción de 128 bits, no
+puedan ser bajados por servidores fuera de Estados Unidos.
+
+[Nota del editor (o sea BadBit): kibitzer me pasó el programa deCSS. Me dijo
+ que lo bajó de la página de 2600. Como ocupa tan poco espacio, tal vez lo
+ incluya con este Radiaktivo, si no viene, pueden pedírmelo a
+ badbit@yahoo.com, pero por ningún motivo crean que lo voy a poner en la
+ página porque me la borran más rápido de lo que alguien lo alcanza a bajar.]
+
+_____________________________
+El Radiaktivo Newz Team, 2000
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+http://www.bigfoot.com/~ernt
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 2000 Karn Evil 9 <karnevil9@email.com>
+Cualquier duda, comentario o sugerencia: karnevil9@email.com
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+                        ##########  ##########  #####   ####  ##############
+                        ##### ####  ##### ####  ######  ####  #### #### ####
+                        #####       ##### ####  ####### ####       ####
+     Karn Evil 9        ##########  #######     ##### ######       ####
+                        #####       ##### ####  #####  #####       ####
+                        ##### ####  ##### ####  #####   ####       ####
+ <karnevil9@email.com>  ##########  ##### ####  #####   ####       ####
+
+=EOF=

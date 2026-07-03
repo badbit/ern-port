@@ -1,0 +1,84 @@
+Ahora, debido a falta de 11 y 12 para escribir un editorial, pongo uno de mis ya famosos artículos de la crónica (por cierto, este no ha sido publicado):
+
+Como convertirte en hacker y no morir en el intento.
+Por BadBit <badbit@yahoo.com>
+
+La vez pasada escribí sobre cómo era la sociedad hacker. Ese mismo día,
+recibí varios correos de gente que me dijo que quieren saber más
+sobre el tema y que se quieren convertir en hackers... La verdad no
+podría decirles cómo porque no conozco muchas historias sobre la
+formación de los hackers, pero una que sí conozco muy bien es la mía.
+
+Para tener deseo de ser hacker, tienes que haber oído sobre los hackers.
+Yo oí de ellos lo mismo que todos ustedes: que eran individuos sin
+ética que entraban a los sistemas con la pura intención de robar y
+destruir, pero aún así, ellos tenían un poder que yo siempre quize
+tener: el conocimiento. El simple hecho de saber como entrar a el
+sistema secreto de la NASA me emocionaba (aunque es imposible).
+
+No recuerdo cuando fue la primera vez que toqué una computadora, porque
+fue a muy temprana edad. Eran los tiempos de las XT y los discos de
+5 1/4. Yo no tuve computadora en mi casa hasta que estuve en sexto de
+primaria, mi primera computadora fue una 486, 4 Mb de RAM, disco duro
+de 200 Mb, en cuanto la recibí dije: ¡Quién ocupa una computadora más
+potente! Era lo máximo para su tiempo, sobre todo porque tenía Windows
+3.1.
+
+Comenzé a usar mi computadora para poner juegos, era casi lo único que
+hacía (y lo sigo haciendo), pero hubo un momento en que los juegos
+dejaron de gustarme... Me divertía más acomodar archivos del disco duro,
+optimizar el sistema para que corriera al máximo. Descubrí por mí mismo
+casi todos los comandos de MS-DOS (y sus funciones). Cada vez descubría
+cosas nuevas, pero como siempre, cuando aprendes y aprendes llegas a
+un estanque donde ya no hay nada nuevo que aprender. Fue ahí cuando
+llegó Windows 95, que para mí era el mejor sistema operativo del mundo.
+
+Para ese tiempo yo ya sabía algo de los hackers y quería ser uno de
+ellos, pero no sabía por donde empezar, hasta que un amigo mío de la
+secundaria (ahora conocido como KomeX) con el que pasaba archivos y
+demás cosas, me dió un disquette con programas y textos sobre cómo ser
+hacker. Nosotros teníamos un concepto demasiado alejado de la realidad,
+pero eso el disco que me entregó contenía lo siguiente: La novela
+Approaching Zero, El diario de un hacker, las éticas del hacking,
+The Terrorist Handbook, Cuando sabes que eres un hacker, ¿Eres un
+hacker?, Credit card master, y otros programas y textos que no vienen
+al caso.
+
+Esa fue la primera información de cómo se hacker... lo malo es que ya
+estaba obsoleta, pero de todos modos me sirvió. De ahí salí de un
+estanque para aprender, y aprender, se me acababa de abrir otro mundo,
+como una puerta que siempre estuvo ahí pero nunca la había abierto.
+Tuve que leer mucho. Y después de mucho leer comprendí lo que eran en
+realidad los hackers. El concepto de hacker no me llegó a la mente de
+la noche a la mañana, pasó mucho tiempo para definirlo, y aún así hay
+cosas que no entiendo.
+
+Pero todo lo que pasé fue para saber lo que era un hacker, yo no estaba
+seguro de que si lo era o no, esa es otra cosa que se aprende con el
+tiempo. Luego tuve que leer más y aprender sobre protocolos, internet,
+programación, UNIX, etc.
+
+La idea de ser hacker me emocionó mucho, así que decidí pasar estos
+conocimientos en una revista electrónica, la cual bautizé El Radiaktivo
+Newz (http://ernt.piratas.org). El primer número de la revista lo hize
+yo sólo, pero luego invité a DJ-HELL y a KomeX (en ese tiempo Target)
+para que me ayudaran.
+
+Todo esto pasó sin que yo supiera de algún otro hacker mexicano, pero
+luego oí del grupo X-ploit y hablé con el grupo de hackers RaZa-MeXiCaNa,
+los cuales iban empezando y estuve pensando en unirme a ellos, pero
+decidí seguir en el equipo de El Radiaktivo Newz (El Radiaktivo Newz
+Team). Luego se unieron más miembros (no necesariamente hackers) y
+llevamos un año sacando la revista.
+
+Para este tiempo, comenzé a escribir para la crónica y aquí están
+leyendo el cuarto artículo que he escrito para la sección de
+informática.
+
+Pero como antes dije, hay momentos donde te atoras y no aprendes nada
+nuevo, ahora mismo estoy en uno de esos momentos. Y aparte me he
+comenzado a preguntar: ¿Para qué seguir haciendo esto? ¿Beneficia a
+alguien?. Estoy escribiendo este artículo después de mucho tiempo de
+no escribir nada, no he hecho nada importante desde hace semanas y me
+aburro fácilmente, son tiempos difíciles que espero superar pronto para
+poder sacar el próximo número de ERN (El Radiaktivo Newz).

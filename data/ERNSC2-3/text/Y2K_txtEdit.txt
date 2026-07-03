@@ -1,0 +1,503 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |               Programación                 |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+                               badbit@yahoo.com
+
+              "Afortunadamente, Windows 98 se encuentra en fase de
+              desarrollo por lo que podemos corregirle los errores."
+
+                                                   Bill Gates cuando se
+                                                   le trabó Windows en una
+                                                   demostración.
+
+                       +-------------------------+
+                            |    Parte I     |
+                       +--------------------------
+
+/---------------------------------------------------\
+| ¿Exactamente de que se va a hablar en este texto? |
+\---------------------------------------------------/
+
+     De la estructura y pasos para crear programas, diagramas, etc. Y una
+introducción a un lenguaje de programación de alto nivel: PASCAL. Claro, no
+sin antes dar una introducción y comparar los diversos lenguajes.
+
+
+/-----------------------------------------\
+| ¿Para qué diablos aprendo programación? |
+\-----------------------------------------/
+
+     La programación es parte escencial para todo hacker, si no sabes
+programación no eres un hacker completo. Programar te puede ahorrar horas
+de trabajo a mano, sirve principalmente para acelerar millones de veces tu
+trabajo. Y esque una computadora no hace nada que un humano no pueda hacer,
+pero lo hace millones de veces más rápido. Además de que es fácil obtener
+trabajo como programador, aparte tienes conocimientos superiores al resto
+de los simples mortales y les puedes hacer creer lo que quieras. En fin,
+es indispensable.
+
+/--------------------------\
+| Leguajes de programación |
+\--------------------------/
+
+     Yo pensaba iniciar este texto con un curso de QuickBASIC, pero Karn
+Evil 9 me hizo reflexionar y decidí comenzar con Turbo Pascal 7.0. ¿Porqué?
+Por varias razones, pero antes hay que definir un leguaje de programación
+y explicar varias cosas.
+
+     Existen varios tipos de leguajes de programación, aunque ya los
+expliqué en "la verdad acerca de los microprocesadores" lo vuelvo a poner
+para los olvidadizos que nunca faltan:
+
+Máquina:  Es la información directa que entiende el microprocesador. Puede
+          estar representada en binario, hexadecimal u octal. Este era el
+          único lenguaje disponible en la antigüedad, claro era dificilísimo,
+          pero ni modo, todo sea por es progreso de las computadoras. Pero
+          aunque ya no se use directamente, es el único lenguaje que entiende
+          la máquina, por lo tanto, cualquier lenguaje tiene que ser
+          traducido a este.
+
+Bajo nivel: Este es un leguaje creado para no dar tantos dolores de cabeza
+            a la gente. Sigue siendo críptico, pero no tanto. Usa mnemónicos
+            para representar lenguaje máquina. Por ejemplo: ADD, JMP, SUB.
+
+Alto nivel: Un lenguaje de alto nivel es uno que parece más lenguaje humano
+            que binario. Existen infinidad de estos lenguajes. Para que una
+            máquina pueda entender estos lenguajes deben de ser compilado
+            a lenguaje binario por un programa especial llamado compilador.
+            Debido a esto, un leguaje de alto nivel puede ser transportable
+            a múltiples plataformas, ya que como es traducido, el compilador
+            lo puede traducir a diversos códigos de diversos microprocesadores
+            o sistemas operativos. Los lenguajes de alto nivel se dividen en
+            dos:
+
+            Lenguaje compilado: Es cuando un lenguaje es compilado a código
+            máquina, por lo tanto es muy rápido. Ejemplos: Turbo Pascal, C,
+            
+
+            Lenguaje interpretado: Es un lenguaje que no es compilado, es
+            interpretado por un archivo externo cada vez que corre. Por lo
+            tanto es muy lento. Ejemplos: QuickBASIC, Visual Basic (y todos
+            los BASICs pa' acabar pronto).
+
+/------------------------------------\
+| Estructura de datos y diagramación |
+\------------------------------------/
+
+     Casi siempre que se habla de un curso de programación se comienza por
+definir lo que es un campo, registro, tabla, base de datos, etc. Pero en la
+programación tipo hacker raramente se usan estos elementos, por lo tanto los
+pospondré para explicar antes cosas más importantes para nosotros.
+
+     +------------+
+     | Algoritmos |
+     +------------+
+
+     Un algoritmo se podría definir como un conjunto de pasos ordenados para
+resolver un problema. Un algoritmo puede ser cualquier conjunto de pasos.
+Por ejemplo:
+
+Problema: Queremos un libro que esta en una mesa.
+
+PASO 1: Levantarte de tu lugar.
+PASO 2: Caminar hasta la mesa.
+PASO 3: Buscar el libro.
+PASO 4: Una vez encontrado, agarrarlo.
+
+     ¿Ves? Nada difícil. Se podría decir que cada uno de los pasos es una
+INSTRUCCIÓN o STATEMENT. En un código, cada una de ellas es una línea
+distinta (aunque pueden estar en el mismo renglón) separada por algún
+caracter especial. Puede haber muchos problemas para resolver que se pueden
+plantear por medio de algoritmos:
+
+Problema: Leer un libro.
+
+PASO 1: Abrir el libro.
+PASO 2: Si ya hemos leído parte del libro poner la página donde nos quedamos
+        y pasar al paso 4.
+PASO 3: Localizar la primera página del libro.
+PASO 4: Leer la página.
+PASO 5: Cuando acabemos con esa página, darle vuelta a la hoja.
+PASO 6: Si no estamos en el final del libro, regresar al paso 3.
+
+     +------------------------+
+     | Variables y constantes |
+     +------------------------+
+
+     Una variable es una parte de la memoria de la computadora donde se puede
+almacenar un dato y aparte puede editarse. En los lenguajes de alto nivel
+las variables deben tener un nombre y se pueden establecer muchas variables,
+en los de bajo nivel ya vienen definidas en número y nombre.
+
+     Imagina a las variables o constantes como a cajones, un estante lleno de
+cajones. Si tu guardas algo en un cajón tienes que tener un método para saber
+en cual de todos fue, una solución sería numerarlos, pero también se les
+puede poner una etiqueta diciendo lo que contienen. La etiqueta sería el
+nombre de la variable y lo que tiene guardado el cajón sería el valor de la
+variable. En una constante es lo mismo, pero como su nombre lo indica: el
+valor no cambia. Por ejemplo, en las matemáticas, una variable sería: x. Esa
+variable podría contener cualquier valor del mundo, por ejemplo:
+
+x = 36
+x = Hola
+x = 2y + 17z
+etc.
+     Pero una constante sólo puede tener un sólo valor que no cambiará nunca:
+
+¶ = 3.1415926535897932384626433832795028841...
+G = 9.08 m/s²
+etc.
+
+     Cabe aclarar que hay constantes "variables," y variables "constantes."
+¿Cómo? Por ejemplo, el valor del IVA es una constante, pero sabemos que en
+cualquier momento puede cambiar (y de hecho cambia), así que es "variable".
+Y por ejemplo, la velocidad de un auto, sabemos que es variable, pero puede
+darse el caso que el conductor siempre maneje a la misma velocidad, por lo
+tanto sería "constante".
+
+     En la mayoría de los lenguajes, las variables deben tener nombres con
+ciertas características, por ejemplo: no más de ocho caracteres, que no
+comienzen con número, que no sean palabras reservadas para el lenguaje, etc.
+
+Ejemplos de nombres válidos:
+badbit
+numero48
+sdkri23
+xyzzy
+nombre01
+el1t3
+nombre_propio
+
+Ejemplos de nombres inválidos:
+mi nombre          <- Tiene un espacio
+3L173              <- comienza con número
+11 y 12            <- tiene espacios
+11/12              <- tiene un caracter especial
+IF                 <- es una palabra reservada
+FOR                <- es una palabra reservada
+
+     Una variable puede contener diversos tipos de datos: números, letras,
+un valor booleano (más tarde veremos eso), bytes, etc.
+
+Por ejemplo:
+
+nombre = "BadBit"         <- Las variables alfanuméricas (letras y texto)
+radiaktivos = "8"            siempre deben de estar encerradas en comillas
+                             dobles. Es posible tratar un número como texto.
+edad = 16                 <- Las variables numéricas no deben de estar
+                             rodeadas de comillas, pueden contener un punto
+                             decimal, y los signos para operaciones
+                             aritméticas.
+sexo = True               <- Las variables booleanas 
+
+Tipos de variables:
+
+alfanuméricas: Son las que pueden almacenar letras, números y símbolos.
+numéricas: Son las que almacenan sólo números.
+lógicas: Son las que almacenan un bit, True o False.
+
+Ejemplos de variables alfanuméricas:
+lenguaje = "Turbo Pascal"
+nombre = "Kevin Mitnick"
+trabajo02 = "Idiotor de ERN"
+dirección = "Río Fuerte #599 col. Pro-Hogar"
+
+
+/------------------------------------\
+| ¿Porqué programar en Turbo Pascal? |
+\------------------------------------/
+
+     ¿Porqué escogí Turbo Pascal y no BASIC que es más sencillo de aprender?
+Porque Turbo Pascal tiene características que lo hacen muy superior a BASIC,
+y las paso a enumerar:
+
+O Fácil de aprender (tipo BASIC)
+O Buena estructura (parecida a C)
+O Ocupa 512 Kb de RAM
+O Capacidad sorprendente de manejo del video
+O Compilación y ejecución muy veloz
+O Crea archivos exe's independientes
+O Se puede crear un programa en varios módulos separados
+O Se puede introducir lenguaje de bajo nivel
+O Tiene entorno gráfico (IDE) muy al estilo de Turbo C++
+
+     En cambio, BASIC es lento, grande y de muy mala estructura. En resumen
+se puede decir que Turbo Pascal es un lenguaje que ha tomado lo mejor de
+BASIC, lo mejor de C y un poco de ensamblador para hacer este exelente
+lenguaje.
+
+    Con TP (Turbo Pascal) puedes hacer trojans, intros, programas de
+encripción, juegos, y casi todo lo que te puedas imaginar...
+
+/-----------------------------------------------------------\
+| ¿Donde puedo conseguir el compilador de Turbo Pascal 7.0? |
+\-----------------------------------------------------------/
+
+     Pues la verdad este compilador es muy conocido, por lo tanto no es
+extraño que alguien cercano a tí lo tenga, pero en cuanto pueda, lo voy a
+poner en mi página (no en la del equipo porque se corre el riesgo de que la
+borren). Pero si no lo tienes y te urge, mándame un correo pidiéndomelo.
+
+     Próximamente se abrirá una extensión de la ERNT Network llamada Los
+Archivos (nombre temporal) y de ahí lo podrás bajar.
+
+/-------------------------------------\
+| Partes básicas de un programa de TP |
+\-------------------------------------/
+
+     Hay una regla no escrita que dice que el primer programa que escribas
+debe ser uno que solamente despliegle "Hello world!", y eso es precisamente
+lo que vamos a hacer.
+
+     Primero que nada hay que entrar a Turbo Pascal. Esto lo logramos
+ejecutando el archivo Turbo.exe. Se nos presentará una pantalla como la
+siguiente:
+____________________________________________________________________________
+  File  Edit  Search  Run  Compile  Debug  Tools  Options  Window  Help
++-[_]-------------------------- NONAME00.PAS ------------------------1-[]-+
+¦                                                                          
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          _
+¦                                                                          
++------- 1:1 -----______________________________________________________-+
+ F1 Help  F2 Save  F3 Open  Alt+F9 Compile  F9 Make  Alt+F10 Local menu
+----------------------------------------------------------------------------
+
+     Yo creo que si no entiendes este ambiente, puedes comenzar por agarrar
+una pistola y darte un tiro en la boca. Bueno, en cuanto inicies el programa
+puedes comenzar a escribir el código. Escribe esto:
+
+{-------- comienza ---------}
+Program helloworld;
+uses crt;
+
+Begin
+   clrscr;
+   write('Hello World!');
+   delay(1000);
+End.
+{-------- termina ----------}
+
+     Luego de escribir esto, sálvalo en el Menú File * Save as...
+     ______
+    | File |
+    +------+-----------+
+    | New              |
+    | Open...       F3 |
+    | Save          F2 |
+    | Save as...       |
+    | Save all         |
+    +------------------|
+    | Change dir...    |
+    | Print            |
+    | Printer setup... |
+    | DOS shell        |
+    | Exit       Alt+X |
+    +------------------+
+
+    Los archivos de código fuente de Turbo Pascal tienen la extensión PAS.
+Después de grabar, ejecuta el programa: presiona Ctrl + F9 o vete al menú
+Run * Run.
+     _____
+    | Run |
+    +-----+-------------------+
+    | Run             Ctrl+F9 |
+    | Step over            F8 |
+    | Trace into           F7 |
+    | Go to cursor         F4 |
+    | Program reset   Ctrl+F2 |
+    | Parameters...           |
+    +-------------------------+
+
+    Lo que hace este programa es escribir en la pantalla las palabras "Hello
+World!" hacer una pausa de 1000 milisegundos aproximadamente y luego terminar.
+¿Pero qué significa todo línea por línea?
+
+{---------------------------------------------------------------------------}
+Program helloworld;             {es el nombre del programa, este se llama   }
+                                {helloworld.                                }
+
+uses crt;                       {Esta línea sirve para incluir ciertas      }
+                                {librerías de comandos, en este ejemplo lo  }
+                                {estamos usando para que funcionen los      }
+                                {comandos delay y clrscr ya que si no       }
+                                {incluimos la librería, Turbo Pascal no los }
+                                {entiende.                                  }
+
+Begin                           {Marca el inicio del código del programa    }
+
+   clrscr;                      {Limpia la pantalla y la deja en blanco.    }
+
+   write('Hello World!');       {Escribe Hello World en la pantalla, debe   }
+                                {llevar punto y coma al final de la línea ya}
+                                {que así es como Turbo Pascal divide las    }
+                                {líneas. Más sobre eso adelante.            }
+
+   delay(1000);                 {Esta línea hace una pausa de 1000          }
+                                {milisegundos _aproximadamente_. Puedes     }
+                                {cambiar el valor si quieres.               }
+
+End.                            {Fin del programa, DEBE DE TENER EL PUNTO AL}
+                                {FINAL, si no, Turbo Pascal no lo reconoce. }
+{---------------------------------------------------------------------------}
+
+    Todas los caracteres entre {}s son ignorados por Turbo Pascal y sirven
+para documentar al programa y comentarlo, por lo tanto se llaman comentarios.
+
+    Las líneas tienen que terminar con ; el cual es el caracter que sirve
+para decir que ya acabó la línea, porque podríamos tener el programa de la
+siguiente manera:
+
+{----------------------------}
+Program helloworld;uses crt;
+
+Begin
+   clrscr;write('Hello World!');delay(1000);
+End.
+{----------------------------}
+
+    Y Turbo Pascal seguiría entendiendo, ya que los comandos se dividen con
+;s. Ten en cuenta que ni Begin ni End. llevan ;. Ahora pasemos al siguiente
+programa:
+
+{----comienza----}
+Program helloworld;
+uses crt;
+
+Begin
+   clrscr;
+   write('Hello World!');
+   write('Hello World!');
+   writeln('Hello World!');
+   writeln('Hello World!');
+   delay(3000);
+End.
+{----termina-----}
+
+    Ejecútalo con Ctrl + F9 y verás algo como lo siguiente:
+
+Hello World!Hello World!Hello World!
+Hello World!
+
+    ¿Qué pasó ahí? Lo que pasa es que el comando "writeln" aparte de escribir
+lo que se le indica, también pone un <enter> o retorno de línea. Es decir,
+writeln('Hello World!'); escribe Hello World! y se pasa a la siguiente línea.
+En cambio write escribe algo y deja el cursor en la misma línea donde se
+quedó. Por lo tanto observa los siguientes programas:
+
+{----comienza-----}
+Program helloworld;
+uses crt;
+
+Begin
+   clrscr;
+   writeln('Hello World!');
+   writeln('Hello World!');
+   writeln('Hello World!');
+   writeln('Hello World!');
+   write('Hello World!');
+   write('Hello World!');
+   write('Hello World!');
+   write('Hello World!');
+   delay(3000);
+End.
+{----termina-------}
+
+    Da como resultado:
+
+Hello World!
+Hello World!
+Hello World!
+Hello World!
+Hello World!Hello World!Hello World!Hello World!
+
+    Ahora, ¿Qué tal si queremos presumir nuestro programa a un amigo y él no
+tiene Turbo Pascal? Pues lo hacemos EXE, es decir, lo convertimos en un
+archivo ejecutable, lo compilamos. ¿Cómo? Vamos al Menú Compile, que se vé
+más o menos así:
+
+     _________
+    | Compile |
+    +---------+-----------+
+    | Compile      Alt+F9 |
+    | Make             F9 |
+    | Build               |
+    |---------------------|
+    | Destination  Memory |
+    | Primary file...     |
+    | Clear primary file  |
+    |---------------------|
+    | Information...      |
+    +---------------------+
+
+    Haz click donde dice "Destination Memory" y cambiará a "Destination Disk"
+Ahora selecciona Compile (o presiona Alt + F9) y se grabará en el directorio
+actual con el nombre que le hayas puesto al archivo de código fuente. Estos
+archivos pueden ejecutarse sin necesidad de un archivo externo ya que Turbo
+Pascal es un lenguaje compilado.
+
+    Ahora veamos la estructura básica de los programas de Turbo Pascal:
+
+    +--Programa de Turbo Pascal------------------+
+    | Program <identificador>                    |
+    | Uses    <identificadores>                  |
+    | Label   <lista de etiquetas>               |
+    | Const   <declaración de constantes>        |
+    | Type    <declaración de tipos del usuario> |
+    | Var     <declaración de variables>         |
+    +--------------------------------------------+
+    | Procedure                                  |
+    |         <declaración de los procedimientos>|
+    | Function                                   |
+    |         <declaración de funciones>         |
+    +--------------------------------------------+
+    | Begin                                      |
+    |         <líneas del programa>              |
+    | End.                                       |
+    +--------------------------------------------+
+
+    Yo creo que por ahora ha sido más que suficiente y podrás hacer programas
+pequeños que despliegen texto. El próximo número veremos más opciones,
+variables, ciclos, etc.
+
+___________________________
+El Radiaktivo Newz Team, 1999
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+http://www.bigfoot.com/~ernt
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 1999 BadBit <badbit@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+0101001001010100100101  ##########  ##########  #####   ####  ##############
+10       0       1  01  ##### ####  ##### ####  ######  ####  #### #### ####
+11     B@dbit       00  #####       ##### ####  ####### ####       ####
+01           1      10  ##########  #######     ##### ######       ####
+10 0           .... 10  #####       ##### ####  #####  #####       ####
+:101010 01011010111101  ##### ####  ##### ####  #####   ####       ####
+  <badbit@yahoo.com>    ##########  ##### ####  #####   ####       ####
+
+=EOF=

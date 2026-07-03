@@ -1,0 +1,1 @@
+Gusano: Son los virus que se desplazan en la memoria RAM buscando espacios sin utilizar, cuando lo encuentran, hacen copias sucesivas de ellos mismos para ocupar el mayor espacio posible. un ejemplo es "El gusano de Internet", escrito por Robert Morris Jr. de 23 años, apareció la noche del 2 de noviembre de 1988.

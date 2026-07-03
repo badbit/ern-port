@@ -1,0 +1,565 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |               Curso de HTML                |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+
+                               badbit@yahoo.com
+
+                "No hay nada más necesario que lo innecesario"
+
+                          +----------------------+
+                             |    Parte  II   |
+                          +----------------------+
+
+/---------------------------------------------------\
+| ¿Exactamente de que se va a hablar en este texto? |
+\---------------------------------------------------/
+
+      Este curso enseña cómo hacer buenas páginas HTML, una necesidad en
+estos días. Sigue leyendo para saber más.
+
+/------------------------------\
+| ¿Qué otras cosas debo saber? |
+\------------------------------/
+
+      Pues en la primera parte de este curso se dieron las bases para
+escribir páginas HTML (horribles por cierto), pues lo que necesitas saber
+es como escribir BUENAS páginas HTML. Para lo cual hay varios elementros
+no-tan-básicos que le dan a las páginas una apariencia más vistosa y
+profesional, aunque en exeso son molestos. Me refiero a:
+
+O Las tablas
+O Las formas
+O Los frames
+O Java
+O Y scripts varios (VBScript, JavaScript, CGI, Perl, etc.)
+
+       Antes de saber todas estas cosas debes adentrarte más en HTML y
+aprenderte los TAGS, en la otra parte del curso pondré una lista completa
+de casi todos los tags del universo y sus atributos. Pero por lo pronto,
+vamos al grano.
+
++--------------+
+| Lección VIII |
++--------------+
+
+      Ahora vamos a ver un TAG vital, el cual hace que las páginas HTML se
+muevan y no sean estáticas: <a>. El tag <a> indica hipervículo, el cual nos
+sirve para que al hacer click en lo que esté enmedio de estos tags nos mande
+a otro archivo. Por ejemplo, vamos a hacer un vículo a la página de El
+Radiaktivo Newz Team:
+
+<a>El Radiaktivo Newz Team</a>
+
+      Esto no nos manda a nada porque no hemos especificado la dirección o
+archivo, lo hacemos con el atributo HREF:
+
+<a href="">El Radiaktivo Newz Team</a>
+
+      Enmedio de las comillas (") debemos poner la dirección, existen de
+2 tipos: absolutas y relativas. Por ejemplo, si tú tienes tu dirección de
+internet y es la siguiente:
+
+http://ernt.piratas.org/hacker/
+
+      Primero hay que aclarar que a lo que se le llama "dirección" es en
+realidad un URL, tema que se tratará en alguna parte de este curso. Bueno,
+la dirección nos indica que tenemos el directorio "hacker" y podemos ponerle
+nuestros archivos e imágenes. Si tenemos los siguientes archivos en el
+directorio:
+
+index.html
+site.html
+radiaktivo.gif
+
+      Podemos hacer un vínculo de index.html a site.html de la siguiente
+manera:
+
+<html><head></head></body>
+<a href="site.html">Continuar</a>
+</body></html>
+
+      O podemos también hacerlo de la siguiente manera:
+
+<html><head></head></body>
+<a href="http://ernt.piratas.org/hacker/site.html">Continuar</a>
+</body></html>
+
+      El primer vínculo fué de manera relativa, donde se supone que el
+archivo site.html está en el mismo directorio y en la seguda forma se da
+toda la dirección completa. Para hacer un vículo de site.html a index.html
+se puede hacer de la siguiente manera:
+
+<html><head></head></body>
+<a href="index.html">regresar</a>
+</body></html>
+
+      O de la siguiente manera:
+
+<html><head></head></body>
+<a href="http://ernt.piratas.org/hacker/">regresar</a>
+</body></html>
+
+      Si observas, te habrás dado cuenta de que pusimos:
+
+http://ernt.piratas.org/hacker/
+
+      Y no:
+
+http://ernt.piratas.org/hacker/index.html
+
+      Porque cuando se especifica un directorio, se busca siempre el
+archivo index.html y si no está se despliega el contenido de ese
+directorio.
+
+      Si quieres vincular index.html a un archivo que está en un directorio
+superior con ruta relativa, digamos:
+
+http://ernt.piratas.org/hacker/badbit/info.html
+
+      El vículo sería el siguiente:
+
+<a href="badbit/info.html">Continuar</a>
+
+      Y si quieres vincular
+
+http://ernt.piratas.org/hacker/badbit/info.html
+
+      A:
+ 
+http://ernt.piratas.org/hacker/index.html
+
+      El vínculo sería el siguiente:
+
+<a href="../index.html">Continuar</a>
+
+      Así que los ".." indican un directorio inferior, se pueden hacer
+cadenas, como: "../../index.html". Después indicaré como hacer vículos hacia
+partes dentro de la misma página.
+
++------------+
+| Lección IX |
++------------+
+
+      A lo mejor ya has intentado poner en una página el caracter "<" y
+obviamente no has podido ya que ese es el caracter de inicio de los tags y
+el browser supone que ese caracter indica el principo de un tag e
+interpretará erróneamente la página. Por ejemplo:
+
+<html>
+<head>
+<title>Mala página</title>
+</head>
+<body>
+<p>El numero 5 es menor que el numero 7, o sea: 5<7 y 7>5</p>
+</body>
+</html>
+
+        Hay una parte de esta página que se mira como un tag: <7 y 7>, muchos
+browsers pueden distinguir que <7 y 7> no es un tag, pero algunos pueden
+resultar confundidos, y si lo que se quiere poner entre <>'s es vital para
+el manejo de misiles nucleares puede darse el caso de que la humanidad
+desaparezca, así que más vale hacer las cosas bien. Otro caso es el de los
+acentos, en español se usan ciertos caracteres (áéíóúÑñ y otros) que no se
+desplegarán bien en otros sistemas como las MAC, UNIX, Linux, etc. Para eso
+usamos ciertos códigos para insertar esos caracteres especiales.
+
+        Los códigos deven de comenzar con el signo & (ampersand), y teminar
+con ; (punto y coma) para que se despliegen correctamente. Otra cosa: aquí
+SI importa la capitalización. Algunos de los símbolos más comunes son:
+^^
+
+        &nbsp; (espacio)
+        &lt; (< menor-que)
+        &gt; (> mayor-que)
+        &amp; (& ampersand)
+        &quot; (" comillas)
+        &shy; (­ guión largo)
+
+
+       Vamos aponer los símbolos en la página:
+
+<html>
+<head>
+<title>Mala página</title>
+</head>
+<body>
+<p>El numero 5 es menor que el numero 7, o sea: 5&lt;7 y 7&gt;5</p>
+</body>
+</html>
+
+       Pues esa es la forma en que se insertan los caracteres especiales. A
+continuación viene una lista de los caracteres más comunes:
+
+Caracteres ISO Latin-1
+
+&Agrave;  À  mayúscula A, acento grave
+&agrave;  à  minúscula a, acento grave
+&Aacute;  Á  mayúscula A, acento agudo
+&aacute;  á  minúscula a, acento agudo
+&Acirc;   Â  mayúscula A, circunflejo
+&acirc;   â  minúscula a, circunflejo
+&Atilde;  Ã  mayúscula A, tilde
+&atilde;  ã  minúscula a, tilde
+&Auml;    Ä  mayúscula A, diéresis
+&auml;    ä  minúscula a, diéresis
+&Aring;   Å  mayúscula A, ring
+&aring;   å  minúscula a, ring
+&AElig;   Æ  mayúscula AE ligadura
+&aelig;   æ  minúscula ae ligadura
+&Ccedil;  Ç  mayúscula C, cedilla
+&ccedil;  ç  minúscula c, cedilla
+&Egrave;  È  mayúscula E, acento grave
+&egrave;  è  minúscula e, acento grave
+&Eacute;  É  mayúscula E, acento agudo
+&eacute;  é  minúscula e, acento agudo
+&Ecirc;   Ê  mayúscula E, circunflejo
+&ecirc;   ê  minúscula e, circunflejo
+&Euml;    Ë  mayúscula E, diéresis
+&euml;    ë  minúscula e, diéresis
+&Igrave;  Ì  mayúscula I, acento grave
+&igrave;  ì  minúscula i, acento grave
+&Iacute;  Í  mayúscula I, acento agudo
+&iacute;  í  minúscula i, acento agudo
+&Icirc;   Î  mayúscula I, circunflejo
+&icirc;   î  minúscula i, circunflejo
+&Iuml;    Ï  mayúscula I, diéresis
+&iuml;    ï  minúscula i, diéresis
+&ETH;     Ð  mayúscula Eth, Islándica
+&eth;     ð  minúscula eth, Islándica
+&Ntilde;  Ñ  mayúscula N, tilde
+&ntilde;  ñ  minúscula n, tilde
+&Ograve;  Ò  mayúscula O, acento grave
+&ograve;  ò  minúscula o, acento grave
+&Oacute;  Ó  mayúscula O, acento agudo
+&oacute;  ó  minúscula o, acento agudo
+&Ocirc;   Ô  mayúscula O, circunflejo
+&ocirc;   ô  minúscula o, circunflejo
+&Otilde;  Õ  mayúscula O, tilde
+&otilde;  õ  minúscula o, tilde
+&Ouml;    Ö  mayúscula O, diéresis
+&ouml;    ö  minúscula o, diéresis
+&Oslash;  Ø  mayúscula O, diagonal
+&oslash;  ø  minúscula o, diagonal
+&Ugrave;  Ù  mayúscula U, acento grave
+&ugrave;  ù  minúscula u, acento grave
+&Uacute;  Ú  mayúscula U, acento agudo
+&uacute;  ú  minúscula u, acento agudo
+&Ucirc;   Û  mayúscula U, circunflejo
+&ucirc;   û  minúscula u, circunflejo
+&Uuml;    Ü  mayúscula U, diéresis
+&uuml;    ü  minúscula u, diéresis
+&Yacute;  Ý  mayúscula Y, acento agudo
+&yacute;  ý  minúscula y, acento agudo
+&THORN;   Þ  mayúscula Thorn, Islándica
+&thorn;   þ  minúscula thorn, Islándica
+&szlig;   ß  minúscula sharp s, sz alemana
+&yuml;    ÿ  minúscula y, diéresis
+
+
+
+Caracteres adicionales de ISO 8859-1
+
+&#160; &nbsp;     non-breaking space
+&#161; &iexcl;  ¡ inverted exclamation mark
+&#162; &cent;   ¢ centavos
+&#163; &pound;  £ signo de libras
+&#164; &curren; ¤ símbolo monetario general
+&#165; &yen;    ¥ signo de yen
+&#166; &brvbar; ¦ barra vertical
+&#167; &sect;   § signo de sección
+&#168; &uml;    ¨ diéresis
+&#169; &copy;   © simbolo de copyright
+&#170; &ordf;   ª simbolo ordinal, feme.
+&#171; &laquo;  « acotaciones angulares
+&#172; &not;    ¬ signo de no
+&#173; &shy;    ­ soft hyphen
+&#174; &reg;    ® signo de registrado
+&#175; &macr;   ¯ macron
+&#176; &deg;    ° signo de grados
+&#177; &plusmn; ± mas-o-menos
+&#178; &sup2;   ² dos superíndice
+&#179; &sup3;   ³ tres superídice
+&#180; &acute;  ´ acento agudo
+&#181; &micro;  µ micro 
+&#182; &para;   ¶ pi
+&#183; &middot; · punto medio
+&#184; &cedil;  ¸ cedilla
+&#185; &sup1;   ¹ uno superíndice
+&#186; &ordm;   º indicador ordinal
+&#187; &raquo;  » acotacion angular
+&#188; &frac14; ¼ un cuarto
+&#189; &frac12; ½ un medio
+&#190; &frac34; ¾ tres cuartos
+&#191; &iquest; ¿ interrogación invertida
+&#215; &times;  × signo de multiplicación
+&#247; &div;    ÷ signo de división
+
+
++-----------+
+| Lección X |
++-----------+
+
+       Ahora un tema enfadoso, las malditas tablas. En tiempos prehistóricos,
+nuestros ancestros no tenían forma de ordenar la información por columnas,
+la única forma era usando el tag <pre>, por ejemplo:
+
+<html>
+<head><title>Algunos miembros de El Radiaktivo Newz</title></head>
+<body>
+<pre>
++------------------------------------+
+|     Algunos Miembros de ERNT       |
++-----------+------------------------+
+|  Nombre   |  Correo electrónico    |
+|-----------|------------------------|
+| acri      | dalad@netgate.com.uy   |
+|-----------|------------------------|
+| aikyx     | betty23@usa.net        |
+|-----------|------------------------|
+| BadBit    | badbit@yahoo.com       |
+|-----------|------------------------|
+| DJ-HELL   | djhell@yahoo.com       |
+|-----------|------------------------|
+| kibitzer  | kibitzr@yahoo.com      |
+|-----------|------------------------|
+| KomeX     | targ_boy@yahoo.com     |
++-----------+------------------------+
+</pre>
+</body>
+
+
+       ¡Ahhh! ¡Que tiempos aquellos! Bueno, pero ahora estamos a punto de
+entrar al siglo XXI (Veintiuno para los que nacieron después de Cristo), y
+ahora hay maneras más "prácticas" de hacer las tablas, está el tag <table>
+para complicarnos la vida. A ver, agreguemos una tabla al archivo HTML que
+venimos haciendo... ¿Qué? ¿Que ya lo borraron? Pues aquí está (y aprendan a
+valorar los archivos):
+
+<html>
+<head>
+<title>Mi primera pagina HTML</title>
+</head>
+<body bgcolor="#000000" text="#FFFFFF" link="#00FF00" vlink="#FF0000">
+<center><h1>Mi primera pagina</h1></center>
+<hr>
+<h2>Este es un titulo 2</h2>
+<h3 align="left">Este es un titulo 3</h3>
+<h6>Este es un titulo 6</h6>
+<p>Nomas estoy escribiendo esta pagina para ver si<br>
+puedo aprender el <i>HTML</i>, tengo muchas ganas de poner esta pagina en
+<u>internet</u>.
+
+<p>Este es otro <b>parrafo</b>, como se ve, los parrafos son divididos
+automaticamente con una linea en blanco.
+
+<p align="center"><tt>Este párrafo sirve para demostrar la fuente
+monoespaciada.</tt>
+
+</body>
+</html>
+
+
+       Como la página se está volviendo demasiado grande, primero haremos el
+código y luego lo pegaremos al archivo completo. Bueno, vamos a hacer la
+tabla de los miembros de ERNT (sirve que la pongo en la página). Primero
+ocupamos los tags que abren y cierran:
+
+<table>
+</table>
+
+       "¡Uy, que difícil!" Búrlate mientras puedas que ahora viene lo perrón.
+Las tablas pueden ser de dos tipos, con borde o sin borde, o sea, si tiene
+borde, la tabla es visible, "¿Y si no?" Pos no. El borde se define con el
+atributo BORDER. Vamos a hacer una tabla con borde.
+
+<table border>
+</table>
+
+       Las tablas pueden tener un "caption" o título, se define con el 
+tag (TAG!!) caption, el cual SIEMPRE debe de estar dentro de los tags
+<table>. A ponerle un título.
+
+<table border>
+<caption>ERNT</caption>
+</table>
+
+       Pero antes de proseguir se tienen que aclarar varios términos:
+
+
+         +------------------------------------+
+Fila ->  |     Algunos Miembros de ERNT       |
+         +-----------+------------------------+
+Fila ->  |  Nombre   |  Correo electrónico    |
+         |-----------|------------------------|
+Fila ->  | acri      | dalad@netgate.com.uy   |     +--------+
+         |-----------|------------------------|     | BadBit | <- Celda
+Fila ->  | aikyx     | betty23@usa.net        |     +--------+
+         |-----------|------------------------|
+Fila ->  | BadBit    | badbit@yahoo.com       |
+         |-----------|------------------------|
+Fila ->  | DJ-HELL   | djhell@yahoo.com       |
+         |-----------|------------------------|
+Fila ->  | kibitzer  | kibitzr@yahoo.com      |
+         |-----------|------------------------|
+Fila ->  | KomeX     | targ_boy@yahoo.com     |
+         +-----------+------------------------+
+           ^^^^^^^         ^^^^^^^
+           Columna         Columna
+
+       En fin, las filas son las horizontales y las columnas las verticales.
+Eso es muy importante, ya que así es como se indican las tablas en HTML.
+Bueno, hay un tag <tr> que indica el principio de la fila, la cual se cierra
+con </tr>, a ponerlos:
+
+<table border>
+<caption>ERNT</caption>
+<tr>                    </tr>
+</table>
+
+       Enmedio de estos dos tags hay otros, los cuales indican el principio
+y final de las celdas. Por lo pronto, vamos a hacer esta parte de la tabla:
+
++-----------+------------------------+
+|  Nombre   |  Correo electrónico    |
+|-----------|------------------------|
+| acri      | dalad@netgate.com.uy   |
+|-----------|------------------------|
+| aikyx     | betty23@usa.net        |
+|-----------|------------------------|
+| BadBit    | badbit@yahoo.com       |
+|-----------|------------------------|
+| DJ-HELL   | djhell@yahoo.com       |
+|-----------|------------------------|
+| kibitzer  | kibitzr@yahoo.com      |
+|-----------|------------------------|
+| KomeX     | targ_boy@yahoo.com     |
++-----------+------------------------+
+
+       Para indicar la primera fila haríamos lo siguiente:
+
+<table border>
+<caption>ERNT</caption>
+<tr> <td>acri</td>  <td>dalad@netgate.com.uy</td> </tr>
+</table>
+
+       Espero que ya vayas entendiendo, <td> indica que ahí comienza la
+celda y </td> que termina.
+
+[Nota: Los tags <td> siempre deben de estar dentro de los tags <tr>. El tag
+ <td> no ocupa obligatoriamente al tag </td>, solo en casos especiales que
+ veremos más adelante.]
+
+       Pues con esto ya se puede hacer toda la tabla de la misma manera:
+
+<table border>
+<caption>ERNT</caption>
+<tr>   <td><b>Nombre</b></td>    <td><b>Email</b>        </td>    </tr>
+<tr>   <td>acri         </td>    <td>dalad@netgate.com.uy</td>    </tr>
+<tr>   <td>aikyx        </td>    <td>betty23@usa.net     </td>    </tr>
+<tr>   <td>BadBit       </td>    <td>badbit@yahoo.com    </td>    </tr>
+<tr>   <td>DJ-HELL      </td>    <td>djhell@yahoo.com    </td>    </tr> 
+<tr>   <td>kibitzer     </td>    <td>kibitzr@yahoo.com   </td>    </tr>
+<tr>   <td>KomeX        </td>    <td>targ_boy@yahoo.com  </td>    </tr>
+</table>
+
+       ¡Ya está! Pues así se hace una tabla simple, pero falta la celda de
+hasta arriba, la que ocupa dos columnas. Hacer eso es más complicado, se usan
+los atributos COLSPAN y ROWSPAN. COLSPAN indica las columnas que ocupara la
+celda y rowspan las filas que ocupará la celda. Hagamos la celda de arriba,
+pero en lugar del los tags <td> usaremos los tags <th> los cuales indican que
+es una celda de encabezado (header).
+
+<table border>
+<caption>ERNT</caption>
+<tr>   <th colspan=2>Algunos miebros de ERNT             </th>    </tr>
+<tr>   <td><b>Nombre</b></td>    <td><b>Email</b>        </td>    </tr>
+<tr>   <td>acri         </td>    <td>dalad@netgate.com.uy</td>    </tr>
+<tr>   <td>aikyx        </td>    <td>betty23@usa.net     </td>    </tr>
+<tr>   <td>BadBit       </td>    <td>badbit@yahoo.com    </td>    </tr>
+<tr>   <td>DJ-HELL      </td>    <td>djhell@yahoo.com    </td>    </tr> 
+<tr>   <td>kibitzer     </td>    <td>kibitzr@yahoo.com   </td>    </tr>
+<tr>   <td>KomeX        </td>    <td>targ_boy@yahoo.com  </td>    </tr>
+</table>
+
+       Ya está la tabla pero... no me gusta como se ve, podemos cambiarle
+colores, grosor de bordes y más cosas. Prueba las siguientes combinaciones y
+saca tus propias conclusiones (por algo eres hacker, ¿no?):
+
+
+<table border=8>
+<caption>ERNT</caption>
+<tr>   <th colspan=2>Algunos miebros de ERNT             </th>    </tr>
+<tr>   <td><b>Nombre</b></td>    <td><b>Email</b>        </td>    </tr>
+<tr>   <td>acri         </td>    <td>dalad@netgate.com.uy</td>    </tr>
+<tr>   <td>aikyx        </td>    <td>betty23@usa.net     </td>    </tr>
+<tr>   <td>BadBit       </td>    <td>badbit@yahoo.com    </td>    </tr>
+<tr>   <td>DJ-HELL      </td>    <td>djhell@yahoo.com    </td>    </tr> 
+<tr>   <td>kibitzer     </td>    <td>kibitzr@yahoo.com   </td>    </tr>
+<tr>   <td>KomeX        </td>    <td>targ_boy@yahoo.com  </td>    </tr>
+</table>
+
+<table noborder>
+<caption>ERNT</caption>
+<tr>   <th colspan=2>Algunos miebros de ERNT             </th>    </tr>
+<tr>   <td><b>Nombre</b></td>    <td><b>Email</b>        </td>    </tr>
+<tr>   <td>acri         </td>    <td>dalad@netgate.com.uy</td>    </tr>
+<tr>   <td>aikyx        </td>    <td>betty23@usa.net     </td>    </tr>
+<tr>   <td>BadBit       </td>    <td>badbit@yahoo.com    </td>    </tr>
+<tr>   <td>DJ-HELL      </td>    <td>djhell@yahoo.com    </td>    </tr> 
+<tr>   <td>kibitzer     </td>    <td>kibitzr@yahoo.com   </td>    </tr>
+<tr>   <td>KomeX        </td>    <td>targ_boy@yahoo.com  </td>    </tr>
+</table>
+
+<table border>
+<caption>ERNT</caption>
+<tr>   <th colspan=2>Algunos miebros de ERNT             </th>    </tr>
+<tr>   <td><b>Nombre</b></td>    <td><b>Email</b>        </td>    </tr>
+<tr>   <td>acri         </td>    <td>dalad@netgate.com.uy</td>    </tr>
+<tr>   <td>aikyx        </td>    <td>betty23@usa.net     </td>    </tr>
+<tr>   <td bgcolor=#00ff00">BadBit</td><td>badbit@yahoo.com</td>  </tr>
+<tr>   <td>DJ-HELL      </td>    <td>djhell@yahoo.com    </td>    </tr> 
+<tr>   <td>kibitzer     </td>    <td>kibitzr@yahoo.com   </td>    </tr>
+<tr>   <td>KomeX        </td>    <td>targ_boy@yahoo.com  </td>    </tr>
+</table>
+
+       Hay muchos otros atributos de las celdas, pero estos son los básicos
+que te sirven para hacer tablas simples. Pero te recomiendo algo, has lo que
+yo hago: Has el código de las tablas en un editor HTML como FrontPage o
+Netscape Composer.
+
+[Nota: Un editor HTML es un programa procesador de textos que hace páginas
+ HTML sin que el usuario sepa nada de los tags o como es una página de
+ internet, en otras palabras, un software idiotizante. No lo debes usar a
+ menos de que sepas hacer HTML a modo texto, es como usar calculadora sin
+ saber sumar.]
+
+[Otra nota: RE]
+
+       Es muy inconveniente hacer páginas con muchas tablas complejas, ya
+que provocan confusión, no te recomiendo hacerlas tablas a mano, aquí es
+donde nos sirven para algo los editores.
+
+----------------------------
+Esta parte del curso fué hecho al "ai se va", me apresuré para acabarla a
+tiempo y reconozco que no expliqué muy bien las cosas, por eso les pido que
+cualquier duda que tengan me la pregunten. La verdad no se que vaya a venir
+en la siguiente parte, pero van a ser temas importates también.
+
+
+--------------------------------------------------------------
+Copyright 1999, El Radiaktivo Newz Team (ERNT para los compas)
+Escrito por BadBit
+badbit@yahoo.com
+
+http://www.bigfoot.com/~ernt
+
+
+                             0101001001010100100101
+                             10       0       1  01
+                             11     B@dbit       00
+                             01           1      10
+                             10 0           .... 10
+                             :101010 01011010111101

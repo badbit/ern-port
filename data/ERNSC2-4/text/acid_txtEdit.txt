@@ -1,0 +1,269 @@
+ernt@bigfoot.com                            El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+				
+aCiDRePoRt
+
+***************************************************************************************
+-D Regreso-
+	Aunque me tomo mucho tiempo por fin eh vuelto(por desgracia). El motivo d mi 
+aucensia fue que mi maquina C descompuso d lo mismo 3 veces y la verdad ya me habia 
+enfadado d esa maquina porque ya era muy lenta y vieja.  Aun asi me conectava al chat 
+pero no escrivia devido aque me desalente porque tal vez ya no tendria coputadora. Aun 
+asi leia los reportes d el RADIAKTIVO y seguia aprendiendo cosas...Otra cosa...Yo no 
+soy responsable d mis actos en el meetin del ERNT.  Y si quieren saver porque paso esto 
+preguntenle a DJ-HELL que el les podra explicar.  Y respecto a lo que paso despues del
+mettin...bueno pues...esa es otra historia.
+							by: aCiDBoY
+
+***************************************************************************************
+
+-Nuevos Amigos-
+	
+	Por si no lo saven yo no estudio en la escuela d ninguno d mis compañeros del 
+ERNT. Yo soy el mas apartado del grupo ya que tengo que estudiar en el otro lado de 
+"la linea". En mi escuela me siento como el unico interesado en informatica ya que 
+nadie habla d esto y cuando alguien trata este tema es para hablar d QUAKE y d cosas 
+que hacer en el juego. Esto cambio ya que en mi clase d programacion pude conocer a 
+un grupo d viciosos d internet.  El grupo es d 5 personas y hay d todo..algunos son 
+mas interesados en la programacion..otro LINUX...otro en cracks anarquia pero todos 
+comparten el mismo interes. Aun no los conozco tanto como para categorisarlos pero C 
+que ellos y yo somos los primeros en esto en la pequeña ciudad d Calexico...tal vez 
+pronto escuchen d ellos....
+							by aCiDBoY
+
+***************************************************************************************
+
+-Napster-
+	
+	Hace unas semanas conoci a un punk que estava tenia conocimiento d los 
+mp3(cosa rara en mi escuela) entonces me conto d un programa que el usa para bajar 
+mp3 que es mas rapido, facil d usar y hasta cierto punto conveniente. Napster es un 
+programa parecido al IRC pero que su proposito no es tanto d chatear sino mas bien 
+para bajar mp3. En www.napster.com puedes bajar un programa instalable d 619k. Lo 
+instalas y contestas unas cuantas preguntas que configuran el programa. Este programa
+ lo encontre algo similar al mIRC ya que basicamente es la misma pantalla pero con 
+botones que tienen funciones especificas. Hay varias ventanas pero en mi opinion las
+ principales son "Search" y "Transfer". 
+	En la ventada "Search" C escrive el artista o el nombre d la canzion o ambos
+ para encontrar a las personas que t pueden enviar la canzoin que buscas, entonces 
+haces click en <FIND IT>.  Entonces el programa t dara la lista d las personas que 
+tiene lo que buscas. Tambien aparecera en la lista el tamaño del archivo, que tipo d 
+conexion tiene la personay el ping en S momento d la persona.
+
+
+
+	La ventana "Transfer" t da una lista d los mp3 que t estan enviando, la 
+velocidad a la que t esta llegando (el mp3) la persona que t lo esta enviando, la 
+velocidad d su conexion y el % d la canzion que t ahh llegado...
+	
+
+	Este programa no es nuevo pero lo entontre a ser mejor que bajar mp3 por IRC 
+y d una pagina d internet.  Probablemente la unica desventaja d este programa es que 
+tal vez no encuentres los mismos mp3 que encontrarias en el IRC. La mayorita d las 
+personas que distribuyen sus mp3 en Napster tiene conexciones por Cable, T2, T3 y 56k 
+modem por esto los archivos son mas rapidos d aduqirir.
+							by aCiDBoY
+***************************************************************************************
+
+-Entrevista con Mixter-
+	
+	Hace unas semanas atras c registraron ataques a websites importantes como a 
+Yahoo y Amazon. Algunas d ellas dejaron d servir por algunas horas devido al ataque. 
+Hasta hoy, estos han sido los ataques mas conmocionantes ya que aun no C save quien 
+es el responsable d ellos.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	La investigacion federal a el ataque a las Web Sites importantes a sido 
+direxionado a por lo menos un programador anonimo creido responsable d haver escrito 
+software que pudo haber sido usado en los ataques.
+Un Programador conocido solamente como Mixter, quien dice residir en Alemania, aun 
+no ah sido publicamente acusado en ninguno en ninguno d los casos y niega cualquier 
+responsabilidad por el "niego de servicio distribuido" (DDoS) ataques.  Mixter es 
+parte d un pequeño grupo d programadores del underground que dicen haber creado 
+tecnologias d asalto que pueden ser usadas en pruevas para mejorar la seguridad en 
+Internet.
+
+Los ataques han renovado controversia en esta practica, generando preguntas acerca 
+d estos programas, si elevan el potencial d ser mal usados cuando son exibidos 
+publicamente en el cyber espacio. En una entrevista hecha  por CNET news.com al 
+finalizar la semana d ataques, Mixter explico sus axiones y su filosifia en seguridad 
+tecnologica.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+...ahora aqui tiene la entrevista realizada al programador Mixter por Cnet news, 
+escrivire la entrevista como una conversacion d IRC para que pueda ser entendida un 
+poco mejor...
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+<CNET News.com>Fuiste tu el autor de las herramientas d ataque?(algunas versiones d 
+las herramientas d ataque que existen, incluyendo Tribe Flood Network, y sus resultados 
+TFN2K, Trinoo y Stacheldraht)
+
+<Mister> Yo soy el autor de los programas llamados TFN(Tribal Flood Network) y TFN2K 
+pero no d Trinoo.  El Trinoo original fue hecho algunos meses antes que el primer TFN, 
+pero no fue distribuido publicamente como el TFN...Stacheldraht tampoco fue escrito 
+por mi. Hay muchos rumores falsos sobre esto. Hay otro hacker Aleman quien es conocido 
+como "randomizer" quien escrivio s programa.
+
+<CNET News.com>Porque escriviste el software?
+
+<Mixter>Primero escuche sobre Trinoo en Julio '99, y lo considere como interesnate d 
+una perspectiva tecnica, pero tambien potencialmente poderoso en una manera negativa. 
+Yo savia algo sobre como trabajaba Trinoo, y desde entonces no pude averiguar su 
+origen en s tiempo, Yo escrivi mi propio sever-client network que es capas d ejecutar 
+el niego d servicio; despues en s mes publique una version de TFN
+en varios sites d seguridad para hacer la informacion publica y hacer conciencia 
+sobre el punto d seguridad.
+
+<CNET News.com>Tu estas involucrado directamente o indirectamente en alguno de los 
+ultimos atackes importantes a Yahoo, eBay, CNN, Buy.com or Amazon?
+
+<Mixter>No. El hecho d que yo cree estas herramientas no sifnifica d ninguna manera 
+que yo condone su uso activo. Debo admitir que me impacto oir acerca d los ultimos 
+ataques. Parece que los ataquantes son personas sin idea que mal usan herramientas 
+que generalmente causan daños y activividades sin sentido solo "porque pueden".
+
+<CNET News.com>Cual es tu nombre verdadero?
+
+<Mixter> Prefiero no dar mi nombre real. D un lado es un hecho triste que mucha, 
+mucha gente tiene mala opinion d cualquiera que este involucrado con "estas cosas 
+extrañas del hacking" y que ellos hace ninguna diferiencia entre el tema d las 
+debilidades d la seguridad y explotando la misma, y por el otro lado, yo uso mi nomnre 
+Mixter porque yo creo en la privacidad, y simplemente quiero mantener mi privacidad 
+en el Internet, como otras personas que C preocupan acerca d la seguridad.
+
+<CNET News.com> Cual es tu Ocupacion?
+
+<Mixter> Termine la escuela aproximadamente hace medio año, y eh tenido ofertas d 
+compañias d seguridad desde entonces. Pero, por cosas personales no eh podido empezar 
+a trabajar, pero probablemente estare asistiendo a un trabajo en el area d seguridad, 
+donde podre tengo potencial d mejorar mi conocimiento y el software d mi network.
+
+<CNET News.com>Que tan dificil es escrivir las herramientas DDoS distribuidas?
+
+<Mixter>No es tan dificil. El concepto principal es simplemente el concepto de el 
+client-server presente en casi todas las aplicaciones d Internet. Packet Flooding y 
+ataques similares son publicamente conocidos y disponibles y pueden ser implementados 
+facilmente. Cuando C refiere a implementar las caracteristicas, c puede poner poquito 
+dificil. Pero en realidad, las herramientas DDoS solo hacen el viejo concepto mas 
+facil. Antes d DDoS, un ataquante solo tenia que conectarce a todas las maquinas 
+comprometidas, (despues empezar) una herramienta d flood d cada maquina contra el 
+blanco(target o objetivo).
+
+<CNET News.com>Que dificil es apoderarse d un numero suficiente d computadoras para 
+cargar un DDoS suficientemente grande para tumbar a Yahoo?
+
+<Mixter>Desafortunadamente, es muy facil. Es seguro asumir que todos los flood servers 
+estan instalados en hosts comprometidos entre vulnerabilidades que son publicamente 
+conocidas, viejas, y facil d parchar. La mayoria d los ataquantes usan automated...scripts para escaneara grandes cantidades d vulnerabilidades conocidas. Este proceso puede tomar algun tiempo, pero los conceptos son verdaderamente facil. Tambien hacen esto desde maquinas comprometidas y especialmente maquinas modificadas para asegurar que su origen no pueda ser trasado.
+
+<CNET News.com>Cuantas computadoras tu estimarias que fueron usadas en el ataque a 
+Yahoo?
+
+<Mixter>El numero que ellos necesiten depende. No es solo un numero, es la medida d 
+cada una. D lo que eh oido d listas d correo d seguridad, los atacantes ya han 
+omprometido Internet2  y otras maquinas d alta velocidad.
+
+<CNET News.com>Saviendo que TFN2K usa computadoras maestras y esclavas y canales d 
+comunicacion encriptados, que tan dificil es encontrar quien originalmente mando la 
+orden d ataque? 
+
+<Mixter>Detexion remota es practicamente imposible a menos que el ataque siga por una 
+cantidad d dias. En este caso, si toda la columna d proveedores coperara y monitoreara 
+sus routersm el origen d algunos d los servers "esclavos" podria ser rastreado. S es 
+el punto que yo trataba d probar. Si las otras herramientas DDoS no fueron totalmente 
+anonimas e inrasteavles, yo mire la posibilidad que la gente d seguridad estaria 
+perdiendo su tiempo tratando d encontrar maneras para rastrea al atacador, mientras 
+que las herramientas DDoS C convertirian tarde o temprano suficientemente sofisticadas 
+para hacer esto imposible. Todavia hay oportunidad d entcontrar a los atacadores si 
+no son extremadamente cuidadosos y dejan rastros en los hosts comprometidos o 
+manipulan y dañan cosas en el host comprometido suficiente para que los administradores 
+lo detecte localmente.
+
+<CNET News.com>Tu saves si TFN or Trinno fueron usados en los ataques a Yahoo, 
+eBaay.com, Amazon, CNN o Buy.com, ofue otro software?
+
+<Mixter>Estoy algo seguro que la herramienta usada es un derivado d TFN y/o Trinoo. 
+Actualmente, mucha gente parece estar modificando essas herramientas, o creando 
+nuevas, similares, y manteniendolas privadas. Esto es porque uando un programa es 
+publicamente conocido, personas tienen la posibilidad d identificarla localmente 
+cuando es instalada en su server buscando patrones binarios, como el FBI (Centro de 
+Protexion Infrastructural Nacional) lo prueba. Esto es basicamente el problema 
+Trojan/virus, donde los vendedores d antivirus continuamente sacan scanners 
+actualizados, y los autores d los virus continuamente sacan virus nuevos o 
+modificados.
+
+<CNET News.com>Alguna otra cosa que t gustaria decir?
+
+<Mixter>Me gustaria recordar a las personas d el problema real d inseguridad d la 
+grande cantidad d servers, y no la genete que la explota.  Si las compañias d 
+seguridad y el govierno empiezan una "cazeria" contra las personas que ellos llaman 
+"hackers", ellos pueden tener exito en rastrear y perseguir a algunos d ellos, 
+pero el problema real sigue: Cualquiera que pueda aprender un puñado d comandos Unix 
+y pueda preparar una herramienta puede empezar ataques DDoS, siempre y cuando la 
+seguridad en general sea tan mala como es hoy. Encuentro realmente molesto y espantoso 
+cuando leo que el Presidente Bill Clinton C propone a dedicar $240 millones por el 
+solo proposito d wiretapping(poder interceptar los cables) y vigilancia domestica. En 
+mi opinion, ninguna cantidad d ataques d servicio negado o intrusiones d computadoras 
+pueden causar una coparable cantidad d dinero para ser perdido en el futuro. 
+Adicionalmente, estos metodos y leyes pueden ser facilmente evitados por personas 
+maliciosas usando systemas comprometidos para transmitir un numero d canales 
+encriptados y que por esto afectan a todos excepto a las personas contra las que 
+fueron proyectadas.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+...Algunas d las palabras no fueron traducidas para tener un mejor entendimiento d lo 
+que esta hablando el programador. Esta entrevista fue hecha hace algunas semanas y 
+aun no C encuentra al responsable.  Pienso que para ser el govierno d los Estados 
+Unidos los que hicieron esto o el que lo hizo es muy bueno. Aun no lo han agarrado y 
+no C tiene ningun rastro d el ni siquiera porque ataco/aron mas d 1 vez.
+
+							by aCiDBoY 
+
+*************************************************************************************** 
+-Cyper Espacio-
+
+
+	
+http://fp.image.dk/fpehyben2/dhs/noframes/flooders.htm
+http://www.geocities.com/SunsetStrip/Alley/2480/files.htm
+http://www.fc.net/phrack/under/misc.html
+http://www.quiknet.com/~tsj/hackingtxt.html
+http://www.geocities.com/Area51/Orion/9683/html/links.htm
+
+aqui tienes algunas paginas...tu las miras y las pones en la revista si t gustan
+
+								by aCiDBoY
+***************************************************************************************
+-TNX-
+
+	Gracias a [aSS]monkey, Hitokoriri, EsTeVe ... y a los demas viciosos d action 
+QUAKE...
+
+_____________________________
+El Radiaktivo Newz Team, 2000
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+
+http://ernt.piratas.org            <--+
+                                      |
+http://www.bigfoot.com/~ernt       <--+---- Página oficial
+                                      |
+http://www.geocities.com/badbit    <--+
+
+http://www.geocities.com/kibitzr   <--- Página de kibitzer (muy buena).
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 2000 aCidBoY <acidboy01@hotmail.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+                        ########   ########   ####   ####  ############
+                        #### ####  #### ####  #####  ####  ### #### ###
+                        ####       #### ####  ###### ####      ####
+       aCiDBoY          #########  #######    #### ######      ####
+                        ####       #### ####  ####  #####      ####
+                        #### ####  #### ####  ####   ####      ####
+<acidboy01@hotmail.com> ########   #### ####  ####   ####      ####
+
+=EOF=

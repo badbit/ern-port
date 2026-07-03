@@ -1,0 +1,153 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Noticias
+Por Karn Evil 9 y BadBit
+
+Indice:
+
+O PGP para LINUX.
+O iBook
+O Netscape: GECKO.
+O HNC Remodelado
+O Nuevo truco de TELMEX/TELNOR
+
+-------------------------------
+<ke> -> Escrito por Karn Evil 9
+<bb> -> Escrito por BadBit
+-------------------------------
+
+-----------------
+O PGP para LINUX:
+-----------------
+<ke>
+   Un programa de encripción basado en PGP, fue desarrollado por la comunidad
+de Linux, lo especial de este es que encripta a 128 bits, 56 y 48, bastante
+rapido. Pero tiene otra caracteristica especial:
+
+   Puede ser sacado de USA, ¿por que? Si leiste el articulo de encripcion de
+BadBit (sabemos que te dió flojera), sabras que USA, no permite sacar
+programas que encripten a mas de 56 bits (incluyendo navegadores).
+
+   Este si puede ser exportable, debido a que fue desarrollado bajo el
+contrato GNU, y cualquier persona lo puede bajar desde cualquier parte del
+mundo (obviamente el programa fue desarrollado por diferentes programadores
+a lo ancho del mundo).
+
+   Si quieres mas info de este tema ve a www.linux.org
+
+----------
+O iBook
+----------
+<ke>
+300 y 400 Mhz Power Pc.
+512kb y 1 mega de cache.
+32 mb de ram expandible a 160.
+3.2 Gb de disco duro
+Bateria de Litio con duración de 6 horas.
+
+Multimedia:
+12.1 TFT pantalla de matriz activa.
+4, 6 y 16 mb de memoria de video.
+24x cdrom, puede traer DVD.
+
+Conectividad:
+Un puerto de 12Mbps USB
+10/100T Ethernet y modem incluido de 56k.
+Puerto opcional para conección sin cables via aire (bien chingon)
+
+Precio: 1595
+
+   Es portatil y tiene un diseño muy bonito y agradable (impresiona a
+cualquier persona).
+
+--------
+O Gecko.
+--------
+<ke>
+   Mejor conocido como Netscape Navigator 5.0
+
+   Por lo que he leido, sera un navegador hecho desde 0, o sea, que van a
+hacer el codigo desde el principio, para mejorar la velocidad de este, gracias
+a que se dio a conocer libremente el codigo de Navigator en Linux, mucha gente
+contribuyo a mejorar el navigator.
+
+   Según pruebas, Gecko, carga 20 veces mas rapido las tablas que Explorer
+5.0. Y es mucho, mucho, mucho mas seguro que explorer, y menos propenso a
+fallas.
+
+<bb>
+   ¿Saben porqué Netscape se está dando gratis? Por culpa de Microsoft.
+Desde que Bill Gates empezó a incluir a IE con Windows, Netscape se vió en
+problemas... Ahora, para seguir en el mercado, tiene que dar gratis su
+producto (me pregunto cómo le hace para vivir el presidente de Netscape).
+
+----------------
+O HNC Remodelado
+----------------
+<bb>
+   El sitio www.hack-net.com ha sido remodelado. Desde el principio, este fué
+un exelente sitio... hasta que lo remodelaron por primera vez. Decayó
+bastante y la mayoría de sus vínculos estuvieron rotos... Bueno, pero ha sido
+remodelado por tercera vez, ahora sí dieron en el clavo. Tiene el diseño que
+actualmente está de moda: Una barra lateral con todas las secciones del sitio,
+banners arriba, y e-mails abajo. Tiene buenos colores pero no ha sido
+terminado y la mayoría de los vínculos no sirven.
+
+   Tiene nuevas secciones verdaderamente interesantes. Por ejemplo el Linux
+consortium, donde puedes bajar una versión reducida de Linux y todo tipo de
+programas. Una cosa lamentable son los textos, los cuales los tienes que
+bajar con todo y el formato de hack-net.
+
+   Otra sección bastante buena es el "Armaggeddon Speaks", es un programa de
+radio en formato RealAudio, cada programa dura media hora. Durante todo el
+programa escuchamos a Armaggeddon diciendo noticias, comentarios, etc. Lástima
+que Armaggeddon no tenga tan buena dicción y se trabe a veces. Pero tienes dos
+opciones: Oír el programa desde el sitio o bajarlo. Yo recomiendo ampliamente
+que lo bajes, ya que ocupa tan solo 3 Mb (bájalo con GetRight) y dura media
+hora, creo que vale la pena. Tal vez en ERNT hagamos también un programa de
+radio...
+
+   Aparte, hack-net ofrece 20 Mb para que hagas tu página web, ERNT se pasará
+a ese servidor pronto. La única desventaja es que el sistema para subir
+archivos por medio de FTP es algo pobre, pero por lo demás todo está bien
+(especialmente porque no hay esos enfadosos banners.)
+
+
+------------------------------
+O Nuevo truco de TELNOR/TELMEX
+------------------------------
+<bb>
+   Hace poco vinieron unas señoritas de Telnor a pedir permiso para poner un
+teléfono en la esquina de mi casa. En ese momento me pregunté: "¿Adió, a poco
+Telnor pide permiso pa' eso?", luego explicaron que no era un teléfono
+público normal, sino otro tipo. Dícese que este nuevo teléfono iba a necesitar
+tarjeta solamente "¿Y eso qué?" me dije, "Ya hay teléfonos públicos que nomás
+aceptan tarjeta para hacerte comprarla." Pero esta era una tarjeta especial,
+una tarjeta que SOLAMENTE iba a funcionar en un solo teléfono. Si la comprabas
+nomás ibas a poder hablar del teléfono del que la compraste, si te ibas a
+otro no iba a funcionar. "Buen truco, te van a hacer comprar miles de tarjetas
+para que puedas usar teléfonos de otra parte." Bueno, esa es la nueva
+estrategia para ganar dinero de Telnor. Nunca faltan....
+___________________________
+El Radiaktivo Newz Team, 1999
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 1999 BadBit <badbit@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+0101001001010100100101  ##########  ##########  #####   ####  ##############
+10       0       1  01  ##### ####  ##### ####  ######  ####  #### #### ####
+11     B@dbit       00  #####       ##### ####  ####### ####       ####
+01           1      10  ##########  #######     ##### ######       ####
+10 0           .... 10  #####       ##### ####  #####  #####       ####
+:101010 01011010111101  ##### ####  ##### ####  #####   ####       ####
+  <badbit@yahoo.com>    ##########  ##### ####  #####   ####       ####
+
+=EOF=

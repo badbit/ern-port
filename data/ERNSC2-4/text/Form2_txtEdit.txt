@@ -1,0 +1,164 @@
+ernt@bigfoot.com                            El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Este artículo lo escribí originalmente para el periódico La Crónica de Baja
+California, pero en vista de que no lo pusieron, lo voy a poner aquí mero.
+Notarán que aquí tengo un estilo indirecto, inseguro y vago al igual que todos
+los demás que escribo para La Crónica, ¿Porqué? Simplemente porque no hay
+libertad de expresión. ¿Saben porqué no publicaron este artículo? Por ser
+demasiado "fuerte" para el público en general ¡Háganme el refrabrón cavor!
+
+=============================
+
+Usuarios: plaga mortal.
+Por BadBit <badbit@yahoo.com>
+
+Últimamente, hemos presenciado un fenómeno muy curioso, aunque no es la
+primera vez que se presenta. Me refiero al hecho de que todo mundo está
+comprando computadora, es algo indispensable en estos días. Hasta personas que
+nunca sospechamos que ocuparan computadoras las están adquiriendo. Bueno, ¿Qué
+tiene eso de malo? Nada, pero a lo que me refiero es a algo muy molesto que
+nos pasa a todos los que ya teníamos antecedentes en el mundo de la
+informática.
+
+Por fin, para no dar tantos rodeos. A lo que me refiero es a: USUARIOS
+INUTILES. Si, efectivamente, son una plaga mortal. Cada vez más personas
+compran computadoras de lo más moderno, pero... hay un pequeño detalle: ¡¡NO
+SABEN USARLAS!! "Bueno -me dirán algunos-, es comprensible: la compran para
+aprender a usarla." Pero veamos algunos ejemplos:
+
+Hace poco, en la post-posada de ERNT, mi amigo DEMON me citó un caso en el que
+no supe si reír o llorar. DEMON acababa de instalar una computadora para un
+cliente, y todo parecía en orden. Se dispuso a retirarse y el usuario hizo la
+siguiente pregunta: "¿Cómo se prende?". Ahora, yo me pregunto: ¿Alguno de
+ustedes compraría un automóvil sin saber cómo se prende? ¿Entonces cómo es que
+compran computadoras sin saber que hay switches de ON?
+
+Otro caso: Un usuario se quejó de que la computadora le dijo "malo e
+inválido". Cuando los técnicos despejaron el problema, le explicaron al
+usuario que cuando la computadoras mostraran "comando inválido" y "mala
+sintaxis" no se lo tomara como ofensa personal.
+
+Una usuario llamó a servicio técnico quejándose de que su computadora no
+encendía. Los técnicos le preguntaron qué sucedía cuando oprimía el botón de
+encendido y la mujer respondió: "Por más que aplasto este pedal no pasa nada".
+El "pedal" resultó ser el mouse.
+
+Otro usuario llamó a soporte técnico diciendo que su computadora nueva no
+servía. Dijo que la sacó de la caja, la conectó y se sentó durante veinte
+minutos y la máquina no quería encender. Los técnicos le dijeron: "¿Qué pasa
+cuando acciona el switch de encendido?" El usuario respondió: "¿Switch? ¿Cuál
+switch?"
+
+El caso que sigue es el colmo: Un usuario llamó a soporte técnico quejándose
+de que el monitor estaba en blanco y que la computadora no respondía. El
+técnico (acostumbrado a este tipo de preguntas), se fue a lo simple, le
+preguntó al usuario si el monitor estaba conectado a la computadora. El
+usuario respondió: "Espere un momento, voy por una lámpara de mano, esque no
+se alcanza a ver muy bien porque se fué la luz en todo el edificio..."
+
+Podemos comparar lo que pasaría si las personas trataran a los automóviles
+como tratan a las computadoras. Veamos estos diálogos imaginarios entre los
+clientes y el soporte técnico de alguna compañía de automóviles:
+
+- Soporte técnico. ¿En qué puedo ayudarlo?
+- Entré en mi carro, cerré la puerta y no pasó nada.
+- ¿Insertó la llave en la ranura de ignición?
+- ¿Qué es una ignición?
+- Es un sistema que sirve para jalar corriente de la batería para iniciar el
+  motor.
+- ¿Ignición? ¿Motor? ¿Batería? ¡No necesito saber todo eso para usar mi carro!
+
+
+- Soporte técnico. ¿En qué puedo ayudarlo?
+- Mi carro funcionó bien durante una semana y ahora ya no se mueve.
+- ¿Se le acabó la gasolina?
+- Ehhh, ¿Cómo puedo saber?
+- Hay un pequeño indicador en el panel frontal con una aguja que marca desde
+  "E" hasta "F."
+- Está apuntando a la "E." ¿Qué significa eso?
+- Que tiene que visitar a un provedor de gasolina y comprar algunos litros.
+  Puede instalarla usted mismo o puede pagar para que un técnico la instale
+  por usted.
+- ¿Qué? ¡Pagué doce mil dólares por este carro! ¡Y ahora me dice que tengo que
+  seguir comprando componentes! ¡Yo quiero un carro que venga con todo
+  incluído!
+
+- Soporte técnico. ¿En qué puedo ayudarlo?
+- Ehh, hola. Acabo de comprar mi primer carro, y escogí el de su compañía
+  porque tiene transmisión automática, llantas anti-derrapantes, fuel
+  inyection, bolsa de aire, frenos super-potentes y habla.
+- Gracias por su elección. ¿En qué puedo ayudarlo?
+- ¿Cómo lo uso?
+- ¿Qué? ¿Sabe manejar?
+- ¿Que si sé qué?
+- Que si sabe manejar.
+- Yo no soy ningún técnico de automóviles, ¡Yo solamente quiero usar mi carro
+  para ir a lugares!
+
+Para acabar, la última anécdota de usuarios inútiles de computadoras: En un
+centro de informática de cierta universidad, una estudiante fue con el técnico
+encargado quejándose de que había salvado un archivo (Mac) en la mañana y
+ahora no podía abrirlo.
+
+Asistente: ¿Y cuál Mac usaste para grabar el archivo?
+Estudiante: Ehh, esta misma.
+Asistente: Tal vez esté en el disco duro.
+Estudiante: No, otro asistente me lo grabó mi disco.
+Asistente: (Busca el ícono, busca el drive, no puede encontrar el disco)
+           ¿Dónde está el disco?
+Estudiante: En mi bolsa...
+
+Usuarios como estos son una plaga que debe ser erradicada. ¿Cómo? Hay varias
+maneras.
+
+1) Hacer una "licencia de usuario." Al igual que la de los automóviles, para
+que no haya personas usando computadoras si no saben usarlas.
+2) Difundir la información sobre computadoras y erradicar los mitos.
+3) Ignorarlos.
+4) Ponerlos en una nave espacial y mandarlos a Plutón (y apuesto a que desde
+ahí hallarán la forma de hacernos la vida imposible).
+
+Pues aquí concluye esta pequeña reflexión sobre la ignorancia, la cual debe de
+desaparecer. Sólo unas cuantas notas sobre ERNT (El Radiaktivo Newz Team) para
+finalizar: La página (http://ernt.piratas.org) ha sido remodelada y se ha
+añadido una biblioteca virtual con cientos de textos sobre hacking, phreaking,
+cracking, etc. También tenemos una lista de correo, por la cual te llegarán
+actualizaciones y noticias sobre el mundo underground, para suscribirte,
+simplemente manda un mensaje en blanco a: ernt-suscrib@egroups.com y eso es
+todo. Pronto estará en la página el programa de radio de ERNT, donde
+hablaremos sobre cosas relacionadas al hacking y cosas peores...
+
+Solamente queda mandar saludos (porque siempre me regañan porque no mando) a:
+aCiDBoy, COYOTE, DJ-HELL, DEMON, Karn Evil 9 y a kibitzer. Recuerda que
+siempre estoy disponible para cualquier cosa que quieras expresar, y la verdad
+me encanta leer los correos que nos envían, mándalos a badbit@yahoo.com.
+
+=============================
+
+Pues esto es todo. Creo que dejaré de escribir pa' la crónica en vista de que nunca ponen lo que mando. ¡Cabrísimos grandones!
+
+_____________________________
+El Radiaktivo Newz Team, 2000
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+http://www.bigfoot.com/~ernt
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 2000 BadBit <badbit@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+0101001001010100100101  ########   ########   ####   ####  ############
+10       0       1  01  #### ####  #### ####  #####  ####  ### #### ###
+11     B@dbit       00  ####       #### ####  ###### ####      ####
+01           1      10  #########  ######     #### ######      ####
+10 0           .... 10  ####       #### ####  ####  #####      ####
+:101010 01011010111101  #### ####  #### ####  ####   ####      ####
+  <badbit@yahoo.com>    ########   #### ####  ####   ####      ####
+
+=EOF=

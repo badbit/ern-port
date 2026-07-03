@@ -1,0 +1,119 @@
+ernt@bigfoot.com                            El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§*
+                                Ksanova Report #1
+                                   IRC Stuffs
+*§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§*
+
+                          ¿Como hacer un Bot para IRC?
+
+   Introduciendo al tema, quedaría como primer punto aclarar... ¿Qué es un
+Bot?. Un Bot es simplemente un conjunto de comandos bien ligados que producen
+automatismo para algunas funciones, que responden a algunas frases clave
+(auto-ops, voice, etc) en este caso del IRC.
+
+   Para esto no ocupas más que un poquito de Ingenio, algo de IRC Scripting,
+y tu imaginación.
+
+   Un bot aparece en el IRC como un usuario independiente, y funciona con
+comandos /on y algunos otros en ASCII.
+
+Empecemos...
+
+1.- Pongamos a tu bot un nombre cualquiera (nick).
+      /nick KSab0T
+
+2.- Recuerda que debe de ser un texto ASCII, siempre. Ahora para que tu bot
+    "jale" correctamente ocupas de desactivar la protección exec,
+    (exec_protection), la pantalla (Display), y los sonidos (beep).
+      /set exec_protection off
+      /set display off
+      /set beep off
+
+3.- Ahora sigue la mejor parte, tenemos que poner las frases claves que harán
+    que tu bot responda de manera inmediata, y algunas de ellas sirve para
+    dar op, quitar op, ban, kick, comments, etc. Son muchas cosas las que
+    puedes hacer con un bot.
+      /on public <--- con este comando tu bot actua de manera inmediata en
+                      publico, es decir, al recibir frases clave en un canal.
+      /on public "* KSab0T* hola*" /say ==== Hola $0! ====
+      /on public "* hola* KSab0T*" /say ==== Hola $0! ====
+      /on public "* KSab0T quien eres?*" /say KSab0T BotServices By ERNT, ©2000 ERNT Networks
+      /on public "* Hola a todos*" /say Hola Bienvenido(a) si necesitas ayuda mensajeame </msg Ksab0T help>
+
+Espero y hallan sido suficientes ejemplos, ahora prosigamos con los comandos
+/on msg que son los que tu BOT responderia a los Privados, queries, y notices.
+      /on msg "*Hola*" /msg $0 = Disculpa, mi nombre es KSab0T y soy un Bot de Seguridad ©2000 ERNT Networks =
+      /on msg "*Help*"  /send $1 c:\mirc\help.hlp
+      /on msg "quieres sexo?*" /kick $$1 # Ve a #sex alli te resolveran tus dudas niñito precoz ©ERNT Networks
+
+Ahora prosigamos con los comandos que haran que tu bot identifique a los
+usuarios a los cuales quieres que le brinde sus beneficios (op, comment, etc).
+      /on join * /who $0  <--- Este comando es para que el bot siempre
+                               detecte los usuarios que entran.
+      /on who " * * * ernt.ml-223-231-232-22.net.mx *" /say Llegó BadBit  <---si el host o ip que detecta tu bot es el
+                                                                              correcto a  los usuarios que agregaste,
+                                                                              el bot lo reconocerá, ofreciedole sus
+                                                                              servicios.
+      /on msg  "*KSab0T op <Password>*" /mode # +o $1 <---aquí le asignaras un
+                                                          password para cada
+                                                          usuario (op)
+      /on msg "*Ksab0t deop*" /mode # -o $1   
+      /on msg "KSab0t ban*" /kick # $2;/mode $C +b $2!*@*
+      /on msg "KSab0t kick*" /kick $C $2
+
+Si estas interesado en proseguir con la programación de tu bot, es muy
+sencillo solo usa tu imaginación, ya que esta guia ha sido recortada en
+Capítulos, ahora ya sabes que ocupas imaginación para poder inventar tus
+funciones de acuerdo a los comandos del IRC, pero creo que no estaría mal si
+de una vez te doy los pasos para grabar este archivo ty hacer que cada vez
+que habrás el Cliente IRC para tu bot, funcione automáticamente.
+
+1.- Guarda todos los comandos en forma de Texto ASCII, con el nombre de
+    BotService.mrc en el directorio donde esta el mirc.
+2.- Al abrir tu bot simplemente antes de conectarte teclea esto:
+    /load -rs c:\mirc\BotService.mrc
+    Suponiendo que tienes el mirc en esa direccion (c:\mirc).
+3.- Ahora esta listo para funcionar, disfrutalo.
+
+NOTA: No es una obra completa, se va a continuar de manera eficiente,
+manténte en contacto con ERNT o e-mail me to: ksayuniva@yahoo.com, recuerda...
+Usa tu imaginación para aprovechar al máximo un Bot.
+
+También puedes Visitar http://www.mirc.co.uk para mas información sobre Bots.
+
+*§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§**§*
+
+                              ©2000 ERNT Networks
+
+                          Martín J. Carrillo Casanova
+                                   Ksanova
+                            http://ksacorps.cjb.net
+
+_____________________________
+El Radiaktivo Newz Team, 2000
+Aparecido en el número: 2-5
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+http://www.bigfoot.com/~ernt
+http://www.geocities.com/kibtizr
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+Mailing list: <ernt-suscribe@egroups.com>
+
+Copyright 2000 Ksanova <ksayuniva@yahoo.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+                        ########   ########   ####   ####  ############
+                        #### ####  #### ####  #####  ####  ### #### ###
+  Ksanova o Civi|WAR    ####       #### ####  ###### ####      ####
+                        #########  #######    #### ######      ####
+                        ####       #### ####  ####  #####      ####
+                        #### ####  #### ####  ####   ####      ####
+ <ksayuniva@yahoo.com>  ########   #### ####  ####   ####      ####
+
+=EOF=

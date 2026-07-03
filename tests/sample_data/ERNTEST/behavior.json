@@ -1,0 +1,57 @@
+{
+  "forms": {
+    "Portada": {
+      "on_load": [],
+      "events": {
+        "cmdArticulo.Click": [{"op": "show_form", "form": "Articulo"}],
+        "cmdReloj.Click": [{"op": "show_form", "form": "Reloj"}],
+        "cmdAcerca.Click": [{"op": "show_form", "form": "Acerca", "modal": true}],
+        "cmdToggle.Click": [{"op": "toggle_visible", "target": "lblToggle"}],
+        "cmdRename.Click": [{"op": "set_prop", "target": "lblTitle", "prop": "caption", "value": "¡Título cambiado!"}],
+        "cmdBeep.Click": [{"op": "beep"}],
+        "cmdWeb.Click": [{"op": "open_url", "url": "https://example.org/ern"}],
+        "cmdSalir.Click": [
+          {"op": "sequence", "ops": [
+            {"op": "beep"},
+            {"op": "quit"}
+          ]}
+        ],
+        "imgLogo.Click": [{"op": "msgbox", "text": "El Radiaktivo Newz", "title": "Logo", "icon": "info"}]
+      }
+    },
+    "Articulo": {
+      "on_load": [
+        {"op": "unsupported", "code": "Call InitScintilla()", "note": "init de editor no soportado"}
+      ],
+      "events": {
+        "mnuExtraer.Click": [{"op": "save_text", "source": "txtBody", "suggest_name": "articulo.txt"}],
+        "mnuSalir.Click": [{"op": "close"}],
+        "mnuAcercaM.Click": [{"op": "show_form", "form": "Acerca", "modal": true}],
+        "cmdRegresar.Click": [{"op": "close"}]
+      }
+    },
+    "Reloj": {
+      "on_load": [
+        {"op": "clock", "target": "lblTime", "what": "time"},
+        {"op": "clock", "target": "lblDate", "what": "date"}
+      ],
+      "events": {
+        "tmrClock.Timer": [
+          {"op": "clock", "target": "lblTime", "what": "time"},
+          {"op": "clock", "target": "lblDate", "what": "date"}
+        ],
+        "tmrMove.Timer": [{"op": "move_by", "target": "lblMove", "dx": 6, "dy": 0, "wrap": true}],
+        "cmdCerrar.Click": [{"op": "close"}]
+      }
+    },
+    "Acerca": {
+      "on_load": [
+        {"op": "msgbox", "text": "Bienvenido al número de prueba.", "title": "Acerca", "icon": "info"}
+      ],
+      "events": {
+        "lblLink.Click": [{"op": "open_url", "url": "https://example.org/ern"}],
+        "cmdOk.Click": [{"op": "close"}]
+      }
+    }
+  }
+}

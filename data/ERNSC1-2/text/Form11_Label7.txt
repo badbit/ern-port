@@ -1,0 +1,1 @@
+Cabayo de Troya: Este no es precisamente un virus, sólamente ejecutan la bómba cuando corren, haciendose pasar por un programa útil, pero en una parte del código del programa está la bomba.

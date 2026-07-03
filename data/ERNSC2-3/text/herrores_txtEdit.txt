@@ -1,0 +1,303 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++--------------------------------------------+
+| UNIX, Código abierto y cosas peores...     |
+| Por Karn Evil 9                            +======+-----------------------+
++--------------------------------------------+      | <karnevil9@email.com> |
+                                                    +-----------------------+
+
+GECKO
+
+O Netscape: ¿Que es? ¿Quien es? Historia, Mi metida de cuchara.
+O Código Abierto: ¿Que significa? Historia
+O Netscape, Código abierto, Eric S. Raymond, Linux, BSD y Microsoft.
+O Quien gana en realidad y hacia donde avanza el software.
+
+---------
+Netscape: 
+---------
+
+¿Qué es?
+   Es una empresa estadounidense.
+
+¿Quien es?
+   Esta empresa es la creadora de Netscape Communicator, Navigator, Messenger,
+Composer,  Instant Messenger y mil chingaderas  más.
+
+Historia:
+
+   Netscape fue fundada en 1994 en Mountain View, California, con el objeto
+de sacar un navegador de Internet basado en Mosaic (nota: si no sabes que es
+un navegador de Internet, te sugiero que te suicides, por cierto MOSAIC fue
+el primer navegador de Internet utilizado).
+
+Aquí Karn Evil 9 mete su cuchara:
+
+   Yo cuento con servicio de Internet desde finales del 94, principios del
+95, me toco utilizar todas las versiones de Netscape e Internet Explorer,
+entonces con el objeto de entiendan mejor este articulo, expongo mi punto de
+vista en comparación de los navegadores en sus respectivas versiones:
+
++------------------+------------------------------+-------------------------+
+| Versión          |        Navigator             |  Internet Explorer      |
++------------------|------------------------------|-------------------------+
+| 1 (Windows 3.1)  | Cosa rara, no frames, muy    | Simplemente un asco, no |
+|                  | lento, pero mucho mejor que  | frames, lentisimo, ocupa|
+|                  | Explorer.                    | mucha memoria, muy      |
+|                  |                              | propenso a tumbar el    |
+|                  |                              | sistema.                |
++------------------|------------------------------|-------------------------+
+| 2 (Windows 3.1)  | Integración de JavaScript,   | Lento, no frames, no    |
+|                  | Cierto grado de encripción,  | JavaScript, nada, muy   |
+|                  | Frames, pocos agujeros.      | malo. Muchos agujeros de|
+|                  |                              | seguridad.              |
++------------------|------------------------------|-------------------------+
+| 3 (Windows 3.1,  | Frames, rápido, mejor        | Lento, por fin FRAMES, y|
+| utilice Navigator| integración JavaScript,      | JavaScript, mas agujeros|
+| 3.01 gold y      | podías escribir tus propias  | de seguridad. Soporte   |
+| Explorer 3)      | paginas en WYSIWYG, mandar   | Java y ActiveX en la    |
+| Nota: no se puede| mails y mas con la suite de  | versión para Windows 95.|
+| usar JAVA ActiveX| productos de esta versión.   |                         |
+| VBScript, por que| Pocos agujeros.              |                         |
+| son lenguajes a  |                              |                         |
+| 32bits.          |                              |                         |
++------------------|------------------------------|-------------------------+
+| 4.0              | Rápido, perfecta integración | Soporte JAVA, ActiveX,  |
+|                  | JavaScript, JAVA, SSL, no hay| VBScript, SSL,          |
+|                  | soporte VBScript., pocos     | Encripción, creación de |
+|                  | agujeros.                    | pagina WYSIWYG y lo     |
+|                  |                              | mejor de todo, Outlook  |
+|                  |                              | Express. Lento, consume |
+|                  |                              | mucha memoria, pero se  |
+|                  |                              | desempeña relativamente |
+|                  |                              | bien, hace a Windows 95 |
+|                  |                              | extremadamente inestable|
+|                  |                              | Muchos, bastantes       |
+|                  |                              | agujeros de seguridad.  |	
++------------------|------------------------------|-------------------------+
+| 5.0              | De eso trata todo mi columna.| JavaScript, VBScript,   |
+|                  |                              | SSL, ActiveX, carga mas |
+|                  |                              | rápido las tablas, graba|
+|                  |                              | de una manera bastante  |
+|                  |                              | útil las paginas de     |
+|                  |                              | Internet en el disco    |
+|                  |                              | duro. Soporte para      |
+|                  |                              | Cascade Style Sheets    |
+|                  |                              | (CSS1) no hay soporte   |
+|                  |                              | para CSS2.              |
++------------------+------------------------------+-------------------------+
+
+                        ==================================
+                        Código Abierto: ¿Qué es? Historia.
+                        ==================================
+
+  Simple, sencilla y llanamente, si no sabes que es código fuente abierto, no
+creo que tengas futuro como hacker, programador o cualquier actividad
+underground de computadoras.
+
+   Pero lo voy a explicar, por que voy a recordar que somos newbies (pero no
+mames, no tanto).
+
+   Código fuente abierto, se dice cuando el código fuente (lo que es un
+programa antes de compilarse), es abierto al publico en general (aunque el
+99.99999999999% de los casos el código fuente solo les sirve a programadores,
+hackers y sí, hasta a los crackers). Cuando nos referimos a código, puede
+ser: C/C++, Perl, JAVA, JavaScript, Fortran, Delphi, Pascal, VBScript, Basic,
+Visual Basic, TCL, Assembler (ensamblador, que muy pocos lo entienden, pero
+es código fuente).
+
+Es pero que entiendas el mensaje:
+
+   Código Fuente = El conjunto de instrucciones y sintaxis, en un determinado
+lenguaje de programación, para ser compilado y si tuviste suerte y no tenia
+errores tu código, sea construido un archivo ejecutable, para ser ejecutado,
+o sea un programa antes de convertirse en programa.
+
+Ejemplos de código abierto:
+
+   Por excelencia: UNIX, Linux, Free/Open BSD, y no se cuantos cientos de
+variaciones mas son con el código abierto, Apache Web Server, el BackOriffice,
+Xfree86 Server, Gnome, KDE, Netscape Navigator, aunque no todos estén
+distribuidos con el mismo tipo de licencia (unos con la General Public
+License de GNU, BSD, Nestcape Public License, Mozilla Public License y otras)
+
+
+Ya con todos los datos anteriores mencionados pasemos a:
+
+--------------------------------------
+Proyecto Gecko: Netscape Navigator 5.0
+--------------------------------------
+
+¿Que tiene de especial?
+
+   El 31 de marzo de 1998, la corporación Netscape Communications hizo el
+histórico anuncio de la apertura del código fuente de su navegador al publico
+de Internet a quien deseara bajarlo y contribuir con Netscape. Gracias a
+esto, la tarea de desarrollar mas rápidamente Gecko, por que para esta
+versión, el Navigator, fue codificado desde 0 hasta lo que va ser, entonces,
+al ser mas los programadores y personas que prueban el software, lógicamente,
+se van a incorporar muchas cosas muy rápida y efectivamente, haciendo el
+producto final, Gecko, el Navegador mas rápido, mas pequeño en tamaño y con
+mejor soporte técnico.
+
+   El 10 de diciembre del 98 la empresa anuncio su tecnología llamada NGT
+(next generation Technology), que será el corazón de los productos Netscape.
+
+   Con esta tecnología se pretende hacer mas rápidos y pequeños navegadores,
+que mejoren la forma de desplegar el contenido Web, dando soporte a mayor
+velocidad, HTML 4.0, Secure Socket Layer, Cascading Style Sheets 1 y 2 (CSS),
+Document Object Model (DOM), Resource Description Framework (RDF), XML, JAVA,
+ActiveX, VBScript y mas, como va a ser el mismo código fuente para todas las
+plataformas a que sea lanzado el Netscape, las paginas se van a desplegar
+igualmente, facilitando el trabajo de los creadores del contenido Web.
+
+   Entre lo mas interesante que encontré, fue, que Netscape, va a ser
+optimizado para cada plataforma y aprovechar al máximo los recursos de los
+procesadores, ya sean RISC a 64 bits, Pentium II(MMX), III KNI(Katmai New
+Instructions o MMX2), Athlon o los de la MAC. Y lo otro que me intereso fue
+una propuesta de tecnología que se va a utilizar a en Gecko es una solución
+modular llamada OPEN JAVA VIRTUAL MACHINE INTERFACE (OJI) que va a permitir
+conectar directamente con Netscape diversas Java Virtual Machine (JVM)
+desarrolladas por terceros, y que el usuario podrá elegir a su gusto de
+acuerdo al que satisfaga sus necesidades.
+
+
+La pregunta: ¿Por qué Netscape abrió su código al publico?
+
+   Sencillo, el producto va a ser mejorado, por cientos de personas, que
+como usuarios van a meter nuevas funciones, mejorando la calidad, velocidad
+tamaño, facilidad de uso del producto y va a ser probado por mas gente antes
+de salir al mercado.
+
+Que gana con esto: la gran batalla con Microsoft.
+
+¿Que tiene que ver Eric S. Raymond y Linux aquí?
+
+   Raymond es y fue un gran impulsor de la causa de código abierto y software
+gratuito. En 1997, en el Linux Kongress, presento un documento llamado "La
+Catedral y el Bazar".
+
+   Dicho documento, explicaba y comparaba la desventaja del modelo Catedral
+de desarrollo de software, dicho modelo, esta basado en que el software es
+desarrollado por programadores en el núcleo de una empresa, haciendo lento,
+menos probado y con menos opciones que un software desarrollado bajo el
+modelo Bazar, por cientos de programadores alrededor del mundo, haciendo mas
+rápido el desarrollo, se le agregan mas cosas al software y es probado por
+mas gente, antes de ser distribuido, ya sea comercial o gratuitamente.
+
+Como te habrás dado cuenta, lo anterior, solo apunta a algo:
+O El software regresa a su origen. (nótese el fusil de PC Magazine español)
+
+O El software regresa a cuando se desarrollaba por muchos programadores
+  alrededor del mundo, que lo harán mejor, por lo explicado anteriormente,
+  y que te podrán dar soporte técnico a través de emails o paginas Web.
+
+TODO ESTO GRATUITAMENTE
+
+¿Qué tiene que ver Linux y BSD?
+
+   Por Cameron Diaz, no entiendes el papel que juega UNIX aquí, estas
+distribuciones y casi todas, son gratuitas y código abierto.
+
+   Hay gente que dice tener meses corriendo redes con servidores Linux o BSD,
+sin colgarse nunca, sin perder productividad o tener que preocuparse por un
+colapso. Si no sabias, el servidor Apache de Internet, baso ya sea Linux o
+BSD, domina poco mas del 57 % de los servidores de Internet. El Sitio
+YAHOO.COM, esta 100% sobre la plataforma BSD. Además, no es tan difícil de
+usar, y el soporte técnico de la comunidad de usuarios y programadores es
+excelente.
+
+   Existen cientos de aplicaciones, juegos y lo que quieras bajo código
+abierto, y - oh sorpresa, son gratuitos.
+
+¿Que tiene que ver Microsoft?
+   Simple y sencillamente, si Microshit no hace algo, muchos de sus
+seguidores, ya sea mindblowz 3.1, 95, 98, NT o 2000, Back Office, Internet
+Information Service, Proxy y la chingada, podrían migrar a estos OS, debido
+a que no requieren tantos recursos, tienen mucho mas estabilidad,
+escalabilidad, mejor desempeño y por supuesto, son gratis.
+
+¿Y si MicroShit no hace nada?
+   Se daría una pelada de pene inmensa, por lo descrito anteriormente,
+Microshit, se tiene que poner a la vanguardia del cambio, antes de que el
+cambio lo aplaste.
+
+
+¿Quien gana en realidad?
+   Todos, menos MicroShit. En serio, si no entendiste toda la explicación,
+definitivamente eres un winlamer.
+
+   Netscape: Gana, haciéndose el líder en lo que ha tecnologías, mejores
+productos, mas popularidad, mejor soporte técnico, de todas formas gana
+netscape, recordemos que un usuario, al oír todo eso de mejor producto,
+tecnología, soporte y precio, le entra curiosidad y bajara una copia de los
+productos de Netscape.
+
+   La comunidad de desarrolladores: Por que se llevan el crédito de esto y
+cada vez mas le va a interesar a la gente el movimiento del código abierto,
+esto va a hacer que aumente el numero de desarrolladores.
+
+   Código abierto: Gana por que recibe mas impulso el movimiento.
+
+   Linux, BSD y otros OS: Por que la gente algún ida se va a cansar de la
+basura de OS de MicroShit, y probara algún OS diferente, lo mas probable es
+un estable y gratuito Linux o BSD, aunque existe PLAN 9, Trinux, Solaris,
+Mac OS, 0S/2 y muchos mas.
+
+   Usuario final (Nosotros): Todo esto nos beneficia por que vamos a obtener
+un producto mejor diseñado, programado, probado, con mejor soporte técnico,
+a un costo relativamente bajo o gratuito.
+
+   Aunque yo en lo personal si pagaría por una aplicación con estas
+características, además, olvidé mencionar que se tiene la costumbre de que
+puedes bajar el programa completo para probarlo, sin ninguna restricción de
+funciones, claves o tiempo, solo si te gusta págalo. Pero se corre el riesgo
+de que se pirateen tu código, pero es raro, ya que no es elite y por lo tanto
+se ve mal en el underground, no poner una referencia al autor del código en 
+que esta basado un programa o la mejora de otro.
+
+
+   Espero les guste el articulo y les sirva para algo de aprendizaje,
+cualquier comentario, duda o sugerencia, karnevil9@email.com
+
+(por cierto: no puedes ser hacker si no sabes usar UNIX, no sabes los
+ conceptos básicos de redes TCP/IP, y tener conocimientos básicos de
+ Assambler y C/C++).
+
+Para mas info:
+
+http://www.netscape.com
+http://www.mozilla.org
+http://www.linux.org
+http://www.linux.com
+http://www.bsd.org
+http://www.bsd.com
+http://www.hack-net.com
+http://www.gnu.org
+http://www.apache.org
+http://www.redhat.com
+
+___________________________
+El Radiaktivo Newz Team, 1999
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 1999 Karn Evil 9 <karnevil9@email.com>
+Cualquier duda, comentario o sugerencia: karnevil9@email.com
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+                        ##########  ##########  #####   ####  ##############
+                        ##### ####  ##### ####  ######  ####  #### #### ####
+                        #####       ##### ####  ####### ####       ####
+     Karn Evil 9        ##########  #######     ##### ######       ####
+                        #####       ##### ####  #####  #####       ####
+                        ##### ####  ##### ####  #####   ####       ####
+ <karnevil9@yahoo.com>  ##########  ##### ####  #####   ####       ####
+
+=EOF=

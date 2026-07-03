@@ -1,0 +1,7 @@
+1. Los procesadores de texto nunca tienen cursor.
+2. Tú nunca usarás la barra espaciadora para escribir frases largas.
+3. Todos los monitores muestran unas letrotas de 10 centímetros.
+4. Las supecomputadores del tipo usado por la CIA y la NASA tienen interfases gráficas fáciles que podría entenderlas hasta un idiota.
+5. ...y las que no, tienen increíblemente poderosas interfases de línea de comando que pueden entender correctamente, y ejecutar los comandos tipeados en inglés sencillo.
+6. Corolario: Usted puede obtener acceso a cualquier información que desee escribiendo simplemente: "ACCEDER A TODOS LOS ARCHIVOS SECRETOS" en cualquier teclado.
+7. De la misma manera, usted puede infectar a una computadora con un virus superdestructivo escribiendo "SUBIR VIRUS". Los virus elevan la temperatura de las computadoras como los virus biológicos en el ser humano. Un momento después, las unidades de disco y los monitores comienzan a echar humo.

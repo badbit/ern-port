@@ -1,0 +1,170 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         +------------------------------+
+                         |      El grupo del mes        |
+                         +-------------• •--------------+
+                                       | |
+                               +-------•-•--------+
+                               |       NuKe       |
+                               +------------------+
+
+<bb>
+   Esta es una nueva sección donde hablaremos sobre grupos, revistas y
+organizaciones interesantes para hackers. Este mes hablaremos de un grupo
+super-importante y poderoso: NuKE.
+
+-------------
+¿Qué es NuKE?
+-------------
+
+   NuKE era un grupo de Estados Unidos, Australia, Canadá y Argentina que se
+dedicaba a escribir virus. Lo menciono en pasado porque este grupo dejó de
+existir en Abril de 1994, o al menos después de esa fecha no se tienen
+registros de ellos.
+
+   Lo que se sabe públicamente sobre NuKE, lo sabemos gracias a su NuKE
+Informational Journal, el cual no es una revista ni un boletín de noticias,
+sino simplemente un documento que trata de informar sobre actividades del
+grupo y programación de virus.
+
+   ¿Vale la pena que se mecione a este grupo? POR SUPUESTO QUE SI. NuKE
+era un grupo poderosísimo, de los más grandes, de esos que tienen que estar
+registrados en el gobierno. Y ellos lo estaban. Eran demasiado gigantes como
+para ocultar sus actividades.
+
+----------------
+NuKE InfoJournal
+----------------
+
+   Su IJ (InfoJournal) salía a tiempos irregulares:
+
+Número         Fecha
+-------------------------------
+1              11/01/1991
+2              ????
+3              ????
+4              Agosto de 1992
+5              Marzo 13 de 1993
+6              Mayo de 1993
+7              Agosto de 1993
+8              Abril de 1994
+
+   Esta revista (por llamarla de algún modo), hablaba casi 100% sobre virus.
+Tenía artículos muy impactantes que causaban polémica mundial, ya que decían
+las verdades sobre los antivirus. Llegaron a desensablar a McAfee VirusScan
+y a ThunderByte para demostrar que no sirven para nada. Incluso llegaron a
+publicar sus pláticas por teléfono, a continuación viene uno de los muchos
+artículos de NuKe. Esta vez fue traducido por mi (BadBit), apareció en el
+IJ #6:
+
+-------------
+[Por cuestiones técnicas de Visual BASIC, el artículo se encuentra bajo el
+ nombre de "Mentiras, Escándalos y Roomers de la comunidad anti-virus" en
+este mismo Radiaktivo.]
+-------------
+
+   Este artículo es impactante, es tan emocional y dice tanto que debería
+llamarse: "The virus writer manifiesto". Tal vez en el próximo ERN saque la
+traducción del artículo que sirve como continuación llamado: "To sara gordon
+Or Not To sara gordon, That Is The Question", es la respuesta de Sara Gordon
+al artículo anterior. Bastante interesante... Por cierto, para los que no
+sepan, Sara Gordon es una señora que tiene un programa (o tenía, no se en la
+actualidad) llamado VSUM, que decía ser una base de datos de todos los virus
+existentes, la verdad, no tiene tantos...
+
+-------------------------------------
+¿Qué cosas importantes ha hecho NuKE?
+-------------------------------------
+
+   ¡Uuuuuff! ¡Había que listar lo que no hizo! Bueno, las contribuciones de
+NuKE son unas de las pocas que se pueden contar como de relevancia mundial e
+impacto gigantesco. Algunas de ellas:
+
+O Bypass Trojan: Un trojan que sirve para accesar ilegalmente a muchas PBX y
+  BBS.
+O El código fuente del virus HIV.
+O Curso de programación en Turbo Pascal.
+O Noxious Trojan, Creator Trojan, Scanner Trojan, Infector Trojan.
+O El virus "Sicilian Mob Ia", INDETECTABLE por mucho tiempo.
+O Parasite virus. INDETECTABLE por mucho tiempo.
+O Backdoor creator for Telegard systems, Corrupt Trojan.
+O The Trojan generator: Un generador automático de trojans (bastante
+  interesante por cierto, bájalo de cualquier sitio de virus).
+O Toneladas de cursos de hacking, phreaking, carding, cracking, etc.
+O Virus Creation Laboratory: Esto fue impresionante, un programa con IDE para
+  hacer virus automáticamente y a tu gusto sólamente seleccionando las
+  opciones que quieres (encriptado, bomba de tiempo, infector exe...). Causó
+  IMPACTO MUNDIAL, lástima, gracias a eso los virus creados con esto son
+  detectados inmediatamente. Y tampoco salió la prometida versión 2 de este
+  magnífico software.
+O The NoWhere Utilities: Unas utilidades exelentes! Sirven para cualquier
+  hacker, aparte de que están programadas de una manera exelente ¡Bájalas ya!
+O Los virus NuKE POX (mundialmente conocidos).
+O La famosa red NuKE-NET.
+O La construcción de una Red Box accesible y sencilla, lástima que esa
+  información sea obsoleta para este tiempo.
+O Un programa para extraer cadenas haxadecimales de virus desconocidos.
+O La desensablación de las scan-strings de McAfee: IMPACTANTE! HECHO MUNDIAL!
+  Busca en este artículo más información.
+O Virus Daemaen.
+O Dieron entrevistas para muchos periódicos, revistas, programas, etc. (Hace
+  no mucho vi uno en PC Computing, busca en tu archivero viejo a ver si lo
+  encuentras.)
+O Virus varicella y varicella ][
+O The visible mutation engine.
+O Las scan-strings de ThunderByte anti-virus.
+
+
+--------------------------
+SCAN v100 Virus Signatures
+--------------------------
+
+   Una cosa por la que NuKE será recordado para siempre es por tumbarles el
+teatrito a las compañías anti-virus. Esta vez se pasaron de la raya.
+
+   Verán, los anti-virus funcionan de la siguiente manera: La compañía atrapa
+un virus que no tienen, lo desensamblan y luego le ponen al software
+antivirus un trozo del virus en hexadecimal. Para buscar el virus, el
+programa busca esa cadena hexadecimal en todos los archivos, si la encuentra
+quiere decir que el archivo está infectado. ¿Y qué hizo NuKE? Sacó todas las
+cadenas de McAfee. Las presentaron de la siguiente manera:
+
+Scan ID    Nombre del virus  Firma hexadecimal                               
+~~~~~~~~~  ~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+[WinVir]   WinVir            fc061e07be6e01bf8101
+[Cf]       Coffee Shop       e03d0a03726cb8da33cd2180fca5
+[Otto]     Otto              01a2ff0056b9600281c6
+[J4J]      Jump4Joy          b8c7078bd889c1053936cd21
+[I9]       Ice 9             bf100303feb099b971008a25
+[Tab]      Tabulero          1e6a0003c32ea311002ea16c00
+[Tab]      Tabulero          8c06cf00be9c0033c08ed8bf8f43
+
+etc.
+
+   ¿Qué provocó esto? Sucesos inesperados y situaciones graciosas de las
+cuales hablaré después... por lo pronto ya saben algo más de este
+todo-poderoso grupo.
+
+___________________________
+El Radiaktivo Newz Team, 1999
+
+Para conseguir las revistas y artículos anteriores dirígete a:
+http://ernt.piratas.org
+
+Para contactar a ERNT: <ernt@bigfoot.com>
+
+Copyright 1999 ERNT <ernt@bigfoot.com>
+
+Este artículo es libre para que tu puedas mandarlo, pegarlo, copiarlo y
+reproducirlo siempre y cuando dejes esta nota al final, pero por ningún
+motivo te estará permitido cobrar por su distribución.
+
+               ##########  ##########  #####   ####  ##############
+               ##### ####  ##### ####  ######  ####  #### #### ####
+               #####       ##### ####  ####### ####       ####
+               ##########  #######     ##### ######       ####
+               #####       ##### ####  #####  #####       ####
+               ##### ####  ##### ####  #####   ####       ####
+               ##########  ##### ####  #####   ####       ####
+
+=EOF=

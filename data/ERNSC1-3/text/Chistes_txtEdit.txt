@@ -1,0 +1,699 @@
+El Radiaktivo Newz Team presenta:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                +--------------------------------------------+
+                |       La escena del hacking en México      |
+                |                por BadBit                  |
+                +--------------------------------------------+
+
+
+
+ /---------------------------------------------------\
+ | ¿Exactamente de que se va a hablar en este texto? |
+ \---------------------------------------------------/
+
+     Pues aquí se explica cómo está la comunidad hacker en México. La verdad
+hay buenos hackers en nuestro país, sólo que se han enfocado al vandalismo
+y modificación de páginas, lo cual el considerado de lamers en otros países.
+Yo he tenido la suerte de conocer a varios de ellos y platicar con ellos, me
+han invitado a formar parte de su grupo pero nunca les he dado respuesta.
+Espero que no los comprometa con las autoridades por hablar de esto.
+
+
+ /--------------\
+ | Antecedentes |
+ \--------------/
+
+     La primera vez que oí hablar de hackers mexicanos fué por medios "ofici-
+ales", un noticiero de Abraham Zabludowzki, dado que él no es experto en
+asuntos de la cultura underground cometió varios errores. Lo que dijo fué
+que una página del gobierno mexicano fué atacada por "piratas" informáticos
+los cuales modificaron la página (yo alcanzé a distinguir una "carita feliz")
+y dejaron una imagen que decía "X-ploit", yo me dí cuenta que ese era el
+nombre del grupo, pero Abraham dijo que podía ser "una señal de triunfo",
+otro dato que pude sacar era que la hackeó un tal LoTeK. Esa noticia me
+dejó intrigado (Mencioné esta noticia en El Radiaktivo Newz número 1 año I).
+Pero hasta ahí llegó, no volví a sacar más información sobre X-ploit hasta
+el lunes 21 de septiembre de 1998, día en el cual salió el siguiente
+artículo (se dejaron las faltas de ortografía):
+
+=============================================================================
+
+                    X-plot un grupo de hackers mexicanos
+
+ +-------------------------------------------------------------------------+
+ | EL GRUPO MEXICANO de piratas cibernéticos X-ploit perpetró hoy su sexto |
+ | ataque contra instituciones gubernamentales, ahora contra la página en  |
+ | Internet del municipio de San Pedro Garza García, Nuevo León, lugar de  |
+ | residencia de LOS MÁS RICOS industriales regiomontanos.                 |
+ +-------------------------------------------------------------------------+
+
+  (Revista proceso)-MEXICO, D.F.- "Esta es nuestra protesta", afirma el grupo
+en el desplegado con el que sustituyó la información oficial del ayuntamiento
+presidido por la pansita María Teresa Madero.
+
+  "Nestra afiliación no es ninguna, no pertenecemos al EZLN (Ejército
+Zapatista de Liberación Nacional), pero este es nuestro derecho de libre
+expresión como mexicanos."
+
+  X-ploit está integrado por jóvenes mexicanos, según comentó a Proceso uno
+de los miembros del grupo que se identificó como como Lo Tek. Sus ataques
+consisten, básicamente, en sustituir la información oficial que aparece en
+las páginas gubernamentales en Internet con desplegados a favor de la lucha
+zapatista o de alguna causa social.
+
+  Hasta el momento, se tienen documentados ataques de este grupo en contra de
+la Secretaría de Hacienda y Crédito público, el 4 de febrero; la Comisión
+Nacional del Agua, el 23 de abril; el Instituto Nacional de Estadística,
+Geografía e Informática, el 29 de abril; el Senado de la República, el 25 de
+mayo; y la Secretaría de Salud, el 14 de julio.
+
+  En esta ocasión X-ploit presentó su propia versión del grito de la
+independencia:
+  "¡VIVA MEXICO VIVA!; ¡VIVA LA REVOLUCION VIVA!; ¡VIVA LA INDEPENDENCIA
+VIVA!; ¡VIVA UN MEXICO MEJOR VIVA!; ¡VIVA LA PATRIA Y LA LIBERTAD VIVA!"
+
+  En su proclamado señala:
+  "Recordamos a los héroes que nos dieron patria, que nos dieron libertad,
+que nos dieron independencia.
+
+  Hoy proclamamos la independencia del gobierno corrupto y traidor.
+
+  Hoy declaramos Internet territorio libre del yugo gubernamental, del
+hermano mayor, y convocamos a todos los hermanos hackers de nuestro
+país a seguír con esta lucha, que iniciamos ahora, tomando como nuestro,
+este territorio con fronteras virtuales, que sin embargo, se extiende a
+nuestra patria misma. "Basta de mentiras, violencia, corrupción; defendamos
+nuestra libertad, nuestras garantías, nuestro derecho a levantar la mano
+y protestar de los funcionarios que han hecho de México su circo,
+por nuestro país, por un cambio. Este es sólo el principio de la lucha.
+
+  "X-PLOIT TEAM 100% MEXICANO.
+  "Mexico para los mexicanos e Internet para X-Ploit.
+
+  "Saludos a la gran escena de hackers en todo el mundo."
+
+  Asimismo, en el lenguaje característico de los ciberpiratas, asienta:
+"Gr33tz t0 X-P10it p30pl3 4r0nud d4 w0r1d! (Greets to X-ploit people around
+the world!:
+  Saludos a la gente X-Ploit alrrededor del mundo)".
+
+  Entrevistado por Proceso, "LoTeK" dice desconocer si sus protestas sirven
+de algo: "Simplemente nos hemos querido manifestar y que nos escuchen. Este
+ha sido un medio que nos ha permitido de manera exelente ser escuchados.
+
+  "No son protestas aisladas, creemos que mucha gente piensa igual que
+nosotros, así que sólo decimos lo que pensamos. Aquí no nos han podido
+censurar." La dirección de San Pedro es: www.sanpedro.gob.mx
+
+=============================================================================
+
+
+ /-------------------------\
+ | Hackers que he conocido |
+ \-------------------------/
+
+     En mi travesía por el mundo underground me he topado con algunos hackers 
+mexicanos por IRC (Internet Relay Chat), afortunadamente, he grabado las
+conversaciones que he tenido con ellos, he decidido presentarlas pero con
+modificaciones para no comprometer su identidad (y la mía). Para los que
+jamás han charlado por IRC, ahí les va la explicación:
+
+     El texto a continuación es llamado "buffer", el cual contiene toda la
+información sobre el "canal", o "salón" en el cual se está charlando (chat=
+charlar). Los nombres de los usuarios están entre signos de menor y mayor
+que (<>) o paréntesis angulares, a continuación del nombre del usuario está
+lo que está "diciendo", los usuarios que ya han chateado por IRC, notarán las
+pláticas están completamente sincronizadas ya que yo las acomodé para que
+tuvieran una sequencia lógica. La fecha tampoco es la correcta debido a
+razones que no son de su incumbencia:
+
+=============================================================================
+
+Start of #hackers buffer: Fri Nov 02 09:39:30 1990
+*** Now talking in #hackers
+*** max-18 (fsd@canc3-171.telmex.net.mx) has joined 
+#hackers
+<BadBit> Hola
+<BadBit> Buscas algo de hacking?
+<BadBit> EH?
+<max-18> tienes tu?
+<BadBit> Si
+<BadBit> De todo
+<BadBit> Usas linux?
+<max-18> no que es eso?
+<BadBit> Un sistema operativo
+<BadBit> Mucho mejor que windows
+<BadBit> Lo estoy bajando en este momento
+<BadBit> Está chilo!!!
+<max-18> ok. que bien 
+<BadBit> Que sistema usas?
+<max-18> yo windows95 
+<max-18> y que sistemas usas?
+<BadBit> Windows 98
+<BadBit> UNIX
+<BadBit> Linux
+<BadBit> DOS
+<BadBit> 4DOS
+<BadBit> y otros mas desconocidos
+<max-18> ok. que padre
+<BadBit> Windows 95 está bien
+<BadBit> Pero Windows 98 es una porquería
+<max-18> :)
+<BadBit> Te paso algo?
+<BadBit> SI
+<max-18> que me vas a pasar?
+<max-18> que me vas a pasar?
+<BadBit> Lo que quieras
+<BadBit> Que te gustaría?
+<max-18> algo que cambie mi dns
+<BadBit> Ummmm...
+<max-18> que no muestre mi direccion verdadera
+<BadBit> HakTek
+<BadBit> Eso sirve
+<max-18> pasamelo please
+<BadBit> Recive esto primero
+<BadBit> Va
+<max-18> ok. thx
+<max-18> como te llamas?
+<BadBit> Nombre real?
+<max-18> asi es
+<BadBit> No te lo puedo decir
+<max-18> de donde eres?
+<max-18> de donde eres?
+<BadBit> Mexico
+<max-18> ok.
+<max-18> tu te reunes en le zocalo?
+<BadBit> Zocalo?
+<BadBit> No soy del DF
+<max-18> ok. 
+<max-18> hay una cosa que te agradeceria mucho si me lo 
+  puedes pasar
+<max-18> hay una cosa que te agradeceria mucho si me lo 
+  puedes pasar
+<max-18> please
+<BadBit> QUe?
+<BadBit> Te paso lo que quieras
+<BadBit> En este momento mi conexion esta en turbo
+<max-18> algo para que llame gratis a donde sea
+<BadBit> Tengo lo que ocupas
+<BadBit> Un Ccg
+<BadBit> Va
+<max-18> que paso?
+<BadBit> Va
+<BadBit> Ahi va el CCG
+<max-18> ok. thx
+<BadBit> Oye donde vives? esa informacion me sirve para 
+  saber si lo vas a poder usar
+<max-18> en XXXXXX :o) y en XXXXXX
+<BadBit> Esque esto sirve para telefonos de EUA
+<BadBit> No hay algo para mexico
+<max-18> OK. :o(
+<max-18> tienes alguna cuenta shell para hacer un bot?
+<BadBit> Si
+<BadBit> Te dije que de todo
+<max-18> :o)
+<max-18> que bien 
+<BadBit> Te lo mando
+<BadBit> ?
+<max-18> ok. please
+<BadBit> Bueno
+<BadBit> Pero todavia no te ha llegado el CCG
+<max-18> ok.
+<max-18> como es que sabes mucho?
+<BadBit> Pues me pongo a leer
+<BadBit>  y a usar internet todo el dia
+<max-18> ok.
+<max-18> XXXXXXX XXXXXXXX XX XX XXX?
+<BadBit> (XX XX XXX XXXXXXXX XXXX XX XXXXXXXXXXX 
+  XXXXXXXXXXX XX XX XXXX XXXX XX XXXXXXXX)
+<BadBit> XX
+<BadBit> XXXX XXXXXXX
+<BadBit> XX XXXXXXXXXXXXXXX
+<BadBit> XXXXXX XXX XX XX XXXXXXX, XX XXXXXXX
+<max-18> XX. XXX XXXX 
+<max-18> cuantos años tienes?
+<BadBit> 15
+<BadBit> Fiajte
+<max-18> que padre 
+<BadBit> Y tu?
+<BadBit> Cuantos anyos?
+<max-18> yo 18 años 
+<max-18> oyes 
+<max-18> por que me enviastes tantas cosas?
+<BadBit> Porque quiero ayudar
+<BadBit> Que mas te mando?
+*** kvnfl (XXXXXX@XXX.XX.XXX.XXX) has joined #hackers
+<BadBit> Hola
+<kvnfl> hola
+<max-18> pero el egdrop es para linux no?
+<BadBit> No
+<BadBit> Es para DOS
+<max-18> y como funciona?
+<BadBit> Te hace preguntas
+<BadBit> Nada dificil para ti
+<max-18> ok. 
+<BadBit> Que mas te mando?
+<max-18> un portscan efectivo please
+<kvnfl> el 7th spheare
+<max-18> nop
+<BadBit> Va
+<max-18> :o(
+<BadBit> El protscan
+<BadBit> portscan
+<max-18> mmm.... algun ftp chingon
+<max-18> mmm.... algun ftp chingon
+<max-18> que acceda a maquinas sin permiso
+<BadBit> EL sagado BACK ORIFICE
+<kvnfl> alguien tiene el BO?
+<BadBit> YO!!!!
+<kvnfl> sip
+<BadBit> El haktek es un portscan
+<kvnfl> me lo podrias pasar?
+<BadBit> Que el BO?
+<max-18> pasalo please entonces
+<BadBit> Va
+<BadBit> Ya va
+<kvnfl> badbit tenes el BO y no sabes que es?
+<BadBit> Si se
+<BadBit> como que no?
+<kvnfl> alguien sabe bastante sobre IRC WAR?
+<BadBit> Yo
+<BadBit> Yo tengo todo
+<kvnfl> Como metes un Clon?
+<BadBit> Aquí?
+<max-18> jajajaaajajaja
+*** lamer (XXXXX@XXX.XX.X.XX) has joined #hackers
+<kvnfl> no en cualquier canal.
+<lamer> Hi!
+<BadBit> Fuera LAMER
+<kvnfl> sos un Lammer?
+<lamer> Para nada..
+<BadBit> FUERA
+<kvnfl> sabes que es un Lammer?
+<lamer> Pasa que vi el nombre y me lo puese pero no 
+  soy, es más no se que es un Lammer..
+<BadBit> Uffffff
+<lamer> Podrian explicarme?
+<BadBit> Si
+<BadBit> Alguien que cree que es superior
+<kvnfl> son una KAKKA
+<BadBit> pero es una basura
+<BadBit> se creen mucho
+<max-18> lamer
+<max-18> chales
+<kvnfl> un grano en el trasero
+<lamer> Ah! jijos, no soy de ellos..
+<BadBit> Cambiate el nick
+<kvnfl> cambiate el Nick
+<lamer> orale ahora vuelvo..
+<kvnfl> BadBit me decis como?
+<BadBit> Como que?
+*** kvnfl is now known as wuile
+<wuile> como se mete un Clon
+<BadBit> Bien
+<wuile> no aca
+<BadBit> Quien eres?
+<wuile> es para saber
+<BadBit> Un clon?
+<BadBit> Ah
+<BadBit> Si
+<BadBit> Con un programa
+<BadBit> que tengo
+<wuile> no para,
+<wuile> no soy un clon
+<BadBit> que no te puedo mandar porque ya me voy
+<wuile> soy 
+<wuile> yo
+<BadBit> Denme su e-mail y les mando lo que me pidan
+<wuile> para
+*** Chequin (XXXXX@XXX.XX.X.XX) has joined #hackers
+<wuile> pero se puede hacer manualmente?
+<BadBit> Se me hace
+<BadBit> Cargando otro mIRC
+<Chequin> Ya estoy aqui...
+<BadBit> Hola
+<BadBit> No eres lamer?
+<BadBit> Te veo esa cara
+<Chequin> Oye bad, tenes por ahi algun serial de publisher98..
+<BadBit> Tengo TODO
+<BadBit> Ahi te va la lista de seriales
+<Chequin> Si, soy el que entro con el nick de Lamer pero no soy 
+  de ellos..
+<Chequin> Orale, pasa que consegui una lista pero no jala..
+<BadBit> Perdonen pero me voy
+<Chequin> Gracias..
+<BadBit> Denme su mail rapido!!!!!!!!
+<BadBit> Please!!!!!!!
+<Chequin> No le cortes.
+<Chequin> XXXXXX@XXXXXXXXX.XXX.XX
+<Chequin> Mandalo por mail..
+<wuile> hace un whois
+<BadBit> Ok
+<BadBit> A ver si alcanso a mandartela
+<BadBit> sino reparala con el pkfix
+<wuile> Badbit no iras a hacer mailbombing?
+*** Disconnected
+End of #hackers buffer    Fri Nov 02 09:39:30 1990
+
+    Aquí fué donde conocí a varios "newbies" (principiantes), pero max-18 me
+presentó a otros más expertos (para este punto, max-18 me había hablado de
+un grupo de hackers llamado raza-mexicana):
+
+Start of max-18 buffer
+Session Ident: max-18 (XXXXXXX@XXXX-XX.XXXXXX.XXX.XX)
+<BadBit> Hola
+<BadBit> Hey
+<max-18> hola 
+<max-18> que onda
+<BadBit> Que paso?
+<BadBit> No pude venir al canal
+<BadBit> cuando me dijiste
+<max-18> como?
+<max-18> que onda
+<BadBit> ME dijiste de un grupo no?
+<max-18> asi es men 
+<max-18> ellos son 
+<max-18> tods los de aca
+<BadBit> Bueno pues, le entro
+<BadBit> Que tengo que hacer?
+<max-18> habla con Xdawn 
+<max-18> el es el masiso 
+<max-18> dile que quires entrar aca 
+<max-18> y que sabes de esto 
+<max-18> no se habla con el 
+<max-18> en privado 
+<BadBit> Porque?
+<BadBit> Eh?
+<max-18> que paso?
+<BadBit> Porque no se habla con el en privado?
+<max-18> no lo se 
+<max-18> mandale un query
+<BadBit> Ya
+<max-18> ok. 
+<max-18> men habla con el  
+<max-18> aver qu eonda 
+<max-18> pero el chiste es que entres diario aca 
+<max-18> bueno no diario pero seguido
+<BadBit> No puedo
+<max-18> bueno constante
+<max-18> baya
+End of max-18 buffer
+
+     Después entré al canal llamado #raza-mexicana para hablar con xDAWN:
+
+Session Start
+*** Now talking in #raza-mexicana
+<BadBit> Hola
+<BadBit> Hola mac-18
+<BadBit> max-18
+<max-18> que onda Badbit
+<xDAWN> ke pedo
+*** He|io (XXXXXXXXXX@XXXX-XX.XXXXXX.XXX.XX) has joined #RaZa-Mexicana
+*** Clown (XXXXXXX@XXXX-XX.XXXXXX.XXX.XX) has joined #raza-mexicana
+<Clown> holas
+<BadBit> Hola
+<xDAWN> donta el puto machete
+<Clown> ese xdawn?
+<Clown> eso iba a preguntar!!
+<xDAWN> ah chinga, ke no esta en XXXXXX?
+<max-18> Badbit es un cuate 
+<Clown> onta ese guey!!
+<max-18> que sabe bastantito la verdad
+<max-18> o mas talves 
+<Clown> nel!!!
+<xDAWN> ke tal badbit
+<Clown> ese cuate esta en XXXXXX!!!
+<xDAWN> ya esta en XXXXXX!! ? chale
+<BadBit> BIen
+<BadBit> Ando bein
+<Clown> eso me conto la ultima vez
+<[ZoOmBi]> alguien sabe de algun buscador de libros en español??
+<[ZoOmBi]> alguien sabe de algun buscador de libros en español??
+<BadBit> Nadie
+<[ZoOmBi]> alguien sabe de algun buscador de libros en español??
+<BadBit> Yo no
+<xDAWN> zombi: la biblioteca
+<xDAWN> zombi: la biblioteca de la kasa de la kultura :P
+<Yo_Soy> humm
+<Yo_Soy> yo tenia uno
+<Yo_Soy> pero perdi mis bookmarks
+<Yo_Soy> :(
+<[ZoOmBi]> ok si encuentran uno me avisan seguiere buscando
+<Clown> al nuevo de rare o un boletin de raza?
+<BadBit> Ey Yo SOy, no uses el nombre de Dios
+<xDAWN> a la orden patron
+<Yo_Soy> rare ?
+<xDAWN> jeje
+<Clown> UUuuuUUuuuchas!
+<Clown> perdon!!!
+<xDAWN> dios¿? ke dios?
+<Yo_Soy> no lo uso con ese fin
+<BadBit> No?
+<BadBit> Entonces?
+<xDAWN> este es un kanal de dioses, kual es el pedo
+<Clown> jajajajaja
+<Yo_Soy> solo por nick, yo soy, tu eres, etc.
+*** rubem (XXXXX@XXXXXXXX.XXXXXXXX.XXX.XX) has joined #raza-mexicana
+<Yo_Soy> no estoy diciendo ke yo soy yo soy
+<BadBit> Ok
+*** max-18 (XXXXXXX@XXXX-XX.XXXXXX.XXX.XX) has joined #raza-mexicana
+<max-18> me cai feo 
+<max-18> jajajajaaja
+<max-18> que onda 
+<BadBit> Si?
+<kobe> jeje
+<max-18> op me ¡¡¡¡
+<kobe> un cabron que se cre hacker
+<kobe> por tener el netbus XD
+<xDAWN> XD
+<kobe> <kobe> eres hacker =(
+<kobe> <kobe> tienes el netbus =((
+<kobe> <[israel]> jaja
+<kobe> <[israel]> si lo tengo
+<kobe> <[israel]> sabes para que es??
+<Yo_Soy> XDD
+<Yo_Soy> kobe, tienes la url de Ihor ?
+<kobe> NELson mandela
+<max-18> thx
+*** Disconnected
+Session Close
+
+     Después de esto hablé con xDAWN:
+
+Start of xDAWN buffer
+Session Ident: xDAWN (XXXXX@XXXXXXXX.XXXXXXX.XXX.XX)
+<BadBit> Oye
+<BadBit> mx-18 me dijo de un grupo de hackers al 
+  que quiero entrar
+<xDAWN> kual? XD
+<BadBit> max-18
+<BadBit> Le pasé unos programas y se emociono
+<BadBit> Y me dijo que si no queria entrar
+<xDAWN> ke programas?
+<BadBit> Portscanner, IP spoofer, etc.
+<BadBit> Para hackear
+<xDAWN> es newbie
+<BadBit> El?
+<BadBit> Y tu?
+<xDAWN> yo ke
+<BadBit> Eres newbie?
+<BadBit> Puedo entrar al equipo?
+<xDAWN> kuanto llevas?
+<BadBit> De que?
+<xDAWN> en el hacking, pues
+<BadBit> Ya tiempo
+<BadBit> Como un año
+<xDAWN> www.bigfoot.com/~raza-mexicana
+<xDAWN> si kieres ayudarnos, hechale una mirada al 
+  boletin y empieza a eskribir algo XDD
+<BadBit> Ummm..
+<xDAWN> el nivel del boletin es newbie, lo vamos a 
+  subir de nivel poko a poko
+<BadBit> Yo tengo mi revista
+<BadBit> Se llama El Radiaktivo Newz
+<xDAWN> los textos son nuestros, no kopies y 
+  pegues, solo lo ke sabes...
+<BadBit> Ha tenido buena aceptacion
+<xDAWN> kual es?
+<BadBit> Te la mando?
+<xDAWN> este es un boletin para la raza, no 
+  precisamente una revista
+<BadBit> Ok
+<xDAWN> si kieres entrar al kanal, entrale, nos 
+  reunimos por las noches
+<BadBit> Luego te hablo
+<BadBit> Te informo
+<xDAWN> url?
+<BadBit> Url de la revista?
+<BadBit> Mi dirección de internet es http://www.geo
+  cities.com/neighborhoods/SiliconValley/Garage/850
+  9/badbit.htm
+<BadBit> Pero te estoy mandando la revista
+End of xDAWN buffer
+
+
+     Después de eso, no les he dado respuesta, y creí que eran cualquier
+grupo de hackers, nada especial. Pero todo cambió cuando en la página de
+2600, ví la página hackeada del Tec. de Monterrey, y ¿Adivinen quién la
+hackeo?
+
+=============================================================================
+                            _________EDUCACIÓN CON DESPRESTIGIO INTERNACIONAL 
+     _________________________________Los estudiates Hack3rs de universidades 
+               exigimos mas becas y mejores Nenas , ke se pudra el gobierno y
+            TELMEX nos robo, nos roba y nos seguira robando ke poca madre !!! 
+
+
+                        This page was Hacked! by 
+
+                               altekx_H3z
+
+
+                    Somos la generacion del cambio...
+ 
+                    Somos la generacion del futuro...
+
+           Somos kienes guiaremos al mundo hacia el nuevo milenio 
+
+
+
+                           GREETINGS OFICIALS:
+
+      MegaFlop, xDAWN , AcidGun,.YO_Soy, Dacure, Sufferboy, Pablojuan, Raw 
+
+                                 X-TRAZ:
+
+         Phr33_man,, OP_killer, RaKs0, Hak, DxDAn, Darkn33s-J.
+
+                                 Groups:
+
+          RAzaMexicana, Ignition , X-ploit, Raregazz, M0skos,
+
+                               100% Mexicans
+
+
+
+                      kieres conocerme pues aki estoy
+
+
+                              ---------------
+                                 <imagen>
+                              ---------------
+
+
+
+            Hack3d DEdicado a los MEeting 2600 de todo el Mundo !!!
+
+=============================================================================
+
+
+     Uno no se da cuenta cuánto está involucrado en el hacking hasta que pasa
+algo como esto. Por cierto, buscando un poco más, también encontré la página
+hackeada por X-Ploit, la cual pongo a continuación.
+
+=============================================================================
+__________________
+    Parental     |
+-----------------|
+    ADVISORY     |
+-----------------|
+Explicit contents|
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+
+                                          t
+                                        i
+                                      o
+                                    l
+                                  P
+                                -
+                              X
+
+
+                               ! X-Ploit Team ¡
+
+                       100% Mexicano y 100% El mejor !!
+
+
+                             Este es Nuestro GRITO
+                        !!!!!! VIVA MEXICO VIVA !!!!!!
+                   !!!!!! VIVA LA REVOLUCION VIVA !!!!!!
+                  !!!!!! VIVA LA INDEPENDENCIA VIVA !!!!!!
+                   !!!!!! VIVA UN MEXICO MEJOR VIVA !!!!!!
+              !!!!!! VIVA LA PATRIA Y LA LIBERTAD VIVA !!!!!!
+
+
+ Intro. Nuestra afiliación no es ninguna, no pertenecemos al EZLN, pero este
+           es nuestro derecho de libre expresión como mexicanos.
+
+                 Gr33t2 t0 X-P10it p30pl3 4r0und d4 w0r1d!
+
+
+                   " Te están mirando gran hermano =P' "
+
+                      " Esta es nuestra protesta "
+
+
+                  Hackeada por: LoTek, LeadRain, DES.
+
+
+          4.Febrero.98 - Secretaría de Hacienda y Crédito Público
+                23.Abril.98 - Comisión Nacional del Agua
+   29.Abril.98 - Instituto Nacional de Estadística Geografía e Informática
+                  25.Mayo.98 - Senado de la República
+                  14.Julio.98 - Secretaría de Salud
+
+
+                    El dominio .GOB.MX es NUESTRO.
+
+    Recordamos a los héroes que nos dieron patria, que nos dieron libertad,
+                      que nos dieron independencia.
+       Hoy proclamamos la independencia del gobierno corrupto y traidor.
+     Hoy declaramos InterNet territorio libre del yugo gubernamental, del
+      hermano mayor, y convocamos a todos los hermanos hackers de nuestro
+   país a seguír con esta lucha, que iniciamos ahora, tomando como nuestro,
+   este territorio con fronteras virtuales, que sin embargo, se extiende a
+ nuestra patria misma. Basta de mentiras, violencia, corrupción; defendamos
+  nuestra libertad, nuestras garantías, nuestro derecho a levantar la mano
+       y protestar de los funcionarios que han hecho de México su circo,
+   por nuestro país, por un cambio. Éste es sólo el principio de la lucha.
+
+
+                      [X-PLOIT TEAM] - 100% MEXICANO
+
+
+
+           "México para los mexicanos e Internet para X-Ploit !!"
+            Saludos a la gran escena de hackers en todo el mundo.
+                              Septiembre 1998.
+
+
+  Salu2 a scitum sigan monitoreando a lo mejor desquitan lo que les pagan !!
+
+ Supporting Free
+Speech on the Net
+
+                                   MAIL
+                             (x_ploit@hotmail)
+=============================================================================
+
+     Un dato muy curioso es que X-Ploit hackeó esta página el día de la
+independencia de México (día festivo), por lo cual los operadores del sitio
+no estaban, y el sitio siguió ahí todo el día.
+
+     Esto es lo más relevante del hacking en méxico. Espero que me hayan
+entendido, si no, por favor escriban a: badbit@yahoo.com
+
+-----------------------------------------------------------------------------
+Copyright (C) 1999 El Radiaktivo Newz Team
+Written by BadBit: badbit@yahoo.com
+Members:
+BadBit: badbit@yahoo.com
+DJ-HELL: dj-hell@yahoo.com
+Target: ftopete@yahoo.com
+
+                          0101001001010100100101
+                          10       0       1  01
+                          11     B@dbit       00
+                          01           1      10
+                          10 0           .... 10
+                          :101010 01011010111101

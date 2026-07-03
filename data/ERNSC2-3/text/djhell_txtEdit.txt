@@ -1,0 +1,249 @@
+                                    § Welkome To The HELL §                Formato Rekomendado
+                                      ---===DJ-HELL===---                    800 X 600 pixeles
+--==ERNT==--
+--==1999==--
+
+KoNTeNiDo:                           ____________________
+=Los Progamas + K-Brones Para Mp3   |     |     == |     \
+=Reflekcion Sobre Las mujerez       |     |     == |     |
+=Kambiando La Apariencia De Windows |     |     == |     |
+=Cocacola La Kompañia Demoniaca?    |      --------      |
+=Komandos IRC                       |                    |
+                                    |   ______________   |
+                                    |  |              |  |
+                                    |  | --==ERNT==-- |  |
+                                    |  |              |  |
+                                    |  |  RePoRTe #8  |  |
+                                    |0  --------------  0|
+                                     ~~~~~~~~~~~~~~~~~~~~
+============================================= 666 ===============================================
+Los programas mas k-brones para aser mp3:
+
+1.-Windac32:
+   Este programa funciona kasi kon kualkier tipo de unidad se cd de 2x a 100x,se enkarga de
+   kopear direktamente del cd a la komputadora en formato wav de 16 bits estereo (kalidad de cd)
+Komparacion:
+
+si la kancion del cd dura 3 min windac la kopea a tu disko duro el 50 seg (dependiendo del las X
+de tu unidad de cd) en este kaso son 40x.
+Asi la kancion keda en tu disko duro okupando un espacio de "34mb" (segun el ejemplo anterior)
+kon karakteristikas de 16 bits stero y 44,100Htz de kalidad
+
+2.-Tompg:
+   Este programa es un kompresor mpg de ms-dos (muy bueno) pero los komandos tienen ke 
+   introducirse a mano lo kual es muy kansado y tenemos ke despues borrar los *.wav despues
+   de komprimir porke ya no los okupamos
+Sintaxis: 
+Tompg (path_inputfile.wav) (path_outputfile.mp3)
+
+esto ase ke el kompresor komprima al wav a mp3
+
+34Mb.wav = 3.1Mb.mp3
+
+3.-AMPlifire:
+   Esat es una aplikacion para el TOMPG ke ase ke se pueda usar este kompresor en anviente
+   windows , aparte trae opciones komo un  mp3_Player un Decode=Deskomprime mp3 a wav
+   tanvien trae un playlist maker para aser tus listas de mp3 
+   Esta aplikacion automatisa lo komandos de tompg y lo pasa a un ambiente grafiko mas
+   amigable para los usuarios estandar (windows) borra automatikamente los wav despues de
+   komprimir, Komprime a lo ke el usuario desee pero siepre ke se inicia el programa koloka
+   su estandar (ke rekomiedo ke lo usen asi), Muestra la kompresion en la pantaya segun su
+   preferencia
+
+4.-Winamp:
+   El Mp3 player mas famoso del ciberespacio pos sus inmumerables plugins,skin's,DSP/Efects,etc..
+   es el player mas rekomendable para los amantes de los mp3
+
+DeTaLLeS:
+-Este es un freware (gratis) ke se distribuye en un empaketado facil de instalar
+ (winamp_V22.exe)
+-Trae soporte para les extenciones:
+*.Mid = Midi 
+*.Tdk = Musika de CD
+*.wav = sonidos kon exetencion wav
+*.m3u = Play list
+*.mp3 = Musika komprimida en este formato
+*.mp2 = Musika komprimida en este formato
+*.mp1 = Musika komprimida en este formato
+
+Tanvien konsta de un amplifikador, un play list maker y un grafikador de sonido en una pekeña
+ventana ke tiene en la eskina superior iskierda
+
+Kon esto es suficiente para piratearte todos los cd's de tus kompas y konosidos tanvien puedes
+bajar rolas de internet ya komprimidas en formato mp3 (esto es muy konbeniente para konoser 
+grupos nuevo y konsegir rolas de edicion especial o en vivo)
+
+
+http://www.xs4all.nl/~zaaijer/muziek/index.htm
+www.allmp3.com
+www.mp3.com
+
+============================================= 666 ===============================================
+By.            --==DJ-HELL==--                          --==ERNT==--          --==1999==--
+============================================= 666 ===============================================
+ReFLeCCioN SoBRe LaS MuJeReS:
+
+Pues la neta yo no soy el mas apropiado para hablar de este tema
+pero tras años de observacion me e dado kuenta de ke tienen su modus vivendus y sus sociedades
+bien definidas.
+
+1.-Una mujer nunka estara kontenta asta ke ella de su opinion
+2.-Una mujer suempre kiere llebar los pantalones en la kasa (por mas ilogiko ke pareska)
+3.-La kantidad de amor resibido departe de una mujer es directamente proporcional a las 
+   kosas ke le regale e inversamente proporcional a si tu la kieres o no
+4.-Una mujer nunka sera lo suficiente mente veya para estar feliz kon su fisiko
+   (aunkesea salma hayek) <-- Echo komprobado sientifika mente
+5.-Mientras mas la kieras ella t kerra menos a ti y si la kieres pokito ella t kerra mas
+   (aunte pareska ilogiko es sierto!!)
+6.-Aunke tu ables y ables, y aunke pareska ke t ponen atencion solo t tiran a loko y se
+   aferran a su opinio personal por mas ekibokada ke pudiese estar
+7.-las 3 mas famosas mentiras de las mujeres
+ *.-T Kiero mas ke a nadie            = Ya Deja De Estar Ch|ng@nd0
+ *.-No ay nadie mas ke tu en mi vida  = Te Engaño IdI0t@!!
+ *.-Boy al kafe kon las amigas        = Me Voy A Pistear Kon Unas(os) Kompas
+8.-Siempre usaran la frase celebre ke todos los hombres konosemos "Dame Dinero Para El Mandado"
+   de la kual no nos podemos eskapar porke entonses serias un mal marido
+9.-Las mujeres tiene karas ke usan para manipular los sentimientos de los hombre komo la kara
+   de ya no me kieres =~( o la de ke esta muy enojada >=/ o la de ese komentario no me gusto =\
+   klaro ke nosotros no lo notamos (mucho no)
+10.-Si no estas deakuerdo kon la mujer t amenasa kon ke ya no abra "Jueves por la noche" };)
+    y eso no lo podemos soportar (ellas lo saven)
+
+
+Los puntos anteriores dan a remarkar lo viktimas ke somos los hombres de las mujeres, abusan de 
+nuestra inosencia y de nuestro buen korazon 
+
+Pero rekuerden ke nadie es indispensable 100% en este mundo!!
+
+| De soledad no se a muerto nadie |
+============================================= 666 ===============================================
+By.            --==DJ-HELL==--                          --==ERNT==--          --==1999==--
+============================================= 666 ===============================================
+Kambiando La Apariencia de windows!!
+
+No se si as notado (kreo yo ke ya lo notaste) ke el 99% de las komputadoras se ven igual en sus
+kolores, tamaños de ventanas, Letra de aplikaciones, Tamaño de ikonos, kolor de lo ke 
+selekcionamos kon el mouse, etc.. (--==TODO==--)
+
+Klaro diras tu, Le pongo el plus a mi makina y se puede kambiar (eso es sierto)
+Pero no t pareseria buena idea jugar kon los tamaños, kolores y las letras de tu windows
+SI??
+pues aki esta lo ke puedes aser:
+
+1.-Presiona en el desktop el segundo boton
+2.-Propiedades
+3.-Apariencia
+
+Ai enkontraras todo lo ke puedes kambiar de letrar, kolores, tamaños, desbanesidos,ETC...
+eJeMPLo:
+                                           _________________________
+                                         _/Lo ke se le puede kambiar\
+Barra de desplasamiento ==============> |-----------Tamaño-----------|
+Barra de titulo aktiva ===============> |-----Tamaño-Fuente-Kolor----|
+Barra de titulo inaktiva =============> |-----Tamaño-Fuente-Kolor----|
+Borde de ventana aktiva ==============> |--------Tamaño-Kolor--------|
+Borde de ventana inaktiva ============> |--------Tamaño-Kolor--------|
+Botones de titulo ====================> |-----------Tamaño-----------|
+kuadro de mensaje ====================> |-----Tamaño-Fuente-Kolor----|
+Elemento selekcionado ================> |-----Tamaño-Fuente-Kolor----|
+Eskritorio ===========================> |------------Kolor-----------|
+Espacio entre ikonos (horizontal) ====> |-----------Tamaño-----------|
+Espacio entre ikonos (vertikal) ======> |-----------Tamaño-----------|
+Fondo de aplikacion ==================> |------------Kolor-----------|
+Ikono ================================> |--------Tamaño-Fuente-------|
+Informacion sobre herramientas =======> |-----Tamaño-Fuente-Kolor----|
+Menu =================================> |-----Tamaño-Fuente-Kolor----|
+Objetos 3D ===========================> |------------Kolor-----------|
+Titulo de paleta =====================> |--------Tamaño-Fuente-------|
+Ventana ==============================> |------------Kolor-----------|
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+DiBieRTeTe!!
+
+KaUTioN:
+Si no tienes el plus ay una opcion para guardar tu konfiguracion de kolores tamaños y fuentes
+yamada "Combinacion" ya ke termines de aser tu movimiento guardalo en "Guardar Como" para ke no
+se pierda tu konfiguracion 
+============================================= 666 ===============================================
+By.            --==DJ-HELL==--                          --==ERNT==--          --==1999==--
+============================================= 666 ===============================================
+CocaCola sera la kompañia del demonio??
+
+Tu tienes sed y vas a la tienda por tu soda favorita (cocacola), vas al refrijerado,tomas una
+lata de 500Ml y ke ves??
+
+=A santaklos abrasando a una niña y tomando kokakola
+
+Ke tiernos verdad??
+ok dice edicion 1999 kon letras amarillas y kon un dibujito amarillo ariva
+ok esto ke demonios tiene ke ver kon el diablo??!!!
+
+Dicese ke el 666 es el numero de la vestia y se dice ke regresara el primer dia para el fin del
+mundo komo lo konosemos
+
+Se a dicho ke en el 2000 se akabara el mundo pero sea cierto o no lo importante de esto es ke
+en la lata donde deice edicion 1999 el 1 es un numero romano y el 999 no, y el numero 1 esta a
+desnivel de el 999,komo el 1 es romano si lo volteas se ve igual y el 999 ke se enkuentra a
+desnivel se ve komo 666 esti signifika lo ke anteriormente mencione 666I <-- satanas en el
+primer dia de su resurreccion acia este mundo.
+
+Porke diablos aria esto la kokakola??
+Se abla de $$$ proporcionado por asociaciones satanikas de todas partes del mundo y de personas
+adineradas adoradoras de satan
+
+Se toma komo ejemplo de publicidad satanica a la mayonesa
+Hellmans = Hell-Mans  <--- ke diablos estamos ciegos!!!
+
+Buske una razon logika para publicitar a ZatanaZ!
+Realmente se akabara el mundo?
+Ay algo ke no sepamos y los de religiones distintas si?
+
+Esto no es algo sorpendente para los ovservadores ay mucho mas de esta publicidad satanika solo
+abre los OjOs y ponte atento.
+
+Tnx To: Method Mand 1-2 (T.2.J.D)
+
+}=)
+Listos para el 2000??
+Suerte!!
+}=)
+
+[PD por BadBit: En el último meeting de ERNT, le avisé a todos los presentes que en la
+ etiqueta de Coca-Cola mencionada aquí se puede observar claramente a un niño sentado encima
+ del demonio si juntan las caras de las dos niñas. Más información sobre esto en otro artículo.]
+
+============================================= 666 ===============================================
+By.            --==DJ-HELL==--                          --==ERNT==--          --==1999==--
+============================================= 666 ===============================================
+Komandos IRC para principiantes (Si eres de los IRCop's o master chanel ni lo leas)
+
+/list   <-- para mostrarte las listas de kanales de el servidor al ke estes konektado
+/quit Mensaje  <-- para mostrar mensaje de despedida y deskonektarte (En mensaje po tu despedida)
+/j #Canal   <-- sirve para unirte a un Canal Ejemplo (/j #Mexicali o /join #Mexiko)
+/dns NICK   <-- Sirve para darte el IP de el nick ke le pongas
+/whois NICK  <-- Sirve para darte la informacion de ke kanales esta konektado,Host,ip,server,etc.
+/msg NICK  <-- Mandas al NICK a un privado
+/notice NICK  <-- Le mandas un mensaje ke aparece en sus privados y en sus kanales ke solo el ve
+-------------------------------------------- k9 -------------------------------------------------
+Los ke puedes usar sin access
+k9 help (commando) <-- si tienes una duda de algun komando pones el komando despues de k9 hellp
+k9 banlist <-- T da la lista de Bans de el k-nal
+k9 access NICK  <-- T dice si el NICK tiene access
+
+Los ke okupan access en diferentes niveles
+k9 ban NICK  <-- Korre Indefinidamente a algien de el kanal
+k9 kick NICK  <-- Saka a algien de el kanal pero le permite volver a entrar
+k9 comment (Mensaje)  <-- Pones un mensaje ke kada ke entres k9 lo diga
+k9 unban (ident)  <-- Desbanea el ident (kon k9 banlis t da el ident baneado) baneado
+k9 invite NICK  <-- Invita a el NICK a el kanal en ke pongas ese komando
+k9 say (Mensaje) <-- Tienes ke tener access 500 (dueño de el kanal), K9 dise el mensaje
+k9 join #canal  <-- k9 entra al kanal (access 500)
+
+============================================= 666 ===============================================
+By.            --==DJ-HELL==--                          --==ERNT==--          --==1999==--
+============================================= 666 ===============================================
+
+NoTa: Kon respekto al numero pasado,2 kosas
+1.-A kien chingados le importa kien es el karn evil 9 (elugar de eskribir algo UTIL!!)
+2.-El IRC No es algo muy undergrownd pero es algo ke muchos deskonosen su potencial
+Aparte esta no es una revista para la ELITE entiende!!

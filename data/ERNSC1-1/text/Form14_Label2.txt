@@ -1,0 +1,3 @@
+         Noticias Pirata.-(E.U.) BadBit paseba por los pasillos de conocida tienda (Wal-Mart) y en las sección de revistas se enteró de algo le le volteó los pulmones. En una revista (que no compró) encontró una clave para accesar a un juego escondido en Excel 97, como en su predecesor Excel '95.
+          Los pasos para entrar son: Entrar a Excel '97, presionar F5, en la línea "ir a" poner X97:L97, presionar OK o Aceptar, presionar TAB, oprimir Ctrl+Shift y mientras se tienen presionados hacer click con el mouse en el botón de Asistente para gráficos (Chart Wizard) Y listo.
+            El juego requiere DirectDraw y 256 colores. Si no se dispone de DirectDraw sólo sale una pantalla mostrando los créditos.

@@ -1,0 +1,107 @@
+CERT Advisory CA-99-04-Melissa-Macro-Virus
+
+Sistemas Afectados
+
+     * Máquinas con Microsoft Word 97 o Word 2000
+     * Cualquier sistema de manejo de correo puede experimentar problemas
+       en el desempeño como resultado de la propagación de este macro virus.
+
+Revisión
+
+   A las 2:00 PM GMT-5 aprox. del Viernes 26 de Marzo de 1999 empezamos
+   a recibir reportes de un Macro Virus de Microsoft Word 97 y Word 2000
+   que se estaba propagando via attachments. El número y variedad de los
+   reportes que recivimos indican que es un ataque diseminado afectando
+   a una gran variedad de sitios.
+
+   Nuestros análisis de este macro virus indican que acción humana (en la
+   forma de un usuario abriendo un documento de Word infectado) es requrido
+   por este virus para propagarse. Es posible que bajo algunas
+   configuraciones, algún usuario automágicamente abra un documento infectado
+   recibido en la forma de un attachment de email. No se sabe si este virus
+   explote nuevas vulnerabilidades. Aunque el mecanismo de transporte
+   primario de este virus es vía email, cualquier forma de tranmisión de
+   archivos también puede propagar el virus.
+
+   Los vendedores de Anti-virus han llamado a este macro virus el macro
+   Melissa o el virus W97M_Melissa.
+
+I. Descripción
+
+   El virus Melissa se propaga en la forma de un mensaje de email
+   conteniendo en documento de Word infectado como attachment. El mensaje
+   portador has sido frecuentemente reportado por tener el siguiente
+   Subject
+
+      Subject: Important Message From <nombre>
+
+   Donde <nombre> es el nombre completo de la persona que envió el mensaje.
+
+   El cuerpo del mensaje es un mensaje MIME multipartido conteniendo dos
+   seciones. La primera sección del mensaje (Content-Type: text/plain)
+   contiene el siguiente texto.
+
+      Here is that document you asked for ... don't show anyone else ;-)
+
+   La siguiente sección (Content-Type: application/msword) fué inicialmente
+   reportada de ser un documento llamado "list.doc". Este documento contiene
+   referencias a sitios web pornográficos. Mientras este virus se propaga
+   esperamos ver documentos con otros nombres. De hecho, bajo ciertas
+   condiciones el virus puede generar attachments con documentos creados
+   por la víctima.
+
+   Cuando el usuario abre un archivo .doc infectado con Microsoft Word97 o
+   Word2000, el macro virus es inmediatamente ejecutado si macros están
+   habilitados.
+
+   Después de la ejecución, el virus primero baja las cofiguraciones de
+   seguridad de macros security para permitir que todos los macros
+   corran cuendo documentos sean abiertos en el futuro. Por lo tanto, el
+   usuario no será notificado de cuando el virus sea ejecutado en el
+   futuro.
+
+   El macro checa el registro para ver si la clave
+
+   "HKEY_Current_User\Software\Microsoft\Office\Melissa?"
+
+   tiene el valor de "... by Kwyjibo". Si la clave del registro no existe
+   o no tiene el valor de "... by Kwyjibo", el virus procede a
+   propagarse mandando un email con el fomato descrito arriba a las primeras
+   50 entradas en cualquier libreta de direcciones MAPI legibles por 
+   el usuario ejecutando el macro. Mantén en mente que si cualquiera de esas
+   direcciones son listas de correo, el mensaje será entregado a todos
+   en la lista. En orden para propagarse con éxito, la máquina afectada
+   debe tener Microsoft Outlook instalado; de todos modos, Outlook no
+   necesariamente tiene que ser el mailer usado para leer el mensaje.
+
+----------------------------------------------------------------------------
+
+Comentarios por El Radiaktivo Newz Team:
+
+   Este macro virus ha sido un éxito, otro logro de la comunidad underground.
+¡Gracias Kwyjiwbo!. Este caso es parecido (pero muy lejos de ser) al de
+Robert J. Morris Jr. Por cierto. a ese Kwyjiwbo yo lo he oído mentar en
+algún lado... ¡Ah!, el fué el autor de unas clases para hacer macro virus,
+en las cuales ni un solo ejemplo servía. CERT devería darse un paseíto por
+los sitios de costrucción de virus, no les haría mal saber que los virus los
+hacen personas.
+
+   Si alguien de pura casualidad recive este virus, mándenolos, necesitamos
+examinarlo y ponerlo en nuestra colección (Ja! Ja!). Bastante ingenioso el
+algoritmo del virus, me dan ganas de hacer uno así... Bah!, mejor me pongo
+a jugar Quake II, es más entretenido, aparte de que me voy a tener que poner
+semanas a debuggear UGH!!!, pobre Kwyjiwbo!, debió haber llorado sangre
+al hacer el virus.
+
+   Los que aprovecharon la ocasión para hacer dinero, fueron las compañías
+anti-virus, las cuales no se quedaron atrás y ofrecieron al público su
+clásico software inútil, los mismos usuarios pueden remover ese virus
+manualmente, yo se cómo, pero nadie ha querido decir (no $e $abe por qué).
+El que esté infectado por ese virus haga lo siguiente:
+
+1. Entre a Word
+2. En el menú vaya a: Herramientas*Macro*Macros (o presione Alt+F8)
+3. Borre todas las entradas que tengan nombre raro
+
+   Antes de acabar este artículo, me enteré que atraparon al autor del
+virus, su nombre real es David Smith y tenía 30 años (que viejo X-O).

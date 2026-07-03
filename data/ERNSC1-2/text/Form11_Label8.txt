@@ -1,0 +1,1 @@
+Bomba lógica: A este grupo pertenecen casi todos los virus, es un virus que ocupa que ciertas condiciones se cumplan o no se cumplan, por ejemplo, un virus puede tener la condición de que la computadora tenga MS-DOS 6.22, de lo contrario no se ejecutará. Puede haber todo tipo de condiciones, pueden ser una o varias. Lo veremos mejor cuando analizemos el Virus Creation Laboratory.
