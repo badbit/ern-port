@@ -1,0 +1,485 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |                Encripción                  |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+
+                               badbit@yahoo.com
+
+
+/---------------------------------------------------\
+| ¿Exactamente de que se va a hablar en este texto? |
+\---------------------------------------------------/
+
+    Bueno, la encripción se define como "el arte de la escritura secreta". O
+sea, escribir algo con la intención de que no cualquiera lo lea.
+
+
+/------------\
+| Encripción |
+\------------/
+
+    La encripción existe desde tiempos milenarios, y muchas veces se usaba
+para ocultar los planes de batalla de las guerras. Por ejemplo, el emperador
+César de Roma recorría 2 letras el alfabeto para evitar que el enemigo
+pudiera leer los mensajes en caso de que los interceptara. Actualmente se
+usa mucho la encripción para transacciones comeciales en red. Pero si no te
+queda muy claro esto, lee lo que escribió Bill Gates en su libro "The Road
+Ahead":
+
+    "Los gobiernos han entendido desde hace mucho la importancia de mantener
+la información privada, para razones tanto económicas como políticas. La
+necesidad de hacer mensajes privados, comerciales, militares, o diplomáticos
+seguros (o romper la seguridad de ellos) ha atraido a intelectos poderosos
+a travéz de las generaciones. Es muy satisfactorio romper un mensaje
+codificado. Charles Babbage, quien hizo avances dramáticos en el arte de
+romper códigos a mediados de 1800, escribió: "Decifrar es, en mi opinión, una
+de las artes más facinantes, y tengo miedo de haber gastado más tiempo en
+ella que el que se merece." Yo descubrí su facinación cuando era niño cuando,
+como cualquier niño, jugábamos con cifrados simples. Podíamos codificar
+mensajes sustituyendo una letra del alfabeto por otra. Si un amigo me mandara
+un mensaje que comenzara "ULFW NZXX," sería bastante fácil adivinar que esto
+representa "DEAR BILL," y que la U significaba D, y L significaba E, y así
+sucesivamente. Con esas siete letras no era difícil descubrir el resto del
+mensaje bastante rápido.
+
+    Guerras pasadoas se han ganado o perdido porque los gobiernos más
+poderosos del mundo no tenían el poder criptológico que cualquier estudiante
+de secundaria puede tener ahora. Pronto, cualquier niño con edad suficiente
+para usar una computadora será capaz de transmitir mensajes codificados que
+ningún gobierno sobre la tierra lo encontrará fácil de decifrar. Esta es una
+de las profundas implicaciones de la diseminación del fantástico poder
+computacional.
+
+    Cuando mandes un mensaje a travéz de la autopista de la información
+estará "firmado" por tu computadora u otro aparato con una firma digital que
+sólo tú serás capaz de aplicar, y estará encriptada para que sólo el
+destinatario sea capaz de descifrar. Tú mandarás un mensaje, el cual podría
+ser información de cualquier tipo, incluyendo voz, video o dinero digital.
+El destinatario podrá estar casi seguro de que el mensaje realmente proviene
+de tí, y que fue enviado exactamente a la hora indicada, y que no ha sido
+modificado, y que otros no pueden decifrarlo.
+
+    El mecanismo que hace posible esto está basado en principios matemáticos,
+incluyendo los llamados "funciones de una vía" y "encripción de llave
+pública." Estos son conceptos algo avanzados, así que sólo voy a tocarlos.
+Ten en mente que aunque el sistema sea muy complicado técnicamente, será
+extremadamente fácil de usar. Tú solamente le dices a tu aparato de
+información que es lo que quieres que haga y parecerá que se hace sin
+esfuerzo.
+
+    Una función de una vía es algo que es más fácil hacer que deshacer.
+Romper un vidrio es una función de una vía, pero no una útil para codificar.
+El tipo de función de una vía requerida por la criptografía es una que sea
+fácil deshacer si sabes algo de información extra y muy difícil de deshacer
+sin esa información. Hay varias de esas funciones en matemáticas. Una
+envuelve números primos. Los niños aprenden sobre los números primos en la
+escuela.
+
+[Nota de BadBit: Aquí hay una explicación sobre los números primos,
+yo creo que ya todos sabemos que son, y para los que no lo sepan, son
+aquellos números que tienen 4 divisores, por ejemplo el cinco, tiene de
+divisores a: -5, -1, 1 y 5, o sea que es primo. El uno tiene: -1 y 1, o sea
+que no es primo. El seis tiene a: -6, -3, -2, -1, 1, 2, 3 y 6, o sea que
+tampoco es primo.]
+
+    Hay un número infinito de números primos, y no tienen un patrón definido
+exepto que son primos. Cuando multiplicas dos números primos, obtienes un
+número que sólo puede ser dividido exactamente por esos mismos primos. Por
+ejemplo, sólo el 5 y el 7 pueden dividir exactamente al 35. A la acción de
+encontrar los primos se le llama "factorizar" el numero.
+
+    Es fácil multiplicar los número primos 11,927 y 20,903 y obtener el
+número 249,310,081, pero es mucho más difícil recuperar del producto
+249,310,081 los dos número primos que son sus factores. Esta función de una
+vía, la dificultad de factorizar números, oculta una forma ingeniosa de
+cifrado: el sistema de encripción más sofisticado en uso. Toma un largo
+tiempo, incluso a la computadora más grande, factorizar un producto realmente
+largo de vuelta en sus primos constitutivos. Un sistema de codificación
+basado en factorización usa dos claves de descifrado distintas, una para
+cifrar y la otra para descrifrar. Con sólo la clave de cifrado, es fácil de
+codificar un mensaje, pero descifrarlo en un periodo práctico de tiempo es
+casi imposible. El descrifrado ocupa una clave distinta, disponible sólo para
+el destinatario del mensaje - o para la computadora del destinatario. La
+clave de cifrado está basada en el producto de dos enormes números primos,
+mientras que la clave de descifrado está basada en los números primos. Una
+computadora puede generar un nuevo par de claves en un instante, porque
+es muy fácil para una computadora generar dos números primos grandes y
+multiplicarlos. La clave de cifrado puede ser hecha pública sin mucho riesgo,
+porque incluso otra computadora tiene que factorizarla para obtener la clave
+de descifrado.
+
+[...]
+
+    El concepto de encripción de clave pública fue inventado por Whitfield
+Diffie y Martin Hellman en 1977. Otro grupo de científicos de computadoras,
+Ron Rivest, Adi Shamir, y Leonard Adelman, llegaron pronto con la noción de
+usar factorización de números primos como parte de lo que ahora se conoce
+como el sistema de encripción RSA (RSA cryptosystem) por las iniciales de
+sus apellidos. Especularon que se llevaría millones de años factorizar un
+número de 130 dígitos que fuera el producto de dos primos, independientemente
+de cuanto poder computacional se usara. Para provar su punto, retaron al
+mundo a encontrar los dos factores de este número de 129 dígitos, conocido
+como RSA 129:
+
+114,381,635,757,888,867,669,235,779,976,146,612,010,218,296,721,242,362,562,
+561,842,935,245,733,897,830,597,123,563,958,705,058,989,075,147,599,290,026,
+879,543,541
+
+    Estaban seguros que el mensaje que habían encriptado usando el número
+como la clave pública estaría totalmente seguro para siempre. Para no
+anticiparon los efectos de la ley Moore, la cual hizo a las computadoras
+mucho más poderosas, o el éxito de la PC, el cual aumentó dramáticamente el
+número de computadoras y usuarios de ellas alrededor del mundo. En 1993 un
+grupo de más de 600 académicos y hobbystas de todo el mundo comenzaron a
+atacar al número de 129 dígitos, usando a Internet para coordinar el trabajo
+de varias computadoras. En menos de un año factorizaron el número en dos
+primos, uno de 64 dígitos y el otro de 65. Los primos son los siguientes:
+
+3,490,596,510,847,650,949,147,849,619,903,898,133,417,764,638,493,387,843,
+990,820,577
+
+    y
+
+32,769,132,993,266,709,549,961,988,190,834,461,413,177,642,967,992,942,539,
+798,288,533
+
+    Y el mensaje codificado dice: "The magic words are squeamish and
+ossifrage."
+
+    Una lección que salió de este reto es que una clave pública de 129
+dígitos no es lo suficientemente larga si la información encriptada es
+realmente importante y sensible. Otra es que nadie debe estar demasiado
+confiado de la seguridad de la encripción."
+
+[Nota de BadBit: De vez en cuando es bueno escuchar lo que tienen que decir
+ los enemigos, en este caso Bill Gates, ya que se dice: "Un hacker aprende
+ de su enemigo, un lamer de su amigo"]
+
+/------------------------------------\
+| ¿Para qué diablos usar encripción? |
+\------------------------------------/
+
+    Si la encripción es usada en guerras y transacciones comerciales, ¿Para
+qué diablos quiero yo la encripción? Tal vez creas que necesitas ser un
+paranoico para encriptar todos tus archivos aunque sólo sean los poemas que
+escribiste en el kinder. Pero para una mejor comprensión leamos el texto
+escrito por Philip Zimmermann, el creador del programa de encripción PGP:
+
+    "Tal vez creas que tu E-mail es lo suficientemente legítimo que la
+encripción es inútil. Si realmente eres un ciudadano obediente de la ley sin
+nada que ocultar, entonces ¿porqué no siempre envías tus cartas en tarjetas
+postales? ¿Porqué no hacerte pruebas contra drogas cuando te lo piden?
+¿Porqué requieres un permiso para que la policía registre tu casa? ¿Tratas de
+ocultar algo? Debes ser un subversivo o un narcotraficante si escondes tus
+cartas en sobres. O tal vez eres un paranoico. ¿Necesitan los ciudadanos
+obedientes de la ley encriptar su E-mail?
+
+    Que tal si todos pensaran que los ciudadanos obedientes de la ley deben
+usar tarjetas postales para enviar sus cartas? Si algún valiente tratara de
+asegurar su privacidad usando un sobre para su carta, sería sospechoso. Tal
+vez las autoridades abrirían su carta para ver que oculta. Afortunadamente,
+no vivimos en ese tipo de mundo, porque todos protegen la mayoría de su
+correo con sobres. Así que nadie se vuelve sospechoso al asegurar su
+privacidad con un sobre. Hay seguridad en las multitudes. Análogamente, sería
+agradable si todos usáramos rutinariamente encripción para todo nuestro
+E-mail, inocente o no, así que nadie sería sospechoso al asegurar su privacía
+con encripción. Piensa en eso como una forma de solidaridad.
+
+    Ahora, si el gobierno quiere violar la privacidad de ciudadanos
+ordinarios, tiene que gastar cierta cantidad de dinero y labor para
+interceptar y abrir con vapor un los sobres y leer las cartas, y escuchar
+y posiblemente transcribir una conversación telefónica. Este tipo de
+monitoreo de labor-intensiva no es practica en gran escala. Esto sólo se hace
+en casos importantes donde se ve apropiado. 
+
+    Más y más de nuestras comunicaciones privadas están siendo transmitidas
+a travéz de canales electrónicos. El correo electrónico está reemplazando
+gradualmente al correo convencional. Los mensajes de E-mail son demasiado
+fáciles de interceptar y escanear para buscar palabras interesantes. Esto
+puede ser hecho fácilmente, rutinariamente, automáticamente, e
+indetectablemente en gran escala. Cablegramas internacionales son actualmente
+escaneados de esta manera a larga escala por la NSA. 
+
+    Nos estamos moviendo hacia un futuro en el cual la nación estará
+atravezada por redes de datos con fibra óptica de gran capacidad vinculando
+a todas nuestras computadoras personales. El E-mail será la norma para todos,
+no la novedad que es ahora. El gobierno protegerá nuestro E-mail con
+protocolos de encripción diseñados por el gobierno. Probablemente la mayoría
+se conformará con eso. Pero tal vez algunas personas preferirán sus propias
+medidas de protección.
+
+[...]
+
+    Si la privacía es ilegal, sólo los ilegales tendrían privacía. Las
+agencias de inteligencia tienen acceso a buena tecnología criptográfica.
+Lo mismo va para los narcotraficantes y vendedores de armas. Lo mismo para
+contratistas, compañías petroleras, y otros gigantes corporativos. Pero la
+gente ordinaria y las organizaciones políticas en su mayoría no han tenido
+acceso a tecnología cryptográfica de llave pública de "grado militar". Hasta
+ahora.
+
+    PGP le da el poder a la gente de tomar su privacía en sus propias manos.
+Hay una necesidad social creciente. Por eso lo escribí."
+
+/-------------\
+| El Reto RC5 |
+\-------------/
+
+    Para entender esto, nada mejor que "fusilarme" otro texto, esta vez de la
+revista española @rroba, dice así:
+
+    "Por si no sabes que es el desafío RC5-64 te lo explicaremos un poco.
+Cada cierto tiempo se lanza un reto RC5 (lleva esta denominación en honor a
+su autor, Ron Rivest), consistente en una llamada para romper una clave. Esto
+que puede parecer un trivial juego de nerds, supone, en realidad, un
+planteamiento serio frente a unas legislaciones que no están asumiendo la
+velocidad con que avanza el mundo de la tecnología y sus posibles
+implicaciones en temas de seguridad. Y que nadie vaya a pensar que esto de
+los mensajes cifrados solo queda para el correo de las embajadas o para
+turbias tramas de espionaje internacional: actualmente hay más claves a
+nuestro alrededor de las que parecen; de hecho, las tarjetas de crédito que
+llevamos en nuestra cartera llevan un sistema de cifrado o en el ordenador
+cualquier usuario hay en uso un par de claves, y pronto se nos llenará la
+vida todavía más...
+
+    El gobierno estadounidense prohibe la exportación de sistemas de
+encriptación con claves mayores de 40/56/64 bits, solo permitiendo el uso
+de claves de 128 bits a ciertas empresas con intereses comerciales en el
+extranjero y bajo permisos especiales. Obviamente los USA pretenden mantener
+bajo control una tecnología que, usada por un enemigo potencial, puede
+representar una significativa ventaja táctica frente a los medios de
+desencriptación actuales. En realidad, no sabemos a ciencia cierta cuál es el
+"state of art" de la capacidad de desencriptación de organismos como NSA, ya
+que suelen ser especialmente maniáticos con sus secretos (por ejemplo, aún no
+se conocen del todo los métodos que usaron en la Segunda Guerra Mundial los
+norteamericanos para romper las claves japonesas; la razón es que si se sabe
+cual era su nivel en esos años se puede intuir cual puede ser el actual),
+pero es obvio que los sistemas permitidos no son lo suficientemente seguros;
+basta abrir cualquier revista de informática para encontrar artículos
+referidos al tan cacareado comercio electrónico, pero a lo que pocas veces
+se hace referencia es a que, por ejemplo, en el interior de USA se utilizan
+claves de 128 bits pero que el SSL de Netscape usa solo los legislados 40
+bits en su versión para exportación.
+
+    Los sistemas de encriptación que se permiten exportar ahora son
+quebrantables con una relativa facilidad: y aunque no todo el mundo tiene la
+tecnología suficiente para hacerlo, un esfuerzo conjunto, como el de Bovine
+Project, o alguien o algo con los suficientes medios, por ejemplo, una
+agencia de información, una gran multinacional o incluso un grupo terrorista
+bien pertrechado, puede poner en un aprieto al usuario de estos sistemas
+permitidos. De hecho, en los últimos retos RC5, el RC5-40 bits cayó en unas
+tres horas y media, el RC5-56 solo tardó unos pocos meses y el RC5-64 está
+siendo "torturado" en estos momentos para que hable.
+
+    ¿En que consisten los retos RC5?
+
+    Como ya habrás podidos intuir es algo tan complicadamente simple como
+romper una clave usando el sistema conocido como "fuerza bruta" y que no
+consiste en aplicar descargas eléctricas en las parte pudentas del creador
+del reto sino en probar millones de claves hasta dar con la correcta. Para
+entenderlo mejor, imaginemos una puerta cerrada bajo llave, para abrirla
+podemos usar varias argucias: esperar al dueño de la puerta y convencerlo
+de que si nos abre amablemente la puerta no usaremos el desintegrador láser
+con el que le apuntamos, forzar la puerta con una palanqueta, buscar una
+puerta trasera o probar todas las llaves posibles. Esto último es lo que se
+conoce como "fuerza bruta" y puede llevar, si no se cuenta con la suficiente
+potencia de cálculo, bastante tiempo: para romper una DES de 56 bits con un
+ordenador normal que pruebe un millón de claves por segundo tardaría a
+friolera de unos 2284 años.
+
+    Bovine Proyect
+
+    Sin embargo, hay atajos para ahorrarte unos miles de añitos. Excluyendo
+el utilizar un Cray, ya que no se suele ajustar a los sueldos de la mayoría
+de los usuarios, una de las posibles soluciones es usar una gran cantidad de
+ordenadores funcionando independientemente pero siendo organizados por un
+ordenador común que se encarga de distribuir y recoger el trabajo ya
+realizado. Esta es la misión del Bovine Project. Conectándose a su site
+http://www.distributed.net/rc5/ uno puede bajarse el programa cliente que
+permitirá participar en el reto. Lo que hace básicamente esta aplicación es
+recibir un paquete de unos mil millones de claves, comprobarlas, y si no
+encuentra nada, llama al ordenador coordinador para pedirle un bloque nuevo
+y repetir la operación. Para saber si la clave es la correcta se desencripta
+una secuencia cifrada y se comparan sus resultados con un texto que se
+conoce previamente."
+
+/---------------------------------\
+| Encripción de passwords en UNIX |
+\---------------------------------/
+
+    En UNIX, los passwords de los usuarios están guardados en forma
+encriptada en el archivo /etc/passwd y usa el sistema de encripción Crypt(3)
+el cual está basado en el sistema DES. Crypt(3) no puede ser desencriptado,
+y cuando digo que no se puede es porque NO SE PUEDE. Si tú crees que se puede,
+puedes intentarlo, baja el código fuente en:
+
+ftp://ftp.uni-c.dk./glibc-1.09-crypt.tar.z
+
+    Si no se puede desencriptar, ¿Cómo le hace UNIX para saber que es el
+password correcto? Pues sigue estos pasos:
+
+1. El password se toma en solo texto (plain text).
+2. El password se utiliza como clave para encriptar 64 bits, el resultado
+   es el texto cifrado.
+3. Si el texto cifrado coincide con el password cifrado almacenado, el
+   password es correcto.
+
+    Para saber cuales son los passwords almacenados se utiliza una
+herramienta llamada "password cracker", la cual encripta una lista enorme de
+palabras y las compara con el password encriptado, si coninciden, hay un
+90% de probabilidades de que se haya encontrado el password.
+
+
+/-----\
+| KOH |
+\-----/
+
+    Nunca me he topado con un programa de encripción que me guste por
+completo, principalmente porque son lentos al usarse. Pero existe un virus
+que se acercó mucho a la perfección, se llama KOH (Hidróxido de Potasio) y
+es un virus benévolo (ya ven que no todos los virus son malos). Este virus
+lo que hace es encriptar todo el disco duro con una clave DES (o sea que si
+se te olvida el password dile adiós a la información) y te pide un password
+cada vez que arranca la computadora, si el password es incorrecto se seguirá
+con acceso al disco, pero toda la información estará encriptada.
+
+    Todo sería perfecto pero... los anti-virus insisten en clasificarlo como
+virus peligroso y quieren borrarlo de la faz de la tierra, no se porqué. Y
+está prohibida su exportación afuera de los USA. Pero si ustedes están
+en USA, pueden usarlo y aquí está, uuencodificado:
+
+--------------------------------------cortar aqui----------------------------
+begin 666 Koh.zip
+M4$L#!!0````(`)A,7!9+<=<FG!,```!]```'````2V]H+F-O;>Q=>VQ35YH_
+M?F`G3FQ@*-!2E1QHR)027)(`I0E-8O)>`G:<A#@)I6OL&^<&QX[N@TPD=VL4
+MS8CX=JNN1BNM=NB*0!F-FF9$MG0F*2O'X=+PF&4'TMDMTT[;\"@]K:N6;BH"
+M:;#W.]<)A;:K_7-7VON+;)]S[CG?^WSGW'^^G$A_>ZG^PJJ"V,N7H[5H%+F.
+M'1M>XSI9B_J,+\7ZJK26+-*.SABVA"XVD9CO9!A%C%NUW/)(E383;W5SEJT>
+MWI3KCEQ$AD\T<>T_HV&-]F2.=D2#?H<N+.$MX5F#D/[VFYH3Z1=6Q8UO_TEI
+M4&8Y_2C%):=?ZP(^PZCVPJJ32%LO/9UQ2T@G::BU5];&;[;*?9O?9TE!>T2_
+M(;O2%!._D6L"K,"Z_=@?='MQFYOU,UZKU8K=>X.<P`9\UNQ:^H`7/1Z&Y]M$
+MOQ7;"G$@V(V9@(?KZ1(8+^YFA7:\W5YMS>YU'W:_YW9Z>CRO>(8]DYXI3S_[
+M&_8M]AR[R;O#V^%MVKU[-U+Q_PEA[4Y[0TU912%NJ*[`%:Z*LL8&V[;:"FRO
+MA)&:>NQPVJN<MAUXAZT9;ZO`Y37U#<Z:;8T-%>6XTN[$E<Z*"BLVFRH;:VMQ
+MO;W165:!896S@DXKH[-L.\MQF=W1[*RIJFZPXF9[HT++[BRO<&(;);@=-]4T
+M5&.%A-DT1X02S]]@W;`!E]MK:VW.^J<:ZW-Q`1UY"IY5U%3M!.;V'=BVHP(X
+MV7;B"EL5R.UHW%8+W88:^TZ8;S8Y['B;W84WYFW<D)>+&QK+ZNT[<[&M!6_9
+M]'3>TU:SB<(1%-P\SXJ=N+K'RP5_QGH9_`1LF;5X%\/Q;#"`\ZP;\C#=:PR'
+M[\?>'BRT,W@[[$4<;,/5C)L3>+/IB;*U..^99S9B6R?#L1YW`%>X?7X&.\2]
+M?N@*0)+/Q34!#^Q7OQ]SK*]=X#''\`RW'W8X2-70SO+*K@>&W2S,Z61]G%M@
+M4NSLU?,;G`K']_`"TXF%(';C-G^PJZL'>UE^'Q6H)RAR9I.G/<AZ0"4;#G)X
+MVUKLYC'?Q7C8-A;R`Q"@-#W!SDYWP(O];(`!J=H$8#S/(^#+I91PI\@+9M/>
+M8%#`;5P0.+:[A7F.E+M'8/?/R^AEYN7+I5SA\3T-J)SM;LZK2`G**KIV<4%X
+MW(E%GN$5`C7E%3;L]ON"'"2P3OP$V]GE9SJ9@*"8#Y*<`#SV,\`=E&!32C36
+MKS6;H.T)!CK$@$>9J.0_-^X"#^.N=L[-,UCLHD+DY6\!_PD,M3.D4EQ)%6&A
+M2\UP3S[P9KM[OZ(3R^%@-YB;Z7(KBMQ'DK?B!N`_9PM%!Q;D8SG&(_A[4@\I
+M2;-)\0SH^[T$[<9YFQ5I,`?LP;8!L7,OP^7B[G;6TTX7S!ET?@%+X^P^"2@/
+MCKGG1Q[3J-O+W',*+&MG`DKHL$JH09`'A$*SR6Q2(KE,X/SK;7YA_78PNC_8
+MS4-@*+[RM+L#OI1/[U<X=U[9!ZQ%0_=!<G:@X8/8Y^_-%X7@^KE8L.(F*I0@
+M<@$E$G/!#JO7K5;49?DNO[N'\<[)=Q\H1ZJ'LB\HN4X("0](W3-O50R!P?7,
+M<P1/\`QU$67V0W+SW-O:*/?U#W+/5;BUW0L-CE$B3PB*GO;43GU0W6HL!M@`
+M+X`TO"+DW$9A4EM2V3'=L/_H)@*F]"DE4@E;I#,(Q-E`6Y!*JYS8Y?:R5?`P
+M^W_.XRI4J%"A0H4*%2I4J%"A0H4*%2I4J%"A0H4*%2I4J%"A0H4*%2I4J%"A
+M0H4*%2I4J%"A0H4*%2I4J%"A0H4*%2I4J%"A0H4*%2I4J%"A0H4*%2I4J%"A
+MXO\@'(>LR97(Q>E[3VOE$RC5<Z5^Y&_#LUJA)3RK$QX+SRX0TZSCALJ0)IX1
+MGETF&J"S+:2Q)JW(!<T*:!Y<9O%9CQSWDK]%@N7`3!B)"WKOF+E%Y#\1>2-Y
+MB.Q'@HY\A%Y5IJ/S6C2W#I:DUKZT[`VOM2_GM]X9R_)_N=CT;7@FS#],?JVQ
+MAHN?#2'!#//A=Q@9[AR*/TJ:DX=X<WAVL9!FB@F9"N.'*(<0>G7&^C(E)0&I
+M;^.O4#++ZQQ`!:073)'SUL.VT`3)UKB:9?&O'-;#I2&@4%3G7&G)(M:T(DM-
+MB'M*M!1NK@YQ/Q4-A<NJ0EQ6D65'Z,5'Q)\4;JX-O;A8-!4NVQYZ,?VXQA3+
+M:FEVR?3+D1]SR2#C(TPR;E!^T>Q*0],N9UV]PY)U^+@W54\8Q.'2:7.RB?Q$
+M9[I%K:01%M/AAPHW%X9$2Y&E*"2F)<829P_(2)L_0:63IAQ]R_*9/LM&IB!V
+M=#-S=`OCK-M%?I6Q9]<NTIFYI[G%%2ZV^,*\/C$67T"6(#[MP#C2)LZ*9URM
+MS2U[GC=FR77A*R6)L4*+T=?\(IV6$[X22XPYPS=*$N.%F]-]+2_H$^/Q1>$;
+ML?`[&CXM/%;*Z\+CI0I=[M$Z)UELI&80S=0(HI&:0-3<:6F6"ZV9/GE>U9?.
+MOGSYY5A_2<C1_S!\5L!G2<@!0I>$Y@HJOX;$4.3\\<1$#!ML(5HZ&76D2B>7
+M\HO"LP91?S#G63I^H92K/XG\-J5Y>&E'O@'YQ2=[BS7^I/AXN+@8W)E%;IO)
+M`<2M@SD*C0A$$M`CA7>YY60]2LTRD_[5HC9N('\PDS<UKJ-+0JZC*^#S,'Q*
+M0O<,%+%8?,<U$Y-I()9\>%N(ACB*Y%2&3-?%91O!22MI#>>3)?J(,2MRGH:0
+M?&C8:+FPZ%5Y1(OR;U'>\85DJR8"?I3`BW3@H+4\!`(I5A1UL#F.IT=RC#[J
+MC">O-"=.%T[RVLCI$UH:P,%9KO)P6>C((\P)'00,B=XENV>YI>.&\I"&]K<F
+M>".X=#H^=$<.%Y?#IIB&X%@2R3GN?7+R('R3%0G^$SH#9CO`).2Q66YABN*P
+M1D<"=TGF++EUU\7'8-)'G[%)1WV=<U>T:3=Q+2#Y"Z0QDH&&S:#1GI;F5I=<
+M,#%"=--?D\>0=`K:7@3MQ4I[R`1-`S2)!LGZ#2<L^1]<6"27]?@QPM5>C`Q@
+MJ=A)O2;G=%:.9#R:Z<N_GA.ITAY-]\&/Y:C19VQP%9T6%I](HS:ZL*0@%AG+
+M+H%QF88-_$+@P&0('5CKDD^:$&DV\1JY3KHT`NU_,I%S&?=%#B5"\KZ-HM`H
+M\H\@S=2Q:$;':(9_9"F"YN"^T<'.D3HT]5HS*<GHLVSR']S\M!^RB7\N7%Q1
+M$]I%#?3ES!ZND.ZZU#[9;Q[2),;#"2VGS[^5>&>G^'[_LQ#+$WW+:'SJ(#:!
+MN\+[K1G7T6=#<K3#2RSZ$^C",IG\FRXZY2'O0$[Z["0Z;/$YQ@T0`J^0:PG7
+M$8NOM]CHR^33HSN\Y$/=9_^(^HM"V3%33F$H(R9\GA\[4AQZ.XP.+BNAL3,"
+M3@'AZF9&!U\`911-3O[VA5YY4;@D+-Z.=&LDNY;PNH.0L@Y"NNJ#%!;I7B#9
+M#60/#-;"X'88W!'J-_H@YOO3?1#]_9D^V`=G#)M"6@2L0!$P2DJK$+EQ!XQB
+M&T[7D;_<.6@M"<D.\K2.JI7]L>,$A(<2(\,F^')MA?1'KFJCA]WDSTGQFW%#
+M:4@;?<]-C+K1R::"#T86H>NE^==UE^OI\E;:NOIE1'Y]V`J+#R1O-HD?*+M*
+MN@G31U!XT)JWH/>,5GE"*5S],BOJ])`1+5V^]5'Q=K3'0P:T<ZDDVQ2=])!#
+M2O=F$UEJ2LD/RH!*!-^!<#X>!FL3=C8_)ALL1DCVCI2(%YM&P;*+(#Z&;A;$
+MI@:4A`U'B$*A8RB3$OCXMNM(:<@HSZ;H#__J\=%\9J!4^2-9ABCJV$5N&F2E
+MC'PV&M6[CAW[T7+R)[,1+?;^PO-]1DN6[*A/Y9'E>LD8F<S6"UGAZVG""DM6
+M;S$<C.+BZW^]]6%AR=;'A::M:T3=9V=05JL+#EJ]*ZN59&I<9)5&23KAS9#:
+MCJ]3,IRH/;Z>^B5<7!(*BX^F=D;*JV3#[</%H2/%'32$LF\3L^:/0(_\!9$8
+M2DW_@CRNB?:Z(7>(5V#-?,!IR>0T9XT.OC`ZN&^H;NHU6#^D(?\ZS:T(%Y="
+MZEDR;B@+)>=.LG](T!Z:'5WC(GOAC'8-C+[P/'&A8;UK(+K)2^Z@^,\I6S!Q
+M#2)OSG%^E%+2B@]%7P$GWA4SY]RX,XW4)Z+#'G+PKKADSM.%:2FN.K(E\=DS
+MR6%K<N!U^3B^@4]8E$R2>=T=F<P,WW!'3M]PR]:^XFRW]6B.^Z68]>@3;HMQ
+M]$FW)`](8P/2J0%I?."ERP.I<TJ.9KLM68/2[4''X,NQ0>GRH'1V4+KH>F>C
+M_/V[$EP\"LZ][7CD]\8+BTYH"R9^CR#C.6C:BER,C`T9)DCD1OAZR2]N#.DG
+MO@A?SS1-1BY$OG"E*OFS:1%]_FE(UL9*ZJ?XEW*]R#%**>UN=X!6$?ZN6G`)
+M1MOMU>LKY@H8T\+=N-KF+$]52*<E_9_H\C.T>O5>MV>?V(7;6(X7UL*RG<'N
+M7,P$:,'N?*5$<W>0\_*Y.`^W!8%&^7RKLMR*'4WW"D.GZCJGJDF;3;2`\5-*
+M^>=<7/:4[;ZRS97E#Y1L3CU^H,QQ,`!<K&93A2)#=3EPP6X!=P6[H2MV6;$-
+M>'K:F53A:5J@F@EX:?%C$(KO8A@O+7)<Q008H$\+J;L?K($-4G,,S^-]3`^/
+MZVOM3;7-P%U@_8HA:45F-[\/R($U>2'8!8(T\G0,=[H#M!)Z6QO#@7E2ZV&X
+M*\CS[%X_8\7;&,S[J?6\P<!/!5HZNXL+=K(\DS(_SWA$CA5Z0+QMC(\-X"XJ
+M!Y60D@(^R`BP@\44OG-B5M27*66S@R!B0&3HM)1A:!'H2L4XX$TZ7!Y\(!3N
+M*[0--IQW)#CXOY]7^<"\G<K_?;CG`\J"5J"FM>O7[_BN^'JJ6#?'[F=2M=_!
+M*U1SD2Y\,,;6*LQI/?AF6OW=W?.=5L`,<\%@Y_<*NU>7KS("V\;YX%!*8`.7
+M>P7"E7+:8I=W;OXNX$GE6S5G/.HQ,*[UQUY;_A>1\8&P&H[HK.W5TMGI:PLT
+MJ'<"Z<;HEPQ?1:>6(K3NE/S+TG6R;%AIE#9O"8VN9II&TM#@+TX/7)W9,SKD
+M;1I*FSJVIR#Y5EJ5]/&E:_6]URRZCR2C]''9I6NI]O(AX[N?#Z6_.YEQJE7W
+M45^513IS:7+-(J2[V?NI,?%.^.Y&[K11;HP.>4?3D*/>*?UYD#!)Z6S+H.YB
+MZZ#NLJO.60^IC-0E6UN:X8;G*(`)Y<GF%F==P27=1>E]QR#9E&S579:(JT!N
+M*7B_N>!"2\&_V\4W';`0YCX,Q"@A2M!%2<'M7T\9N%J?DQNE+^!E"DY+41=_
+M[I63-C2<AK8+=D<]*!S-9U(9E*92LCLYNH(9H(GW%,V]QI6&+*.T7P^'Z(@>
+M#EZE^S=Z:$=7,(,Y>0NJJJ[>;G7U5NK3X@//G=*BJ`WM%&[M^@%=_??H_H#(
+MCS#:HY`]_J-./3S;EG_]EP43TU,9$X*F5+H\;LCP(;CQ:A%8CQQ#<!O.B(GI
+MVF6S;>'_0''(_D7O\D9;D66F3?RPZ%W.HE!8=[$F8T+\QG9;=BK]OP.*7Z<H
+MGFT!.@:@L^WJ+=DIG2>#2)+A_G#@6E+3'!F[2"3$+5R#;IJG%Q[X-JD1M'U(
+M7K,0F;N2\:\*SN7?@M59L!J$T$J7*%M!9XM_/J)#O3,Z3@OT?$BN@_-6DB%L
+M2")6"`H("^K):M3Z(!=>/Z1_EZQ)*FQ$W7!RH9R(1<Z^I5QC?T</?WKRSWY%
+M7T?RON8^39P[:,GPR<,Z-'WE$I$NRS4UBF[35QS]R`<F6@0O!<VZ,<?A)(Q*
+ME@6^Z2O0U1GNME5+ER6X1,-U<_J*=+9@0I*GOW9(I^@8-4SD9N1\8LP5(;)D
+MN=NF!2ZI-RA%!!WE/W*3\%_I@&01O8L;UL%W8IQ>8Y[[BOS]37ED,:*W_)FV
+MJ=<4?_5K?=+*=-\<_2G*(_\ZO#[(T7Z6_.PV@1O:@0ZPQL@!U+0++C31MUAX
+M46[>\_S4KZ^E1<^QI.%V_$]R]#<LV7X;[H;*A=,L+-N:)J0?2(8[A"]?C\</
+M)%&'\(D]?G7D0,>Z/^;'IE[_[BI,7X7.&-YG/WT(C)(?DXJWA*9>E]Z+7`:>
+MM/,&'/\KZN%V$(_\H34A3\0V+"!U:,.:JJ(9\5K\PZ(9(8W8:#_^C9PZ)Y`#
+M4GKJORP48@09DFW[KU4J8!.#W`<$K)V`B1F88A?>RMRY9M7WAZR%%L!":>?J
+M5=\_=A]:?"L3F(PQFC6C8!2,@E$P"D;!*!@%HV`4C()1,`I&P2@8!:-@&(+7
+MOA.\_3W*#/4,#`@K1@(7PI$XC'#6+^,#?1=`TVE[&&I^;V1;*,QR^8'N`_:^
+M`\UZPBQ<^QAJNO^!)^79=M36!)QFD]_-$-$E9E_3969>T\UG6@.9?6<Z*QQ7
+M]!TV^2Y14\8'FGRW,I.J@<^^@Q85[&/(VL]0LW,MX^<EC<<8A#8&?U["Q_ZK
+MYT3?!=":H1=%CUXL9RAQALR`.H(F<:5N[UN7W7Q,H)O%IJ%$L/'?N^S2C\8'
+M.M2L:A9;U[R6!#&Z79B`[!<U#*7LQ1PO+!^\9GYA_V"W1<UQ]@OAD)E*L>/L
+M'\+!,Y"EW"_X'Y:80J<E+[QNM`,Q2E2@JQ%XP#//RVYU?P:O!'IQ^"'(P1?"
+MP3/-Q@=`WE[D6A.P@P$8$'+&)_MN[BX%+2?A.G!X/W/-/N8LT'CU\E+.!6NR
+M=>1M&(T.'&90P(@%2D'H*@!02P$"%``4````"`"83%P62W'7)IP3````?0``
+M!P``````````````_X$`````2V]H+F-O;5!+!08``````0`!`#4```#!$P``
+"````
+`
+end
+-----------------------------------fin------------------------------------
+Copyright 1999, El Radiaktivo Newz Team
+
+http://ernt.piratas.org
+ernt@bigfoot.com
+
+Written by BadBit <badbit@yahoo.com>
+
+                            0101001001010100100101
+                            10       0       1  01
+                            11     B@dBit       00
+                            01           1      10
+                            10 0           .... 10
+                            :101010 01011010111101

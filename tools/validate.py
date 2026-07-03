@@ -22,8 +22,16 @@ from PIL import Image
 # Issues a validar
 ISSUES = [
     "ERNSC1-1", "ERNSC1-2", "ERNSC1-3", "ERNSC1-4", "ERNSC1-5", "ERNSC1-6",
-    "ERNSC2-2", "ERNSC2-3", "ERNSC2-4", "ERNSC2-5"
+    "ERNSC2-1", "ERNSC2-2", "ERNSC2-3", "ERNSC2-4", "ERNSC2-5"
 ]
+
+# Números RECONSTRUIDOS sin fuente VB (.vbp/.frm/.frx): el texto de sus
+# artículos se extrajo del EXE compilado (ver tools/extract_exe.py) y su
+# manifest/behavior se reconstruyeron a mano. Como NO hay .vbp/.frm contra
+# el cual comparar, se EXENTAN ÚNICAMENTE de la comprobación (a) forms-vs-vbp.
+# Las demás comprobaciones (b textos/assets, c PNGs, d eventos, e show_form,
+# f nº de subs) se aplican normalmente.
+RECONSTRUCTED = {"ERNSC2-1"}
 
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
@@ -62,8 +70,14 @@ class Validator:
             result["errors"].append(f"Directorio data/{issue} no existe")
             return result
 
-        # 1. Leer .vbp y contar Form= resolubles
-        vbp_forms = self._check_vbp_forms(issue)
+        # Reconstruido sin .vbp/.frm: no hay fuente contra la cual comparar (a).
+        reconstructed = issue in RECONSTRUCTED
+
+        # 1. Leer .vbp y contar Form= resolubles (omitido en reconstruidos)
+        if reconstructed:
+            vbp_forms = []
+        else:
+            vbp_forms = self._check_vbp_forms(issue)
         result["vbp_forms"] = len(vbp_forms)
 
         # 2. Leer manifest.json
@@ -78,8 +92,13 @@ class Validator:
         missing = set(manifest.get("missing_forms", []))
         result["missing_forms"] = len(missing)
 
-        # Validar (a): forms + missing == vbp_forms
-        if len(forms_in_manifest) + len(missing) == len(vbp_forms):
+        # Validar (a): forms + missing == vbp_forms.
+        # EXENTO para números reconstruidos (no tienen .vbp/.frm de referencia);
+        # se marca forms_match=True sin comparar. El resto de comprobaciones sí
+        # se aplican a estos números.
+        if reconstructed:
+            result["forms_match"] = True
+        elif len(forms_in_manifest) + len(missing) == len(vbp_forms):
             result["forms_match"] = True
         else:
             result["forms_match"] = False

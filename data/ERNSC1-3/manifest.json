@@ -3,7 +3,7 @@
  "title": "El Radiaktivo Newz",
  "version_comments": "El Radiaktivo Newz, Marzo 1999. Número 3, Año I",
  "vb_version": 4,
- "startup_form": "Acerca",
+ "startup_form": "Form1",
  "form_order": [
   "Form1",
   "Form2",

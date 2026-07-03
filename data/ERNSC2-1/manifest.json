@@ -1,0 +1,2589 @@
+{
+  "issue_id": "ERNSC2-1",
+  "title": "El Radiaktivo Newz",
+  "version_comments": "El Radiaktivo Newz, Septiembre 1999. Número 1, Año II",
+  "vb_version": 4,
+  "startup_form": "Forma1",
+  "form_order": [
+    "Forma1",
+    "editorial",
+    "feedback",
+    "encripcion",
+    "hackweb",
+    "micros",
+    "passwords",
+    "djhell",
+    "acidboy",
+    "secretos",
+    "derechos",
+    "miembros",
+    "habit0",
+    "banano",
+    "limbo",
+    "perdidos",
+    "aclaracion",
+    "novedades",
+    "Logoz",
+    "desktop"
+  ],
+  "forms": {
+    "Forma1": {
+      "file": null,
+      "type": "Form",
+      "caption": "El Radiaktivo Newz (mutation #1)",
+      "client_w": 415,
+      "client_h": 300,
+      "border_style": 1,
+      "max_button": false,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": null,
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "Shape",
+          "name": "Shape1",
+          "index": null,
+          "x": 8,
+          "y": 40,
+          "w": 400,
+          "h": 200,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": null,
+          "back_color": null,
+          "back_style": null,
+          "border_style": 0,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H000000FF&",
+            "_color_bordercolor": "&H000000FF&",
+            "BorderWidth": "3",
+            "Shape": "4",
+            "shape": 4
+          }
+        },
+        {
+          "type": "Line",
+          "name": "Line1",
+          "index": null,
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H0000FF00&",
+            "_color_bordercolor": "&H0000FF00&",
+            "BorderWidth": "2",
+            "X1": "70",
+            "X2": "70",
+            "Y1": "55",
+            "Y2": "210",
+            "x1": 70,
+            "y1": 55,
+            "x2": 70,
+            "y2": 210
+          }
+        },
+        {
+          "type": "Line",
+          "name": "Line2",
+          "index": null,
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H0000FF00&",
+            "_color_bordercolor": "&H0000FF00&",
+            "BorderWidth": "2",
+            "X1": "110",
+            "X2": "110",
+            "Y1": "55",
+            "Y2": "210",
+            "x1": 110,
+            "y1": 55,
+            "x2": 110,
+            "y2": 210
+          }
+        },
+        {
+          "type": "Line",
+          "name": "Line3",
+          "index": null,
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H0000FF00&",
+            "_color_bordercolor": "&H0000FF00&",
+            "BorderWidth": "2",
+            "X1": "150",
+            "X2": "150",
+            "Y1": "55",
+            "Y2": "210",
+            "x1": 150,
+            "y1": 55,
+            "x2": 150,
+            "y2": 210
+          }
+        },
+        {
+          "type": "Line",
+          "name": "Line4",
+          "index": null,
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H0000FF00&",
+            "_color_bordercolor": "&H0000FF00&",
+            "BorderWidth": "2",
+            "X1": "190",
+            "X2": "190",
+            "Y1": "55",
+            "Y2": "210",
+            "x1": 190,
+            "y1": 55,
+            "x2": 190,
+            "y2": 210
+          }
+        },
+        {
+          "type": "Line",
+          "name": "Line5",
+          "index": null,
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H0000FF00&",
+            "_color_bordercolor": "&H0000FF00&",
+            "BorderWidth": "2",
+            "X1": "230",
+            "X2": "230",
+            "Y1": "55",
+            "Y2": "210",
+            "x1": 230,
+            "y1": 55,
+            "x2": 230,
+            "y2": 210
+          }
+        },
+        {
+          "type": "Line",
+          "name": "Line6",
+          "index": null,
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H0000FF00&",
+            "_color_bordercolor": "&H0000FF00&",
+            "BorderWidth": "2",
+            "X1": "270",
+            "X2": "270",
+            "Y1": "55",
+            "Y2": "210",
+            "x1": 270,
+            "y1": 55,
+            "x2": 270,
+            "y2": 210
+          }
+        },
+        {
+          "type": "Line",
+          "name": "Line7",
+          "index": null,
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H0000FF00&",
+            "_color_bordercolor": "&H0000FF00&",
+            "BorderWidth": "2",
+            "X1": "310",
+            "X2": "310",
+            "Y1": "55",
+            "Y2": "210",
+            "x1": 310,
+            "y1": 55,
+            "x2": 310,
+            "y2": 210
+          }
+        },
+        {
+          "type": "Shape",
+          "name": "Shape2",
+          "index": null,
+          "x": 330,
+          "y": 195,
+          "w": 52,
+          "h": 52,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": null,
+          "back_color": null,
+          "back_style": null,
+          "border_style": 0,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {
+            "BorderColor": "&H000000FF&",
+            "_color_bordercolor": "&H000000FF&",
+            "BorderWidth": "3",
+            "Shape": "3",
+            "shape": 3
+          }
+        },
+        {
+          "type": "Image",
+          "name": "Image1",
+          "index": null,
+          "x": 340,
+          "y": 205,
+          "w": 32,
+          "h": 32,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": "assets/radiaktivo.png",
+          "font": null,
+          "fore_color": null,
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": true,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {}
+        },
+        {
+          "type": "Label",
+          "name": "Label1",
+          "index": null,
+          "x": 40,
+          "y": 6,
+          "w": 260,
+          "h": 29,
+          "caption": "El Radiaktivo Newz©",
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": {
+            "name": "MS Sans Serif",
+            "size": 18,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFF00",
+          "back_color": null,
+          "back_style": 0,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": true,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_forecolor": "&H0000FFFF&"
+          }
+        },
+        {
+          "type": "Label",
+          "name": "Label2",
+          "index": null,
+          "x": 28,
+          "y": 110,
+          "w": 380,
+          "h": 45,
+          "caption": "El Radiaktivo Newz",
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 26,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": null,
+          "back_style": 0,
+          "border_style": null,
+          "alignment": 2,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": false,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 1,
+          "children": [],
+          "raw": {
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        },
+        {
+          "type": "Label",
+          "name": "Label3",
+          "index": null,
+          "x": 360,
+          "y": 170,
+          "w": 45,
+          "h": 13,
+          "caption": "ЄRNT",
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": {
+            "name": "MS Sans Serif",
+            "size": 7.8,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": 0,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": true,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 2,
+          "children": [],
+          "raw": {
+            "_color_forecolor": "&H0000FF00&"
+          }
+        },
+        {
+          "type": "Label",
+          "name": "Label4",
+          "index": null,
+          "x": 40,
+          "y": 212,
+          "w": 200,
+          "h": 17,
+          "caption": "http://ernt.piratas.org",
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FF0000",
+          "back_color": null,
+          "back_style": 0,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": true,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 3,
+          "children": [],
+          "raw": {
+            "_color_forecolor": "&H000000FF&"
+          }
+        },
+        {
+          "type": "Label",
+          "name": "Label5",
+          "index": null,
+          "x": 384,
+          "y": 225,
+          "w": 30,
+          "h": 13,
+          "caption": "-- ---",
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": {
+            "name": "MS Sans Serif",
+            "size": 7.8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#00FF00",
+          "back_color": null,
+          "back_style": 0,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": true,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 4,
+          "children": [],
+          "raw": {
+            "_color_forecolor": "&H0000FF00&"
+          }
+        },
+        {
+          "type": "Label",
+          "name": "Label6",
+          "index": null,
+          "x": 8,
+          "y": 260,
+          "w": 210,
+          "h": 13,
+          "caption": "Año II, número 1, Septiembre 1999",
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": {
+            "name": "MS Sans Serif",
+            "size": 7.8,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": null,
+          "back_style": 0,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": true,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 5,
+          "children": [],
+          "raw": {
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        },
+        {
+          "type": "Label",
+          "name": "Label7",
+          "index": null,
+          "x": 8,
+          "y": 276,
+          "w": 290,
+          "h": 13,
+          "caption": "Mejor visto en resolución de 800 X 600 con fuentes grandes.",
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": {
+            "name": "MS Sans Serif",
+            "size": 7.8,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": null,
+          "back_style": 0,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": true,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 6,
+          "children": [],
+          "raw": {
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        },
+        {
+          "type": "CommandButton",
+          "name": "frase",
+          "index": null,
+          "x": 326,
+          "y": 262,
+          "w": 84,
+          "h": 25,
+          "caption": "Frase del mes",
+          "text": null,
+          "text_file": null,
+          "picture": null,
+          "font": null,
+          "fore_color": null,
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 7,
+          "children": [],
+          "raw": {}
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "frasee",
+              "caption": "&Frase del mes",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "children": [],
+              "shortcut": "^Q"
+            }
+          ]
+        },
+        {
+          "name": "arts",
+          "caption": "A&rtículos",
+          "children": [
+            {
+              "name": "m_editorial",
+              "caption": "&Editorial",
+              "children": []
+            },
+            {
+              "name": "m_novedades",
+              "caption": "&Novedades",
+              "children": []
+            },
+            {
+              "name": "m_feedback",
+              "caption": "Feed&back",
+              "children": []
+            },
+            {
+              "name": "m_encripcion",
+              "caption": "En&cripción [BadBit]",
+              "children": []
+            },
+            {
+              "name": "m_hackweb",
+              "caption": "&Hacking Webpages [kibitzer]",
+              "children": []
+            },
+            {
+              "name": "m_micros",
+              "caption": "La verdad sobre los &microprocesadores [BadBit]",
+              "children": []
+            },
+            {
+              "name": "m_passwords",
+              "caption": "Algunos &passwords para su diversión",
+              "children": []
+            },
+            {
+              "name": "m_djhell",
+              "caption": "&DJ-HELL Report #6 [DJ-HELL]",
+              "children": []
+            },
+            {
+              "name": "m_acidboy",
+              "caption": "&AcidBoy [aCiDBoY]",
+              "children": []
+            },
+            {
+              "name": "m_secretos",
+              "caption": "&Secretos [acri]",
+              "children": []
+            },
+            {
+              "name": "m_derechos",
+              "caption": "Nuestros de&rechos constitucionales",
+              "children": []
+            },
+            {
+              "name": "m_miembros",
+              "caption": "Área de mie&mbros de ERN",
+              "children": []
+            },
+            {
+              "name": "col",
+              "caption": "Col&umnas",
+              "children": [
+                {
+                  "name": "m_habit0",
+                  "caption": "Las A&venturas de HaBit0 [BadBit]",
+                  "children": []
+                },
+                {
+                  "name": "m_banano",
+                  "caption": "#&Banano'sBar",
+                  "children": []
+                },
+                {
+                  "name": "m_limbo",
+                  "caption": "L&imbo's Music [kibitzer]",
+                  "children": []
+                },
+                {
+                  "name": "m_perdidos",
+                  "caption": "&Perdidos en el cyberespacio [BadBit]",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "utils",
+          "caption": "&Utilidades",
+          "children": [
+            {
+              "name": "m_logo",
+              "caption": "Nuestro &Logo",
+              "children": []
+            },
+            {
+              "name": "m_bebox",
+              "caption": "&Escritorio de BadBit (BeBox)",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "help",
+          "caption": "&?",
+          "children": [
+            {
+              "name": "m_creditos",
+              "caption": "C&réditos",
+              "children": []
+            },
+            {
+              "name": "sep2",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "m_aclaracion",
+              "caption": "Ac&laración",
+              "children": []
+            },
+            {
+              "name": "m_acerca",
+              "caption": "&Acerca de El Radiaktivo Newz",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub m_editorial_Click()\nLoad editorial\neditorial.Show\nEnd Sub\n\nPrivate Sub m_novedades_Click()\nLoad novedades\nnovedades.Show\nEnd Sub\n\nPrivate Sub m_feedback_Click()\nLoad feedback\nfeedback.Show\nEnd Sub\n\nPrivate Sub m_encripcion_Click()\nLoad encripcion\nencripcion.Show\nEnd Sub\n\nPrivate Sub m_hackweb_Click()\nLoad hackweb\nhackweb.Show\nEnd Sub\n\nPrivate Sub m_micros_Click()\nLoad micros\nmicros.Show\nEnd Sub\n\nPrivate Sub m_passwords_Click()\nLoad passwords\npasswords.Show\nEnd Sub\n\nPrivate Sub m_djhell_Click()\nLoad djhell\ndjhell.Show\nEnd Sub\n\nPrivate Sub m_acidboy_Click()\nLoad acidboy\nacidboy.Show\nEnd Sub\n\nPrivate Sub m_secretos_Click()\nLoad secretos\nsecretos.Show\nEnd Sub\n\nPrivate Sub m_derechos_Click()\nLoad derechos\nderechos.Show\nEnd Sub\n\nPrivate Sub m_miembros_Click()\nLoad miembros\nmiembros.Show\nEnd Sub\n\nPrivate Sub m_habit0_Click()\nLoad habit0\nhabit0.Show\nEnd Sub\n\nPrivate Sub m_banano_Click()\nLoad banano\nbanano.Show\nEnd Sub\n\nPrivate Sub m_limbo_Click()\nLoad limbo\nlimbo.Show\nEnd Sub\n\nPrivate Sub m_perdidos_Click()\nLoad perdidos\nperdidos.Show\nEnd Sub\n\nPrivate Sub m_logo_Click()\nLoad Logoz\nLogoz.Show\nEnd Sub\n\nPrivate Sub m_bebox_Click()\nLoad desktop\ndesktop.Show\nEnd Sub\n\nPrivate Sub m_aclaracion_Click()\nLoad aclaracion\naclaracion.Show\nEnd Sub\n\nPrivate Sub frasee_Click()\nMsgBox \"En la computación, como en el amor, un bit de más o de menos lo cambia todo.\", , \"Frase del mes\"\nEnd Sub\n\nPrivate Sub frase_Click()\nMsgBox \"En la computación, como en el amor, un bit de más o de menos lo cambia todo.\", , \"Frase del mes\"\nEnd Sub\n\nPrivate Sub salir_Click()\nEnd\nEnd Sub\n\nPrivate Sub m_creditos_Click()\nMsgBox \"El Radiaktivo Newz Team — Mexicali, B.C. 1999. BadBit, kibitzer, DJ-HELL, aCiDBoY, acri, Karn Evil 9.\", , \"Créditos\"\nEnd Sub\n\nPrivate Sub m_acerca_Click()\nMsgBox \"El Radiaktivo Newz, Año II Número 1, Septiembre 1999. http://ernt.piratas.org\", , \"Acerca de El Radiaktivo Newz\"\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_reconstructed": "menú principal reconstruido de screenshots/ERN2-1.png"
+      }
+    },
+    "editorial": {
+      "file": null,
+      "type": "Form",
+      "caption": "Editorial",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/editorial.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "feedback": {
+      "file": null,
+      "type": "Form",
+      "caption": "Feedback",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/feedback.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "encripcion": {
+      "file": null,
+      "type": "Form",
+      "caption": "Encripción [BadBit]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/encripcion.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "hackweb": {
+      "file": null,
+      "type": "Form",
+      "caption": "Hacking Webpages [kibitzer]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/hackweb.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "micros": {
+      "file": null,
+      "type": "Form",
+      "caption": "La verdad sobre los microprocesadores [BadBit]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/micros.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "passwords": {
+      "file": null,
+      "type": "Form",
+      "caption": "Algunos passwords para su diversión",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/passwords.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "djhell": {
+      "file": null,
+      "type": "Form",
+      "caption": "DJ-HELL Report #6 [DJ-HELL]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/djhell.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "acidboy": {
+      "file": null,
+      "type": "Form",
+      "caption": "AcidBoy [aCiDBoY]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/acidboy.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "secretos": {
+      "file": null,
+      "type": "Form",
+      "caption": "Secretos [acri]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/secretos.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "derechos": {
+      "file": null,
+      "type": "Form",
+      "caption": "Nuestros derechos constitucionales",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/derechos.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "miembros": {
+      "file": null,
+      "type": "Form",
+      "caption": "Área de miembros de ERN",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/miembros.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "habit0": {
+      "file": null,
+      "type": "Form",
+      "caption": "Las Aventuras de HaBit0 [BadBit]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/habit0.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "banano": {
+      "file": null,
+      "type": "Form",
+      "caption": "#Banano'sBar",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/banano.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "limbo": {
+      "file": null,
+      "type": "Form",
+      "caption": "Limbo's Music [kibitzer]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/limbo.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "perdidos": {
+      "file": null,
+      "type": "Form",
+      "caption": "Perdidos en el cyberespacio [BadBit]",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/perdidos.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "aclaracion": {
+      "file": null,
+      "type": "Form",
+      "caption": "Aclaración marca Diablo",
+      "client_w": 600,
+      "client_h": 400,
+      "border_style": 2,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 0,
+          "y": 0,
+          "w": 600,
+          "h": 400,
+          "caption": null,
+          "text": null,
+          "text_file": "text/aclaracion.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 3,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"out.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nMe.Hide\nEnd Sub\n",
+      "raw": {
+        "_color_backcolor": "&H00000000&",
+        "_color_forecolor": "&H00FFFFFF&",
+        "_reconstructed": "sin fuente .frm; layout tipo lector de ERNSC2-2"
+      }
+    },
+    "novedades": {
+      "file": null,
+      "type": "Form",
+      "caption": "Novedades: Episode II",
+      "client_w": 740,
+      "client_h": 600,
+      "border_style": 1,
+      "max_button": false,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": "#FFFFFF",
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "Image",
+          "name": "Image1",
+          "index": null,
+          "x": 4,
+          "y": 4,
+          "w": 732,
+          "h": 402,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": "assets/Episode2.png",
+          "font": null,
+          "fore_color": null,
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": true,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {}
+        },
+        {
+          "type": "TextBox",
+          "name": "txtEdit",
+          "index": null,
+          "x": 4,
+          "y": 412,
+          "w": 732,
+          "h": 170,
+          "caption": null,
+          "text": null,
+          "text_file": "text/novedades.txt",
+          "picture": null,
+          "font": {
+            "name": "Courier New",
+            "size": 9,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false
+          },
+          "fore_color": "#FFFFFF",
+          "back_color": "#000000",
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": true,
+          "scrollbars": 2,
+          "locked": true,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": null,
+          "interval": null,
+          "tab_index": 0,
+          "children": [],
+          "raw": {
+            "_color_backcolor": "&H00000000&",
+            "_color_forecolor": "&H00FFFFFF&"
+          }
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "extraer",
+              "caption": "&Extraer",
+              "shortcut": "^E",
+              "children": []
+            },
+            {
+              "name": "sep",
+              "caption": "-",
+              "children": []
+            },
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub extraer_Click()\nDim filehandler As String\n\nfilehandler = txtEdit.Text\n\nOpen \"novedad.txt\" For Output As #1\n  Print #1, filehandler\nClose #1\n\nMsgBox (\"Se ha grabado este archivo a novedad.txt\"), , (\"Extraer a archivo\")\nEnd Sub\n\nPrivate Sub salir_Click()\nUnload Me\nEnd Sub\n",
+      "raw": {
+        "_reconstructed": "Episode2.jpg (parodia Star Wars) + texto embebido del EXE"
+      }
+    },
+    "Logoz": {
+      "file": null,
+      "type": "Form",
+      "caption": "Nuestro Logo (ROBOTREK)",
+      "client_w": 275,
+      "client_h": 245,
+      "border_style": 1,
+      "max_button": false,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": null,
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "Image",
+          "name": "Image1",
+          "index": null,
+          "x": 8,
+          "y": 8,
+          "w": 256,
+          "h": 223,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": "assets/robotrek2.png",
+          "font": null,
+          "fore_color": null,
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": true,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {}
+        }
+      ],
+      "menu": [],
+      "code": "Private Sub Image1_Click()\nMsgBox \"¿Qué? ¿No entiendes?\", , \"Mmmta...\"\nEnd Sub\n",
+      "raw": {
+        "_reconstructed": "robotrek2.gif"
+      }
+    },
+    "desktop": {
+      "file": null,
+      "type": "Form",
+      "caption": "Escritorio personalizado por BadBit",
+      "client_w": 808,
+      "client_h": 610,
+      "border_style": 1,
+      "max_button": true,
+      "min_button": true,
+      "back_color": "#000000",
+      "fore_color": null,
+      "icon": "assets/Forma1.icon.png",
+      "picture": null,
+      "font": null,
+      "controls": [
+        {
+          "type": "Image",
+          "name": "Image1",
+          "index": null,
+          "x": 4,
+          "y": 4,
+          "w": 800,
+          "h": 600,
+          "caption": null,
+          "text": null,
+          "text_file": null,
+          "picture": "assets/BeBox.png",
+          "font": null,
+          "fore_color": null,
+          "back_color": null,
+          "back_style": null,
+          "border_style": null,
+          "alignment": null,
+          "multiline": null,
+          "scrollbars": null,
+          "locked": null,
+          "visible": null,
+          "enabled": null,
+          "auto_size": null,
+          "word_wrap": null,
+          "stretch": true,
+          "interval": null,
+          "tab_index": null,
+          "children": [],
+          "raw": {}
+        }
+      ],
+      "menu": [
+        {
+          "name": "file",
+          "caption": "&Archivo",
+          "children": [
+            {
+              "name": "salir",
+              "caption": "&Salir",
+              "shortcut": "^Q",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "code": "Private Sub salir_Click()\nUnload Me\nEnd Sub\n",
+      "raw": {
+        "_reconstructed": "BeBox.jpg"
+      }
+    }
+  }
+}

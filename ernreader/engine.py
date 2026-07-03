@@ -8,6 +8,7 @@ behavior.json. Each :class:`FormWindow` renders one form with pixel-exact
 from __future__ import annotations
 
 import os
+import re
 import sys
 import json
 import tkinter as tk
@@ -200,6 +201,16 @@ class FormWindow:
         pic = self._photo(f.get("picture"))
         if pic is not None:
             self.base_canvas.create_image(0, 0, anchor="nw", image=pic)
+        # keep a PIL copy of the background clipped to the client area, so
+        # transparent (BackStyle=0) controls can sample the pixels behind them
+        self._bg_pil = None
+        if _HAVE_PIL and f.get("picture"):
+            src = self._asset(f.get("picture"))
+            if src is not None:
+                try:
+                    self._bg_pil = src.convert("RGB").crop((0, 0, w, h))
+                except Exception:
+                    self._bg_pil = None
 
         # controls (z-order = order in list)
         self._render_controls(self.top, f.get("controls", []), self.base_canvas)
@@ -376,13 +387,50 @@ def _control_text(fw: FormWindow, ctrl):
 
 
 def _bg_for(fw: FormWindow, ctrl, parent, default):
-    """Approximate BackStyle=0 (transparent) by inheriting parent bg."""
+    """Approximate BackStyle=0 (transparent). When the form has a background
+    picture, sample the pixels the control sits over so it blends in; otherwise
+    inherit the parent bg color."""
     if ctrl.get("back_style") == 0:
+        sampled = _sample_bg(fw, ctrl)
+        if sampled:
+            return sampled
         try:
             return parent.cget("bg")
         except tk.TclError:
             return default
     return ctrl.get("back_color") or default
+
+
+def _sample_bg(fw, ctrl):
+    """Average color of the background picture under a control's rect, as hex,
+    or None if there is no picture / the region is not uniform enough."""
+    pil = getattr(fw, "_bg_pil", None)
+    if pil is None or parent_is_nested(ctrl):
+        return None
+    try:
+        x = int(ctrl.get("x", 0) or 0)
+        y = int(ctrl.get("y", 0) or 0)
+        w = max(int(ctrl.get("w", 1) or 1), 1)
+        h = max(int(ctrl.get("h", 1) or 1), 1)
+        box = (max(x, 0), max(y, 0),
+               min(x + w, pil.width), min(y + h, pil.height))
+        if box[2] <= box[0] or box[3] <= box[1]:
+            return None
+        region = pil.crop(box)
+        # extrema per channel; if the region is roughly uniform, use its
+        # average — otherwise sampling would smear text over detailed art.
+        ex = region.getextrema()
+        if max(hi - lo for lo, hi in ex) > 60:
+            return None
+        px = region.resize((1, 1))
+        r, g, b = px.getpixel((0, 0))
+        return f"#{r:02x}{g:02x}{b:02x}"
+    except Exception:
+        return None
+
+
+def parent_is_nested(ctrl):
+    return False
 
 
 def _build_button(fw, parent, ctrl, canvas):
@@ -553,6 +601,22 @@ def _build_timer(fw, parent, ctrl, canvas):
     fw._register(ctrl, None, None)
 
 
+def _vb_color(value, default=None):
+    """Convert a VB &H00BBGGRR& color literal to #RRGGBB. Already-hex passes
+    through. Returns default on anything unparseable."""
+    if not value:
+        return default
+    s = str(value).strip()
+    if s.startswith("#"):
+        return s
+    m = re.match(r"&[Hh]([0-9A-Fa-f]{1,8})&?$", s)
+    if not m:
+        return default
+    n = int(m.group(1), 16) & 0xFFFFFF
+    b, g, r = (n >> 16) & 0xFF, (n >> 8) & 0xFF, n & 0xFF
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+
 def _build_line(fw, parent, ctrl, canvas):
     raw = ctrl.get("raw") or {}
     try:
@@ -562,9 +626,24 @@ def _build_line(fw, parent, ctrl, canvas):
         y2 = int(float(raw.get("Y2", raw.get("_y2", ctrl.get("y", 0)))))
     except (TypeError, ValueError):
         return
-    color = ctrl.get("fore_color") or ctrl.get("border_color") or "#000000"
+    color = (ctrl.get("fore_color") or _vb_color(raw.get("BorderColor"))
+             or "#000000")
+    try:
+        width = max(int(float(raw.get("BorderWidth", 1))), 1)
+    except (TypeError, ValueError):
+        width = 1
     if canvas is not None:
-        canvas.create_line(x1, y1, x2, y2, fill=color)
+        canvas.create_line(x1, y1, x2, y2, fill=color, width=width)
+
+
+# VB Shape property: 0 Rect, 1 Square, 2 Oval, 3 Circle, 4 RoundedRect,
+# 5 RoundedSquare.
+def _rounded_rect(canvas, x, y, w, h, r, **kw):
+    r = max(0, min(r, w // 2, h // 2))
+    x2, y2 = x + w, y + h
+    pts = [x + r, y, x2 - r, y, x2, y, x2, y + r, x2, y2 - r, x2, y2,
+           x2 - r, y2, x + r, y2, x, y2, x, y2 - r, x, y + r, x, y]
+    return canvas.create_polygon(pts, smooth=True, **kw)
 
 
 def _build_shape(fw, parent, ctrl, canvas):
@@ -576,13 +655,24 @@ def _build_shape(fw, parent, ctrl, canvas):
     h = int(ctrl.get("h", 0) or 0)
     raw = ctrl.get("raw") or {}
     shape = str(raw.get("Shape", raw.get("shape", "0")))
-    outline = ctrl.get("fore_color") or "#000000"
-    fill = ctrl.get("back_color") if ctrl.get("back_style") == 1 else ""
-    if shape in ("3", "4"):  # circle / oval
-        canvas.create_oval(x, y, x + w, y + h, outline=outline, fill=fill or "")
-    else:  # rectangle / rounded rectangle / square
+    outline = (ctrl.get("fore_color") or _vb_color(raw.get("BorderColor"))
+               or "#000000")
+    try:
+        width = max(int(float(raw.get("BorderWidth", 1))), 1)
+    except (TypeError, ValueError):
+        width = 1
+    fill = ""
+    if ctrl.get("back_style") == 1 or str(raw.get("FillStyle")) == "0":
+        fill = ctrl.get("back_color") or _vb_color(raw.get("FillColor")) or ""
+    if shape in ("2", "3"):        # oval / circle
+        canvas.create_oval(x, y, x + w, y + h, outline=outline, fill=fill,
+                           width=width)
+    elif shape in ("4", "5"):      # rounded rectangle / rounded square
+        _rounded_rect(canvas, x, y, w, h, r=min(w, h) // 5 + 6,
+                      outline=outline, fill=fill or "", width=width)
+    else:                          # rectangle / square
         canvas.create_rectangle(x, y, x + w, y + h, outline=outline,
-                                fill=fill or "")
+                                fill=fill, width=width)
 
 
 def _build_checkbox(fw, parent, ctrl, canvas):

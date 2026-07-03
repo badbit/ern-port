@@ -1,0 +1,552 @@
+{
+  "forms": {
+    "Forma1": {
+      "on_load": [],
+      "events": {
+        "m_editorial.Click": [
+          {
+            "op": "show_form",
+            "form": "editorial"
+          }
+        ],
+        "m_novedades.Click": [
+          {
+            "op": "show_form",
+            "form": "novedades"
+          }
+        ],
+        "m_feedback.Click": [
+          {
+            "op": "show_form",
+            "form": "feedback"
+          }
+        ],
+        "m_encripcion.Click": [
+          {
+            "op": "show_form",
+            "form": "encripcion"
+          }
+        ],
+        "m_hackweb.Click": [
+          {
+            "op": "show_form",
+            "form": "hackweb"
+          }
+        ],
+        "m_micros.Click": [
+          {
+            "op": "show_form",
+            "form": "micros"
+          }
+        ],
+        "m_passwords.Click": [
+          {
+            "op": "show_form",
+            "form": "passwords"
+          }
+        ],
+        "m_djhell.Click": [
+          {
+            "op": "show_form",
+            "form": "djhell"
+          }
+        ],
+        "m_acidboy.Click": [
+          {
+            "op": "show_form",
+            "form": "acidboy"
+          }
+        ],
+        "m_secretos.Click": [
+          {
+            "op": "show_form",
+            "form": "secretos"
+          }
+        ],
+        "m_derechos.Click": [
+          {
+            "op": "show_form",
+            "form": "derechos"
+          }
+        ],
+        "m_miembros.Click": [
+          {
+            "op": "show_form",
+            "form": "miembros"
+          }
+        ],
+        "m_habit0.Click": [
+          {
+            "op": "show_form",
+            "form": "habit0"
+          }
+        ],
+        "m_banano.Click": [
+          {
+            "op": "show_form",
+            "form": "banano"
+          }
+        ],
+        "m_limbo.Click": [
+          {
+            "op": "show_form",
+            "form": "limbo"
+          }
+        ],
+        "m_perdidos.Click": [
+          {
+            "op": "show_form",
+            "form": "perdidos"
+          }
+        ],
+        "m_logo.Click": [
+          {
+            "op": "show_form",
+            "form": "Logoz"
+          }
+        ],
+        "m_bebox.Click": [
+          {
+            "op": "show_form",
+            "form": "desktop"
+          }
+        ],
+        "m_aclaracion.Click": [
+          {
+            "op": "show_form",
+            "form": "aclaracion"
+          }
+        ],
+        "frasee.Click": [
+          {
+            "op": "msgbox",
+            "text": "En la computación, como en el amor, un bit de más o de menos lo cambia todo.",
+            "title": "Frase del mes"
+          }
+        ],
+        "frase.Click": [
+          {
+            "op": "msgbox",
+            "text": "En la computación, como en el amor, un bit de más o de menos lo cambia todo.",
+            "title": "Frase del mes"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "quit"
+          }
+        ],
+        "m_creditos.Click": [
+          {
+            "op": "msgbox",
+            "text": "El Radiaktivo Newz Team — Mexicali, B.C. 1999. BadBit, kibitzer, DJ-HELL, aCiDBoY, acri, Karn Evil 9.",
+            "title": "Créditos"
+          }
+        ],
+        "m_acerca.Click": [
+          {
+            "op": "msgbox",
+            "text": "El Radiaktivo Newz, Año II Número 1, Septiembre 1999. http://ernt.piratas.org",
+            "title": "Acerca de El Radiaktivo Newz"
+          }
+        ]
+      }
+    },
+    "editorial": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "edito.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a edito.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "feedback": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "feedback.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a feedback.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "encripcion": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "cripto.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a cripto.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "hackweb": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "hackweb.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a hackweb.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "micros": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "micros.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a micros.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "passwords": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "passwrd.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a passwrd.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "djhell": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "DJ-HELL6.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a DJ-HELL6.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "acidboy": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "acidboy.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a acidboy.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "secretos": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "secretos.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a secretos.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "derechos": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "derechos.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a derechos.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "miembros": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "miembros.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a miembros.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "habit0": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "habit04.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a habit04.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "banano": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "banano.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a banano.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "limbo": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "limbo.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a limbo.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "perdidos": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "perdidos.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a perdidos.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "aclaracion": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "aclara.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a aclara.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "novedades": {
+      "on_load": [],
+      "events": {
+        "extraer.Click": [
+          {
+            "op": "save_text",
+            "source": "txtEdit",
+            "suggest_name": "novedad.txt"
+          },
+          {
+            "op": "msgbox",
+            "text": "Se ha grabado este archivo a novedad.txt",
+            "title": "Extraer a archivo"
+          }
+        ],
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    },
+    "Logoz": {
+      "on_load": [],
+      "events": {
+        "Image1.Click": [
+          {
+            "op": "msgbox",
+            "text": "¿Qué? ¿No entiendes?",
+            "title": "Mmmta..."
+          }
+        ]
+      }
+    },
+    "desktop": {
+      "on_load": [],
+      "events": {
+        "salir.Click": [
+          {
+            "op": "close"
+          }
+        ]
+      }
+    }
+  }
+}

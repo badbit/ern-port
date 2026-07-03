@@ -977,8 +977,10 @@ class IssueExtractor:
                 return file_to_vbname[key2]
             return None
 
+        # IconForm only names the form whose icon becomes the EXE icon; it is
+        # NOT the startup object. When Startup is absent the startup form is the
+        # first form in the project.
         startup = (resolve_form_ref(vbp_get("Startup"))
-                   or resolve_form_ref(vbp_get("IconForm"))
                    or (form_order[0] if form_order else None))
 
         # version del numero: del primer form parseado (o Form1)

@@ -1,0 +1,124 @@
+El Radiaktivo Newz Team presenta:                            ernt@bigfoot.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 +--------------------------------------------+
+                 |   La verdad sobre los microprocesadores    |
+                 |                por BadBit                  |
+                 +--------------------------------------------+
+                               badbit@yahoo.com
+
+                 "¿¡33 Mhz!? ¿Quién necesita tanta velocidad?"
+                                                   Australopitecus
+
+/---------------------------------------------------\
+| ¿Exactamente de que se va a hablar en este texto? |
+\---------------------------------------------------/
+
+     Del funcionamiento de los microprocesadores y las diferecias entre los
+distintos modelos.
+
+
+
+/---------------------------------------\
+| Disculpa, ¿Es eso un microprocesador? |
+\---------------------------------------/
+
+     Con la invención del microprocesador 8080, la industria computacional
+dió un salto gigantesco, se dejó atrás la era de las computadoras gigantes
+para llegar a un nuevo mundo.
+
+    Los microprocesadores han evolucionado a través del tiempo. Sobre esto
+hay muchos mitos. Cada vez que se escucha "386" se piensa en lentitud, pero
+ese pensamiento es incorrecto. En realidad lo que diferencía a los micro-
+procesadores no es la velocidad, sino las instruciones que pueden realizar.
+
+    Miren, los microprocesadores funcionan de esta manera:
+
+PRINT "A"      <-- Se escribe algo en lenguaje de alto nivel. Un leguaje de
+                   alto-nivel es un leguaje de programación diseñado para
+                   idiotas, ya que es muy simplificado. Ejemplo: BASIC
+
+mov dx, 41h    <-- El compilador tiene que transformar estas instrucciones
+mov ah, 2          de alto nivel en instrucciones de bajo nivel. Un lenguaje
+int 21h            de bajo nivel es el lenguaje de la computadora
+                   representado con palabras cortas. Ejemplo: Ensamblador.
+
+BA4100         <-- De ensamblador se puede transformar a hexadecimal, el cual
+B402               es una representación más simple del sistema de numeración
+CD21               binario.
+
+
+1011101001000001 <-- Finalmente se este código se tranforma a el místico
+00000000             binario. Ahora sí, trata de entender esto.
+1011010000000010
+1100110100100001
+
+
+    Pero si se fijan en las instrucciones de ensablador:
+
+mov dx, 41h
+mov ah, 2
+int 21h
+
+    Están "mov" e "int". Aparte de éstas, hay muchas más, éstas instrucciones
+(y la arquitectura de chip) son las que definen el modelo del procesador,
+por ejemplo: 80286, 80386, 80486, etc. Por eso, mientras más instrucciones
+tenga un microprocesador, es más moderno (no más rápido).
+
+    Si un software está diseñado para usar instrucciones de una 486, no
+podrá correr en 386 porque no tienen las mismas instrucciones. Aunque la
+386 sea de 33Mhz y la 486 también no podrán correr el software, porque lo
+que importa no es la velocidad, sino las instrucciones.
+
+   Ahora, ¿Porqué derrepente los microprocesadores se comenzaron a llamar
+con nombres y no con números? Porque Intel(c) quería tener los derechos del
+micro 586 pa' el solito (se están pasando al lado oscuro, al igual que Darth
+Gates), entonces pensaron ponerle un nombre pa' registrarlo. El nombre
+tenía que resaltar que era el quito procesador y no tenía que tender a
+malinterpretaciones, escogieron: Pentium. Grave error. ¿Cómo se iba a llamar
+el 686? ¿Sexium? Ya me vienen a la cabeza las malinterpretaciones.
+
+    Bueno, ¿Y qué es eso de MMX? ¿Qué tiene de nuevo? Na'. Un Pentium MMX es
+un Pentium normal con nuevas intrucciones para el manejo de multimedia y
+sirve para... hacer dinero. Otra vez caemos a lo mismo, los virus, el Y2K
+y los microprocesadores, todos quieren hacer dinero. Bueno, mejor no voy a 
+escrbir de eso que luego salgo enojado...
+
+    ¿Y cómo le pusieron al 686 si no le pueden poner Sexium? Respuesta:
+Pentium II, no iban a gastar dinero en inventar y registrar otro nombre,
+mejor usaron el mismo con el que la gente ya estaba familiarizado.
+
+   ¿Y el Pentium III es un 786? Respuesta: No. Primeramente no se llama
+Pentium III, si te fijas bien, te darás cuenta de que se llama Pentium !!!.
+Y no, no es un 786, sigue siendo un 686. Pero cualquiera esperaría lo
+siguiente:
+
+
+Pentium     ->     586
+Pentium II  ->     686
+Pentium !!! ->     786
+
+    Pero no... La realidad es así:
+
+Pentium     ->     586
+Pentium II  ->     686
+Pentium !!! ->     686
+
+    ¿Si no es un 786 entonces porqué se llama Pentium !!!? Respuesta: Dinero.
+Otra vez el cochino dinero, ¿Qué no pueden pensar en otra cosa? Mejor pasamos
+a otros temas que no tengan que ver con el dinero, por ejemplo... mmmm....
+
+--------------------------------------------------------------
+Copyright 1999, El Radiaktivo Newz Team (ERNT para los compas)
+Escrito por BadBit
+badbit@yahoo.com
+
+http://ernt.piratas.org
+ernt@bigfoot.com
+
+
+                             0101001001010100100101
+                             10       0       1  01
+                             11     B@dbit       00
+                             01           1      10
+                             10 0           .... 10
+                             :101010 01011010111101

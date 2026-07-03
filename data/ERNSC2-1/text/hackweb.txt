@@ -1,0 +1,139 @@
+Jueves 9 de septiembre de 1999 (nacimiento del anticristo) a las 10:19 p.m
+
+
+                         ```''''''''''''''''```                      
+                         §|§Hacking Webpages§|§
+                         ~~~~~~~~~~~~~~~~~~~~~~    
+                        ^^por el inche kibitzer^^
+
+Primero ke nada, talvez tu sepas mas de hackin' ke yo. Asi ke si se te hace inutil esta guia, porque tu eres superior a mi, tonces pa ke la stas leiendo?
+Si sabes mas ke yo, pos solo dilo y asi sabremos todos mas acerka de este tema.
+    Esto ke les voy a hablar, es parte del: "Overlord step by step hacking guide v1.2" y tambien parte de lo ke yo he aprendido acerka de este tema. Pero aun no he podido hackear ninguna pagina...:(
+    Esta guia komienza desde lo absoltamente basico, para akellos newbies ke apenas kieren saber de ke se trata... Si sabes algo mas ke yo (ke lo mas seguro es ke si) pos mandamelo a la direksion de hasta abajote
+
+
+iNtRo:
+
+Te voy a refreskar un poko el cerebro antes de entrar a las teknikas de 
+hacking:
+	Kuando se habla de hackin', se habla de ganar axeso a un server donde no tenemos (axeso). Los servers estan hachos para ke toda la gente los pueda usar. Esta gente tiene -kada una- diferentes "kuentas" en el server ke le hacen aksesar a sus datos. Si un empleado (supongamos Panfilo) tiene una kuenta kon el ISP (Internet Service Provider) Panfilo va a tener:
+
+1.- uN lOgIn NaMe:ke es komo el nombre de un direktorio.
+2.- y Un pAsSwOrD: ke le permite axesar a akel direktorio.
+
+Ese login y ese passwd usualmente da axeso a los servicios de Panfilo (korreo, servicios de noticias y webpages) Pero tambien hay una kuenta llamada "raiz", la kual tiene su propio login y passwd. Esta da axeso de super-usuario a todo el server completo.
+
+-----------------------------------------------------------------------
+¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥aNaToMia dEl 'hAcK'¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+----------------------------------:P-----------------------------------
+
+Hay dos formas principales de entrar a un sistema. Imagina ke el server es komo una kaja fuerte, hay dos formas de entrar y sakar la feria:
+1.- Tratar de encontrar la kombinacion -ke es komo enkontrar el passwd-
+2.- Dinamita -komo usando exploits
+
+Y ahora kon ustedes, los tan esperados:
+pAsOs, pa ke puedas hackear una page (eso espero) ;)
+
+===pAsOs===
+
+1.- iNfO: 
+ Pa empezar, necesitas informacion acerca del sitio ke kieres hackear    Agarra un cuaderno o abre el notepad y le das ctrl+c pa kopiar una direxion o algo ke te parezka ke lo vas a usar y ctrl+v pa pegarla en el notepad
+
+2.- eL vIeJo tRuKo dEl EmAiL rEbOtAnTe: 
+ ¿te has dado kuenta ke kuando mandas un korreo con direxion erronea, se te regresa con un ch1ng0 de datos? Pues es lo mismo ke vas a hacer, pero kon blabla@victima.com
+Asegurate ke la direxion sea inkorrekta, pues si no, les va a llegar, y despues de ke hayan sido hackeados, pueden llegar a rastrearte (al menos en E.U, asi ke kuidate acid!) Ademas, trata de mandar el korreo desde una cuenta gratis, komo hotmail.com o yahoo.com
+
+3.- aQuI dEbIo iR TrAcErOuTe, WhOiS y FiNgEr: pero me dijeron en kanales como #hackerz y #hackworld ke no es indispensable hacer esas kosas.
+
+4.- eL mOrTaL pOrTsCan:
+ Ahora, hay ke ver ke puertos abiertos tiene el servidor, osea, puertoescanearlo.  Basikamente, no hay otra razon para portscanear a menos ke lo kieras hackear. El portscanner mas facil de usar, y -para mi- el mas rapido, es el ke viene en el haktek.exe
+ El portscanner te va a decir los servicios ke el sitio esta korriendo. Si el puerto 21 esta abierto, es porke tienen servidor de FTP y si el 23 esta abierto, significa que tienen telnet.
+
+5.- tElNeTeAnDo:
+ El proposito de telnetear es pa enkontrar el tipo de server ke tienen.
+    *.- Telnetea al puerto 23, si la direxion es www.victima.com, telnetea a victima.com
+    *.- Si eso no sirve, telnetea al puerto 21, si sirvio eskribe SYST para saber el tipo de server.
+    *.- Si tampoko sirvio, telnetea al puerto 80 -el de http- Nota si te da alguna informacion.
+    *.- Si nada de eso sirvio, mandales un korreo y preguntales.
+
+   Ahora, vamos a tratar de entrar por la puerta de enfrente,
+Abre el telnet y konektate al servidor, prueba estos logins y passwds
+
+                +•••••••••••••••••••••••••••••••••••+
+                ••••---lOgIn---••••---password---••••
+                •••••••••••••••••••••••••••••••••••••
+                ••••   root    ••••  root        ••••
+                ••••    sys    ••••sys/system/bin••••
+                ••••   sync    ••••      sync    ••••
+                ••••    bin    ••••   sys/bin    ••••
+                •••• mountfsys ••••   mountfsys  ••••
+                ••••    adm    ••••      adm     ••••
+                •••• umountfsys••••  umountfsys  ••••
+                ••••   admin   ••••     admin    ••••
+                ••••  install  ••••    install   ••••
+                +•••••••••••••••••••••••••••••••••••+
+*las kuentas root, mountfsys, umountfsys, install y algunas veces sync, son kuentas raiz, o sea las ke tiene medio kontrol o control total del server. Otros logins son del nivel usuario, lo ke signifika ke solo tiene axeso a los servicios del usuario (komo dije antes)
+
+uSaNdO lOs LoGiNs nAmEs
+
+Todavia existe en el mundo gente tan estupida komo para usar su mismo login y password (ke bueno!). Kon la lista de direksiones ke sakaste del sitio, prueba esto:
+
+Por ejemplo, si el sitio hace referencia a panfilo@viktima.com trata de loggearte (atraves de Telnet o FTP) komo:
+
+login: panfilo
+pass : panfilo
+
+Kasi siempre los passwds son de 4 a 8 letras, asi ke puedes tratar asi tambien:
+
+login: panfilo / panfilo / panfily  
+pass : panfy / panfilito / panfily 
+
+*has esto kon todos los nombres ke enkontraste.
+
+nOtA: A veces la gente estupida pone el nombre en su passwd, el nombre de su perro, gato, o la fecha de su nacimiento, etc... 
+
+Si nada de eso te sirvio, trata un passwdcracker!!!
+
+Tambien hay otras teknikas pa llegar hasta los passes:
+
+1.- lA vIeJiSiMa TeKnIkA pHf:
+   Ya kasi todos los servers deshecharon este bug, llamado phf, pero solo hay ke asegurase... Si esta funcionando, te llevara hacia el archivo de los passwds aunke este eskondido.
+---teclea esto---
+
+www.viktima.com/cgi-bin/phf?Qalias=x%0a/bin/cat%20/etc/passwd
+
+Si ves un mensage ke dice: "Espere a ke el FBI llegue a su canton" signifika ke ya deshecharon el phf, y estaba protegido kontra eso. A proposito de esto, prueba el phf a esta pagina: www.refrescatumundo.com.mx y vas a ver una sorpresilla.
+
+---si el server usa frontpage para hacer la pagina, teklea esto:---
+
+www.viktima.com/_uti_pvt/(nombre).pwd
+
+nOtA: ahi donde dice nombre, pon alguno de estos:
+
+-administrator.pwd
+-administrators.pwd 
+-authors.pwd
+-user.pwd
+-users.pwd
+
+ªªªeStAs TeKnIkAs (pHf y fRoNtPaGe) nO fUnCiOnAn eN eL 95% dE lOs kAsOsªªª
+
+aki akaba la guia, ¡¡¡kongratuleichons!!! si pudiste entrar al server:
+
+--si obtuviste un login y passwd raiz, puedes leer korreos de otros, tiene privilegios FTP (poder subir y bajar pages) y tambien axes HTTP.
+
+--Si solo obtuviste axeso de usuario, no te aguites, sera mas facil axesar luego a la raiz...
+
+espero ke les haya servido, y si no, pos no chillen! >:P
+
+sI No TiEnEs El HaKtEk, EsKrIbEmE y SI mE dAn gAnAS, tE lO mAnDo.....
+.... o si kieres otro programa, te lo mando. ( a la chin$@d@ )
+
+-----------------------------------------------------------------------------
+Encontre una guia ke dice: "La guia pa hackear ke terminara con las demas guias" Todavia no la leo, pero parece ke va a star wena.
+Saludos a: aCiDbOy, DJ-HELL, BadBit, WARLORD, a toda la people del #mejico y a ^LiNdA^(en especial =** )              
+                            
+                           §§§+Kiá¡Âz‚R+§§§         
+                     •••••••••••••••••••••••••••••
+                    •••••••kibitzr@yahoo.com•••••••
+                     •••••••••••••••••••••••••••••

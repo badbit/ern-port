@@ -1,0 +1,318 @@
+Traido desde Silycon Valley				Agosto 31,1999
+							6:35 PM		
+
+
+			    §  AcidBoy  §
+	
+***********************************************************************
+
+<1>Intro
+<2>Quien soy?		                
+<3>IRC		                 
+<4>010101010010101...?  
+<5>Origen d "DeBUG"
+<6>PING
+<7>MP3
+
+***********************************************************************		
+						Cont.Neto 13kb		
+***********************************************************************		
+ 
+				|-Intro-|
+
+	Hola chicos y chicas, yo soy el AcidBoy (tambien conocido por
+kimo) y mi nombre ahh aparecido en algunas ocaciones en el RADIACTIVO. 
+Soy el nuevo recluta del RADIOACTIVO. Este es mi primer reporte y
+aunque no C mucho aun sobre el tema d Informatica o cosas UnderGround,
+pero lo que C lo comparto. Si tu eres D las personas que nomas critican
+(tu saves si T estoy hablando a ti (o_O)  ) aunque sepas mucho mas que 
+yo, pues ENTIENDE que no llevo tanto tiempo como tu. Comparte tus
+conocimientos. Cambiando D tema, no esperen mucho contenido en este 
+reporte ya que al igual que ustedes yo estoy aprendiendo...
+
+***********************************************************************		 
+
+|-QUIEN SOY?-|
+
+
+	La verda no entiendo que ganarias con saver quien soy, no soy 
+nadie importante nadie reconocido ni admirado...soy una simple persona
+como cualquiera...pero ya que aun estas leyendo pues t merecese saver
+algo por ser curioso...
+
+Edad:	15
+Tiempo en internet: 1 año
+Ubicacion: Calexico California ,USA
+Hobbies: Chatear(server: Chatnet), escuchar musica y dormir
+Contactos: DJ-HELL, BadBit, kibitzer, ESTEVE, SSJ5, METAL ...
+
+
+...bueno eso es todo no creo que quieras saver mas, solo si eres mujer 
+o que sea algun gay. Despido esta parte d mi report que no tiene que 
+ver nada con informatica.
+
+***********************************************************************
+
+|-010101010010101...?-|
+
+
+	Bueno, si eres un principiante como yo, necesitas saver que las
+computadoras corren con codigos. Estos codigos son numeros leidos por 
+la computadora y son traducidos a lo que tu vez en tu monitor. Los 
+numeros son 0's y 1's los cuales son del systema "Binario". Los 
+transistores C prenden y C apagan para crear los codigos...
+=============
+señal on  = 1
+señal off = 0
+=============
+...como c lee el systema binario?? Por ejemplo la señal - 1 1 0 - seria
+en el transistor - on on off - pero que significa? La base del systema
+Binario es 2 ya que solo hay 2 variables el 1 y el 0...
+=========================================================
+1 1 0 = on on off 
+  (en binario)
+
+                                    
+
+
+                                 1 1 0 = 6 <--(decimal)
+		                      
+=========================================================      
+...bueno eso es todo lo que C d como funcionan estos codigos. Si tu 
+piensas que me equivoque hazmelo saver.	             
+					
+***********************************************************************
+
+|-El Origen D DeBUG-|
+
+
+	DeBUG es un termino usado por los programadores para arreglar
+algun error en un programa.  Pero saves porque le pusieron DeBUG a S
+termino? Pues resulta que las primeras computadoras (esas que ocupavan
+cuartos enteros para poder funcionar) tenian vulvos en lugar d 
+transistores. Los vulvos C prendian y apagaban pero C calentavan y C
+quemaban.  Eran tan sensibles que en veces bichos C metian en ellos y
+los ocacionaban quemarse. Bichos es lo mismo que BUG por eso los 
+programadores usan el termino DeBUG para arreglar un problema.
+
+***********************************************************************
+
+|-PING-|
+
+
+	El ping C podria conciderar un mensaje ICMP. El ping C envia a
+una el IP d una maquina para saver si esta conectada/accesible. El PING
+C manda a la maquina, cuando la maquina lo recbe podemos decir que la
+maquina esta accsecible. Pero el PING puede servir para otros usos. EL
+PING puede ser usado para causar LAGG...como?? pues sencillo. El PING
+que mandamos a la maquina d la victima era un pequeño paquete.  Sin en
+bargo que pasaria si mandamos este mismo paquete muchas veces?? Al 
+enviar el mismo paquete D ping varias veces a la misma maquina este
+ocasionara que la conexion a internet D la victima quede saturada. La
+maquina D la victima recive tantos PING's que hasta cierto punto
+le resultara imposible contestarlos todos, esto causara que la conexion
+d la victima caiga.  Aqui esta una muestra d un PING desde MS-DOS...
+=====================================================
+
+<C:\>ping -l cantidad IP			
+					<cantidad>indica la cantidad de
+					 PING's que enviaremos ala 
+					 victima.
+					<IP>ya saves lo que va ahi, no
+					 creo que no sepas eso.
+
+=====================================================
+...no T voy a mentir, aunque el PING suena como una buena idea para 
+privar a alguien temporalmente D su conexion no siemrpe funciona.  Lo 
+mas que yo ehh podido lograr con el PING es causar lagg. Usalo si 
+quieres pero no T garantizo nada.
+
+***********************************************************************
+
+|-MP3-|
+
+
+	SI te gustan los mp3 y entras a IRC pues deves saver que 
+existen #canales en los servers que intercambian mp3 todo el dia. Un
+#canal muy famoso en ChatNet es #MP3_Ultimate_Sounds. Sin en vargo no 
+es facil conseguir un mp3 si no saves que hacer al entrar al #canal.
+Pero que crees? YO estoy aqui para enseñarte a obtener los mp3 que 
+quieras en cualqiuer #canal. Estas son algunas commandos y reglas de un
+#canal d mp3...
+====================================================================
+
+-@find canzion-  \_____con estos commando averiguas quien tiene el mp3
+-@find artista-  /     que buscas
+
+-!nick titulo_D_canzion- Para obtener la cazion una vez que la 
+			 encuentres pones el ! y seguido por S simbolo
+			 pones el nick d la persona que tiene le mp3 y
+			 pones el nombre derl archivo
+
+-@nick-		con este commando pides la lista d mp3 d alguna persona
+
+-@nick-que-	sirve para ver en que pocision estas para recivir tu 
+		mp3
+
+-@nick-remove-	sirve para quitar una canzion d la lista d espera
+
+-/pdcc 9999999999999999-	este comando sirve para hacer mas 
+				rapido tu DCC y asi llegue mas rapido 
+				canzion
+
+-/fsend on-	este comando tambien sirve para hacer mas rapida la 
+		llegada d tu mp3 por DCC
+
+====================================================================
+
+...T recuerdo que si tu conexion C alenta demasiado el envio C 
+cancelara, asi que T recomiendo que no hagas muchos trabajos mientras
+bajas un mp3. Y aqui esta la lista d mis mp3 igual que como T la
+mandarian en un #canal D mp3...
+
+====================================================================
+
+!acidboy Alejandro Sanz_-_Corazon Partio.mp3 
+!acidboy Alejandro_Sanz_-_Aquello_Que_me_Diste.mp3 
+!acidboy Aleks_Syntek_-_Sexo_pudor_y_lagrimas.mp3 
+!acidboy Aleks_Syntek_-_Sin_ti.mp3 
+!acidboy All.m3u 
+!acidboy Beastie_Boys_-_Sabotage.mp3 
+!acidboy Blackstreet_feat_Janet--Boyfriend_Girlfriend.mp3 
+!acidboy Blaque_-_808(remix).mp3 
+!acidboy Blind_Melon_-_No_Rain.mp3 
+!acidboy Bob_Marley_-_Could_You_be_Loved.mp3 
+!acidboy Brian_Setzer_Orchestra_-_Sleepwalk.mp3 
+!acidboy C&C_Music_Factory_-_Everybody_Dance_Now.mp3 
+!acidboy Cafe_Tacuba_-_Como_te_Extraño.mp3 
+!acidboy Cafe_Tacuba_-_Una_Mañana.mp3 
+!acidboy Caifanes_-_La_Celula_Que_Explota.mp3 
+!acidboy Cake_-_Never_There.mp3 
+!acidboy California_Guitar_Trio_-_Sleepwalk.mp3 
+!acidboy Chemical_Brothers_-_Hey_Boy_Hey_Girl.mp3 
+!acidboy Chemical_Brothers_-_Let_Forever_Be.mp3 
+!acidboy Cypress_Hill_-_Tequila_Sunrise.mp3 
+!acidboy Dance_Mix _Binary_1999.mp3 
+!acidboy Deftones_-_My_Own_Summer.mp3 
+!acidboy Depeche_Mode_-_Personal_Jesus.mp3 
+!acidboy El Gran_Silencio_-_Tonta Cancion de Amor No.2.mp3 
+!acidboy El_Gran_Silecio_-_Decadencia.mp3 
+!acidboy El_Gran_Silencio_-_Duerme_Soñando.mp3 
+!acidboy Enanitos_Verdes_-_El_Extraño_del_Pelo_Largo.mp3 
+!acidboy Enanitos_Verdes_-_Igual_Que_Ayer.mp3 
+!acidboy Enanitos_Verdes_-_Lamento_Boliviano.mp3 
+!acidboy Enanitos_Verdes_-_La_Muralla_Verde(original).mp3 
+!acidboy Enanitos_Verdes_-_Solo_Dame_otra_Oportunidad.mp3 
+!acidboy Faithless_-_Take_the_Long_Way_Home.mp3 
+!acidboy Fatboy_Slim_-_Gangster_Trippin.mp3 
+!acidboy Fatboy_Slim_-_Praise_You.mp3 
+!acidboy Fat_Joe-Donr_Cartagena.mp3 
+!acidboy Freestylers_-_Cut_N'_Paste.mp3 
+!acidboy House_of_Pain_-_Jump_Around.mp3 
+!acidboy Ilegales_-_Beat_it_with_Your_Rhythm_Stick.mp3 
+!acidboy Illia_Kuriaky_-_Another_One_Bites_the_Dust.mp3 
+!acidboy Jamiroquai_-_Deeper_Under_Ground.mp3 
+!acidboy Jay-Z_-_Hard_Knock_Life.mp3 
+!acidboy John Lennon_-_Imagine.mp3 
+!acidboy Lauryn_Hil_-_Cant_Take_my_Eyes_Off_of_You.mp3 
+!acidboy La_Ley_-_1-800-Dual.mp3 
+!acidboy La_Ley_-_Dia_Cero.mp3 
+!acidboy La_Ley_-_El_Duelo.mp3 
+!acidboy La_Ley_-_Hombre.mp3 
+!acidboy La_Ley_-_Invisible.mp3 
+!acidboy La_Ley_-_The_Corridor.mp3 
+!acidboy Led_Zeppelin_-_Stairway_To_Heaven.mp3 
+!acidboy Lo-Fidelity_-_Battleflag.mp3 
+!acidboy Lunatic_Calm_-_Leave_you_Far_Behind.mp3 
+!acidboy Marcels_-_Blue_Moon.mp3 
+!acidboy Marilyn_Manson_-_Rock_is_Dead.mp3 
+!acidboy Meat_Beat_Manifesto_-_Prime Audio Soup.mp3 
+!acidboy Ministry_-_Bad_Blood.mp3 
+!acidboy Molotov_-_Payaso.mp3 
+!acidboy Molotov_-_Use_it_or_Loose_it.mp3 
+!acidboy Molotov_-_Voto_Latino.mp3 
+!acidboy Penguins_-_Earth_Angel.mp3 
+!acidboy Pink_Floyd_-_Another_Brick_In_The_Wall_(2).mp3 
+!acidboy Plastilina_Mosh_-_Afroman.mp3 
+!acidboy Plastilina_Mosh_-_Bananos_Bar.mp3 
+!acidboy Plastilina_Mosh_-_Encendedor.mp3 
+!acidboy Plastilina_Mosh_-_Monster_Truck.mp3 
+!acidboy Plastilina_Mosh_-_Niño_Bomba.mp3 
+!acidboy Propellerheads_-_SpyBreak! (short one).mp3 
+!acidboy Puff_Daddy_-_PE2000.mp3 
+!acidboy Puff_Daddy_feat._Jimmy_Page_-_Come_with_Me.mp3 
+!acidboy R.E.M._-_Lotus.mp3 
+!acidboy Radiohead_-_Creep(acoustic).MP3 
+!acidboy Radiohead_-_Karma_Police.mp3 
+!acidboy Radiohead_-_No_Surprises.mp3 
+!acidboy Radiohead_-_Paranoid Android.mp3 
+!acidboy Radiohead_-_Planet_Telex(live).mp3 
+!acidboy Rage_Against_Machine_-_Wake_Up.mp3 
+!acidboy Richie_Valens_-_Donna.mp3 
+!acidboy Richie_Valens_-_We_Belong_Together.mp3 
+!acidboy Robbie_Williams_-_Millenium.mp3 
+!acidboy Rob_D_-_Clubbed_to_Death.mp3 
+!acidboy Rob_Zombie_-_Dragula(hot_rod_Herman_remix).mp3 
+!acidboy Rosie_&_The_Originals_-_Angel_Baby.mp3 
+!acidboy Santana_-_Europa.mp3 
+!acidboy Santo_&_Johnny_-_Sleepwalk.mp3 
+!acidboy Select.m3u 
+!acidboy Sha-Na-Na_-_Earth_Angel.mp3 
+!acidboy Soda_Estereo_-_Musica_Ligera.mp2 
+!acidboy Stardust_-_Music_Sounds_Better_with_You.mp3 
+!acidboy t r a n c e [] c o n t r o l_-_This_is_my_HOUSE.mp3 
+!acidboy The_Beatles_-_Free_as_a_Bird.mp3 
+!acidboy The_Cardigans_-_Erase-Rewind.mp3 
+!acidboy The_Doors_-_Ghost_Song.wma 
+!acidboy The_Supremes_-_Sleepwalk.mp3 
+!acidboy Unknown_-_Retro.mp3 
+!acidboy Vengaboys_-_Were_Going_to_Ibiza(hit radio mix).mp3 
+!acidboy Vengaboys_-_We_Like_to_Party.mp3 
+!acidboy Vis.m3u 
+!acidboy Warren_G_-_I_Shoot_the_Sheriff.mp3 
+!acidboy Wild_Child_-_Renegade_Master.mp3 
+!acidboy Wyclef_Jean_-_Gone_Till_November.mp3 
+!acidboy Wyclef_Jean_-_Stayin_Alive.mp3 
+
+====================================================================
+
+...estos son todos los mp3 que tengo por el momento ya que no me eh
+enfocado en adquirirlos. Recuerda que si entras a un #canal d mp3 lo
+primero que tienes que hacer es saludar. A mi me ahh pasado que por no 
+saludar me regañan o no me pasan los mp3. Espero que les sea util mi 
+pequeña informacion.
+
+====================================================================
+
+*ahi C ven gente*
+
+
+
+			$$$$$$$$$$$$$$$$$$$$$$$$$
+			$$$$$$$$$$$$$$$$$$$$$$$$$
+			$$$$$'`$$$$$$$$$$$$$'`$$$
+			$$$$$$  $$$$$$$$$$$  $$$$
+			$$$$$$$  '$/ `/ `$' .$$$$
+			$$$$$$$$. i  i  /! .$$$$$
+			$$$$$$$$$.--'--'   $$$$$$
+			$$^^$$$$$'        J$$$$$$
+			$$$   ~""   `.   .$$$$$$$
+			$$$$$e,      ;  .$$$$$$$$
+			$$$$$$$$$$$.'   $$$$$$$$$
+			$$$$$$$$$$$$.    $$$$$$$$
+			$$$$$$$$$$$$$     $$$$$$$
+
+
+
+							(txt d H)
+***********************************************************************
+|-TNX-|
+
+	
+	Tnx para mis compas BadBit, kibitzer, DJ-HELL, Esteve, |Kabrito
+METAL, marillion, SarHatE(especial), Alvek, Psyke, SSJ5, y otros mas...
+
+***********************************************************************
+
+
+		Copyright Mexicali Mexico 1999, ERNT

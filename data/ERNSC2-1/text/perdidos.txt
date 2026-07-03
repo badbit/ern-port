@@ -1,0 +1,267 @@
+[Escenario: Comandancia de policía.]
+
+[Personajes: Guardia. Entra un policía con dos personas prisioneras: Memo y Johny]
+
+<Memo> Pero somos inocentes, ¡Se los juro!
+<Policía> ¡Uy sí! Lo mismo que dicen todos.
+<Johny> Pero nosotros en serio somos inocentes.
+<Policía> Lo mismo que dicen todos.
+<Johny> Mire, mejor a hablar de otra cosa que vamos a terminar peleados.
+<Policía> Mmmm... lo mismo que dicen todos.
+<Guardia> ¿Qué lo trae por acá?
+<Policía> Pues con la novedad de que estos dos acaban de asaltar un banco...
+<Memo> ¡Nosotros no asaltamos nada!
+<Guardia> [A Memo] ¡Cállese! [Al Policía] Prosiga...
+<Policía> Pues como le decía, estos dos asaltaron el banco...
+<Memo> ¡Falso!
+<Policía> Estas dos personas robaron...
+<Memo> ¡Mentira!
+<Policía> Estos...
+<Memo> ¡No es verdad!
+<Guardia> ¡YA CÁLLESE! No quiero volvérselo a repetir, si vuelve a interrumpir, ¡lo metemos a la cárcel si averiguar nada!
+<Memo> ¡No me grite que no estoy ciego! Ya no voy a interrumpir...
+<Guardia> Así está mejor, [Al Policía] Prosiga por favor...
+<Policía> Estos dos caballeros estaban...
+<Memo> Yo soy de los que les repiten una vez las cosas y las cumplen.
+<Policía> Estos dos señores estuvieron...
+<Memo> No necesito que me digan: cállate, cállate, cállate.
+<Policía> Yo creo que...
+<Memo> Con una sola vez que me digan que me calle, me callo, ¿O acaso estoy hablando?
+<Guardia> ¡YAAAAAAAAAAAA! [Al Policía] Métalo a la cárcel ¡Pero ya!
+<Policía> ¡A sus órdenes jefe!
+<Guardia> Un momento, [A Memo] ¿Cuál es su nombre?
+<Memo> Guillermo Jaste.
+<Guardia> ¿De casualidad no le dicen a usted Memo?
+<Memo> Si, ¿Porqué? [El Guardia se comienza a reír] ¿Pero de qué se ríe?
+<Guardia> ¡Ja Ja Ja! Memo Jaste ¡Ja Ja Ja! Sargento, ¡Lléveselo!
+<Policía> ¡A sus órdenes jefe! [Se lleva a Memo a la cárcel]
+<Guardia> Menos mal que ya se fue. [A Johny] ¿Y usted qué?
+<Johny> Pos nomás aquí ¿Y usted?
+<Guardia> Pues yo... ¡Oigame! Más respeto, está usted hablando con un superior. ¿Cuál es su nombre?
+<Johny> Johny C. Nada.
+<Guardia> ¿Tiene usted antecedentes penales?
+<Johny> Yo no, ¿Y usted?
+<Guardia> Pues yo nomás... ¿Oigame? ¿Sabe usted con quién está hablando.
+<Johny> Si.
+<Guardia> ¿Con quién?
+<Johny> Con usted.
+<Guardia> ¡Pues claro que conmigo!
+<Johny> ¿Entonces pa' que pregunta?
+<Guardia> Me refiero a que si sabe quién soy yo.
+<Johny> ¿Porqué? ¿Ya se le olvidó? [Llega el Policía]
+<Guardia> [Al Policía] ¿Sabe qué? Llévese también a este a la cárcel.
+<Policía> ¡Con mucho gusto! [A Johny] ¡Jálele!
+<Johny> Pero si mi único delito es ser bello, ¡No pueden meterme a la vil cárcel!
+<Guardia> ¿Quién dice que no se puede? ¡Lléveselo! [El Policía se lleva a Johny a la cárcel.]
+
+[Escenario: Celdas de la comandancia.]
+
+[Entran el Policía con Johny. El Policía mete a Johny en una celda donde están Trinquetes y Memo. El Policía se va.]
+
+<Memo> ¿Qué pasó? ¿A ti también te metieron al bote?
+<Johny> Si, ¿Y quién es este compañero?
+<Memo> No sé, no le he preguntado. [Se acercan al Trinquetes]
+<Johny> Oye, ¿Tú ya llevas mucho tiempo aquí?
+<Trinquetes> ¡Uy! Si supieran.
+<Memo> ¿Y cómo es la vida aquí en la cárcel?
+<Trinquetes> Pues está bien, lo único que no me gusta es que las celdas no tienen salida de emergencia... ¿Y a ustedes por qué los encerraron?
+<Johny> Esque hubo una confusión.
+<Trinquetes> A ver, cúentala.
+<Johny> Esque nosotros ibamos caminando por enfrente del banco que está aquí en la esquina, entonces vimos a unos tipos con pasamontañas con pistolas que se dirigían al banco, pero antes de que ellos entraran al banco, intentaron asustarnos con sus pistolas.
+<Trinquetes> ¿Y qué pasó?
+<Johny> Nos asustaron.
+<Trinquetes> ¿Y qué mas?
+<Johny> Pues nosotros les dijimos: "¿Qué?", y ellos nos respondieron: "¿Pues qué de qué?", y nosotros les dijimos: "¿Pues qué de qué o qué?", y luego nosotros...
+<Trinquetes> Ya entendí, ¿y luego?
+<Johny> Pues luego los maleantes entraron al banco y asaltaron y cuando salieron nos dieron sus pistolas, luego llegó la policía (tarde como de costumbre), y nos arrestaron a nosotros.
+<Prisioneros2> Eso le pasa a cualquiera...
+<Memo> [Se dirije al Trinquetes] ¿Y a ti porqué te encerraron?
+<Trinquetes> Por asesino.
+<Memo> [Con voz temblorosa] ¿P-por asesino?
+<Trinquetes> Si, me gusta matar a la gente en noches de luna llena.
+<Johny> [Con voz temblorosa] Ho-hoy es lu-luna llena.
+<Trinquetes> Así es, y faltan 8 horas para la media noche. [Risa diabólica] Muajajajaja. Eso quiere decir que les quedan 8 horas de vida, y compermisito dijo monchito, yo me voy a dormir para que el tiempo pase más rápido. [El Trinquetes se aleja a otro lado de la celda y se acuesta] ¡Ah! Y otra cosa, cuando sea media noche me despiertan para matarlos.
+<Johny> No se preocupe señor, nosotros le avisamos.
+<Trinquetes> Más les vale. [Se duerme]
+<Memo> ¿Y ahora que vamos a hacer? En 8 horas vamos a morir.
+<Johny> No te preocupes, hay que pedir la ayuda de uno de los reos más fuertes e influyentes de aquí.
+<Memo> ¡Ah pues si es cierto! ¿Y cómo se llama ese prisionero tan influyente.
+<Johny>  Le dicen el Trinquetes.
+<Memo> ¿Y tú lo conoces?
+<Johny> Pues la verdad no... sólo he oído hablar de él.
+<Memo> Pues hay que gritarle desde la celda.
+<Johny> Buena idea. [Memo y Johny se poner a gritar desde su celda llamado al Trinquetes, El Trinquetes se levanta y toca por la espalda a Memo]
+<Memo> [Sin voltear a ver] ¡Espérate! [Sigue gritando, El Trinquetes le vuelve a tocar el hombro.] ¡Que te esperes! [Sigue gritando, El Trinquetes le vuelve a tocar el hombro.] ¡A como enfadas! ¿Qué no puedes... [Se da cuenta de que el Trinquetes y se asusta].
+<Trinquetes> ¿Para qué me gritan si estoy atrás de ustedes?
+<Johny> Discúlpenos señor, pero nosotros no le hablábamos a usted, nosotros le hablábamos al Trinquetes.
+<Trinquetes> Yo soy el Trinquetes.
+<Johny> ¡Ah! ¡Mucho gusto...! ¿USTED ES EL TRINQUETES?
+<Trinquetes> Si, ¿y tú?
+<Johny> No, yo no, yo soy Johny.
+<Trinquetes> ¿Y para qué me estaban hablando?
+<Memo> Esteee... para... para ver si no habías salido a algún lado sin invitarnos.
+<Trinquetes> No te hagas el payaso...
+<Memo> Pero si me sale muy bien...
+<Trinquetes> ¡Cállate! Aquí en esta celda nomás mis chicharrones truenan.
+<Johny> ¡Chicharrones! Por fin cambiaron la comida, ya me estaba enfadando de los frijoles...
+<Trinquetes> A la primera palabra que digan, ¡LOS MATO!
+<Memo> ¿Y a la segunda?
+<Trinquetes> Mira, me estoy aguantando las ganas de matarte para ahorrármelas hasta la media noche. Y aún así no comprendo como pueden hacer bromas antes de morir.
+<Johny> Pues ni modo que las hagamos después de morir.
+<Trinquetes> ¡Ora sí! ¡Tú ya sacaste boleto! ¡A ti te voy a matar primero! [Se aleja y se duerme.]
+<Johny> ¿Oíste eso? ¡A mí me va a matar primero! ¡Estoy perdido!
+<Memo> ¡Ya te encontré! Aquí estás.
+<Johny> No seas tonto, lo que quiero decir es que tengo un problema muy grande.
+<Memo> ¡Ahhh!
+<Johny> Y si no encontramos una solución rápido, me va a matar el Trinquetes.
+<Memo> Pues al cabo que de algo te ibas a morir.
+<Johny> Mira tengo una idea. En la noche no se ve nada ¿verdad?
+<Memo> Si.
+<Johny> Pues ahí está, decimos que tú eres yo y que yo soy tú, y así a ti te matan primero y yo me escapo. ¿Qué te parece la idea?
+<Memo> Pues... bueno, no algo así que digas ¡Qué bruto, cómo me gusta la idea! Pero sí, algo.
+<Johny> Pues entonces así le vamos a hacer.
+<Memo> Mira mejor le hablamos al guardia para decirle qué es lo que está pasando.
+<Johny> Bueno. [Gritando] ¡Guardia!
+<Memo> ¿Qué haces menso? Vas a despertar a Trinquetes.
+<Johny> ¿Y qué quieres que haga?
+<Memo> Pues grita en voz baja.
+
+[Memo y Johny le hablan en voz baja al Policía y el Policía se acerca]
+
+<Policía> ¿Qué quieren?
+<Memo> Vivir.
+<Policía> Pero rápido... ¿Qué?
+<Johny> Esque alguien nos quiere matar.
+<Policía> ¿Quién?
+<Memo> El Johny.
+<Policía> [Voz temblorosa] ¿El Johny?
+<Memo y Johny> ¡SI!
+<Policía> ¿Y qué quieren que haga? ¿Qué llame a la funeraria?
+<Memo> Queremos que nos defiendas.
+<Policía> ¿Yo?
+<Memo> Si.
+<Policía> ¿Yo?
+<Memo> Si.
+<Johny> [Al Guardia] ¿A poco le tienes miedo?
+<Policía> ¿Miedo yo? ¡JA! ¿Miedo yo? ¡JA! Si...
+<Memo> Mmmm... Ahora resulta que los guardias le tienen miedo a los prisioneros.
+<Policía> ¡Momento! Si le tengo miedo pero no algo así que tú digas ¡Qué bruto, cómo le tiene miedo este cuate!
+<Johny> Pues tan siquiera préstanos algún barrote con el cual pegarle para sobrevivir esta noche de luna llena, ya a la siguiente veremos...
+<Memo> O mejor, préstanos tu pistola para matarlo.
+<Johny> [A Memo] Oye, yo soy criminal pero honrado, no voy a matar a nadie.
+<Policía> Lo más que puedo hacer por ustedes meter a otro prisionero a su celda para que entre los tres se defiendan.
+<Johny> Pues bueno... peor es nada.
+<Policía> Orita lo traigo.
+
+[Pasa un rato y el Policía trae al Tuercas]
+
+<Policía> Aquí está.
+<Tuercas> ¿Para qué me trajo hasta acá?
+<Policía> Esque ellos ocupaban un prisionero fuerte, valiente, inteligente, audaz... y como no lo encontramos te traje a ti. [El Guardia mete al Tuercas a la celda] ¡Ah! Otra cosa, antes de que los maten, díganle al Trinquetes que limpie bien la celda, ya que la última vez tuvimos que trapearla y tirar los cadáveres al basurero. [El Guardia se va]
+<Tuercas> ¿Trinquetes?
+<Johny> Si, mira ahí está dormido.
+<Tuercas> ¿El es?
+<Johny> Si.
+<Tuercas> [Gritando] ¡GUARDIA! ¡SÁQUENME!
+<Memo> ¡Hey! Lo vas a despertar.
+<Tuercas> ¿Esque no entiendes? Nosotros tres estamos muertos.
+<Memo> ¿Porqué?
+<Tuercas> Todos aquí en esta cárcel le tenemos miedo, ¡es el más fuerte de aquí!
+<Johny> Pues entre los tres podemos defendernos.
+<Memo> Mira, hay que buscar un barrote y que alguien se acerque y le pegue.
+<Tuercas> Pero no tienen en cuenta que él está armado.
+<Memo y Johny> ¿¡ARMADO!?
+<Tuercas> Si, en esa mochila que tiene como almohada guarda su pistola y muchas balas.
+<Memo> ¿Pos ora? ¿Qué hacemos?
+<Johny> Ya tengo un plan.
+<Tuercas> A ver dilo.
+<Johny> Pero ocupo tu ayuda.
+<Tuercas> Bueno, con tal de salir vivo de esta.
+<Johny> Mira, te vas escurriendo hasta donde está el Trinquetes.
+<Tuercas> ¡Eso júralo!
+<Johny> Me refiero a que te vayas en silencio.
+<Tuercas> ¡Ah!
+<Johny> Pues te escurres hasta llegar con el Trinquetes.
+<Tuercas> Nombre, ¡desde antes!
+<Memo> ¡YA! El caso es que llegas con el Trinquetes.
+<Johny> Exacto. Y luego de que llegues abres la maleta con mucho cuidado de no despertarlo.
+<Tuercas> ¿Y si se despierta?
+<Memo> ¡Ay! ¿Qué tanto puede hacerte? Nomás es más fuerte que tú y está armado.
+<Tuercas> O sea que tengo todas las de ganar.
+<Johny> Ya no seas miedoso, luego de abrir la maleta, vas a pasarme la pistola y las balas.
+<Tuercas> Bueno, lo voy a hacer.
+
+[El Tuercas se acerca sigilosamente hasta donde está el Trinquetes y Trinquetes se mueve dormido, Tuercas se devuelve como llegó]
+
+<Memo> ¿Qué pasó?
+<Tuercas> La... el... Esque... Se va a despertar.
+<Johny> No se despierta, ve. [Empuja al Tuercas]
+
+[El Tuercas se acerca sigilosamente hasta donde está el Trinquetes y abre la maleta, comienza a buscar adentro de ella.]
+
+<Tuercas> ¡Hey! No encuentro la pistola por ningún lado.
+<Memo> Pues por lo menos saca las balas.
+<Tuercas> Bueno.
+
+[El Tuercas comienza a sacar balas de la maleta y se las pasa a Johny el cual las pone en el suelo. Trinquetes despierta y le apunta con la pistola a Tuercas.]
+
+<Tuercas> Pues ya saqué todas las balas y no veo la pistola... [Tuercas mira la pistola en la mano de Trinquetes] ¡Ah, mira! Aquí está.
+
+[El Tuercas jala la pistola y El Trinquetes opone resistencia. El Tuercas se da cuenta de que la pistola está en manos de el Trinquetes. Johny le pasa las balas a el Tuercas y el Tuercas las guarda en la maleta, la cierra y le pone la cabeza al Trinquetes sobre la maleta otra vez y  el Trinquetes se duerme.]
+
+<Memo> ¿Y ahora que vamos a hacer?
+<Tuercas> Hay que pensar en algo rápido, porque por si no lo saben, los prisioneros que están con el Trinquetes en una noche de luna llena, terminan sumaMENTE ¡MUERTOS!
+<Johny> ¿Pues sabes qué? Ya le perdí el miedo al Trinquetes. [El Trinquetes se levanta y se pone atrás de Johny.] ¿Qué me va a hacer?
+<Tuercas> [Nervioso] Cuidado con lo que dices, el Trinquetes es muy superior a ti, ¿verdad Memo?
+<Memo> ¡Uy sí! ¡Superiorísimo!
+<Johny> ¿Superior en que? A menos que sea superior en lo feo, claro que me gana con su cara de borrego a medio morir... Pero aparte de eso qué. Yo no le tengo miedo y nunca he sabido lo que es el miedo. [El Trinquetes lo toca por la espalda. Johny grita y patalea del miedo.]
+<Tuercas> [A Johny] ¿No que nunca has sabido lo que es el miedo?
+<Johny> Ya estoy aprendiendo.
+<Trinquetes> Con que no me tienes miedo ¿eh? ¡Te voy a matar ya!
+<Memo> [Se pone entre Johny y el Trinquetes] ¡No lo mates!
+<Johny> ¡No! ¡Qué me mate a ver si se atreve!
+<Memo> ¡No!
+<Johny> ¡Si!
+<Memo> ¡No!
+<Johny> ¡Si!
+<Memo> Bueno...
+<Johny> ¡No!
+<Trinquetes> Ahora... ¿A quién voy a matar primero?
+<Tuercas> ¿No nos puede dar un año para pensarlo?
+<Trinquetes> ¡No! O ahora o nunca.
+<Memo> Mejor nunca...
+<Trinquetes> Miren, les estoy dando la oportunidad de escoger quién va a morir primero. ¿Será el Tuercas?
+<Tuercas> ¡No, no, no!
+<Trinquetes> ¿Memo?
+<Memo> ¡No, no, no!
+<Trinquetes> ¿Johny?
+<Johny> ¡Menos!
+<Trinquetes> ¿Entonces que?
+<Tuercas> Pues nosotros nada, nomás veníamos de paso. ¡Nos vemos mi Trinquetes!
+<Trinquetes> Adiós Tuercas, ¡Que te vaya bien! [El Tuercas, Memo y Johny hacen como si se fueran a salir.] ¡Hey, momento! No se pueden ir sin que antes los mate.
+<Memo> ¿No habría alguna forma de que nos salváramos?
+<Trinquetes> Sólo una.
+<Memo> ¿Cuál?
+<Trinquetes> Que me enseñen personalmente su acta de defunción.
+<Johny> Pues así pos sí... [Llega el Policía.]
+<Guardia> ¿Qué tal? ¿Están disfrutando de su estancia aquí?
+<Memo> Pues no algo así que digas ¡Qué bruto, como están disfrutando estos cuates! Pero sí, sí, algo.
+<Guardia> Pues así me gusta, que se aguanten... [Llega el Policía]
+<Policía> Jefe, acaba de llegar este mensaje de la otra delegación. [El Policía le entrega un sobre al Guardia.]
+<Guardia> Muchas gracias sargento. [El Guardia abre el sobre y comienza a leer la carta] ¿¡Pero escribieron este mensaje en chino!?
+<Policía> Jefe, tiene la carta al revés.
+<Guardia> Por supuesto que ya sabía, nomás lo estaba tanteando. [Pone la carta al derecho y la lee.] Je... je... ja... ¡ja!...
+
+[El Guardia comienza a reír levemente y los demás también, van aumentando de tono hasta que las risitas se convierten en carcajadas.]
+
+<Johny> [Riendo a carcajadas.] ¿De qué nos estamos riendo?
+<Guardia> [Riendo a carcajadas.] De lo que dice en la carta.
+<Johny> ¿Y qué dice?
+<Guardia> Algo muy gracioso.
+<Memo> ¡Ándale!, ¡cuéntalo!
+<Guardia> Dice que ya atraparon a los verdaderos asaltantes del banco y que los metimos a ustedes sin querer. [El Tuercas, Memo y Johny dejan de reír.] ¡Qué gracioso! ¡Pero ríanse! Tómenlo por el lado amable.
+<Johny> ¡Uy no sabes! ¡La jocosidad me invade!
+<Memo> Eso quiere decir que nos van a dejar libres.
+<Guardia> Si, son ustedes libres. [Se les acaba la risa a los demás. Sacan a Memo y a Johny de la celda.]
+<Johny> ¿Saben? Tengo ganas de hacer algo... ¿Tu también Memo?
+<Memo> Fíjate que sí. [Entre Johny y Memo meten al Policía y al Guardia a la celda. Aparece un letrero en la pantalla que dice: "Escena Buti-violenta CENSURADA por su alto contenido de moronga."]
