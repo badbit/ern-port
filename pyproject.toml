@@ -8,11 +8,7 @@ version = "0.2.0"
 description = "Lector Win95 de El Radiaktivo Newz: port a Python 3 / Tkinter de la e-zine hacker mexicana (1998-2000)"
 readme = "README.md"
 requires-python = ">=3.10"
-# NOTA: no hay archivo de licencia en el material original ni instrucción
-# explícita del autor sobre la licencia de este port. Se deja MIT como
-# valor por defecto habitual para este tipo de proyecto: BadBit/El
-# Radiaktivo Newz Team debe confirmarla (o cambiarla) antes de publicar.
-license = { text = "MIT" }
+license = { text = "GPL-2.0-only" }
 authors = [
     { name = "El Radiaktivo Newz Team" },
 ]

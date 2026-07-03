@@ -247,8 +247,6 @@ pedazo de historia de la escena hacker mexicana.
 
 ---
 
-*Licencia: por definir. Este repositorio incluye un `pyproject.toml` con
-licencia MIT puesta como valor por defecto habitual para este tipo de
-proyecto de código —el autor original (BadBit / El Radiaktivo Newz Team)
-debe confirmarla o indicar la que prefiera antes de cualquier publicación
-formal.*
+*Licencia: GNU General Public License v2.0 (GPLv2), la misma con la que
+BadBit / El Radiaktivo Newz Team publicó originalmente el código fuente
+de esta revista. Ver el archivo `LICENSE`.*
