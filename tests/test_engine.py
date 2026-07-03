@@ -229,6 +229,33 @@ def main():
         check(len(sess.open_forms) == 0, "quit_issue closed all forms")
         check(closed["n"] == 1, "on_closed fired exactly once")
 
+        # 7b) HiDPI scaling: build the same form at SCALE=2 -----------------
+        # Everything on screen must double; design coordinates stay in the
+        # manifest. Restore SCALE=1.0 afterwards so later tests are unaffected.
+        theme.SCALE = 2.0
+        try:
+            sess2 = engine.IssueSession(app.root, issue["dir"],
+                                        issue["manifest"])
+            hidpi = sess2.show_form("Portada")
+            app.root.update()
+            app.root.update_idletasks()
+            # Toplevel geometry doubles (client 400x320 -> 800x640)
+            geo = hidpi.top.geometry().split("+")[0]
+            check(geo == "800x640", f"SCALE=2 toplevel geometry doubled ({geo})")
+            # a control's place kwargs are in real (scaled) pixels
+            _w, meta = hidpi.find_control("cmdArticulo")
+            place = meta.get("_place") or {}
+            check(place.get("x") == 32 and place.get("y") == 316,
+                  "SCALE=2 control place doubled (16,158 -> 32,316)")
+            # the background PhotoImage is scaled 2x (400x320 -> 800x640)
+            check(any(getattr(p, "width", lambda: 0)() == 800 and
+                      p.height() == 640 for p in hidpi._images),
+                  "SCALE=2 background PhotoImage doubled to 800x640")
+            sess2.quit_issue()
+            app.root.update()
+        finally:
+            theme.SCALE = 1.0
+
     # 8) no dangling Toplevels & clean stderr -------------------------------
     print("[hygiene]")
     app.root.update()

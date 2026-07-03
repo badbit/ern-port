@@ -154,13 +154,28 @@ class FormWindow:
             return None
         try:
             if size:
-                img = img.resize(size)
+                # ``size`` is given in design pixels (e.g. a stretched Image
+                # control's w/h). Resize to that design size with the default
+                # resampler first so SCALE=1 stays byte-identical to before...
+                img = img.resize((int(size[0]), int(size[1])))
+            # ...then scale to real pixels with NEAREST to keep pixel art crisp
+            # (2x2 blocks, no smoothing). Identity when SCALE == 1.
+            img = self._scale_img(img)
             photo = ImageTk.PhotoImage(img)
             self._images.append(photo)
             return photo
         except Exception as exc:
             log(f"could not convert image {rel}: {exc}")
             return None
+
+    @staticmethod
+    def _scale_img(img):
+        """Upscale a PIL image by the global SCALE with nearest-neighbour so
+        pixel art stays sharp. No-op at SCALE == 1 (byte-identical output)."""
+        if theme.SCALE == 1.0:
+            return img
+        return img.resize((theme.s(img.width), theme.s(img.height)),
+                          Image.NEAREST)
 
     def _events_for(self, ctrl_name, event="Click"):
         return self._events.get(f"{ctrl_name}.{event}")
@@ -171,14 +186,25 @@ class FormWindow:
     # -- build ---------------------------------------------------------------
     def build(self):
         f = self.form
+        # SCALING CONVENTION (HiDPI, docs/FEATURES.md §1):
+        #  * w/h/client_* below are DESIGN pixels (manifest, 96dpi).
+        #  * Everything placed on screen is scaled through theme.s(): the
+        #    Toplevel geometry, the base canvas, and every control's _place
+        #    kwargs (see _place_kwargs). Therefore meta["_place"] holds REAL
+        #    (already-scaled) pixels, and any threshold that compares against a
+        #    _place value must use scaled client dims too (see _wire_autofill,
+        #    which we call with cw/ch = the scaled client size).
+        #  * _bg_pil (background sampling for BackStyle=0) stays in DESIGN
+        #    pixels because _sample_bg reads design x/y/w/h from the manifest.
         w = int(f.get("client_w") or 320)
         h = int(f.get("client_h") or 240)
+        cw, ch = theme.s(w), theme.s(h)
         self.top.title(f.get("caption") or self.name)
         # VB forms centered themselves on load (Top/Left = Screen.Height/2 -
         # Height/2 boilerplate); make that the default placement.
-        sx = max((self.top.winfo_screenwidth() - w) // 2, 0)
-        sy = max((self.top.winfo_screenheight() - h) // 2 - 20, 0)
-        self.top.geometry(f"{w}x{h}+{sx}+{sy}")
+        sx = max((self.top.winfo_screenwidth() - cw) // 2, 0)
+        sy = max((self.top.winfo_screenheight() - ch) // 2 - 20, 0)
+        self.top.geometry(f"{cw}x{ch}+{sx}+{sy}")
         self.top.minsize(1, 1)
         border = f.get("border_style")
         resizable = border in _RESIZABLE_BORDERS
@@ -195,9 +221,9 @@ class FormWindow:
                 pass
 
         # base canvas = background + shapes layer
-        self.base_canvas = tk.Canvas(self.top, width=w, height=h,
+        self.base_canvas = tk.Canvas(self.top, width=cw, height=ch,
                                      highlightthickness=0, bd=0, bg=back_color)
-        self.base_canvas.place(x=0, y=0, width=w, height=h)
+        self.base_canvas.place(x=0, y=0, width=cw, height=ch)
         pic = self._photo(f.get("picture"))
         if pic is not None:
             self.base_canvas.create_image(0, 0, anchor="nw", image=pic)
@@ -223,7 +249,7 @@ class FormWindow:
         # (txtEdit.Width = ScaleWidth boilerplate); replicate for resizable
         # forms on any near-full-size multiline TextBox.
         if resizable:
-            self._wire_autofill(w, h)
+            self._wire_autofill(cw, ch)
 
         # window close protocol -> behaves like closing this form
         self.top.protocol("WM_DELETE_WINDOW", self._on_wm_close)
@@ -362,11 +388,15 @@ def _flag(ctrl, key, default=True):
 
 
 def _place_kwargs(ctrl):
-    kw = {"x": int(ctrl.get("x", 0) or 0), "y": int(ctrl.get("y", 0) or 0)}
+    # Manifest coords are design pixels; scale to real pixels here so this is
+    # the single point where control geometry is scaled. meta["_place"]
+    # therefore always holds real (scaled) pixels. s() is identity at SCALE==1.
+    kw = {"x": theme.s(int(ctrl.get("x", 0) or 0)),
+          "y": theme.s(int(ctrl.get("y", 0) or 0))}
     if ctrl.get("w"):
-        kw["width"] = int(ctrl["w"])
+        kw["width"] = theme.s(int(ctrl["w"]))
     if ctrl.get("h"):
-        kw["height"] = int(ctrl["h"])
+        kw["height"] = theme.s(int(ctrl["h"]))
     return kw
 
 
@@ -448,9 +478,9 @@ def _build_button(fw, parent, ctrl, canvas):
     )
     if photo is not None:
         btn.config(image=photo, compound="center")
-    # VB wraps long button captions within the control width
+    # VB wraps long button captions within the control width (real pixels)
     if ctrl.get("w") and int(ctrl["w"]) > 12:
-        btn.config(wraplength=int(ctrl["w"]) - 12)
+        btn.config(wraplength=theme.s(int(ctrl["w"]) - 12))
     if not _flag(ctrl, "enabled"):
         btn.config(state="disabled")
     btn.place(**kw)
@@ -475,7 +505,7 @@ def _build_label(fw, parent, ctrl, canvas):
     # VB labels always wrap at the control width (WordWrap only affects
     # vertical autosizing), except when AutoSize grows them horizontally.
     if ctrl.get("w") and not (ctrl.get("auto_size") and not ctrl.get("word_wrap")):
-        lbl.config(wraplength=int(ctrl["w"]))
+        lbl.config(wraplength=theme.s(int(ctrl["w"])))
     if not _flag(ctrl, "enabled"):
         lbl.config(state="disabled")
     lbl.place(**kw)
@@ -504,9 +534,11 @@ def _build_textbox(fw, parent, ctrl, canvas):
     holder = tk.Frame(parent, bd=2, relief="sunken", bg=bg)
     holder.place(**kw)
     scrollbars = ctrl.get("scrollbars") or 0
+    # takefocus=1: keep the (usually disabled/read-only) article Text in the
+    # Tab order so keyboard users can reach it and scroll with PgUp/PgDn.
     text = tk.Text(holder, font=font, fg=fg, bg=bg,
                    wrap=("word" if ctrl.get("word_wrap") else "none"),
-                   bd=0, highlightthickness=0,
+                   bd=0, highlightthickness=0, takefocus=1,
                    insertbackground=fg)
     if scrollbars in (2, 3):
         vsb = tk.Scrollbar(holder, orient="vertical", command=text.yview)
@@ -545,8 +577,8 @@ def _build_picturebox(fw, parent, ctrl, canvas):
     children = ctrl.get("children") or []
     has_shapes = any(c.get("type") in ("Line", "Shape") for c in children)
     frame = tk.Frame(parent, bg=bg, bd=2, relief="sunken",
-                     width=int(ctrl.get("w", 0) or 0),
-                     height=int(ctrl.get("h", 0) or 0))
+                     width=theme.s(int(ctrl.get("w", 0) or 0)),
+                     height=theme.s(int(ctrl.get("h", 0) or 0)))
     frame.place(**kw)
     frame.pack_propagate(False)
     frame.grid_propagate(False)
@@ -554,8 +586,8 @@ def _build_picturebox(fw, parent, ctrl, canvas):
     photo = fw._photo(ctrl.get("picture")) if ctrl.get("picture") else None
     if photo is not None or has_shapes:
         inner_canvas = tk.Canvas(frame, highlightthickness=0, bd=0, bg=bg,
-                                 width=int(ctrl.get("w", 0) or 0),
-                                 height=int(ctrl.get("h", 0) or 0))
+                                 width=theme.s(int(ctrl.get("w", 0) or 0)),
+                                 height=theme.s(int(ctrl.get("h", 0) or 0)))
         inner_canvas.place(x=0, y=0, relwidth=1, relheight=1)
         if photo is not None:
             inner_canvas.create_image(0, 0, anchor="nw", image=photo)
@@ -629,11 +661,12 @@ def _build_line(fw, parent, ctrl, canvas):
     color = (ctrl.get("fore_color") or _vb_color(raw.get("BorderColor"))
              or "#000000")
     try:
-        width = max(int(float(raw.get("BorderWidth", 1))), 1)
+        width = max(theme.s(int(float(raw.get("BorderWidth", 1)))), 1)
     except (TypeError, ValueError):
-        width = 1
+        width = max(theme.s(1), 1)
     if canvas is not None:
-        canvas.create_line(x1, y1, x2, y2, fill=color, width=width)
+        canvas.create_line(theme.s(x1), theme.s(y1), theme.s(x2), theme.s(y2),
+                           fill=color, width=width)
 
 
 # VB Shape property: 0 Rect, 1 Square, 2 Oval, 3 Circle, 4 RoundedRect,
@@ -649,18 +682,21 @@ def _rounded_rect(canvas, x, y, w, h, r, **kw):
 def _build_shape(fw, parent, ctrl, canvas):
     if canvas is None:
         return
-    x = int(ctrl.get("x", 0) or 0)
-    y = int(ctrl.get("y", 0) or 0)
-    w = int(ctrl.get("w", 0) or 0)
-    h = int(ctrl.get("h", 0) or 0)
+    # design pixels -> real pixels (radius computed in design space, then scaled)
+    x = theme.s(int(ctrl.get("x", 0) or 0))
+    y = theme.s(int(ctrl.get("y", 0) or 0))
+    dw = int(ctrl.get("w", 0) or 0)
+    dh = int(ctrl.get("h", 0) or 0)
+    w = theme.s(dw)
+    h = theme.s(dh)
     raw = ctrl.get("raw") or {}
     shape = str(raw.get("Shape", raw.get("shape", "0")))
     outline = (ctrl.get("fore_color") or _vb_color(raw.get("BorderColor"))
                or "#000000")
     try:
-        width = max(int(float(raw.get("BorderWidth", 1))), 1)
+        width = max(theme.s(int(float(raw.get("BorderWidth", 1)))), 1)
     except (TypeError, ValueError):
-        width = 1
+        width = max(theme.s(1), 1)
     fill = ""
     if ctrl.get("back_style") == 1 or str(raw.get("FillStyle")) == "0":
         fill = ctrl.get("back_color") or _vb_color(raw.get("FillColor")) or ""
@@ -668,7 +704,7 @@ def _build_shape(fw, parent, ctrl, canvas):
         canvas.create_oval(x, y, x + w, y + h, outline=outline, fill=fill,
                            width=width)
     elif shape in ("4", "5"):      # rounded rectangle / rounded square
-        _rounded_rect(canvas, x, y, w, h, r=min(w, h) // 5 + 6,
+        _rounded_rect(canvas, x, y, w, h, r=theme.s(min(dw, dh) // 5 + 6),
                       outline=outline, fill=fill or "", width=width)
     else:                          # rectangle / square
         canvas.create_rectangle(x, y, x + w, y + h, outline=outline,

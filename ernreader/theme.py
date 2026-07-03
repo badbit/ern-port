@@ -59,6 +59,37 @@ _available_families: set[str] | None = None
 _resolved_cache: dict[str, str] = {}
 
 
+# --- HiDPI scaling ------------------------------------------------------------
+# Design pixels (manifest coordinates, thought for 96dpi) are multiplied by
+# SCALE at render time. See docs/FEATURES.md §1.
+SCALE = 1.0
+
+
+def init_scale(root, requested="auto"):
+    """Set the global UI scale factor. Called by the Launcher after creating
+    the Tk root, before building any UI. ``requested`` is "auto" or a number
+    as string/float."""
+    global SCALE
+    if requested in (None, "", "auto"):
+        try:
+            factor = root.winfo_fpixels("1i") / 96.0
+        except Exception:
+            factor = 1.0
+        factor = round(factor * 4) / 4          # nearest 0.25
+    else:
+        try:
+            factor = float(requested)
+        except (TypeError, ValueError):
+            factor = 1.0
+    SCALE = min(max(factor, 1.0), 3.0)
+    return SCALE
+
+
+def s(px):
+    """Scale a design-pixel measure to real pixels."""
+    return int(round(px * SCALE))
+
+
 def init_theme(root) -> None:
     """Detect the families actually installed. Call once with a live Tk root."""
     global _available_families
@@ -115,12 +146,17 @@ def resolve_font(font_dict: dict | None, default_size: int = 8):
             styles.append("italic")
         if font_dict.get("underline"):
             styles.append("underline")
+    # Point sizes are scaled by SCALE: Tk renders points at the display's own
+    # DPI and does not know about our manual HiDPI factor. s() == identity at
+    # SCALE=1, so this is a no-op in the default (unscaled) path.
+    size = max(1, s(size))
     return (family, size, *styles)
 
 
 def ui_font(size: int = 8, bold: bool = False):
     """Font spec for the launcher chrome (MS Sans Serif equivalent)."""
     fam = _pick_family("MS Sans Serif")
+    size = max(1, s(size))
     return (fam, size, "bold") if bold else (fam, size)
 
 

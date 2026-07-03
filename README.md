@@ -118,6 +118,30 @@ carpeta de datos (por ejemplo al probar una extracción parcial):
 python3 -m ernreader --data data
 ```
 
+Otros flags: `--scale FACTOR|auto` fuerza el escalado de la interfaz (útil en
+pantallas HiDPI si la detección automática no acierta) y `--no-restore`
+desactiva el aviso de "continuar donde te quedaste" al arrancar (ver más
+abajo).
+
+### Buscar y continuar donde lo dejaste
+
+El lanzador (la ventana de "elige un número") tiene dos ayudas que no
+existían en el original de 1998-2000, pensadas para navegar más rápido por
+los 10 números sin cambiar nada de su contenido:
+
+- **Buscar…** (botón junto a "Salir", o `Ctrl+F`): abre una ventana de
+  búsqueda de texto completo sobre los artículos de todos los números.
+  Escribe uno o más términos (todos deben aparecer, sin importar mayúsculas
+  ni acentos) y pulsa **Buscar** o Enter; haz doble clic o Enter sobre un
+  resultado para abrir ese artículo directamente. La ventana no es modal:
+  puede quedarse abierta mientras lees.
+- **Continuar donde te quedaste**: si la última vez que usaste el lector
+  tenías un número abierto, al volver a arrancar aparece una fila destacada
+  arriba de la lista con ese número; un clic (o Enter, si le das foco) lo
+  reabre con los formularios que tenías abiertos. Nunca se reabre nada
+  automáticamente sin ese clic explícito. Se puede desactivar por completo
+  con `--no-restore`.
+
 ## Estructura del repositorio
 
 ```
@@ -231,6 +255,36 @@ adjunto, y se loguea por stderr sin interrumpir la ejecución.
 Ninguna de estas limitaciones impide leer o navegar ningún número
 completo; son matices visuales de fidelidad, documentados aquí para quien
 quiera seguir puliéndolos.
+
+## Accesibilidad
+
+El lanzador se puede manejar enteramente con teclado:
+
+- **Tab** recorre las filas de números (y la fila de "continuar" si
+  aparece); cada fila muestra un marco de foco visible (borde azul marino)
+  además de resaltarse al pasar el ratón.
+- **Flechas arriba/abajo** mueven el foco entre filas sin necesidad de
+  soltar el teclado; **Enter** abre el número enfocado (equivalente a hacer
+  clic).
+- La ventana de búsqueda abre con el foco ya puesto en el campo de texto;
+  **Enter** busca, **flecha abajo** pasa el foco a la lista de resultados,
+  **Enter**/doble clic sobre un resultado lo abre, y **Escape** cierra la
+  ventana de búsqueda (que no es modal, así que también se puede dejar
+  abierta y seguir navegando el lanzador).
+- Dentro de un número, los cuadros de texto de los artículos (`tk.Text`)
+  aceptan foco por Tab y se pueden desplazar con teclado (flechas,
+  Página arriba/abajo) como cualquier `Text` de Tkinter.
+
+**Limitación conocida:** el contenido de los artículos es en buena parte
+**arte ASCII** (dibujado carácter por carácter para verse como un dibujo,
+no como texto corrido) y el port lo preserva intacto a propósito —
+alterarlo rompería la fidelidad al original. Un lector de pantalla leerá
+ese arte carácter por carácter o línea por línea, lo cual no transmite el
+dibujo y puede ser ruidoso; no hay, dentro del alcance de este proyecto,
+una forma de "traducir" arte ASCII a una descripción accesible sin
+inventar contenido que el original no tenía. El texto en prosa de los
+artículos (que también abunda) sí es perfectamente legible por un lector
+de pantalla, al ser texto plano normal en un widget estándar de Tkinter.
 
 ## Créditos
 

@@ -13,6 +13,8 @@ import webbrowser
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
+from . import theme
+
 
 def log(msg: str) -> None:
     print(f"[ernreader] {msg}", file=sys.stderr)
@@ -154,8 +156,9 @@ def _op_move_by(op, ctx):
     _, widget, meta = ctx.resolve(op.get("target"))
     if widget is None:
         return
-    dx = int(op.get("dx", 0) or 0)
-    dy = int(op.get("dy", 0) or 0)
+    # dx/dy come from the original VB code in design pixels; scale to real px
+    dx = theme.s(int(op.get("dx", 0) or 0))
+    dy = theme.s(int(op.get("dy", 0) or 0))
     try:
         x = int(widget.place_info().get("x", widget.winfo_x()))
         y = int(widget.place_info().get("y", widget.winfo_y()))
@@ -358,8 +361,9 @@ def _apply_prop(widget, meta, prop, value, ctx) -> None:
         except tk.TclError:
             pass
     elif prop == "left":
-        widget.place_configure(x=int(value))
+        # behavior.json coordinates are design pixels; scale to real px
+        widget.place_configure(x=theme.s(int(value)))
     elif prop == "top":
-        widget.place_configure(y=int(value))
+        widget.place_configure(y=theme.s(int(value)))
     else:
         log(f"set_prop: unsupported prop {prop!r}")
