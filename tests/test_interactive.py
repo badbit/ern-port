@@ -163,8 +163,41 @@ def run():
         app.session.quit_issue()
         _pump(app)
 
-    # [7] session state persisted
-    print("[7] session state")
+    # [7] maximized forms grow to content; reader textbox follows resizes
+    print("[7] maximized + resize")
+    app.open_issue(_issue(app, "ERNSC1-1"))
+    _pump(app)
+    s1 = app.session
+    s1.show_form("Form4")   # WindowState=2: design 385x302, content 617x425
+    _pump(app)
+    f4 = s1.get_open_form("Form4")
+    check(f4.top.winfo_width() >= 617 and f4.top.winfo_height() >= 425,
+          f"maximized Form4 grew to its content "
+          f"({f4.top.winfo_width()}x{f4.top.winfo_height()})")
+    s1.quit_issue()
+    _pump(app)
+
+    app.open_issue(_issue(app, "ERNSC2-5"))
+    _pump(app)
+    s25 = app.session
+    s25.show_form("anarquia")
+    _pump(app)
+    fa = s25.get_open_form("anarquia")
+    txt, meta = fa.find_control("txtEdit")
+    outer = meta.get("_outer") or txt
+    w0 = outer.winfo_width()
+    check(abs(w0 - fa.top.winfo_width()) <= 4,
+          f"reader textbox fills the window on open ({w0})")
+    fa.top.geometry(f"{fa.top.winfo_width() + 150}"
+                    f"x{fa.top.winfo_height() + 100}")
+    _pump(app, 20)
+    check(outer.winfo_width() >= w0 + 140,
+          f"reader textbox follows window resize ({outer.winfo_width()})")
+    s25.quit_issue()
+    _pump(app)
+
+    # [8] session state persisted
+    print("[8] session state")
     st = state.load_state()
     check(st.get("last_issue") is not None,
           f"last read issue saved ({st.get('last_issue')})")

@@ -152,10 +152,17 @@ def _op_clock(op, ctx):
     _set_text_like(widget, value)
 
 
+def _geom_widget(widget, meta):
+    """The widget that owns the control's place() geometry (a multiline
+    TextBox is a packed Text inside a placed holder Frame — see _register)."""
+    return (meta.get("_outer") or widget) if meta else widget
+
+
 def _op_move_by(op, ctx):
     _, widget, meta = ctx.resolve(op.get("target"))
     if widget is None:
         return
+    widget = _geom_widget(widget, meta)
     # dx/dy come from the original VB code in design pixels; scale to real px
     dx = theme.s(int(op.get("dx", 0) or 0))
     dy = theme.s(int(op.get("dy", 0) or 0))
@@ -325,6 +332,7 @@ def _set_text_like(widget, value: str) -> None:
 
 
 def _set_visible(widget, meta, visible: bool) -> None:
+    widget = _geom_widget(widget, meta)
     if visible:
         info = meta.get("_place") if meta else None
         if info:
@@ -362,8 +370,8 @@ def _apply_prop(widget, meta, prop, value, ctx) -> None:
             pass
     elif prop == "left":
         # behavior.json coordinates are design pixels; scale to real px
-        widget.place_configure(x=theme.s(int(value)))
+        _geom_widget(widget, meta).place_configure(x=theme.s(int(value)))
     elif prop == "top":
-        widget.place_configure(y=theme.s(int(value)))
+        _geom_widget(widget, meta).place_configure(y=theme.s(int(value)))
     else:
         log(f"set_prop: unsupported prop {prop!r}")

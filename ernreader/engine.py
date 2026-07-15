@@ -198,7 +198,15 @@ class FormWindow:
         #    pixels because _sample_bg reads design x/y/w/h from the manifest.
         w = int(f.get("client_w") or 320)
         h = int(f.get("client_h") or 240)
+        # WindowState=2: the original form started maximized, so its layout
+        # targets the full 640x480-era screen, not the saved design size.
+        # Grow the client to the content's bounding box so nothing is cut off.
+        if str((f.get("raw") or {}).get("WindowState", "")).strip() == "2":
+            bw, bh = _content_extent(f)
+            w, h = max(w, bw + 8), max(h, bh + 8)
         cw, ch = theme.s(w), theme.s(h)
+        cw = min(cw, self.top.winfo_screenwidth() - 16)
+        ch = min(ch, self.top.winfo_screenheight() - 80)
         self.top.title(f.get("caption") or self.name)
         # VB forms centered themselves on load (Top/Left = Screen.Height/2 -
         # Height/2 boilerplate); make that the default placement.
@@ -234,7 +242,11 @@ class FormWindow:
             src = self._asset(f.get("picture"))
             if src is not None:
                 try:
-                    self._bg_pil = src.convert("RGB").crop((0, 0, w, h))
+                    # paste over back_color: the client may be larger than the
+                    # picture (maximized forms), and VB fills the rest with it
+                    base = Image.new("RGB", (w, h), back_color)
+                    base.paste(src.convert("RGB"), (0, 0))
+                    self._bg_pil = base
                 except Exception:
                     self._bg_pil = None
 
@@ -262,12 +274,13 @@ class FormWindow:
     def _wire_autofill(self, client_w, client_h):
         candidates = []
         for _name, (widget, meta) in self.controls.items():
+            target = meta.get("_outer") or widget
             pl = meta.get("_place") or {}
-            if (meta.get("type") == "TextBox" and widget is not None
-                    and widget.master is self.top
+            if (meta.get("type") == "TextBox" and target is not None
+                    and target.master is self.top
                     and pl.get("width", 0) >= 0.7 * client_w
                     and pl.get("height", 0) >= 0.7 * client_h):
-                candidates.append((widget, pl))
+                candidates.append((target, pl))
         if not candidates:
             return
 
@@ -306,17 +319,21 @@ class FormWindow:
             builder = _build_placeholder
         builder(self, parent, ctrl, canvas)
 
-    def _register(self, ctrl, widget, place_kwargs):
+    def _register(self, ctrl, widget, place_kwargs, outer=None):
+        # ``outer`` is the *placed* widget when it differs from the logical
+        # one (multiline TextBox: the Text lives packed inside a placed
+        # holder Frame). Geometry/visibility must act on it, not the Text.
         meta = {
             "type": ctrl.get("type"),
             "_visible": _flag(ctrl, "visible"),
             "_place": dict(place_kwargs) if place_kwargs else None,
+            "_outer": outer,
         }
         name = ctrl.get("name")
         if name:
             self.controls[name] = (widget, meta)
         if not _flag(ctrl, "visible") and widget is not None:
-            widget.place_forget()
+            (outer or widget).place_forget()
         return meta
 
     def _wire_click(self, widget, ctrl, kind="command"):
@@ -385,6 +402,18 @@ def _flag(ctrl, key, default=True):
     null; only an explicit false means false."""
     val = ctrl.get(key)
     return default if val is None else bool(val)
+
+
+def _content_extent(form):
+    """Bounding box (design px) of the visible controls. Maximized VB forms
+    (raw WindowState=2) laid out content beyond the saved design size."""
+    mx = my = 0
+    for c in form.get("controls") or []:
+        if c.get("type") == "Timer" or c.get("visible") is False:
+            continue
+        mx = max(mx, int(c.get("x") or 0) + int(c.get("w") or 0))
+        my = max(my, int(c.get("y") or 0) + int(c.get("h") or 0))
+    return mx, my
 
 
 def _place_kwargs(ctrl):
@@ -552,8 +581,9 @@ def _build_textbox(fw, parent, ctrl, canvas):
     text.insert("1.0", _control_text(fw, ctrl))
     if ctrl.get("locked"):
         text.config(state="disabled")
-    # register the Text widget itself (so save_text/set_prop reach it)
-    fw._register(ctrl, text, kw)
+    # register the Text widget itself (so save_text/set_prop reach it) but
+    # keep the placed holder as the geometry target (_outer)
+    fw._register(ctrl, text, kw, outer=holder)
 
 
 def _build_image(fw, parent, ctrl, canvas):
